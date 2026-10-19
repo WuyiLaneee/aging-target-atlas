@@ -240,4 +240,4 @@ async (page) => {
   await page.setViewportSize({ width: 1440, height: 1000 });
   await go("/");
   return { base, status: "passed", checks };
-};
+}

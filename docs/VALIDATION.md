@@ -2,6 +2,8 @@
 
 日期：2026-10-19；本地 Windows + Node.js 24.18.0 + Microsoft Edge（Chromium）。
 
+正式HTTPS站点亦完成相同30项冒烟检查；Chrome另做独立详情载入。必要逻辑测试最终为9项。线上版本与数据HTTP200复核结果见 [DEPLOYMENT](DEPLOYMENT.md)。
+
 ## 已完成的本地检查
 
 - Zod 运行时 schema、唯一 ID、文献去重、外键、关系端点、核心原始依据、证据类型与真实统计检查通过。
