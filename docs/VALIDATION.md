@@ -8,6 +8,8 @@ JSON导出实测包含5个目标、`kind=extension`分类和模型证据，无�
 
 本地浏览器验收见 `scripts/ecm-smoke.js` 与忽略提交的 `output/playwright/ecm-local-smoke.log`；正式发布结果见 `DEPLOYMENT.md`。以下保留1.0.0验收历史。
 
+GitHub Pages 1.1.0 部署成功后，在正式HTTPS域名重复运行上述13项ECM断言，全部通过，并实际下载JSON和PNG；日志为 `output/playwright/ecm-online-smoke.log`。正式数据返回HTTP200，版本和统计与本地一致。
+
 日期：2026-10-19；本地 Windows + Node.js 24.18.0 + Microsoft Edge（Chromium）。
 
 正式HTTPS站点亦完成相同30项冒烟检查；Chrome另做独立详情载入。必要逻辑测试最终为9项。线上版本与数据HTTP200复核结果见 [DEPLOYMENT](DEPLOYMENT.md)。
