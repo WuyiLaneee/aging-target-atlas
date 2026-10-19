@@ -1,0 +1,33 @@
+async page => {
+ const base=new URL(page.url()).origin+new URL(page.url()).pathname;
+ const checks=[];const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ const go=async r=>{await page.goto(base+'#'+r);await page.locator('main').waitFor();};
+ const ok=(c,t)=>{if(!c)throw Error(t);checks.push(t);};
+ const save=async(btn,name)=>{const p=page.waitForEvent('download');await btn.click();await(await p).saveAs('output/playwright/'+name);};
+ await go('/');await page.getByRole('heading',{name:'从 12 类机制开始探索'}).waitFor();
+ ok(await page.locator('.taxonomy-card').count()===12,'原12类导航保持独立');
+ await page.getByRole('link',{name:'探索 ECM 机制'}).click();await page.getByRole('heading',{name:'细胞外基质（ECM）',exact:true}).waitFor();
+ ok((await page.locator('.boundary-note').first().innerText()).includes('不是 Cell 2023'),'ECM扩展框架说明');
+ for(const s of ['CCN1','COL17A1','MMP1'])ok(await page.getByRole('link',{name:s,exact:true}).count()===1,'ECM关联靶点:'+s);
+ await save(page.getByRole('button',{name:'导出相关数据',exact:true}),'ecm-selection.json');
+ await page.getByRole('link',{name:'筛选关联靶点'}).click();
+ ok(await page.getByLabel('机制',{exact:true}).inputValue()==='mechanism-ecm','目录ECM筛选');
+ ok(await page.locator('.target-card').count()===5,'ECM筛选5个关联核心条目');
+ await page.getByRole('textbox',{name:'全站搜索'}).fill('ECM');await page.getByRole('textbox',{name:'全站搜索'}).press('Enter');
+ ok(await page.locator('.target-card').count()===5,'ECM全站关键词检索');
+ await page.getByRole('link',{name:'COL17A1',exact:true}).click();await page.getByText('补充：观察关联',{exact:true}).waitFor();
+ ok(await page.getByText('补充：非衰老模型',{exact:true}).count()===2,'COL17A1补充模型明确分层');
+ await page.evaluate(()=>localStorage.setItem('aging-target-pathway-atlas:personal:v1',JSON.stringify({app:'aging-target-pathway-atlas',schemaVersion:1,favorites:['target-crat'],notes:{'target-crat':'ECM-SMOKE：旧ID笔记仍保留'}})));
+ await go('/targets/target-crat');await page.reload();await page.getByRole('button',{name:'取消收藏 CRAT',exact:true}).waitFor();
+ ok((await page.getByLabel('靶点笔记').inputValue()).includes('ECM-SMOKE'),'数据更新后旧ID收藏笔记不变');
+ await go('/graph');await page.getByLabel('图谱分类定位').selectOption('mechanism-ecm');await page.getByLabel('图谱中心节点').selectOption('target-ccn1');
+ await page.getByLabel('显示机制背景',{exact:true}).check();await page.getByText(/可读关系列表/).click();
+ ok(await page.locator('.relation-row').count()>0,'ECM图谱展开与关系条目');
+ await save(page.getByRole('button',{name:'导出 PNG'}),'ecm-network.png');
+ await go('/mechanisms/mechanism-ecm');await page.reload();await page.getByRole('heading',{name:'细胞外基质（ECM）',exact:true}).waitFor();
+ await page.screenshot({path:'output/playwright/ecm-desktop.png',animations:'disabled'});
+ await page.setViewportSize({width:390,height:844});await page.screenshot({path:'output/playwright/ecm-mobile.png',animations:'disabled'});
+ ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),'ECM窄屏无全页横溢');
+ ok(errors.length===0,'浏览器无未捕获错误');
+ await page.setViewportSize({width:1440,height:1000});return {base,status:'passed',checks};
+}

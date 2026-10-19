@@ -89,5 +89,18 @@
       "ev-RELA-22706308"
     ],
     "route": "降低Rela一个等位基因；另以IKK/NF-κB通路抑制肽验证"
+  },
+  {
+    "id": "intervention-290668b3cd10",
+    "name": "成纤维细胞选择性hMMP1表达",
+    "category": "研究用药理分子 / 原料",
+    "identity": "身份以关联原始论文中的名称和处理为依据；未核实的 CAS / 外部化学 ID 不填写。",
+    "targetIds": [
+      "target-mmp1"
+    ],
+    "evidenceIds": [
+      "ev-mmp1-mouse-ecm"
+    ],
+    "route": "Col1a2启动子/增强子驱动Cre-ERT2，诱导CAG-LSL-hMMP1表达；对照为同性别同龄同窝、含一个或不含转基因的小鼠，均按实验方案给予他莫昔芬。"
   }
 ]

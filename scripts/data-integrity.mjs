@@ -41,7 +41,17 @@ export function validateIntegrity(input) {
   ]);
   const refs = (values, set, label) =>
     values.forEach((id) => assert(set.has(id), `${label}悬空 ${id}`));
-  assert(a.taxonomy.length === 12, "分类框架须保留12类初始导航");
+  assert(
+    a.taxonomy.filter((h) => h.kind === "hallmark").length === 12,
+    "分类框架须保留12类初始导航",
+  );
+  for (const h of a.taxonomy) {
+    refs([h.sourceId], sourceIds, "分类出处");
+    refs(h.evidenceIds, evIds, "机制证据");
+    for (const s of h.sections) refs(s.sourceIds, sourceIds, "机制段落出处");
+    if (h.kind === "extension")
+      assert(Boolean(h.scopeNote), "扩展机制缺少范围说明");
+  }
   for (const t of a.targets) {
     refs(t.taxonomyIds, taxonomyIds, "分类");
     refs(t.pathwayIds, pathIds, "通路");
@@ -51,7 +61,10 @@ export function validateIntegrity(input) {
       `家族/复合物缺成员 ${t.id}`,
     );
     const es = a.evidence.filter(
-      (e) => e.targetId === t.id && t.evidenceIds.includes(e.id),
+      (e) =>
+        e.targetId === t.id &&
+        t.evidenceIds.includes(e.id) &&
+        e.studyContext === "aging_function",
     );
     assert(
       es.some((e) =>
@@ -135,9 +148,17 @@ export function validateIntegrity(input) {
     refs([r.sourceId, r.targetId], nodeIds, "关系端点");
     refs(r.evidenceIds, evIds, "关系证据");
     refs(r.backgroundSourceIds, sourceIds, "关系背景");
-    if (r.scope === "aging_experiment")
+    if (r.scope === "aging_experiment") {
       assert(r.evidenceIds.length > 0, `实验关系无依据 ${r.id}`);
-    else assert(r.backgroundSourceIds.length > 0, `背景关系无出处 ${r.id}`);
+      assert(
+        r.evidenceIds.every(
+          (id) =>
+            a.evidence.find((e) => e.id === id)?.studyContext ===
+            "aging_function",
+        ),
+        `衰老关系混入观察性或非衰老证据 ${r.id}`,
+      );
+    } else assert(r.backgroundSourceIds.length > 0, `背景关系无出处 ${r.id}`);
     if (r.relationType === "binds")
       assert(
         r.evidenceIds.some((id) =>
@@ -160,6 +181,12 @@ export function validateIntegrity(input) {
     complexes: a.complexes.length,
     pathways: a.pathways.length,
     evidence: a.evidence.length,
+    agingFunctionEvidence: a.evidence.filter(
+      (e) => e.studyContext === "aging_function",
+    ).length,
+    supplementaryEvidence: a.evidence.filter(
+      (e) => e.studyContext !== "aging_function",
+    ).length,
     publications: a.publications.length,
     originalPublications: a.publications.filter((p) => p.type === "original")
       .length,
@@ -170,8 +197,13 @@ export function validateIntegrity(input) {
       (r) => r.scope === "pathway_background",
     ).length,
     taxonomy: a.taxonomy.length,
-    coveredCategories: a.taxonomy.filter((h) =>
-      a.targets.some((t) => t.taxonomyIds.includes(h.id)),
+    hallmarks: a.taxonomy.filter((h) => h.kind === "hallmark").length,
+    extensionMechanisms: a.taxonomy.filter((h) => h.kind === "extension")
+      .length,
+    coveredCategories: a.taxonomy.filter(
+      (h) =>
+        h.kind === "hallmark" &&
+        a.targets.some((t) => t.taxonomyIds.includes(h.id)),
     ).length,
   };
   for (const [k, v] of Object.entries(counts))

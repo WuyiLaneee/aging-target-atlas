@@ -1,5 +1,13 @@
 # 首版验收记录
 
+## 1.1.0 ECM 更新验收（2026-10-19）
+
+新增 ECM 机制相关13项浏览器断言在真实 Edge、项目子路径下通过：原12类导航保持、ECM独立说明和入口、3个新增靶点可查、目录5个关联条目、ECM关键词检索、COL17A1补充证据分层、旧CRAT收藏笔记保留、图谱背景关系、PNG/JSON实际导出、390px窄屏及未捕获错误检查。
+
+JSON导出实测包含5个目标、`kind=extension`分类和模型证据，无私人笔记；PNG为2442×2717，已打开检查。11项必要逻辑/完整性测试、TypeScript和生产构建通过。原21靶点、33证据及既有通路/文献/关系ID均未丢失。
+
+本地浏览器验收见 `scripts/ecm-smoke.js` 与忽略提交的 `output/playwright/ecm-local-smoke.log`；正式发布结果见 `DEPLOYMENT.md`。以下保留1.0.0验收历史。
+
 日期：2026-10-19；本地 Windows + Node.js 24.18.0 + Microsoft Edge（Chromium）。
 
 正式HTTPS站点亦完成相同30项冒烟检查；Chrome另做独立详情载入。必要逻辑测试最终为9项。线上版本与数据HTTP200复核结果见 [DEPLOYMENT](DEPLOYMENT.md)。

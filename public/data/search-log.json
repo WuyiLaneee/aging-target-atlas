@@ -408,5 +408,82 @@
     "result": "8个官方符号、名称、别名及人类身份核对；数据保留gene-identity.json",
     "inclusionExclusion": "网站统一人类符号仅作索引；实际鼠实体另存evidence.actualEntity",
     "accessScope": "官方结构化记录"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "Europe PMC REST core search; PubMed; Crossref; OpenAlex; Unpaywall; Nature Cell Biology",
+    "query": "EXT_ID:22566095 OR DOI:10.1038/ncb2070; CCN1/CYR61 replicative senescence ECM; CCN1 wound fibroblast senescence",
+    "results": [
+      {
+        "pmid": "22566095",
+        "decision": "纳入（ECM功能补充）",
+        "reason": "摘要有CCN1敲低与胶原终点相配对，但不宣称逆转细胞衰老。"
+      },
+      {
+        "pmid": "20526329",
+        "decision": "纳入（促衰老核心与创面条件证据）",
+        "reason": "重组蛋白诱导稳定衰老、受体/下游阻断及小鼠创面突变与补充蛋白救援；完整XML已核验。"
+      }
+    ],
+    "accessScope": "2012摘要；2010合法开放XML全文与出版商勘误页",
+    "notes": "两个DOI均完成OpenAlex和Unpaywall OA检查。2012 Deep Blue仓储OA路径实际403返回HTML，未获取PDF正文，未以API OA标记冒充全文已读。2010已获取EPMC XML；Fig2a标签勘误详见publication correctionStatus。Gene ID3491、HGNC:2654及别名由NCBI Gene核实。无单独PDF下载交付。"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "Web search：Nature/PubMed原始研究发现与定向图注检索",
+    "query": "site.nature.com Stem cell competition orchestrates skin homeostasis and ageing COL17A1；同题名+apocynin Y27632；site:nature.com/articles/s41586-019-1085-7 Fig.3/Fig.4/hCOL17A1/Extended Data Fig.8；同题名+correction retraction",
+    "results": [
+      {
+        "pmid": "30944469",
+        "decision": "纳入",
+        "reason": "小鼠转基因维持及人三维遗传敲低提供功能证据；公开图注可逐项核对"
+      }
+    ],
+    "accessScope": "摘要及公开Extended Data 1/6/7/8/9图注；未访问付费主体全文",
+    "notes": "原始HTML与元数据存于research/raw/ecm（git忽略），发布文件只保留原创中文概述。主体正文存在Access options，未绕过访问控制。"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "Europe PMC REST core、PubMed、Crossref、OpenAlex、Unpaywall",
+    "query": "EXT_ID:30944469；DOI:10.1038/s41586-019-1085-7；Crossref relation/update-to；OpenAlex DOI精确查询；Unpaywall DOI精确查询",
+    "results": "PMID、DOI、作者、年份及Nature期刊相互核对；OpenAlex is_oa=false/oa_status=closed，无仓储全文；Unpaywall缺配置邮箱返回HTTP422，未据此虚构OA状态。",
+    "notes": "未下载PDF。Europe PMC commentCorrectionList两条均为Comment in；Crossref relation仅has-review，无已见更正/撤稿链接。"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "HGNC REST fetch/symbol与NCBI Gene",
+    "query": "COL17A1",
+    "results": "规范符号COL17A1，HGNC:2194、NCBI Gene:1308实核；确认其为半桥粒跨膜胶原，不与真皮I型纤维状胶原或口服/外用胶原成分混同。",
+    "notes": "身份响应col17-identity.json保存于research/raw/ecm。"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "Web search（PubMed/PMC原始文献发现）",
+    "query": "PTK2 focal adhesion kinase senescence skin fibroblast knockdown aging；PTK2 senescence fibroblasts knockdown；focal adhesion kinase senescence skin",
+    "results": [
+      {
+        "decision": "本批不纳入PTK2核心",
+        "reason": "初筛命中大量综述、相关磷酸化或上游CAV1/FN1干预；未完成PTK2特异遗传或匹配药理与明确衰老终点的充分原文核验。不是断言PTK2无衰老作用。"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7202880/",
+        "decision": "未作为本批PTK2证据",
+        "reason": "Integrin-mediated adhesions in regulation of cellular senescence研究核心为βPIX/GIT及整合素内吞，不能将其遗传效应转记为PTK2特异作用。"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-19",
+    "source": "Europe PMC REST core; PMC作者全文; Crossref; OpenAlex; HGNC REST",
+    "query": "EXT_ID:36914001 AND SRC:MED; DOI:10.1016/j.jid.2023.02.028; HGNC fetch/symbol/MMP1",
+    "results": [
+      {
+        "pmid": "36914001",
+        "decision": "纳入",
+        "reason": "原始人MMP1转基因表达小鼠实验，具真皮厚度与胶原密度定量及组织结构终点"
+      }
+    ],
+    "accessScope": "PMC作者全文HTML已获取并核对相关Results/Fig1–3/Methods；Europe PMC全文XML500，直接PubMed页面不完整，书目依Europe PMC MED core与Crossref交叉核验。",
+    "notes": "原始响应在research/raw/ecm/（已被.gitignore忽略）。OpenAlex判为bronze OA、无独立PDF直链；Unpaywall请求已执行但无配置邮箱返回422，不虚构其OA判定。未下载PDF。HGNC官方响应确认MMP1/HGNC:7155/NCBI Gene4312与旧符号CLG。2015 PMID25724359未凭题名纳入本条。"
   }
 ]

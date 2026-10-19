@@ -1,0 +1,41 @@
+{
+  "id": "mechanism-ecm",
+  "name": "细胞外基质（ECM）",
+  "englishName": "Extracellular matrix",
+  "kind": "extension",
+  "number": 13,
+  "description": "真皮胶原周转、基底膜黏附与细胞—基质反馈的扩展研究主题。",
+  "summary": "细胞外基质（extracellular matrix，ECM）构成细胞周围的支架与信号微环境。本主题关注真皮胶原组织、基底膜黏附及其与细胞状态的双向联系，并与细胞衰老、干细胞耗竭、细胞间通讯改变等分类交叉。",
+  "sourceId": "src-ecm-framework",
+  "version": "Atlas-extension-1.1.0",
+  "color": "#678f9a",
+  "scopeNote": "ECM 是网站扩展机制，不是 Cell 2023 论文提出的第13项衰老标志。ECM 是多组分结构与微环境，不能当作单一分子靶点统计；不同组织、基质组分和实验条件可能产生不同结果。",
+  "symbols": ["CCN1", "COL17A1", "MMP1", "CRAT", "MTOR"],
+  "existingEvidenceIds": ["ev-crat-mouse", "ev-mtor-human-skin"],
+  "sections": [
+    {
+      "id": "ecm-matrix-turnover",
+      "title": "胶原完整性与基质周转",
+      "body": "聚焦真皮胶原的生成、裂解、组织结构及成纤维细胞状态。MMP1 的遗传功能实验与 CCN1 的细胞干预分别提供不同环节的依据；不要由某次胶原或 MMP 表达变化，推定整个 ECM 已恢复年轻状态。",
+      "sourceIds": ["source-pub-36914001", "source-pub-22566095"]
+    },
+    {
+      "id": "ecm-basement-adhesion",
+      "title": "基底膜黏附与干细胞维护",
+      "body": "COL17A1 编码的 XVII 型胶原与表皮细胞黏附及干细胞竞争相关。该研究主题与真皮 I 型胶原纤维的含量、可溶胶原原料处理属于不同实体和实验问题，不能互相替代。",
+      "sourceIds": []
+    },
+    {
+      "id": "ecm-context",
+      "title": "基质—细胞反馈与模型条件",
+      "body": "基质碎裂、组织结构和黏附改变可以影响细胞状态；衰老细胞也可改变分泌与基质稳态。创面修复中短暂的细胞衰老可能限制纤维化，不能因此给 CCN1 赋予永久固定的有益或有害属性。每一段反馈只按实际实验解释，不由不同论文拼接完整因果闭环。",
+      "sourceIds": ["source-pub-22566095"]
+    },
+    {
+      "id": "ecm-readouts",
+      "title": "现有靶点的 ECM 终点",
+      "body": "CRAT 条目保留小鼠皮肤胶原密度等读出；MTOR 条目的人体外用雷帕霉素探索研究记录的是 VII 型胶原等终点，不能替换为 I 型胶原。这里只说明这些实验与 ECM 的关联，不把胶原变化自动升级为靶点直接结合、完整 ECM 修复或化妆品外用功效证明。",
+      "sourceIds": ["source-pub-37828898", "source-pub-31761958"]
+    }
+  ]
+}

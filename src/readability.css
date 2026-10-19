@@ -1,4 +1,126 @@
 /* Keep scientific reading comfortable without increasing navigation density. */
+.extension-banner {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  padding: 27px;
+  background: #eff5f6;
+  border: 1px solid #dce7e9;
+  border-radius: 10px;
+  margin: 25px 0;
+}
+.extension-icon {
+  display: grid;
+  place-items: center;
+  width: 58px;
+  height: 58px;
+  background: #dfedef;
+  border-radius: 13px;
+  color: #648a95;
+  flex-shrink: 0;
+}
+.extension-banner h2 {
+  font-size: 21px;
+  margin-top: 9px;
+}
+.extension-banner p {
+  color: #73868b;
+  font-size: 12px;
+  margin: 10px 0;
+}
+.extension-banner small {
+  font-size: 10px;
+  color: #80969a;
+}
+.extension-banner .outline-btn {
+  margin-left: auto;
+}
+.mechanism-facts {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 25px 0;
+  color: #7b9080;
+  font-size: 12px;
+}
+.mechanism-facts b {
+  font-size: 23px;
+  margin-right: 9px;
+  color: #447367;
+  font-weight: 500;
+}
+.mechanism-section-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.mechanism-section-grid .paper-section {
+  margin: 0;
+}
+.mechanism-sources {
+  border-top: 1px solid #e7ede5;
+  margin-top: 18px;
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.mechanism-sources a {
+  font-size: 10px;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+.term-glossary {
+  font-size: 11px;
+  color: #7e9075;
+  line-height: 1.8;
+  margin: 20px 0;
+}
+@media (max-width: 900px) {
+  .mechanism-section-grid {
+    grid-template-columns: 1fr;
+  }
+  .extension-banner {
+    flex-wrap: wrap;
+  }
+  .extension-banner .outline-btn {
+    margin-left: 80px;
+  }
+}
+@media (max-width: 680px) {
+  .extension-banner {
+    padding: 21px 18px;
+    gap: 14px;
+  }
+  .extension-icon {
+    width: 42px;
+    height: 42px;
+  }
+  .extension-banner > div:nth-child(2) {
+    flex: 1;
+    min-width: 190px;
+  }
+  .extension-banner h2 {
+    font-size: 17px;
+  }
+  .extension-banner .eyebrow {
+    font-size: 8px;
+  }
+  .extension-banner .outline-btn {
+    margin-left: 56px;
+  }
+  .extension-banner p {
+    font-size: 11px;
+  }
+  .mechanism-facts {
+    gap: 16px;
+    font-size: 10px;
+  }
+  .mechanism-facts b {
+    font-size: 20px;
+  }
+}
 .identity-list {
   font-size: 12px;
 }

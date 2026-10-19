@@ -88,6 +88,7 @@ const nav = [
   ["/", "研究总览", LayoutDashboard],
   ["/targets", "靶点目录", TargetIcon],
   ["/pathways", "通路目录", Workflow],
+  ["/mechanisms/mechanism-ecm", "ECM 机制", Layers],
   ["/graph", "交互图谱", Network],
   ["/compare", "靶点对比", GitCompareArrows],
   ["/library", "收藏与笔记", Bookmark],
@@ -220,6 +221,7 @@ export default function App() {
               <Route path="/targets/:id" element={<TargetDetail />} />
               <Route path="/pathways" element={<Pathways />} />
               <Route path="/pathways/:id" element={<PathwayDetail />} />
+              <Route path="/mechanisms/:id" element={<MechanismDetail />} />
               <Route path="/graph" element={<GraphPage />} />
               <Route path="/compare" element={<Compare />} />
               <Route path="/library" element={<Library />} />
@@ -279,8 +281,10 @@ function Home() {
   const featured = ["CRAT", "SIRT6", "CGAS"]
     .map((s) => a.targets.find((t) => t.symbol === s))
     .filter(Boolean) as Target[];
-  const covered = a.taxonomy.filter((h) =>
-    a.targets.some((t) => t.taxonomyIds.includes(h.id)),
+  const covered = a.taxonomy.filter(
+    (h) =>
+      h.kind === "hallmark" &&
+      a.targets.some((t) => t.taxonomyIds.includes(h.id)),
   ).length;
   return (
     <>
@@ -389,8 +393,8 @@ function Home() {
           ],
           [
             a.evidence.length,
-            "可追溯实验依据",
-            "保留物种、模型与干预条件",
+            "可追溯证据记录",
+            "功能实验与补充证据分层",
             FlaskConical,
           ],
           [
@@ -444,36 +448,59 @@ function Home() {
           </button>
         </form>
         <div className="taxonomy-grid">
-          {a.taxonomy.map((h, i) => {
-            const Icon = icons[i];
-            const n = a.targets.filter((t) =>
-              t.taxonomyIds.includes(h.id),
-            ).length;
-            return (
-              <Link
-                key={h.id}
-                className={`taxonomy-card ${n ? "" : "pending"}`}
-                to={`/targets?mechanism=${h.id}`}
-              >
-                <div className="taxonomy-top">
-                  <span className="taxonomy-icon" style={{ color: h.color }}>
-                    <Icon size={23} />
-                  </span>
-                  <span className="taxonomy-number">
-                    {String(h.number).padStart(2, "0")}
-                  </span>
-                </div>
-                <h3>{h.name}</h3>
-                <small>{h.englishName}</small>
-                <div className="taxonomy-foot">
-                  <span>{n ? `${n} 个核心靶点` : "尚未完成整理"}</span>
-                  <ArrowUpRight size={16} />
-                </div>
-              </Link>
-            );
-          })}
+          {a.taxonomy
+            .filter((h) => h.kind === "hallmark")
+            .map((h, i) => {
+              const Icon = icons[i];
+              const n = a.targets.filter((t) =>
+                t.taxonomyIds.includes(h.id),
+              ).length;
+              return (
+                <Link
+                  key={h.id}
+                  className={`taxonomy-card ${n ? "" : "pending"}`}
+                  to={`/targets?mechanism=${h.id}`}
+                >
+                  <div className="taxonomy-top">
+                    <span className="taxonomy-icon" style={{ color: h.color }}>
+                      <Icon size={23} />
+                    </span>
+                    <span className="taxonomy-number">
+                      {String(h.number).padStart(2, "0")}
+                    </span>
+                  </div>
+                  <h3>{h.name}</h3>
+                  <small>{h.englishName}</small>
+                  <div className="taxonomy-foot">
+                    <span>{n ? `${n} 个核心靶点` : "尚未完成整理"}</span>
+                    <ArrowUpRight size={16} />
+                  </div>
+                </Link>
+              );
+            })}
         </div>
       </section>
+      {a.taxonomy
+        .filter((h) => h.kind === "extension")
+        .map((h) => (
+          <section className="extension-banner" key={h.id}>
+            <div className="extension-icon">
+              <Layers size={28} />
+            </div>
+            <div>
+              <div className="eyebrow">EXTENDED MECHANISM · 扩展机制</div>
+              <h2>{h.name}</h2>
+              <p>{h.description}</p>
+              <small>
+                {a.targets.filter((t) => t.taxonomyIds.includes(h.id)).length}{" "}
+                个关联核心靶点 · 保留原12类框架，单独扩展
+              </small>
+            </div>
+            <Link className="outline-btn" to={`/mechanisms/${h.id}`}>
+              探索 ECM 机制 <ArrowRight size={15} />
+            </Link>
+          </section>
+        ))}
       <section className="skin-banner">
         <div className="skin-emblem">
           <Leaf size={29} />
@@ -669,7 +696,14 @@ function Directory() {
           </button>
         </form>
         <div className="filter-grid">
-          {select("mechanism", "机制", a.taxonomy)}
+          {select(
+            "mechanism",
+            "机制",
+            a.taxonomy.map((h) => ({
+              ...h,
+              name: h.name + (h.kind === "extension" ? " · 扩展机制" : ""),
+            })),
+          )}
           {select("pathway", "通路", a.pathways)}
           {select(
             "skin",
@@ -1915,6 +1949,134 @@ function Library() {
     </>
   );
 }
+function MechanismDetail() {
+  const { id } = useParams();
+  const { atlas: a } = useAtlas();
+  const h = a.taxonomy.find((h) => h.id === id);
+  if (!h)
+    return (
+      <Empty title="该机制尚未整理">
+        <Link to="/">返回分类总览</Link>
+      </Empty>
+    );
+  const targets = a.targets.filter((t) => t.taxonomyIds.includes(h.id));
+  const evidence = a.evidence.filter((e) => h.evidenceIds.includes(e.id));
+  const pubs = a.publications.filter((p) =>
+    evidence.some((e) => e.publicationId === p.id),
+  );
+  const pathways = a.pathways.filter((p) => p.taxonomyIds.includes(h.id));
+  return (
+    <>
+      <Link className="back-link" to="/">
+        <ChevronLeft size={15} />
+        返回机制总览
+      </Link>
+      <PageHeader
+        eyebrow={
+          h.kind === "extension"
+            ? "EXTENDED MECHANISM · 扩展机制"
+            : "HALLMARK OF AGING"
+        }
+        title={h.name}
+        description={h.summary || h.description}
+      >
+        <Link className="primary-btn" to={`/targets?mechanism=${h.id}`}>
+          筛选关联靶点 <ArrowRight size={15} />
+        </Link>
+        <button
+          className="outline-btn"
+          onClick={() =>
+            exportData(a, targets, "json", h.name + "；扩展机制主题映射")
+          }
+        >
+          导出相关数据
+        </button>
+      </PageHeader>
+      {h.scopeNote && <div className="boundary-note">{h.scopeNote}</div>}
+      <div className="mechanism-facts">
+        <span>
+          <b>{targets.length}</b>关联核心靶点
+        </span>
+        <span>
+          <b>{evidence.length}</b>相关证据记录
+        </span>
+        <span>
+          <b>{pathways.length}</b>研究主题
+        </span>
+        <Tag>{h.version}</Tag>
+      </div>
+      <div className="mechanism-section-grid">
+        {h.sections.map((s) => (
+          <section className="paper-section prose" key={s.id}>
+            <h2>{s.title}</h2>
+            <p>{s.body}</p>
+            <div className="mechanism-sources">
+              {s.sourceIds.map((id) => {
+                const source = a.sources.find((x) => x.id === id);
+                return source ? (
+                  <a
+                    key={id}
+                    href={source.url}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {source.name} ↗
+                  </a>
+                ) : null;
+              })}
+            </div>
+          </section>
+        ))}
+      </div>
+      <section className="detail-section">
+        <div className="section-heading">
+          <div>
+            <div className="eyebrow">RELATED TARGETS</div>
+            <h2>关联靶点与实际证据</h2>
+            <p>
+              新收录的 ECM
+              功能研究与既有靶点的胶原读出分别保留；分类归属本身不代表直接调控。
+            </p>
+          </div>
+        </div>
+        <div className="target-grid">
+          {targets.map((t) => (
+            <TargetCard target={t} key={t.id} />
+          ))}
+        </div>
+      </section>
+      <section className="paper-section">
+        <h2>通路 / 研究主题入口</h2>
+        {pathways.map((p) => (
+          <Link className="pathway-chip" key={p.id} to={`/pathways/${p.id}`}>
+            {p.name}
+            <ArrowUpRight size={14} />
+          </Link>
+        ))}
+        <p>
+          主题归属为背景关系。原文未完成的整合素、黏着斑激酶（FAK）及基质硬度因果连线不自动补出。
+        </p>
+      </section>
+      <section className="detail-section">
+        <div className="section-heading">
+          <h2>ECM 研究依据与补充证据</h2>
+          <button className="small-btn" onClick={() => ris(pubs, a, h.name)}>
+            导出文献 RIS
+          </button>
+        </div>
+        {evidence.map((e) => (
+          <EvidenceCard e={e} key={e.id} />
+        ))}
+      </section>
+      <section className="detail-section">
+        <h2>原始研究文献</h2>
+        {pubs.map((p) => (
+          <PubCard p={p} key={p.id} />
+        ))}
+      </section>
+    </>
+  );
+}
 function Methods() {
   const { atlas: a } = useAtlas();
   return (
@@ -1958,6 +2120,11 @@ function Methods() {
             Hallmarks of aging: An expanding universe
           </a>
           。这是一套可扩展的工作框架，不表示截至当前唯一、最终或穷尽性的分类；标签本身不等于特定因果作用。
+        </p>
+        <p>
+          网站另设细胞外基质（ECM）扩展机制，与原12项分开统计；ECM
+          不被表述为该论文的第13项衰老标志。
+          <Link to="/mechanisms/mechanism-ecm">进入 ECM 机制 →</Link>
         </p>
         <p>
           正式核心条目至少有一篇已核验的原始功能研究，包含对靶点的遗传干预，或机制匹配且有依据的药理干预，同时具有明确的衰老情境与相应结果。仅表达差异、组学富集、相关性、网络药理学、分子对接及非衰老模型中的间接保护指标，均不足以单独满足入库标准。
@@ -2010,7 +2177,10 @@ function Methods() {
                   <tr key={h.id}>
                     <td>
                       <Link to={`/targets?mechanism=${h.id}`}>
-                        {h.number}. {h.name}
+                        {h.kind === "extension"
+                          ? "扩展机制 · "
+                          : `${h.number}. `}
+                        {h.name}
                       </Link>
                     </td>
                     <td>{n}</td>

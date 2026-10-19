@@ -12,6 +12,49 @@ import {
 import { validateIntegrity } from "../scripts/data-integrity.mjs";
 const load = () =>
   JSON.parse(fs.readFileSync("public/data/atlas.json", "utf8"));
+
+test("ECM扩展保留原12项框架与已有稳定ID", () => {
+  const a = load();
+  assert.equal(a.taxonomy.filter((h) => h.kind === "hallmark").length, 12);
+  assert.deepEqual(
+    a.taxonomy.filter((h) => h.kind === "hallmark").map((h) => h.id),
+    Array.from(
+      { length: 12 },
+      (_, i) => "hallmark-" + String(i + 1).padStart(2, "0"),
+    ),
+  );
+  const ecm = a.taxonomy.find((h) => h.id === "mechanism-ecm");
+  assert.equal(ecm.kind, "extension");
+  assert.match(ecm.scopeNote, /不是.*第13/);
+  assert.ok(ecm.evidenceIds.length > 0);
+  for (const symbol of [
+    "CRAT",
+    "MTOR",
+    "SIRT6",
+    "CGAS",
+    "STING1",
+    "COL17A1",
+    "CCN1",
+    "MMP1",
+  ])
+    assert.ok(a.targets.find((t) => t.id === "target-" + symbol.toLowerCase()));
+  const invalid = structuredClone(a);
+  invalid.taxonomy.find((h) => h.id === "mechanism-ecm").kind = "hallmark";
+  assert.throws(() => validateIntegrity(invalid), /12类/);
+});
+test("观察关联或非衰老补充不能作为核心依据或生成衰老功能边", () => {
+  const a = load();
+  const e = a.evidence.find((e) => e.id === "ev-col17a1-human-age-association");
+  assert.equal(e.studyContext, "observational");
+  assert.ok(
+    !a.relations.some(
+      (r) => r.scope === "aging_experiment" && r.evidenceIds.includes(e.id),
+    ),
+  );
+  const b = structuredClone(a);
+  b.targets.find((t) => t.symbol === "COL17A1").evidenceIds = [e.id];
+  assert.throws(() => validateIntegrity(b), /核心缺少/);
+});
 test("中文CSV保留引号换行，阻止公式前缀注入", () => {
   assert.equal(csvCell('=HYPERLINK("a")'), '"\'=HYPERLINK(""a"")"');
   assert.equal(csvCell("中文\n结果"), '"中文\n结果"');

@@ -71,6 +71,9 @@ export function exportData(
   const payload = {
     metadata,
     targets,
+    taxonomy: a.taxonomy.filter((h) =>
+      targets.some((t) => t.taxonomyIds.includes(h.id)),
+    ),
     pathways,
     selectionSummary,
     evidence: es,

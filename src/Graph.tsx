@@ -415,6 +415,7 @@ export default function Graph({
               {a.taxonomy.map((h) => (
                 <option key={h.id} value={h.id}>
                   {h.name}
+                  {h.kind === "extension" ? " · 扩展机制" : ""}
                 </option>
               ))}
             </select>

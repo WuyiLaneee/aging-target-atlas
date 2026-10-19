@@ -32,6 +32,58 @@
           },
           "color": {
             "type": "string"
+          },
+          "kind": {
+            "default": "hallmark",
+            "type": "string",
+            "enum": [
+              "hallmark",
+              "extension"
+            ]
+          },
+          "summary": {
+            "type": "string"
+          },
+          "scopeNote": {
+            "type": "string"
+          },
+          "evidenceIds": {
+            "default": [],
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "sections": {
+            "default": [],
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "body": {
+                  "type": "string"
+                },
+                "sourceIds": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "body",
+                "sourceIds"
+              ],
+              "additionalProperties": false
+            }
           }
         },
         "required": [
@@ -42,7 +94,10 @@
           "description",
           "sourceId",
           "version",
-          "color"
+          "color",
+          "kind",
+          "evidenceIds",
+          "sections"
         ],
         "additionalProperties": false
       }
@@ -500,6 +555,15 @@
             "type": "string",
             "format": "uri"
           },
+          "studyContext": {
+            "default": "aging_function",
+            "type": "string",
+            "enum": [
+              "aging_function",
+              "nonaging_support",
+              "observational"
+            ]
+          },
           "phenotypeIds": {
             "type": "array",
             "items": {
@@ -541,6 +605,7 @@
           "locator",
           "accessScope",
           "sourceUrl",
+          "studyContext",
           "phenotypeIds",
           "interventionIds",
           "dose",

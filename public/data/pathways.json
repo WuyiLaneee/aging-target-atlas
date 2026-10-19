@@ -328,5 +328,54 @@
       "rel-member-target-sirt3-pathway-hsc"
     ],
     "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+  },
+  {
+    "id": "pathway-ecm-remodeling",
+    "name": "ECM 胶原稳态与重塑",
+    "summary": "真皮胶原裂解、组织结构及衰老细胞对基质稳态的调节。原始功能干预和胶原相关下游读出分开解释。",
+    "memberIds": [
+      "target-crat",
+      "target-mtor",
+      "target-ccn1",
+      "target-mmp1"
+    ],
+    "taxonomyIds": [
+      "hallmark-08",
+      "hallmark-10",
+      "mechanism-ecm"
+    ],
+    "backgroundSourceIds": [
+      "source-pub-37828898",
+      "source-pub-31761958",
+      "source-pub-22566095",
+      "source-pub-20526329",
+      "source-pub-36914001"
+    ],
+    "relationIds": [
+      "rel-member-target-crat-pathway-ecm-remodeling",
+      "rel-member-target-mtor-pathway-ecm-remodeling",
+      "rel-member-target-ccn1-pathway-ecm-remodeling",
+      "rel-member-target-mmp1-pathway-ecm-remodeling"
+    ],
+    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+  },
+  {
+    "id": "pathway-basement-adhesion",
+    "name": "基底膜黏附与表皮干细胞维护",
+    "summary": "COL17A1 相关基底膜黏附、干细胞竞争与表皮稳态。XVII 型胶原与真皮纤维胶原分开理解。",
+    "memberIds": [
+      "target-col17a1"
+    ],
+    "taxonomyIds": [
+      "hallmark-09",
+      "mechanism-ecm"
+    ],
+    "backgroundSourceIds": [
+      "source-pub-30944469"
+    ],
+    "relationIds": [
+      "rel-member-target-col17a1-pathway-basement-adhesion"
+    ],
+    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
   }
 ]

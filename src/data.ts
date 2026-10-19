@@ -1,7 +1,9 @@
 import { atlasSchema, type Atlas, type Target } from "./schema";
 import { normalize } from "./lib/core.mjs";
 export async function loadAtlas(): Promise<Atlas> {
-  const response = await fetch(`${import.meta.env.BASE_URL}data/atlas.json`);
+  const response = await fetch(`${import.meta.env.BASE_URL}data/atlas.json`, {
+    cache: "no-cache",
+  });
   if (!response.ok)
     throw new Error(
       `科研数据加载失败（HTTP ${response.status}），请检查网络或发布路径。`,
@@ -22,6 +24,10 @@ export function targetCorpus(t: Target, a: Atlas) {
       t.name,
       ...t.aliases,
       t.summary,
+      ...t.taxonomyIds.map((id) => {
+        const h = a.taxonomy.find((h) => h.id === id);
+        return h ? `${h.name} ${h.englishName}` : "";
+      }),
       ...t.pathwayIds.map((id) => a.pathways.find((p) => p.id === id)?.name),
       ...es.flatMap((e) => [
         e.claim,

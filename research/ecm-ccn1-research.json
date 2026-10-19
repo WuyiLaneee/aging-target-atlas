@@ -1,0 +1,243 @@
+{
+  "publications": [
+    {
+      "id": "pub-20526329",
+      "title": "The matricellular protein CCN1 induces fibroblast senescence and restricts fibrosis in cutaneous wound healing.",
+      "authors": [
+        "Jun JI",
+        "Lau LF"
+      ],
+      "year": 2010,
+      "journal": "Nature cell biology",
+      "doi": "10.1038/ncb2070",
+      "pmid": "20526329",
+      "pmcid": "PMC2919364",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20526329/",
+      "accessScope": "合法开放全文（Europe PMC XML，已核对Results、Methods及Figures 1–8图注）",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-10-19",
+      "correctionStatus": "确有勘误：DOI 10.1038/ncb1210-1249；初版Fig2a的BSA与CCN1组标签互换，出版商称HTML/PDF已于2010-11-12修正。已核对出版商勘误页和Crossref updated-by。当前结论同时依赖Fig2b–k及Figures1、3–8，不从初版Fig2a读取数值。未见已访问记录中有撤稿标记。",
+      "sourcePlatforms": [
+        "PubMed",
+        "Europe PMC",
+        "Crossref",
+        "OpenAlex",
+        "Unpaywall",
+        "Nature Cell Biology"
+      ],
+      "full_text_status": "html_not_pdf",
+      "download_status": "not_requested",
+      "oaStatus": "green",
+      "fullTextUrl": "https://europepmc.org/articles/PMC2919364"
+    },
+    {
+      "id": "pub-22566095",
+      "title": "Cysteine-rich protein 61 (CCN1) mediates replicative senescence-associated aberrant collagen homeostasis in human skin fibroblasts.",
+      "authors": [
+        "Quan T",
+        "Qin Z",
+        "Voorhees JJ",
+        "Fisher GJ"
+      ],
+      "year": 2012,
+      "journal": "Journal of cellular biochemistry",
+      "doi": "10.1002/jcb.24179",
+      "pmid": "22566095",
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22566095/",
+      "accessScope": "PubMed摘要及Europe PMC完整元数据；OpenAlex与Unpaywall发现密歇根大学Deep Blue作者版，但仓储访问403，未获取全文",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-10-19",
+      "correctionStatus": "已查看Europe PMC出版类型/关联更正字段及Crossref关系与更新字段，当前未见关联撤稿或更正标记；非穷尽性审查。",
+      "sourcePlatforms": [
+        "PubMed",
+        "Europe PMC",
+        "Crossref",
+        "OpenAlex",
+        "Unpaywall",
+        "University of Michigan Deep Blue（访问受阻）"
+      ],
+      "full_text_status": "anti_bot_blocked",
+      "download_status": "not_requested",
+      "oaStatus": "green",
+      "fullTextUrl": "https://hdl.handle.net/2027.42/92044"
+    }
+  ],
+  "records": [
+    {
+      "symbol": "CCN1",
+      "chineseName": "细胞通讯网络因子1（富含半胱氨酸蛋白61）",
+      "entityType": "gene",
+      "englishName": "cellular communication network factor 1",
+      "aliases": [
+        "CYR61",
+        "GIG1",
+        "IGFBP10",
+        "IBP-10",
+        "IGFBP-10"
+      ],
+      "externalIds": {
+        "hgnc": "HGNC:2654",
+        "ncbiGene": "3491"
+      },
+      "identitySourceUrl": "https://www.ncbi.nlm.nih.gov/gene/3491",
+      "ncbiGeneUrl": "https://www.ncbi.nlm.nih.gov/gene/3491",
+      "identityVerified": true,
+      "summary": "CCN1是ECM相关的基质细胞调节蛋白，连接细胞黏附信号、细胞衰老与胶原重塑。复制性衰老人真皮成纤维细胞中敲低CCN1可部分改善胶原稳态，但未证明逆转细胞周期停滞；外源CCN1可诱导细胞衰老，而在小鼠创面修复中这种局部衰老有助于限制纤维化。",
+      "hallmarks": [
+        8,
+        10
+      ],
+      "pathwayNames": [
+        "ECM–整合素–ROS与细胞衰老",
+        "胶原合成与MMP介导的ECM重塑"
+      ],
+      "skinClassification": "皮肤衰老实验",
+      "skinSummary": "有人真皮成纤维细胞复制性衰老的胶原功能证据；BJ细胞促衰老和小鼠创面抗纤维化属于另一条件，不代表人体抗皱或自然老化逆转。",
+      "evidence": [
+        {
+          "supportStatus": "支持",
+          "interventionName": null,
+          "id": "ev-ccn1-replicative-ecm",
+          "publicationId": "pub-22566095",
+          "claim": "复制性衰老人真皮成纤维细胞中，CCN1敲低部分改善胶原合成/降解失衡与胶原纤维破坏。",
+          "evidenceType": [
+            "基因敲低"
+          ],
+          "species": [
+            "Homo sapiens"
+          ],
+          "actualEntity": "人CCN1/CYR61",
+          "tissueCell": "原代人皮肤真皮成纤维细胞；胶原晶格培养",
+          "model": "复制性细胞衰老及其胶原ECM稳态异常",
+          "intervention": "在复制性衰老成纤维细胞中敲低升高的CCN1；摘要未注明所用具体敲低试剂。",
+          "result": "复制性衰老细胞中CCN1升高、I型前胶原降低且MMP1升高。CCN1敲低使I型前胶原及MMP1表达部分恢复；原子力显微镜观察表明胶原纤维碎裂和排列紊乱大幅减轻。",
+          "endpoints": [
+            "I型前胶原表达",
+            "MMP1表达",
+            "胶原晶格收缩/碎裂",
+            "原子力显微镜胶原纤维结构"
+          ],
+          "conditions": "复制性衰老的人真皮成纤维细胞体外体系；功能干预与ECM终点相匹配。",
+          "limitations": "本条目前仅核对摘要。不能据胶原稳态改善推断细胞周期停滞、SA-β-gal或细胞衰老被逆转；未核验人体CCN1敲低抗皱或自然皮肤老化逆转试验。",
+          "locator": "PubMed Abstract：CCN1 knockdown、type I procollagen/MMP-1及AFM相关结果；全文图号当前未获取。",
+          "accessScope": "PubMed摘要，全文仓储403未获取",
+          "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/22566095/",
+          "phenotypes": [
+            "复制性衰老相关ECM失衡",
+            "胶原纤维碎裂",
+            "胶原合成/降解失衡"
+          ],
+          "dose": "当前未获取",
+          "time": "当前未获取",
+          "sampleSize": "当前未获取"
+        },
+        {
+          "supportStatus": "支持",
+          "interventionName": null,
+          "id": "ev-ccn1-bj-senescence",
+          "publicationId": "pub-20526329",
+          "claim": "外源CCN1通过整合素α6β1/HSPG相关信号诱导人BJ成纤维细胞稳定衰老，伴SASP及ECM降解表型。",
+          "evidenceType": [
+            "重组蛋白处理",
+            "受体功能阻断",
+            "突变蛋白对照",
+            "下游基因敲低"
+          ],
+          "species": [
+            "Homo sapiens"
+          ],
+          "actualEntity": "人CCN1蛋白；CCN1 DM受体结合位点突变体对照",
+          "tissueCell": "年轻人BJ皮肤成纤维细胞；IMR-90肺成纤维细胞为补充验证",
+          "model": "外源ECM相关信号诱导的早衰",
+          "intervention": "重组CCN1处理；DM突变蛋白、抗α6功能阻断抗体、可溶性肝素及竞争肽对照；NOX1/RAC1、p53或p16敲低检验条件依赖。",
+          "result": "CCN1使BrdU和Ki67下降、SA-β-gal及p53/p16升高；处理6天后去除CCN1并重铺，随后6天仍未恢复增殖。IL6/IL8/IL11和MMP1/MMP3升高，COL1A1降低。受体阻断与DM突变体支持α6β1/HSPG相关依赖；NOX1/RAC1敲低可缓解增殖停滞。",
+          "endpoints": [
+            "SA-β-gal",
+            "BrdU/Ki67",
+            "去除CCN1后增殖停滞持续",
+            "p53/p16",
+            "IL6/IL8/IL11",
+            "MMP1/MMP3及COL1A1"
+          ],
+          "conditions": "体外早衰诱导；细胞处于10%血清培养条件。CCN1促衰老，不等于普遍抗衰老靶点或推荐一律抑制CCN1。",
+          "limitations": "研究直接证明体外诱导稳定衰老，未证明抑制CCN1能逆转自然老化人体皮肤；NOX1/RAC1等依赖不构成CCN1与各节点直接结合证据。论文有Fig2a组标签勘误，已按出版商更正说明解释。",
+          "locator": "Results: CCN1 induces senescence in human fibroblasts through integrin signaling; Figures2b–k,3,4,5,6; Methods; Fig2a勘误DOI10.1038/ncb1210-1249",
+          "accessScope": "合法开放全文（Europe PMC XML，Results/Methods与图注）",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2919364/",
+          "phenotypes": [
+            "细胞衰老",
+            "SASP",
+            "ECM降解程序",
+            "胶原合成下降"
+          ],
+          "dose": "已获取：主要Fig2为CCN1 2.5 μg/mL；Fig3功能抗体50 μg/mL、竞争肽0.5 mM、肝素1 mg/mL",
+          "time": "已获取：BrdU/Ki67为3天；SASP/ECM qPCR为6天；6天处理后去除再观察6天",
+          "sampleSize": "已获取：Fig2图注为三重复实验（mean±SD）；并非3位独立供者，供者数当前未获取"
+        },
+        {
+          "supportStatus": "支持",
+          "interventionName": null,
+          "id": "ev-ccn1-wound-antifibrosis",
+          "publicationId": "pub-20526329",
+          "claim": "小鼠创面修复中CCN1依赖的肌成纤维细胞衰老限制过度胶原沉积；促衰老在此条件下有抗纤维化作用。",
+          "evidenceType": [
+            "基因敲入突变",
+            "局部重组蛋白救援"
+          ],
+          "species": [
+            "Mus musculus"
+          ],
+          "actualEntity": "小鼠Ccn1 DM敲入突变；局部补充纯化CCN1蛋白",
+          "tissueCell": "12周龄小鼠背部全层切除创面肉芽组织及其中肌成纤维细胞",
+          "model": "急性皮肤创面修复及纤维化；非自然衰老模型",
+          "intervention": "Ccn1 dm/dm（α6β1/HSPG结合位点突变）与WT比较；突变小鼠创面每日局部补充CCN1或PBS。",
+          "result": "突变小鼠创面SA-β-gal、p16/p53阳性细胞减少，胶原与羟脯氨酸增加。局部CCN1补充恢复创面SA-β-gal，增加Mmp2/3/9并降低Col1a1/Tgfb1和胶原沉积。",
+          "endpoints": [
+            "创面SA-β-gal",
+            "p16/p53与α-SMA共染",
+            "羟脯氨酸",
+            "Sirius red胶原染色",
+            "Mmp2/3/9、Col1a1、Tgfb1"
+          ],
+          "conditions": "6 mm皮肤全层切除创面；创后7–9天衰老细胞积累；纤维化可观察至21天。此处短期局部衰老参与修复、约束纤维化。",
+          "limitations": "创面闭合和抗纤维化与抗皮肤自然老化是不同终点；突变体改变特定受体结合位点，不是全基因敲除；不能将增加胶原或清除衰老细胞一概解释为有益。无人体疗效或寿命证据。",
+          "locator": "Figures1e–g,8a–h; Methods: Animals and cutaneous wound healing; Topical CCN1 treatment; hydroxyproline methods",
+          "accessScope": "合法开放全文（Europe PMC XML，Results/Methods与图注）",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2919364/",
+          "phenotypes": [
+            "创面修复期细胞衰老",
+            "限制纤维化",
+            "胶原沉积调节"
+          ],
+          "dose": "已获取：CCN1 0.1 mg/mL，50 μL/次，即5 μg/创面/日；PBS对照",
+          "time": "已获取：每日给药；创后9天采集救援实验组织；羟脯氨酸观察5–21天",
+          "sampleSize": "已获取：Fig1 WT与DM每组n=5；Fig1g离体细胞n=3；Fig8f局部救援qPCR n=5；羟脯氨酸每基因型n=3。"
+        }
+      ]
+    }
+  ],
+  "searchLog": [
+    {
+      "date": "2026-10-19",
+      "source": "Europe PMC REST core search; PubMed; Crossref; OpenAlex; Unpaywall; Nature Cell Biology",
+      "query": "EXT_ID:22566095 OR DOI:10.1038/ncb2070; CCN1/CYR61 replicative senescence ECM; CCN1 wound fibroblast senescence",
+      "results": [
+        {
+          "pmid": "22566095",
+          "decision": "纳入（ECM功能补充）",
+          "reason": "摘要有CCN1敲低与胶原终点相配对，但不宣称逆转细胞衰老。"
+        },
+        {
+          "pmid": "20526329",
+          "decision": "纳入（促衰老核心与创面条件证据）",
+          "reason": "重组蛋白诱导稳定衰老、受体/下游阻断及小鼠创面突变与补充蛋白救援；完整XML已核验。"
+        }
+      ],
+      "accessScope": "2012摘要；2010合法开放XML全文与出版商勘误页",
+      "notes": "两个DOI均完成OpenAlex和Unpaywall OA检查。2012 Deep Blue仓储OA路径实际403返回HTML，未获取PDF正文，未以API OA标记冒充全文已读。2010已获取EPMC XML；Fig2a标签勘误详见publication correctionStatus。Gene ID3491、HGNC:2654及别名由NCBI Gene核实。无单独PDF下载交付。"
+    }
+  ]
+}

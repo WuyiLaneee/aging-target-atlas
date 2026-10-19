@@ -7,7 +7,10 @@
     "description": "以 Cell 2023 工作框架为导航；跨分类主题归属不表示已经证明特定因果作用。",
     "sourceId": "src-hallmarks",
     "version": "Cell-2023-v1",
-    "color": "#6b9980"
+    "color": "#6b9980",
+    "kind": "hallmark",
+    "evidenceIds": [],
+    "sections": []
   },
   {
     "id": "hallmark-02",
@@ -17,7 +20,10 @@
     "description": "以 Cell 2023 工作框架为导航；跨分类主题归属不表示已经证明特定因果作用。",
     "sourceId": "src-hallmarks",
     "version": "Cell-2023-v1",
-    "color": "#87a588"
+    "color": "#87a588",
+    "kind": "hallmark",
+    "evidenceIds": [],
+    "sections": []
   },
   {
     "id": "hallmark-03",
@@ -27,7 +33,10 @@
     "description": "以 Cell 2023 工作框架为导航；跨分类主题归属不表示已经证明特定因果作用。",
     "sourceId": "src-hallmarks",
     "version": "Cell-2023-v1",
-    "color": "#94a287"
+    "color": "#94a287",
+    "kind": "hallmark",
+    "evidenceIds": [],
+    "sections": []
   },
   {
     "id": "hallmark-04",
@@ -37,7 +46,10 @@
     "description": "以 Cell 2023 工作框架为导航；跨分类主题归属不表示已经证明特定因果作用。",
     "sourceId": "src-hallmarks",
     "version": "Cell-2023-v1",
-    "color": "#809aa4"
+    "color": "#809aa4",
+    "kind": "hallmark",
+    "evidenceIds": [],
+    "sections": []
   },
   {
     "id": "hallmark-05",
@@ -47,7 +59,10 @@
     "description": "以 Cell 2023 工作框架为导航；跨分类主题归属不表示已经证明特定因果作用。",
     "sourceId": "src-hallmarks",
     "version": "Cell-2023-v1",
-    "color": "#7e9a89"
+    "color": "#7e9a89",
+    "kind": "hallmark",
+    "evidenceIds": [],
+    "sections": []
   },
   {
     "id": "hallmark-06",
@@ -57,7 +72,10 @@
     "description": "以 Cell 2023 工作框架为导航；跨分类主题归属不表示已经证明特定因果作用。",
     "sourceId": "src-hallmarks",
     "version": "Cell-2023-v1",
-    "color": "#7b9c93"
+    "color": "#7b9c93",
+    "kind": "hallmark",
+    "evidenceIds": [],
+    "sections": []
   },
   {
     "id": "hallmark-07",
@@ -67,7 +85,10 @@
     "description": "以 Cell 2023 工作框架为导航；跨分类主题归属不表示已经证明特定因果作用。",
     "sourceId": "src-hallmarks",
     "version": "Cell-2023-v1",
-    "color": "#a99b70"
+    "color": "#a99b70",
+    "kind": "hallmark",
+    "evidenceIds": [],
+    "sections": []
   },
   {
     "id": "hallmark-08",
@@ -77,7 +98,10 @@
     "description": "以 Cell 2023 工作框架为导航；跨分类主题归属不表示已经证明特定因果作用。",
     "sourceId": "src-hallmarks",
     "version": "Cell-2023-v1",
-    "color": "#8a9f7b"
+    "color": "#8a9f7b",
+    "kind": "hallmark",
+    "evidenceIds": [],
+    "sections": []
   },
   {
     "id": "hallmark-09",
@@ -87,7 +111,10 @@
     "description": "以 Cell 2023 工作框架为导航；跨分类主题归属不表示已经证明特定因果作用。",
     "sourceId": "src-hallmarks",
     "version": "Cell-2023-v1",
-    "color": "#7d9c76"
+    "color": "#7d9c76",
+    "kind": "hallmark",
+    "evidenceIds": [],
+    "sections": []
   },
   {
     "id": "hallmark-10",
@@ -97,7 +124,10 @@
     "description": "以 Cell 2023 工作框架为导航；跨分类主题归属不表示已经证明特定因果作用。",
     "sourceId": "src-hallmarks",
     "version": "Cell-2023-v1",
-    "color": "#819f96"
+    "color": "#819f96",
+    "kind": "hallmark",
+    "evidenceIds": [],
+    "sections": []
   },
   {
     "id": "hallmark-11",
@@ -107,7 +137,10 @@
     "description": "以 Cell 2023 工作框架为导航；跨分类主题归属不表示已经证明特定因果作用。",
     "sourceId": "src-hallmarks",
     "version": "Cell-2023-v1",
-    "color": "#b49c79"
+    "color": "#b49c79",
+    "kind": "hallmark",
+    "evidenceIds": [],
+    "sections": []
   },
   {
     "id": "hallmark-12",
@@ -117,6 +150,71 @@
     "description": "以 Cell 2023 工作框架为导航；跨分类主题归属不表示已经证明特定因果作用。",
     "sourceId": "src-hallmarks",
     "version": "Cell-2023-v1",
-    "color": "#91a385"
+    "color": "#91a385",
+    "kind": "hallmark",
+    "evidenceIds": [],
+    "sections": []
+  },
+  {
+    "id": "mechanism-ecm",
+    "name": "细胞外基质（ECM）",
+    "englishName": "Extracellular matrix",
+    "number": 13,
+    "description": "真皮胶原周转、基底膜黏附与细胞—基质反馈的扩展研究主题。",
+    "sourceId": "src-ecm-framework",
+    "version": "Atlas-extension-1.1.0",
+    "color": "#678f9a",
+    "kind": "extension",
+    "summary": "细胞外基质（extracellular matrix，ECM）构成细胞周围的支架与信号微环境。本主题关注真皮胶原组织、基底膜黏附及其与细胞状态的双向联系，并与细胞衰老、干细胞耗竭、细胞间通讯改变等分类交叉。",
+    "scopeNote": "ECM 是网站扩展机制，不是 Cell 2023 论文提出的第13项衰老标志。ECM 是多组分结构与微环境，不能当作单一分子靶点统计；不同组织、基质组分和实验条件可能产生不同结果。",
+    "evidenceIds": [
+      "ev-crat-mouse",
+      "ev-mtor-human-skin",
+      "ev-ccn1-replicative-ecm",
+      "ev-ccn1-bj-senescence",
+      "ev-ccn1-wound-antifibrosis",
+      "ev-col17a1-aged-maintenance",
+      "ev-col17a1-human-3d",
+      "ev-col17a1-human-age-association",
+      "ev-col17a1-compounds-wound",
+      "ev-mmp1-mouse-ecm"
+    ],
+    "sections": [
+      {
+        "id": "ecm-matrix-turnover",
+        "title": "胶原完整性与基质周转",
+        "body": "聚焦真皮胶原的生成、裂解、组织结构及成纤维细胞状态。MMP1 的遗传功能实验与 CCN1 的细胞干预分别提供不同环节的依据；不要由某次胶原或 MMP 表达变化，推定整个 ECM 已恢复年轻状态。",
+        "sourceIds": [
+          "source-pub-36914001",
+          "source-pub-22566095"
+        ]
+      },
+      {
+        "id": "ecm-basement-adhesion",
+        "title": "基底膜黏附与干细胞维护",
+        "body": "COL17A1 编码的 XVII 型胶原与表皮细胞黏附及干细胞竞争相关。该研究主题与真皮 I 型胶原纤维的含量、可溶胶原原料处理属于不同实体和实验问题，不能互相替代。",
+        "sourceIds": [
+          "source-pub-30944469"
+        ]
+      },
+      {
+        "id": "ecm-context",
+        "title": "基质—细胞反馈与模型条件",
+        "body": "基质碎裂、组织结构和黏附改变可以影响细胞状态；衰老细胞也可改变分泌与基质稳态。创面修复中短暂的细胞衰老可能限制纤维化，不能因此给 CCN1 赋予永久固定的有益或有害属性。每一段反馈只按实际实验解释，不由不同论文拼接完整因果闭环。",
+        "sourceIds": [
+          "source-pub-22566095",
+          "source-pub-20526329"
+        ]
+      },
+      {
+        "id": "ecm-readouts",
+        "title": "现有靶点的 ECM 终点",
+        "body": "CRAT 条目保留小鼠皮肤胶原密度等读出；MTOR 条目的人体外用雷帕霉素探索研究记录的是 VII 型胶原等终点，不能替换为 I 型胶原。这里只说明这些实验与 ECM 的关联，不把胶原变化自动升级为靶点直接结合、完整 ECM 修复或化妆品外用功效证明。",
+        "sourceIds": [
+          "source-pub-37828898",
+          "source-pub-31761958"
+        ]
+      }
+    ]
   }
 ]

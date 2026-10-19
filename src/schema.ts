@@ -36,6 +36,9 @@ export const evidenceSchema = z.object({
   locator: z.string(),
   accessScope: z.string(),
   sourceUrl: z.url(),
+  studyContext: z
+    .enum(["aging_function", "nonaging_support", "observational"])
+    .default("aging_function"),
   phenotypeIds: strs,
   interventionIds: strs,
   dose: z.string(),
@@ -106,6 +109,20 @@ export const atlasSchema = z.object({
       sourceId: z.string(),
       version: z.string(),
       color: z.string(),
+      kind: z.enum(["hallmark", "extension"]).default("hallmark"),
+      summary: z.string().optional(),
+      scopeNote: z.string().optional(),
+      evidenceIds: strs.default([]),
+      sections: z
+        .array(
+          z.object({
+            id: z.string(),
+            title: z.string(),
+            body: z.string(),
+            sourceIds: strs,
+          }),
+        )
+        .default([]),
     }),
   ),
   targets: z.array(targetSchema),

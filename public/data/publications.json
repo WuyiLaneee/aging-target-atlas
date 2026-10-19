@@ -802,6 +802,101 @@
     "type": "original"
   },
   {
+    "id": "pub-20526329",
+    "title": "The matricellular protein CCN1 induces fibroblast senescence and restricts fibrosis in cutaneous wound healing.",
+    "authors": [
+      "Jun JI",
+      "Lau LF"
+    ],
+    "year": 2010,
+    "journal": "Nature cell biology",
+    "doi": "10.1038/ncb2070",
+    "pmid": "20526329",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20526329/",
+    "accessScope": "合法开放全文（Europe PMC XML，已核对Results、Methods及Figures 1–8图注）",
+    "metadataVerified": true,
+    "claimVerified": true,
+    "checkedDate": "2026-10-19",
+    "correctionStatus": "确有勘误：DOI 10.1038/ncb1210-1249；初版Fig2a的BSA与CCN1组标签互换，出版商称HTML/PDF已于2010-11-12修正。已核对出版商勘误页和Crossref updated-by。当前结论同时依赖Fig2b–k及Figures1、3–8，不从初版Fig2a读取数值。未见已访问记录中有撤稿标记。",
+    "type": "original"
+  },
+  {
+    "id": "pub-22566095",
+    "title": "Cysteine-rich protein 61 (CCN1) mediates replicative senescence-associated aberrant collagen homeostasis in human skin fibroblasts.",
+    "authors": [
+      "Quan T",
+      "Qin Z",
+      "Voorhees JJ",
+      "Fisher GJ"
+    ],
+    "year": 2012,
+    "journal": "Journal of cellular biochemistry",
+    "doi": "10.1002/jcb.24179",
+    "pmid": "22566095",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22566095/",
+    "accessScope": "PubMed摘要及Europe PMC完整元数据；OpenAlex与Unpaywall发现密歇根大学Deep Blue作者版，但仓储访问403，未获取全文",
+    "metadataVerified": true,
+    "claimVerified": true,
+    "checkedDate": "2026-10-19",
+    "correctionStatus": "已查看Europe PMC出版类型/关联更正字段及Crossref关系与更新字段，当前未见关联撤稿或更正标记；非穷尽性审查。",
+    "type": "original"
+  },
+  {
+    "id": "pub-30944469",
+    "title": "Stem cell competition orchestrates skin homeostasis and ageing.",
+    "authors": [
+      "Liu N",
+      "Matsumura H",
+      "Kato T",
+      "Ichinose S",
+      "Takada A",
+      "Namiki T",
+      "Asakawa K",
+      "Morinaga H",
+      "Mohri Y",
+      "De Arcangelis A",
+      "Geroges-Labouesse E",
+      "Nanba D",
+      "Nishimura EK"
+    ],
+    "year": 2019,
+    "journal": "Nature",
+    "doi": "10.1038/s41586-019-1085-7",
+    "pmid": "30944469",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30944469/",
+    "accessScope": "PubMed/Europe PMC摘要与Nature公开Extended Data图注；主体正文需订阅，未按全文核验处理",
+    "metadataVerified": true,
+    "claimVerified": true,
+    "checkedDate": "2026-10-19",
+    "correctionStatus": "已核对Europe PMC comments/corrections及Crossref relation/update-to，并检索题名+correction/retraction。Europe PMC仅列两篇Comment in（PMID30980033、31211989）；Crossref未见更正或撤稿关系。Comment in为评论，不能当作更正。非穷尽性撤稿审计。",
+    "type": "original"
+  },
+  {
+    "id": "pub-36914001",
+    "title": "Matrix Metalloproteinase-1 Expression in Fibroblasts Accelerates Dermal Aging and Promotes Papilloma Development in Mouse Skin.",
+    "authors": [
+      "Quan T",
+      "Xia W",
+      "He T",
+      "Calderone K",
+      "Bou-Gharios G",
+      "Voorhees JJ",
+      "Dlugosz AA",
+      "Fisher GJ"
+    ],
+    "year": 2023,
+    "journal": "The Journal of investigative dermatology",
+    "doi": "10.1016/j.jid.2023.02.028",
+    "pmid": "36914001",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36914001/",
+    "accessScope": "合法公开作者全文（PMC HTML，已核对 Results、Figures 1–3 图注及相关 Methods；Europe PMC fullTextXML 返回500）",
+    "metadataVerified": true,
+    "claimVerified": true,
+    "checkedDate": "2026-10-19",
+    "correctionStatus": "已核对Europe PMC出版类型/更正字段及Crossref relation，未见关联撤稿或更正标记；不是穷尽性撤稿审查。原文部分数字/基因名称存在内部不一致，未将这些歧义值用于本条核心结论。",
+    "type": "original"
+  },
+  {
     "id": "pub-36599349",
     "title": "Hallmarks of aging: An expanding universe",
     "authors": [

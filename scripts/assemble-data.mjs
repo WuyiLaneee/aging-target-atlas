@@ -3,12 +3,17 @@ import crypto from "node:crypto";
 import { z } from "zod";
 import { atlasSchema } from "../src/schema.ts";
 const date = "2026-10-19";
-const version = "1.0.0";
+const version = "1.1.0";
 const read = (p) =>
   JSON.parse(fs.readFileSync(p, "utf8").replace(/^\uFEFF/, ""));
-const batches = ["skin", "longevity", "mechanism"].map((x) =>
-  read(`research/${x}-research.json`),
-);
+const batches = [
+  "skin",
+  "longevity",
+  "mechanism",
+  "ecm-ccn1",
+  "ecm-col17",
+  "ecm-mmp1",
+].map((x) => read(`research/${x}-research.json`));
 const unique = (arr) => [...new Set(arr)];
 const idFor = (prefix, name) =>
   `${prefix}-${crypto.createHash("sha256").update(name.normalize("NFKC")).digest("hex").slice(0, 12)}`;
@@ -113,6 +118,7 @@ a.taxonomy = names.map((name, i) => ({
     "以 Cell 2023 工作框架为导航；跨分类主题归属不表示已经证明特定因果作用。",
   sourceId: "src-hallmarks",
   version: "Cell-2023-v1",
+  kind: "hallmark",
   color: [
     "#6b9980",
     "#87a588",
@@ -128,6 +134,17 @@ a.taxonomy = names.map((name, i) => ({
     "#91a385",
   ][i],
 }));
+const ecm = read("research/ecm-mechanism.json");
+const { symbols: ecmSymbols, existingEvidenceIds, ...ecmTaxonomy } = ecm;
+a.taxonomy.push({ ...ecmTaxonomy, evidenceIds: [] });
+a.sources.push(
+  source(
+    "src-ecm-framework",
+    "ECM 扩展导航：皮肤衰老的细胞—基质研究主题",
+    "https://pubmed.ncbi.nlm.nih.gov/29455303/",
+    "综述作为背景与追溯入口；ECM 为本站扩展主题，不属于 Cell 2023 原始12项标志。具体功能主张引用各原始实验。",
+  ),
+);
 const taxonomyId = (n) => `hallmark-${String(n).padStart(2, "0")}`;
 const access = (s) =>
   s === "abstract"
@@ -256,7 +273,10 @@ for (const r of allRecords) {
       r.orthologMapping ||
       "按标准符号汇总对应研究主题；原始物种及实际实验实体见每条证据。未完成全库同源数据库逐一映射，不把鼠基因名改写为人实验。",
     summary: r.summary,
-    taxonomyIds: unique((r.hallmarks || []).map(taxonomyId)),
+    taxonomyIds: unique([
+      ...(r.hallmarks || []).map(taxonomyId),
+      ...(ecmSymbols.includes(r.symbol) ? [ecm.id] : []),
+    ]),
     pathwayIds: [],
     skinClassification: skin(r),
     skinSummary: r.skinSummary,
@@ -348,10 +368,11 @@ for (const r of allRecords) {
       dose: e.dose || "当前未获取",
       time: e.time || "当前未获取",
       sampleSize: e.sampleSize || "当前未获取",
+      studyContext: e.studyContext || "aging_function",
     };
     a.evidence.push(ev);
     target.evidenceIds.push(eid);
-    for (const pid of phenotypeIds)
+    for (const pid of ev.studyContext === "aging_function" ? phenotypeIds : [])
       a.relations.push({
         id: `rel-${eid}-${pid}`,
         sourceId: id,
@@ -367,7 +388,9 @@ for (const r of allRecords) {
         label: "干预后表型（见条件）",
         direction: "undirected",
       });
-    for (const iid of interventionIds)
+    for (const iid of ev.studyContext === "aging_function"
+      ? interventionIds
+      : [])
       a.relations.push({
         id: `rel-${eid}-${iid}`,
         sourceId: iid,
@@ -398,7 +421,7 @@ for (const p of pathways) {
     name: p.name,
     summary: p.summary,
     memberIds: members.map((t) => t.id),
-    taxonomyIds: p.hallmarks.map(taxonomyId),
+    taxonomyIds: [...p.hallmarks.map(taxonomyId), ...(p.mechanismIds || [])],
     backgroundSourceIds: sourceIds,
     relationIds: [],
     mappingBasis:
@@ -515,6 +538,32 @@ a.relations.push({
   label: "磷酸化 T389 / T412",
   direction: "directed",
 });
+const ecmEntry = a.taxonomy.find((t) => t.id === ecm.id);
+ecmEntry.evidenceIds = a.evidence
+  .filter(
+    (e) =>
+      existingEvidenceIds.includes(e.id) ||
+      a.targets.some(
+        (t) =>
+          ["CCN1", "COL17A1", "MMP1"].includes(t.symbol) && t.id === e.targetId,
+      ),
+  )
+  .map((e) => e.id);
+for (const section of ecmEntry.sections) {
+  if (section.id === "ecm-basement-adhesion")
+    section.sourceIds = unique(
+      a.evidence
+        .filter((e) => e.targetId === "target-col17a1")
+        .map((e) => "source-" + e.publicationId),
+    );
+  if (section.id === "ecm-context")
+    section.sourceIds = unique([
+      ...section.sourceIds,
+      ...a.evidence
+        .filter((e) => e.targetId === "target-ccn1")
+        .map((e) => "source-" + e.publicationId),
+    ]);
+}
 a.manifest = {
   version,
   updated: date,
@@ -525,6 +574,12 @@ a.manifest = {
     complexes: a.complexes.length,
     pathways: a.pathways.length,
     evidence: a.evidence.length,
+    agingFunctionEvidence: a.evidence.filter(
+      (e) => e.studyContext === "aging_function",
+    ).length,
+    supplementaryEvidence: a.evidence.filter(
+      (e) => e.studyContext !== "aging_function",
+    ).length,
     publications: a.publications.length,
     originalPublications: a.publications.filter((p) => p.type === "original")
       .length,
@@ -535,12 +590,17 @@ a.manifest = {
       (r) => r.scope === "pathway_background",
     ).length,
     taxonomy: a.taxonomy.length,
-    coveredCategories: a.taxonomy.filter((h) =>
-      a.targets.some((t) => t.taxonomyIds.includes(h.id)),
+    hallmarks: a.taxonomy.filter((h) => h.kind === "hallmark").length,
+    extensionMechanisms: a.taxonomy.filter((h) => h.kind === "extension")
+      .length,
+    coveredCategories: a.taxonomy.filter(
+      (h) =>
+        h.kind === "hallmark" &&
+        a.targets.some((t) => t.taxonomyIds.includes(h.id)),
     ).length,
   },
   coverage:
-    "首批为目的性检索建立的核心样例库；完整建立 12 类导航，具体条目分布以实时统计为准。不是系统综述或完整抗衰靶点名录。",
+    "目的性检索建立的核心研究库；保留 Cell 2023 的12类标志，另设细胞外基质（ECM）扩展机制，分别统计。条目分布以实时数据为准，非系统综述或完整抗衰靶点名录。",
   gaps: [
     "微生物群失衡尚未完成核心靶点整理，不能据此断言无研究。",
     "尚缺系统性的人体干预证据、皮肤原位研究、剂量时程完整比较与多种族队列。",

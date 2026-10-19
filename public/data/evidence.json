@@ -30,6 +30,7 @@
     "locator": "Results: CRAT knockdown released mitochondrial DNA into cytosol ...; Figure 5a–e; Supplementary Figures S4, S5a–b; Figures 2–4 for core senescence/mitochondrial readouts",
     "accessScope": "合法开放全文（Europe PMC XML，已核对相关 Results 与图注）",
     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10652321/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-39ccf81464b0",
       "phenotype-69945c3efcef",
@@ -68,6 +69,7 @@
     "locator": "Results 3.6; Figure 6",
     "accessScope": "合法开放全文（Europe PMC XML，已核对相关 Results 与图注）",
     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10652321/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-ad8a411face9",
       "phenotype-ef3feefc7a26"
@@ -108,6 +110,7 @@
     "locator": "Results: FoxM1 repression dictates mitotic decline; FoxM1 induction rescues aging phenotypes; Figures 5–7",
     "accessScope": "合法开放全文（Europe PMC XML，已核对相关 Results 与图注）",
     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6053425/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-39ccf81464b0",
       "phenotype-884d9f222d66",
@@ -147,6 +150,7 @@
     "locator": "Results final subsection; Figure 4; Supplementary Figure 8",
     "accessScope": "合法开放全文（Europe PMC XML，已核对相关 Results 与图注）",
     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11937471/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-6226a7a1a188"
     ],
@@ -180,6 +184,7 @@
     "locator": "Results: p38MAPK activity is required for the SASP; Figure 1D",
     "accessScope": "PubMed元数据及PMC可检索原始全文片段（直接页面遇验证码，Europe PMC XML未提供）",
     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3102277/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-69945c3efcef"
     ],
@@ -215,6 +220,7 @@
     "locator": "Results 2.3; Figure 3; Tables S2–S4",
     "accessScope": "合法开放全文（Europe PMC XML，已核对相关 Results 与图注）",
     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4932541/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-aaf6b79138ad"
     ],
@@ -252,6 +258,7 @@
     "locator": "Methods clinical study; Results; Figures 1–3",
     "accessScope": "合法开放全文（Europe PMC XML，已核对相关 Results 与图注）",
     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6925069/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-b93d4c590de3"
     ],
@@ -289,6 +296,7 @@
     "locator": "Results 3.5–3.7; Figures 5–7",
     "accessScope": "合法开放全文（Europe PMC XML，已核对相关 Results 与图注）",
     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8836071/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-4ecf549f4e7d"
     ],
@@ -328,6 +336,7 @@
     "locator": "Results: ATM activation alleviates replicative senescence; Figure 1d–j; Figure 1 supplement 2",
     "accessScope": "合法开放全文（Europe PMC XML，已核对相关 Results 与图注）",
     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5957528/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-39ccf81464b0",
       "phenotype-743a9d827964"
@@ -369,6 +378,7 @@
     "locator": "Methods Cell culture; Results; Figures 1–3",
     "accessScope": "合法开放全文（Europe PMC XML，已核对相关 Results 与图注）",
     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6449716/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-39ccf81464b0",
       "phenotype-3dfc6fc14d00"
@@ -415,6 +425,7 @@
     "locator": "Results: ATM-SIRT6 axis regulates age-related metabolic reprogramming; ATM phosphorylates and stabilizes SIRT6. Figure 2j–l; Figure 2 supplement 2c/f–i; Figure 3e/h–n; Figure 3 supplement 1k; Figure 4; Methods In vitro kinase assay.",
     "accessScope": "合法开放全文（Europe PMC XML，已核对相关Results、Methods及图注）",
     "sourceUrl": "https://elifesciences.org/articles/34836",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-abc8b0dd9dac",
       "phenotype-f6652ed93da4"
@@ -452,6 +463,7 @@
     "locator": "PubMed / Europe PMC 摘要中 Here we show 开始的结果部分",
     "accessScope": "依据摘要",
     "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/22367546/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-0ce1e7dd2136"
     ],
@@ -489,6 +501,7 @@
     "locator": "正文 Results: SIRT6, but not SIRT1, regulates lifespan in C57BL/6JOlaHsd mice in both sexes；Fig. 1a；后续能量稳态结果",
     "accessScope": "全文（相关结果与图注）",
     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8163764/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-0ce1e7dd2136",
       "phenotype-0bf75e4e54d6",
@@ -529,6 +542,7 @@
     "locator": "摘要；Results: Increased median and maximum longevity；Methods: Mice and animal procedures；寿命图及催化失活对照段落",
     "accessScope": "全文（相关结果与图注）",
     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3494070/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-0ce1e7dd2136",
       "phenotype-97bd9d10909e"
@@ -569,6 +583,7 @@
     "locator": "PMC 正文 Fig. 1A–C、Table 1、Fig. 2；不使用 Fig. 3 中线虫部分",
     "accessScope": "全文（相关结果与图注）",
     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4954603/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-0ce1e7dd2136",
       "phenotype-0456f18d7839",
@@ -606,6 +621,7 @@
     "locator": "PubMed / Europe PMC 摘要：Here, using heterozygous knockout mice 开始的结果",
     "accessScope": "依据摘要",
     "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/12483226/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-0ce1e7dd2136"
     ],
@@ -643,6 +659,7 @@
     "locator": "PubMed / Europe PMC 摘要 However 开始的结果及末句",
     "accessScope": "依据摘要",
     "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/22132081/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-0ce1e7dd2136",
       "phenotype-df1f1493ff18",
@@ -681,6 +698,7 @@
     "locator": "PMC 正文 We previously generated independent transgenic lines 段落；Fig. 1A–D；table S1 被正文引用但本批未独立审阅",
     "accessScope": "全文（相关结果与图注）",
     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2536606/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-0ce1e7dd2136",
       "phenotype-0f96670f53fb"
@@ -717,6 +735,7 @@
     "locator": "正文 Results；Fig. 2A–G；讨论明确 Future studies will determine the effect of SIRT3 on lifespan",
     "accessScope": "全文（相关结果与图注）",
     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3582834/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-ef263b009bda"
     ],
@@ -754,6 +773,7 @@
     "locator": "正文 SIRT3 upregulation rescues functional defects of aged HSCs；Fig. 4A–F；Experimental procedures",
     "accessScope": "全文（相关结果与图注）",
     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3582834/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-ef263b009bda"
     ],
@@ -791,6 +811,7 @@
     "locator": "正文 spontaneous tumorigenesis / chronological aging 段落；Fig. 3b、Fig. 4；Table 1；Supplementary Fig. S3/S4 的结论由正文引用，未独立读取所有补充图",
     "accessScope": "全文（相关结果与图注）",
     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3707109/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-0ce1e7dd2136",
       "phenotype-97bd9d10909e",
@@ -831,6 +852,7 @@
     "locator": "Fig.4b–k；Extended Data Fig.10e；Methods: Mice",
     "accessScope": "全文（选择性阅读实验结果与相关图注）",
     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10412454/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-13499fe75c07",
       "phenotype-1568ea410bb0"
@@ -872,6 +894,7 @@
     "locator": "Fig.1g–i；Results首节；Fig.4b,g；Discussion",
     "accessScope": "全文（选择性阅读实验结果与相关图注）",
     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13577900/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-26d63b11adcc",
       "phenotype-020e1bb5ce1a",
@@ -913,6 +936,7 @@
     "locator": "Fig.1c–h、Fig.2a–c；Methods: Mice",
     "accessScope": "全文（选择性阅读实验结果与相关图注）",
     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10412454/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-bbb11c912de7",
       "phenotype-13499fe75c07",
@@ -951,6 +975,7 @@
     "locator": "Extended Data Fig.2f；Methods: Senescence induction and STING inhibitor treatments",
     "accessScope": "全文（选择性阅读实验结果与相关图注）",
     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10412454/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-c1aca853681a"
     ],
@@ -990,6 +1015,7 @@
     "locator": "PubMed Abstract；Fig.1、2、6、7图注",
     "accessScope": "摘要与图注",
     "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/24093676/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-13499fe75c07",
       "phenotype-bbb11c912de7",
@@ -1032,6 +1058,7 @@
     "locator": "Fig.1a–f；Fig.2；Fig.3m；Results与Methods: Mouse longevity study",
     "accessScope": "全文（选择性阅读实验结果与相关图注）",
     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3753544/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-a07d8600aaff",
       "phenotype-a10fd536393e",
@@ -1073,6 +1100,7 @@
     "locator": "Main；Fig.1–4；Author Correction PMID29921925（摘要）",
     "accessScope": "全文（选择性阅读实验结果与相关图注）",
     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5992097/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-a07d8600aaff",
       "phenotype-0256c86d1f24"
@@ -1112,6 +1140,7 @@
     "locator": "Fig.2C–E；Fig.5C–E；Results: CD38 regulates metabolic state by a SIRT3-dependent mechanism；Experimental Procedures: Animal Studies",
     "accessScope": "摘要与全文结果选段",
     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4911708/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-e89060bc58a5",
       "phenotype-ef8c4775c710"
@@ -1152,6 +1181,7 @@
     "locator": "Fig.2、Fig.3、Fig.5；Results: Inhibition of NF-κB reduces senescence in vitro and in vivo",
     "accessScope": "全文（选择性阅读实验结果与相关图注）",
     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3386805/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-03e5a97c28b4",
       "phenotype-588ce4fde329"
@@ -1192,6 +1222,7 @@
     "locator": "PubMed/Europe PMC Abstract",
     "accessScope": "摘要",
     "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/19779484/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-d8bad7dc2b24",
       "phenotype-9f69abb82003"
@@ -1230,6 +1261,7 @@
     "locator": "PubMed/Europe PMC Abstract",
     "accessScope": "摘要",
     "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/11780111/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-26d63b11adcc",
       "phenotype-af48fe820fb8"
@@ -1266,6 +1298,7 @@
     "locator": "PubMed/Europe PMC Abstract",
     "accessScope": "摘要",
     "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/12426394/",
+    "studyContext": "aging_function",
     "phenotypeIds": [
       "phenotype-63bf17c97ae9",
       "phenotype-1b91126a1d43"
@@ -1274,5 +1307,332 @@
     "dose": "不适用（遗传干预）",
     "time": "当前未获取",
     "sampleSize": "当前未获取"
+  },
+  {
+    "id": "ev-ccn1-replicative-ecm",
+    "targetId": "target-ccn1",
+    "publicationId": "pub-22566095",
+    "claim": "复制性衰老人真皮成纤维细胞中，CCN1敲低部分改善胶原合成/降解失衡与胶原纤维破坏。",
+    "evidenceType": [
+      "基因敲低"
+    ],
+    "species": [
+      "人（Homo sapiens）"
+    ],
+    "actualEntity": "人CCN1/CYR61",
+    "tissueCell": "原代人皮肤真皮成纤维细胞；胶原晶格培养",
+    "model": "复制性细胞衰老及其胶原ECM稳态异常",
+    "intervention": "在复制性衰老成纤维细胞中敲低升高的CCN1；摘要未注明所用具体敲低试剂。",
+    "result": "复制性衰老细胞中CCN1升高、I型前胶原降低且MMP1升高。CCN1敲低使I型前胶原及MMP1表达部分恢复；原子力显微镜观察表明胶原纤维碎裂和排列紊乱大幅减轻。",
+    "endpoints": [
+      "I型前胶原表达",
+      "MMP1表达",
+      "胶原晶格收缩/碎裂",
+      "原子力显微镜胶原纤维结构"
+    ],
+    "conditions": "复制性衰老的人真皮成纤维细胞体外体系；功能干预与ECM终点相匹配。",
+    "limitations": "本条目前仅核对摘要。不能据胶原稳态改善推断细胞周期停滞、SA-β-gal或细胞衰老被逆转；未核验人体CCN1敲低抗皱或自然皮肤老化逆转试验。",
+    "supportStatus": "支持",
+    "locator": "PubMed Abstract：CCN1 knockdown、type I procollagen/MMP-1及AFM相关结果；全文图号当前未获取。",
+    "accessScope": "PubMed摘要，全文仓储403未获取",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/22566095/",
+    "studyContext": "aging_function",
+    "phenotypeIds": [
+      "phenotype-0b7fc93e4419",
+      "phenotype-bdf49baf33b4",
+      "phenotype-7665a7a9a2ed"
+    ],
+    "interventionIds": [],
+    "dose": "当前未获取",
+    "time": "当前未获取",
+    "sampleSize": "当前未获取"
+  },
+  {
+    "id": "ev-ccn1-bj-senescence",
+    "targetId": "target-ccn1",
+    "publicationId": "pub-20526329",
+    "claim": "外源CCN1通过整合素α6β1/HSPG相关信号诱导人BJ成纤维细胞稳定衰老，伴SASP及ECM降解表型。",
+    "evidenceType": [
+      "重组蛋白处理",
+      "受体功能阻断",
+      "突变蛋白对照",
+      "下游基因敲低"
+    ],
+    "species": [
+      "人（Homo sapiens）"
+    ],
+    "actualEntity": "人CCN1蛋白；CCN1 DM受体结合位点突变体对照",
+    "tissueCell": "年轻人BJ皮肤成纤维细胞；IMR-90肺成纤维细胞为补充验证",
+    "model": "外源ECM相关信号诱导的早衰",
+    "intervention": "重组CCN1处理；DM突变蛋白、抗α6功能阻断抗体、可溶性肝素及竞争肽对照；NOX1/RAC1、p53或p16敲低检验条件依赖。",
+    "result": "CCN1使BrdU和Ki67下降、SA-β-gal及p53/p16升高；处理6天后去除CCN1并重铺，随后6天仍未恢复增殖。IL6/IL8/IL11和MMP1/MMP3升高，COL1A1降低。受体阻断与DM突变体支持α6β1/HSPG相关依赖；NOX1/RAC1敲低可缓解增殖停滞。",
+    "endpoints": [
+      "SA-β-gal",
+      "BrdU/Ki67",
+      "去除CCN1后增殖停滞持续",
+      "p53/p16",
+      "IL6/IL8/IL11",
+      "MMP1/MMP3及COL1A1"
+    ],
+    "conditions": "体外早衰诱导；细胞处于10%血清培养条件。CCN1促衰老，不等于普遍抗衰老靶点或推荐一律抑制CCN1。",
+    "limitations": "研究直接证明体外诱导稳定衰老，未证明抑制CCN1能逆转自然老化人体皮肤；NOX1/RAC1等依赖不构成CCN1与各节点直接结合证据。论文有Fig2a组标签勘误，已按出版商更正说明解释。",
+    "supportStatus": "支持",
+    "locator": "Results: CCN1 induces senescence in human fibroblasts through integrin signaling; Figures2b–k,3,4,5,6; Methods; Fig2a勘误DOI10.1038/ncb1210-1249",
+    "accessScope": "合法开放全文（Europe PMC XML，Results/Methods与图注）",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2919364/",
+    "studyContext": "aging_function",
+    "phenotypeIds": [
+      "phenotype-39ccf81464b0",
+      "phenotype-69945c3efcef",
+      "phenotype-cae55ba7e7e0",
+      "phenotype-0c7bbc5d4a1a"
+    ],
+    "interventionIds": [],
+    "dose": "已获取：主要Fig2为CCN1 2.5 μg/mL；Fig3功能抗体50 μg/mL、竞争肽0.5 mM、肝素1 mg/mL",
+    "time": "已获取：BrdU/Ki67为3天；SASP/ECM qPCR为6天；6天处理后去除再观察6天",
+    "sampleSize": "已获取：Fig2图注为三重复实验（mean±SD）；并非3位独立供者，供者数当前未获取"
+  },
+  {
+    "id": "ev-ccn1-wound-antifibrosis",
+    "targetId": "target-ccn1",
+    "publicationId": "pub-20526329",
+    "claim": "小鼠创面修复中CCN1依赖的肌成纤维细胞衰老限制过度胶原沉积；促衰老在此条件下有抗纤维化作用。",
+    "evidenceType": [
+      "基因敲入突变",
+      "局部重组蛋白救援"
+    ],
+    "species": [
+      "小鼠（Mus musculus）"
+    ],
+    "actualEntity": "小鼠Ccn1 DM敲入突变；局部补充纯化CCN1蛋白",
+    "tissueCell": "12周龄小鼠背部全层切除创面肉芽组织及其中肌成纤维细胞",
+    "model": "急性皮肤创面修复及纤维化；非自然衰老模型",
+    "intervention": "Ccn1 dm/dm（α6β1/HSPG结合位点突变）与WT比较；突变小鼠创面每日局部补充CCN1或PBS。",
+    "result": "突变小鼠创面SA-β-gal、p16/p53阳性细胞减少，胶原与羟脯氨酸增加。局部CCN1补充恢复创面SA-β-gal，增加Mmp2/3/9并降低Col1a1/Tgfb1和胶原沉积。",
+    "endpoints": [
+      "创面SA-β-gal",
+      "p16/p53与α-SMA共染",
+      "羟脯氨酸",
+      "Sirius red胶原染色",
+      "Mmp2/3/9、Col1a1、Tgfb1"
+    ],
+    "conditions": "6 mm皮肤全层切除创面；创后7–9天衰老细胞积累；纤维化可观察至21天。此处短期局部衰老参与修复、约束纤维化。",
+    "limitations": "创面闭合和抗纤维化与抗皮肤自然老化是不同终点；突变体改变特定受体结合位点，不是全基因敲除；不能将增加胶原或清除衰老细胞一概解释为有益。无人体疗效或寿命证据。",
+    "supportStatus": "支持",
+    "locator": "Figures1e–g,8a–h; Methods: Animals and cutaneous wound healing; Topical CCN1 treatment; hydroxyproline methods",
+    "accessScope": "合法开放全文（Europe PMC XML，Results/Methods与图注）",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2919364/",
+    "studyContext": "aging_function",
+    "phenotypeIds": [
+      "phenotype-3d0e86f9f3d7",
+      "phenotype-183ae1e6434b",
+      "phenotype-e8d22dc9d7a8"
+    ],
+    "interventionIds": [],
+    "dose": "已获取：CCN1 0.1 mg/mL，50 μL/次，即5 μg/创面/日；PBS对照",
+    "time": "已获取：每日给药；创后9天采集救援实验组织；羟脯氨酸观察5–21天",
+    "sampleSize": "已获取：Fig1 WT与DM每组n=5；Fig1g离体细胞n=3；Fig8f局部救援qPCR n=5；羟脯氨酸每基因型n=3。"
+  },
+  {
+    "id": "ev-col17a1-aged-maintenance",
+    "targetId": "target-col17a1",
+    "publicationId": "pub-30944469",
+    "claim": "维持COL17A1表达可减轻自然老龄小鼠的基底细胞微脱层与色素紊乱。",
+    "evidenceType": [
+      "转基因维持",
+      "自然老龄动物对照"
+    ],
+    "species": [
+      "小鼠（Mus musculus）"
+    ],
+    "actualEntity": "hCOL17A1转基因小鼠中的人COL17A1；内源小鼠Col17a1",
+    "tissueCell": "小鼠尾部鳞片区表皮基底细胞、半桥粒/基底膜界面",
+    "model": "自然老龄野生型与hCOL17A1转基因小鼠",
+    "intervention": "hCOL17A1转基因维持表达，与年龄相关野生型表型比较。",
+    "result": "老龄转基因组基底膜处微脱层较少，基底细胞形态与年龄相关色素分布得到维持。",
+    "endpoints": [
+      "TEM基底膜微脱层计数",
+      "基底细胞形态",
+      "尾皮肤色素紊乱"
+    ],
+    "conditions": "终点分属不同年龄与图组；不是成年晚期启动药物后的返老还童试验。",
+    "limitations": "转基因长期维持支持功能贡献；未证明老年开始干预即可逆转全部皮肤衰老，未测试人体疗效或寿命。",
+    "supportStatus": "支持",
+    "locator": "摘要；Extended Data Fig.7e–g、Fig.8o（已逐项核对公开图注）",
+    "accessScope": "Nature公开Extended Data图注与摘要；主体正文需订阅",
+    "sourceUrl": "https://www.nature.com/articles/s41586-019-1085-7",
+    "studyContext": "aging_function",
+    "phenotypeIds": [
+      "phenotype-480f9fa1624a",
+      "phenotype-0b5070d5bc9f",
+      "phenotype-82b0afefa6fa"
+    ],
+    "interventionIds": [],
+    "dose": "遗传维持表达；不适用药物剂量",
+    "time": "Fig.7g：野生型22月龄、转基因22–30月龄；Fig.8o含8周、18月、25月龄影像",
+    "sampleSize": "Fig.7g每组n=3；Fig.8o注明至少5次独立实验的代表图，不能据此推算每组动物数。"
+  },
+  {
+    "id": "ev-col17a1-human-3d",
+    "targetId": "target-col17a1",
+    "publicationId": "pub-30944469",
+    "claim": "COL17A1敲低影响人角质形成细胞在三维表皮中的基底层竞争保留。",
+    "evidenceType": [
+      "shRNA敲低",
+      "三维混合细胞竞争实验"
+    ],
+    "species": [
+      "人（Homo sapiens）"
+    ],
+    "actualEntity": "人COL17A1",
+    "tissueCell": "永生化HaCaT角质形成细胞三维重建表皮",
+    "model": "shCOL17A1标记细胞与亲本HaCaT混合培养",
+    "intervention": "将EmGFP标记的shCOL17A1或打乱对照细胞分别与亲本细胞按1:3、1:10混合。",
+    "result": "敲低细胞在混合体系中更易离开基底层；单独培养的增殖、凋亡频率未显示组间显著差异，提示竞争环境的重要性。",
+    "endpoints": [
+      "基底层EmGFP阳性细胞数量/比例",
+      "细胞脱层",
+      "PH3",
+      "CASP3"
+    ],
+    "conditions": "三维培养14天；具有邻近野生型细胞的竞争情境。",
+    "limitations": "永生化细胞的竞争机制；未直接测试人体皮肤老化、皱纹或细胞衰老清除，不能把基底层脱离等同senolysis。",
+    "supportStatus": "条件依赖",
+    "locator": "Extended Data Fig.6a–k，尤其6h、6j、6k",
+    "accessScope": "Nature公开Extended Data Fig.6图注；主体正文需订阅",
+    "sourceUrl": "https://www.nature.com/articles/s41586-019-1085-7",
+    "studyContext": "nonaging_support",
+    "phenotypeIds": [
+      "phenotype-2f8b0c6be1c3",
+      "phenotype-f0688e113551"
+    ],
+    "interventionIds": [],
+    "dose": "遗传敲低；混合比例1:3或1:10",
+    "time": "三维培养14天",
+    "sampleSize": "Fig.6h：对照10、敲低14张图像；6j：对照10、敲低8张图像。图像数不等于供者数。"
+  },
+  {
+    "id": "ev-col17a1-human-age-association",
+    "targetId": "target-col17a1",
+    "publicationId": "pub-30944469",
+    "claim": "老年人面部表皮COL17A1染色较年轻组降低。",
+    "evidenceType": [
+      "人组织横断面关联"
+    ],
+    "species": [
+      "人（Homo sapiens）"
+    ],
+    "actualEntity": "人COL17A1",
+    "tissueCell": "人面部皮肤表皮",
+    "model": "年轻与老年人组织比较",
+    "intervention": "无靶点干预；按年龄比较免疫组织化学。",
+    "result": "老年组COL17A1染色降低；同图注另报告年龄相关表皮变薄。",
+    "endpoints": [
+      "COL17A1免疫染色强度",
+      "表皮厚度"
+    ],
+    "conditions": "年轻22–33岁，老年74–80岁。",
+    "limitations": "小样本横断面关联，无法单独建立因果；未验证产品干预或临床抗皱。",
+    "supportStatus": "条件依赖",
+    "locator": "Extended Data Fig.1b–c、1i–j",
+    "accessScope": "Nature公开Extended Data Fig.1图注；主体正文需订阅",
+    "sourceUrl": "https://www.nature.com/articles/s41586-019-1085-7",
+    "studyContext": "observational",
+    "phenotypeIds": [
+      "phenotype-81424bf4be11",
+      "phenotype-89fa99918a31"
+    ],
+    "interventionIds": [],
+    "dose": "不适用：观察性组织比较",
+    "time": "横断面年龄分组，非随访",
+    "sampleSize": "COL17A1染色：年轻n=3、老年n=3；厚度：年轻n=3、老年n=4。"
+  },
+  {
+    "id": "ev-col17a1-compounds-wound",
+    "targetId": "target-col17a1",
+    "publicationId": "pub-30944469",
+    "claim": "Apocynin、Y-27632分别提高细胞COL17A1表达，并在年轻小鼠促进创伤修复；不能由此认定其直接靶向COL17A1或逆转自然衰老。",
+    "evidenceType": [
+      "化合物处理",
+      "蛋白表达读出",
+      "小鼠创伤修复"
+    ],
+    "species": [
+      "人（Homo sapiens）",
+      "小鼠（Mus musculus）"
+    ],
+    "actualEntity": "HaCaT中的人COL17A1蛋白读出；正常人表皮角质形成细胞；野生型小鼠创伤组织",
+    "tissueCell": "HaCaT、NHEKs及小鼠尾皮肤全层创伤",
+    "model": "细胞处理与9–11周龄野生型小鼠全层创伤；不同实验体系分别观察",
+    "intervention": "Apocynin或Y-27632分别与载体对照比较。",
+    "result": "两种处理提高HaCaT的COL17A1蛋白，部分克隆形成指标改善；小鼠未修复创伤面积减少。",
+    "endpoints": [
+      "COL17A1蛋白",
+      "NHEK克隆形成",
+      "未修复创伤面积"
+    ],
+    "conditions": "细胞与年轻小鼠创伤实验；不是老龄人体皮肤干预。",
+    "limitations": "表达变化为下游读出；已核对图注未提供COL17A1直接结合、或药物效应被COL17A1敲除阻断的证据。创伤修复不等于抗皱或自然衰老逆转。",
+    "supportStatus": "条件依赖",
+    "locator": "Extended Data Fig.9i–s",
+    "accessScope": "Nature公开Extended Data Fig.9图注；主体正文及剂量方法未获取",
+    "sourceUrl": "https://www.nature.com/articles/s41586-019-1085-7",
+    "studyContext": "nonaging_support",
+    "phenotypeIds": [
+      "phenotype-481d19f91033",
+      "phenotype-ab99622b5a32",
+      "phenotype-776d0951c0d8"
+    ],
+    "interventionIds": [],
+    "dose": "公开图注未给出，本批未获取",
+    "time": "小鼠9–11周龄；创伤观察D0、D14、D21；细胞处理时长本批未获取",
+    "sampleSize": "创伤组：载体n=9，apocynin n=4，Y-27632 n=4；NHEK克隆分析n=3孔，不能等同3名供者。"
+  },
+  {
+    "id": "ev-mmp1-mouse-ecm",
+    "targetId": "target-mmp1",
+    "publicationId": "pub-36914001",
+    "claim": "成纤维细胞选择性表达有催化活性的人MMP1，促进小鼠真皮胶原破坏和皮肤衰老相关组织表型。",
+    "evidenceType": [
+      "诱导性转基因表达",
+      "组织学与胶原定量",
+      "胶原酶活性与原子力显微镜"
+    ],
+    "species": [
+      "小鼠（Mus musculus）"
+    ],
+    "actualEntity": "人源有催化活性全长MMP1转基因，表达于小鼠真皮成纤维细胞；不是内源小鼠Mmp1a的单独干预",
+    "tissueCell": "C57BL/6背景Col1a2-CreER;CAG-LSL-hMMP1小鼠背部皮肤与真皮成纤维细胞",
+    "model": "他莫昔芬诱导成纤维细胞表达hMMP1的双转基因皮肤衰老相关模型",
+    "intervention": "Col1a2启动子/增强子驱动Cre-ERT2，诱导CAG-LSL-hMMP1表达；对照为同性别同龄同窝、含一个或不含转基因的小鼠，均按实验方案给予他莫昔芬。",
+    "result": "6月龄转基因小鼠相对同窝对照真皮厚度降低39%、Masson胶原纤维密度降低60%；原位酶谱显示胶原降解活性增强，AFM显示胶原纤维碎裂和排列紊乱。伴成纤维细胞收缩、胶原基因表达下降及IL-1β/IL-6增加。",
+    "endpoints": [
+      "真皮厚度（H&E/ImageJ）",
+      "胶原纤维密度（Masson/ImageJ）",
+      "胶原降解活性（原位酶谱）",
+      "胶原纤维结构（AFM）",
+      "成纤维细胞形态",
+      "胶原基因表达",
+      "IL-1β/IL-6"
+    ],
+    "conditions": "主体Results及Fig1b：1月龄开始他莫昔芬饲料，持续1个月，于6月龄分析背部皮肤；人皮肤代表性图像用于背景比较。",
+    "limitations": "遗传表达充分性证据，未验证药物抑制MMP1能逆转自然老化；未测整鼠寿命或SA-β-gal细胞衰老。论文另含DMBA/TPA乳头状瘤实验，该肿瘤结果未并入本条抗衰终点。原文对部分取材时间、AFM倍数及胶原基因图注有内部不一致，本条以主体Results/Fig1b的6月龄方案和Fig2厚度/胶原密度为核心，避免采用有歧义的AFM数值。",
+    "supportStatus": "支持",
+    "locator": "Results: Establishment of a humanized mouse model; Fibroblast-selective expression ... causes age-related dermal collagen alterations; Figures 1a–b, 2c–f, 3a–g; Methods: Histology, Zymography, AFM",
+    "accessScope": "合法公开作者全文（PMC HTML，Results、Figures 1–3图注与Methods已核对）",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11577279/",
+    "studyContext": "aging_function",
+    "phenotypeIds": [
+      "phenotype-5685c3df24f0",
+      "phenotype-2373163f4b00",
+      "phenotype-9cd8bf370739",
+      "phenotype-ad8a411face9"
+    ],
+    "interventionIds": [
+      "intervention-290668b3cd10"
+    ],
+    "dose": "已获取：他莫昔芬饲料400 mg/kg chow；为饲料含量，不是按体重给药剂量",
+    "time": "已获取：主体Results及Fig1b为1月龄开始诱导1个月，6月龄取材；另有图注时间表述不一致，未视为独立处理组",
+    "sampleSize": "已获取：Fig2厚度、Masson胶原、原位酶谱、AFM各每组n=5；Fig3形态每组n=6，细胞因子ELISA每组n=4；不将所有终点合并为同一n"
   }
 ]

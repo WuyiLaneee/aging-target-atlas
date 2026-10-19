@@ -1,0 +1,178 @@
+{
+  "publications": [
+    {
+      "id": "pub-30944469",
+      "title": "Stem cell competition orchestrates skin homeostasis and ageing.",
+      "authors": ["Liu N", "Matsumura H", "Kato T", "Ichinose S", "Takada A", "Namiki T", "Asakawa K", "Morinaga H", "Mohri Y", "De Arcangelis A", "Geroges-Labouesse E", "Nanba D", "Nishimura EK"],
+      "year": 2019,
+      "journal": "Nature",
+      "doi": "10.1038/s41586-019-1085-7",
+      "pmid": "30944469",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30944469/",
+      "accessScope": "PubMed/Europe PMC摘要与Nature公开Extended Data图注；主体正文需订阅，未按全文核验处理",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-10-19",
+      "correctionStatus": "已核对Europe PMC comments/corrections及Crossref relation/update-to，并检索题名+correction/retraction。Europe PMC仅列两篇Comment in（PMID30980033、31211989）；Crossref未见更正或撤稿关系。Comment in为评论，不能当作更正。非穷尽性撤稿审计。",
+      "sourcePlatforms": ["PubMed", "Europe PMC", "Nature", "Crossref", "OpenAlex"],
+      "full_text_status": "needs_institution",
+      "download_status": "not_requested"
+    }
+  ],
+  "records": [
+    {
+      "symbol": "COL17A1",
+      "chineseName": "XVII型胶原α1链",
+      "englishName": "collagen type XVII alpha 1 chain",
+      "entityType": "gene",
+      "aliases": ["BP180", "BPAG2", "BPA-2", "collagen XVII", "COL17"],
+      "externalIds": {
+        "hgnc": "HGNC:2194",
+        "ncbiGene": "1308"
+      },
+      "identitySourceUrl": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:2194",
+      "ncbiGeneUrl": "https://www.ncbi.nlm.nih.gov/gene/1308",
+      "identityVerified": true,
+      "summary": "半桥粒跨膜胶原，将表皮基底细胞锚定于基底膜；与真皮纤维状I型胶原不同。小鼠与人细胞实验将COL17A1丢失、干细胞竞争及皮肤老化相联系；转基因维持可减轻老龄鼠相关表型。尚非人体抗衰疗效结论。",
+      "hallmarks": [9, 10],
+      "pathwayNames": ["ECM—基底膜—半桥粒锚定", "COL17A1依赖的表皮干细胞竞争与维持"],
+      "skinClassification": "皮肤衰老实验",
+      "skinSummary": "自然老龄鼠转基因维持、HaCaT三维竞争模型及人皮肤年龄关联；化合物实验另为细胞与年轻小鼠创伤修复。",
+      "evidence": [
+        {
+          "id": "ev-col17a1-aged-maintenance",
+          "studyContext": "aging_function",
+          "publicationId": "pub-30944469",
+          "claim": "维持COL17A1表达可减轻自然老龄小鼠的基底细胞微脱层与色素紊乱。",
+          "evidenceType": ["转基因维持", "自然老龄动物对照"],
+          "species": ["Mus musculus"],
+          "actualEntity": "hCOL17A1转基因小鼠中的人COL17A1；内源小鼠Col17a1",
+          "tissueCell": "小鼠尾部鳞片区表皮基底细胞、半桥粒/基底膜界面",
+          "model": "自然老龄野生型与hCOL17A1转基因小鼠",
+          "intervention": "hCOL17A1转基因维持表达，与年龄相关野生型表型比较。",
+          "result": "老龄转基因组基底膜处微脱层较少，基底细胞形态与年龄相关色素分布得到维持。",
+          "endpoints": ["TEM基底膜微脱层计数", "基底细胞形态", "尾皮肤色素紊乱"],
+          "conditions": "终点分属不同年龄与图组；不是成年晚期启动药物后的返老还童试验。",
+          "limitations": "转基因长期维持支持功能贡献；未证明老年开始干预即可逆转全部皮肤衰老，未测试人体疗效或寿命。",
+          "supportStatus": "支持",
+          "locator": "摘要；Extended Data Fig.7e–g、Fig.8o（已逐项核对公开图注）",
+          "accessScope": "Nature公开Extended Data图注与摘要；主体正文需订阅",
+          "sourceUrl": "https://www.nature.com/articles/s41586-019-1085-7",
+          "phenotypes": ["表皮基底细胞微脱层", "年龄相关色素紊乱", "干细胞维持"],
+          "interventionName": null,
+          "dose": "遗传维持表达；不适用药物剂量",
+          "time": "Fig.7g：野生型22月龄、转基因22–30月龄；Fig.8o含8周、18月、25月龄影像",
+          "sampleSize": "Fig.7g每组n=3；Fig.8o注明至少5次独立实验的代表图，不能据此推算每组动物数。"
+        },
+        {
+          "id": "ev-col17a1-human-3d",
+          "studyContext": "nonaging_support",
+          "publicationId": "pub-30944469",
+          "claim": "COL17A1敲低影响人角质形成细胞在三维表皮中的基底层竞争保留。",
+          "evidenceType": ["shRNA敲低", "三维混合细胞竞争实验"],
+          "species": ["Homo sapiens"],
+          "actualEntity": "人COL17A1",
+          "tissueCell": "永生化HaCaT角质形成细胞三维重建表皮",
+          "model": "shCOL17A1标记细胞与亲本HaCaT混合培养",
+          "intervention": "将EmGFP标记的shCOL17A1或打乱对照细胞分别与亲本细胞按1:3、1:10混合。",
+          "result": "敲低细胞在混合体系中更易离开基底层；单独培养的增殖、凋亡频率未显示组间显著差异，提示竞争环境的重要性。",
+          "endpoints": ["基底层EmGFP阳性细胞数量/比例", "细胞脱层", "PH3", "CASP3"],
+          "conditions": "三维培养14天；具有邻近野生型细胞的竞争情境。",
+          "limitations": "永生化细胞的竞争机制；未直接测试人体皮肤老化、皱纹或细胞衰老清除，不能把基底层脱离等同senolysis。",
+          "supportStatus": "条件依赖",
+          "locator": "Extended Data Fig.6a–k，尤其6h、6j、6k",
+          "accessScope": "Nature公开Extended Data Fig.6图注；主体正文需订阅",
+          "sourceUrl": "https://www.nature.com/articles/s41586-019-1085-7",
+          "phenotypes": ["表皮细胞竞争", "表皮基底层保留"],
+          "interventionName": null,
+          "dose": "遗传敲低；混合比例1:3或1:10",
+          "time": "三维培养14天",
+          "sampleSize": "Fig.6h：对照10、敲低14张图像；6j：对照10、敲低8张图像。图像数不等于供者数。"
+        },
+        {
+          "id": "ev-col17a1-human-age-association",
+          "studyContext": "observational",
+          "publicationId": "pub-30944469",
+          "claim": "老年人面部表皮COL17A1染色较年轻组降低。",
+          "evidenceType": ["人组织横断面关联"],
+          "species": ["Homo sapiens"],
+          "actualEntity": "人COL17A1",
+          "tissueCell": "人面部皮肤表皮",
+          "model": "年轻与老年人组织比较",
+          "intervention": "无靶点干预；按年龄比较免疫组织化学。",
+          "result": "老年组COL17A1染色降低；同图注另报告年龄相关表皮变薄。",
+          "endpoints": ["COL17A1免疫染色强度", "表皮厚度"],
+          "conditions": "年轻22–33岁，老年74–80岁。",
+          "limitations": "小样本横断面关联，无法单独建立因果；未验证产品干预或临床抗皱。",
+          "supportStatus": "条件依赖",
+          "locator": "Extended Data Fig.1b–c、1i–j",
+          "accessScope": "Nature公开Extended Data Fig.1图注；主体正文需订阅",
+          "sourceUrl": "https://www.nature.com/articles/s41586-019-1085-7",
+          "phenotypes": ["皮肤年龄相关表达差异", "表皮变薄"],
+          "interventionName": null,
+          "dose": "不适用：观察性组织比较",
+          "time": "横断面年龄分组，非随访",
+          "sampleSize": "COL17A1染色：年轻n=3、老年n=3；厚度：年轻n=3、老年n=4。"
+        },
+        {
+          "id": "ev-col17a1-compounds-wound",
+          "studyContext": "nonaging_support",
+          "publicationId": "pub-30944469",
+          "claim": "Apocynin、Y-27632分别提高细胞COL17A1表达，并在年轻小鼠促进创伤修复；不能由此认定其直接靶向COL17A1或逆转自然衰老。",
+          "evidenceType": ["化合物处理", "蛋白表达读出", "小鼠创伤修复"],
+          "species": ["Homo sapiens", "Mus musculus"],
+          "actualEntity": "HaCaT中的人COL17A1蛋白读出；正常人表皮角质形成细胞；野生型小鼠创伤组织",
+          "tissueCell": "HaCaT、NHEKs及小鼠尾皮肤全层创伤",
+          "model": "细胞处理与9–11周龄野生型小鼠全层创伤；不同实验体系分别观察",
+          "intervention": "Apocynin或Y-27632分别与载体对照比较。",
+          "result": "两种处理提高HaCaT的COL17A1蛋白，部分克隆形成指标改善；小鼠未修复创伤面积减少。",
+          "endpoints": ["COL17A1蛋白", "NHEK克隆形成", "未修复创伤面积"],
+          "conditions": "细胞与年轻小鼠创伤实验；不是老龄人体皮肤干预。",
+          "limitations": "表达变化为下游读出；已核对图注未提供COL17A1直接结合、或药物效应被COL17A1敲除阻断的证据。创伤修复不等于抗皱或自然衰老逆转。",
+          "supportStatus": "条件依赖",
+          "locator": "Extended Data Fig.9i–s",
+          "accessScope": "Nature公开Extended Data Fig.9图注；主体正文及剂量方法未获取",
+          "sourceUrl": "https://www.nature.com/articles/s41586-019-1085-7",
+          "phenotypes": ["COL17A1表达", "角质形成细胞克隆形成", "皮肤创伤修复"],
+          "interventionName": null,
+          "dose": "公开图注未给出，本批未获取",
+          "time": "小鼠9–11周龄；创伤观察D0、D14、D21；细胞处理时长本批未获取",
+          "sampleSize": "创伤组：载体n=9，apocynin n=4，Y-27632 n=4；NHEK克隆分析n=3孔，不能等同3名供者。"
+        }
+      ]
+    }
+  ],
+  "searchLog": [
+    {
+      "date": "2026-10-19",
+      "source": "Web search：Nature/PubMed原始研究发现与定向图注检索",
+      "query": "site.nature.com Stem cell competition orchestrates skin homeostasis and ageing COL17A1；同题名+apocynin Y27632；site:nature.com/articles/s41586-019-1085-7 Fig.3/Fig.4/hCOL17A1/Extended Data Fig.8；同题名+correction retraction",
+      "results": [{"pmid": "30944469", "decision": "纳入", "reason": "小鼠转基因维持及人三维遗传敲低提供功能证据；公开图注可逐项核对"}],
+      "accessScope": "摘要及公开Extended Data 1/6/7/8/9图注；未访问付费主体全文",
+      "notes": "原始HTML与元数据存于research/raw/ecm（git忽略），发布文件只保留原创中文概述。主体正文存在Access options，未绕过访问控制。"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "Europe PMC REST core、PubMed、Crossref、OpenAlex、Unpaywall",
+      "query": "EXT_ID:30944469；DOI:10.1038/s41586-019-1085-7；Crossref relation/update-to；OpenAlex DOI精确查询；Unpaywall DOI精确查询",
+      "results": "PMID、DOI、作者、年份及Nature期刊相互核对；OpenAlex is_oa=false/oa_status=closed，无仓储全文；Unpaywall缺配置邮箱返回HTTP422，未据此虚构OA状态。",
+      "notes": "未下载PDF。Europe PMC commentCorrectionList两条均为Comment in；Crossref relation仅has-review，无已见更正/撤稿链接。"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "HGNC REST fetch/symbol与NCBI Gene",
+      "query": "COL17A1",
+      "results": "规范符号COL17A1，HGNC:2194、NCBI Gene:1308实核；确认其为半桥粒跨膜胶原，不与真皮I型纤维状胶原或口服/外用胶原成分混同。",
+      "notes": "身份响应col17-identity.json保存于research/raw/ecm。"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "Web search（PubMed/PMC原始文献发现）",
+      "query": "PTK2 focal adhesion kinase senescence skin fibroblast knockdown aging；PTK2 senescence fibroblasts knockdown；focal adhesion kinase senescence skin",
+      "results": [
+        {"decision": "本批不纳入PTK2核心", "reason": "初筛命中大量综述、相关磷酸化或上游CAV1/FN1干预；未完成PTK2特异遗传或匹配药理与明确衰老终点的充分原文核验。不是断言PTK2无衰老作用。"},
+        {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7202880/", "decision": "未作为本批PTK2证据", "reason": "Integrin-mediated adhesions in regulation of cellular senescence研究核心为βPIX/GIT及整合素内吞，不能将其遗传效应转记为PTK2特异作用。"}
+      ]
+    }
+  ]
+}

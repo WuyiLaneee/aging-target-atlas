@@ -193,6 +193,13 @@ export function EvidenceCard({ e }: { e: Evidence }) {
           <Tag key={x}>{x}</Tag>
         ))}
         <Tag>{e.accessScope}</Tag>
+        {e.studyContext !== "aging_function" && (
+          <Tag>
+            {e.studyContext === "observational"
+              ? "补充：观察关联"
+              : "补充：非衰老模型"}
+          </Tag>
+        )}
       </div>
       <dl className="evidence-grid">
         {[

@@ -7,5 +7,10 @@ const base =
 export default defineConfig({
   plugins: [react()],
   base,
+  server: {
+    watch: {
+      ignored: ["**/output/**", "**/research/raw/**", "**/.playwright-cli/**"],
+    },
+  },
   build: { chunkSizeWarningLimit: 700 },
 });

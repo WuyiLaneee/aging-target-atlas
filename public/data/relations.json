@@ -1216,6 +1216,294 @@
     "direction": "undirected"
   },
   {
+    "id": "rel-ev-ccn1-replicative-ecm-phenotype-0b7fc93e4419",
+    "sourceId": "target-ccn1",
+    "targetId": "phenotype-0b7fc93e4419",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-ccn1-replicative-ecm"
+    ],
+    "backgroundSourceIds": [],
+    "context": "复制性细胞衰老及其胶原ECM稳态异常；干预：在复制性衰老成纤维细胞中敲低升高的CCN1；摘要未注明所用具体敲低试剂。；结果：复制性衰老细胞中CCN1升高、I型前胶原降低且MMP1升高。CCN1敲低使I型前胶原及MMP1表达部分恢复；原子力显微镜观察表明胶原纤维碎裂和排列紊乱大幅减轻。；复制性衰老的人真皮成纤维细胞体外体系；功能干预与ECM终点相匹配。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-ccn1-replicative-ecm-phenotype-bdf49baf33b4",
+    "sourceId": "target-ccn1",
+    "targetId": "phenotype-bdf49baf33b4",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-ccn1-replicative-ecm"
+    ],
+    "backgroundSourceIds": [],
+    "context": "复制性细胞衰老及其胶原ECM稳态异常；干预：在复制性衰老成纤维细胞中敲低升高的CCN1；摘要未注明所用具体敲低试剂。；结果：复制性衰老细胞中CCN1升高、I型前胶原降低且MMP1升高。CCN1敲低使I型前胶原及MMP1表达部分恢复；原子力显微镜观察表明胶原纤维碎裂和排列紊乱大幅减轻。；复制性衰老的人真皮成纤维细胞体外体系；功能干预与ECM终点相匹配。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-ccn1-replicative-ecm-phenotype-7665a7a9a2ed",
+    "sourceId": "target-ccn1",
+    "targetId": "phenotype-7665a7a9a2ed",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-ccn1-replicative-ecm"
+    ],
+    "backgroundSourceIds": [],
+    "context": "复制性细胞衰老及其胶原ECM稳态异常；干预：在复制性衰老成纤维细胞中敲低升高的CCN1；摘要未注明所用具体敲低试剂。；结果：复制性衰老细胞中CCN1升高、I型前胶原降低且MMP1升高。CCN1敲低使I型前胶原及MMP1表达部分恢复；原子力显微镜观察表明胶原纤维碎裂和排列紊乱大幅减轻。；复制性衰老的人真皮成纤维细胞体外体系；功能干预与ECM终点相匹配。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-ccn1-bj-senescence-phenotype-39ccf81464b0",
+    "sourceId": "target-ccn1",
+    "targetId": "phenotype-39ccf81464b0",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-ccn1-bj-senescence"
+    ],
+    "backgroundSourceIds": [],
+    "context": "外源ECM相关信号诱导的早衰；干预：重组CCN1处理；DM突变蛋白、抗α6功能阻断抗体、可溶性肝素及竞争肽对照；NOX1/RAC1、p53或p16敲低检验条件依赖。；结果：CCN1使BrdU和Ki67下降、SA-β-gal及p53/p16升高；处理6天后去除CCN1并重铺，随后6天仍未恢复增殖。IL6/IL8/IL11和MMP1/MMP3升高，COL1A1降低。受体阻断与DM突变体支持α6β1/HSPG相关依赖；NOX1/RAC1敲低可缓解增殖停滞。；体外早衰诱导；细胞处于10%血清培养条件。CCN1促衰老，不等于普遍抗衰老靶点或推荐一律抑制CCN1。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-ccn1-bj-senescence-phenotype-69945c3efcef",
+    "sourceId": "target-ccn1",
+    "targetId": "phenotype-69945c3efcef",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-ccn1-bj-senescence"
+    ],
+    "backgroundSourceIds": [],
+    "context": "外源ECM相关信号诱导的早衰；干预：重组CCN1处理；DM突变蛋白、抗α6功能阻断抗体、可溶性肝素及竞争肽对照；NOX1/RAC1、p53或p16敲低检验条件依赖。；结果：CCN1使BrdU和Ki67下降、SA-β-gal及p53/p16升高；处理6天后去除CCN1并重铺，随后6天仍未恢复增殖。IL6/IL8/IL11和MMP1/MMP3升高，COL1A1降低。受体阻断与DM突变体支持α6β1/HSPG相关依赖；NOX1/RAC1敲低可缓解增殖停滞。；体外早衰诱导；细胞处于10%血清培养条件。CCN1促衰老，不等于普遍抗衰老靶点或推荐一律抑制CCN1。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-ccn1-bj-senescence-phenotype-cae55ba7e7e0",
+    "sourceId": "target-ccn1",
+    "targetId": "phenotype-cae55ba7e7e0",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-ccn1-bj-senescence"
+    ],
+    "backgroundSourceIds": [],
+    "context": "外源ECM相关信号诱导的早衰；干预：重组CCN1处理；DM突变蛋白、抗α6功能阻断抗体、可溶性肝素及竞争肽对照；NOX1/RAC1、p53或p16敲低检验条件依赖。；结果：CCN1使BrdU和Ki67下降、SA-β-gal及p53/p16升高；处理6天后去除CCN1并重铺，随后6天仍未恢复增殖。IL6/IL8/IL11和MMP1/MMP3升高，COL1A1降低。受体阻断与DM突变体支持α6β1/HSPG相关依赖；NOX1/RAC1敲低可缓解增殖停滞。；体外早衰诱导；细胞处于10%血清培养条件。CCN1促衰老，不等于普遍抗衰老靶点或推荐一律抑制CCN1。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-ccn1-bj-senescence-phenotype-0c7bbc5d4a1a",
+    "sourceId": "target-ccn1",
+    "targetId": "phenotype-0c7bbc5d4a1a",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-ccn1-bj-senescence"
+    ],
+    "backgroundSourceIds": [],
+    "context": "外源ECM相关信号诱导的早衰；干预：重组CCN1处理；DM突变蛋白、抗α6功能阻断抗体、可溶性肝素及竞争肽对照；NOX1/RAC1、p53或p16敲低检验条件依赖。；结果：CCN1使BrdU和Ki67下降、SA-β-gal及p53/p16升高；处理6天后去除CCN1并重铺，随后6天仍未恢复增殖。IL6/IL8/IL11和MMP1/MMP3升高，COL1A1降低。受体阻断与DM突变体支持α6β1/HSPG相关依赖；NOX1/RAC1敲低可缓解增殖停滞。；体外早衰诱导；细胞处于10%血清培养条件。CCN1促衰老，不等于普遍抗衰老靶点或推荐一律抑制CCN1。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-ccn1-wound-antifibrosis-phenotype-3d0e86f9f3d7",
+    "sourceId": "target-ccn1",
+    "targetId": "phenotype-3d0e86f9f3d7",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-ccn1-wound-antifibrosis"
+    ],
+    "backgroundSourceIds": [],
+    "context": "急性皮肤创面修复及纤维化；非自然衰老模型；干预：Ccn1 dm/dm（α6β1/HSPG结合位点突变）与WT比较；突变小鼠创面每日局部补充CCN1或PBS。；结果：突变小鼠创面SA-β-gal、p16/p53阳性细胞减少，胶原与羟脯氨酸增加。局部CCN1补充恢复创面SA-β-gal，增加Mmp2/3/9并降低Col1a1/Tgfb1和胶原沉积。；6 mm皮肤全层切除创面；创后7–9天衰老细胞积累；纤维化可观察至21天。此处短期局部衰老参与修复、约束纤维化。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-ccn1-wound-antifibrosis-phenotype-183ae1e6434b",
+    "sourceId": "target-ccn1",
+    "targetId": "phenotype-183ae1e6434b",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-ccn1-wound-antifibrosis"
+    ],
+    "backgroundSourceIds": [],
+    "context": "急性皮肤创面修复及纤维化；非自然衰老模型；干预：Ccn1 dm/dm（α6β1/HSPG结合位点突变）与WT比较；突变小鼠创面每日局部补充CCN1或PBS。；结果：突变小鼠创面SA-β-gal、p16/p53阳性细胞减少，胶原与羟脯氨酸增加。局部CCN1补充恢复创面SA-β-gal，增加Mmp2/3/9并降低Col1a1/Tgfb1和胶原沉积。；6 mm皮肤全层切除创面；创后7–9天衰老细胞积累；纤维化可观察至21天。此处短期局部衰老参与修复、约束纤维化。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-ccn1-wound-antifibrosis-phenotype-e8d22dc9d7a8",
+    "sourceId": "target-ccn1",
+    "targetId": "phenotype-e8d22dc9d7a8",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-ccn1-wound-antifibrosis"
+    ],
+    "backgroundSourceIds": [],
+    "context": "急性皮肤创面修复及纤维化；非自然衰老模型；干预：Ccn1 dm/dm（α6β1/HSPG结合位点突变）与WT比较；突变小鼠创面每日局部补充CCN1或PBS。；结果：突变小鼠创面SA-β-gal、p16/p53阳性细胞减少，胶原与羟脯氨酸增加。局部CCN1补充恢复创面SA-β-gal，增加Mmp2/3/9并降低Col1a1/Tgfb1和胶原沉积。；6 mm皮肤全层切除创面；创后7–9天衰老细胞积累；纤维化可观察至21天。此处短期局部衰老参与修复、约束纤维化。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-col17a1-aged-maintenance-phenotype-480f9fa1624a",
+    "sourceId": "target-col17a1",
+    "targetId": "phenotype-480f9fa1624a",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-col17a1-aged-maintenance"
+    ],
+    "backgroundSourceIds": [],
+    "context": "自然老龄野生型与hCOL17A1转基因小鼠；干预：hCOL17A1转基因维持表达，与年龄相关野生型表型比较。；结果：老龄转基因组基底膜处微脱层较少，基底细胞形态与年龄相关色素分布得到维持。；终点分属不同年龄与图组；不是成年晚期启动药物后的返老还童试验。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-col17a1-aged-maintenance-phenotype-0b5070d5bc9f",
+    "sourceId": "target-col17a1",
+    "targetId": "phenotype-0b5070d5bc9f",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-col17a1-aged-maintenance"
+    ],
+    "backgroundSourceIds": [],
+    "context": "自然老龄野生型与hCOL17A1转基因小鼠；干预：hCOL17A1转基因维持表达，与年龄相关野生型表型比较。；结果：老龄转基因组基底膜处微脱层较少，基底细胞形态与年龄相关色素分布得到维持。；终点分属不同年龄与图组；不是成年晚期启动药物后的返老还童试验。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-col17a1-aged-maintenance-phenotype-82b0afefa6fa",
+    "sourceId": "target-col17a1",
+    "targetId": "phenotype-82b0afefa6fa",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-col17a1-aged-maintenance"
+    ],
+    "backgroundSourceIds": [],
+    "context": "自然老龄野生型与hCOL17A1转基因小鼠；干预：hCOL17A1转基因维持表达，与年龄相关野生型表型比较。；结果：老龄转基因组基底膜处微脱层较少，基底细胞形态与年龄相关色素分布得到维持。；终点分属不同年龄与图组；不是成年晚期启动药物后的返老还童试验。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-mmp1-mouse-ecm-phenotype-5685c3df24f0",
+    "sourceId": "target-mmp1",
+    "targetId": "phenotype-5685c3df24f0",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-mmp1-mouse-ecm"
+    ],
+    "backgroundSourceIds": [],
+    "context": "他莫昔芬诱导成纤维细胞表达hMMP1的双转基因皮肤衰老相关模型；干预：Col1a2启动子/增强子驱动Cre-ERT2，诱导CAG-LSL-hMMP1表达；对照为同性别同龄同窝、含一个或不含转基因的小鼠，均按实验方案给予他莫昔芬。；结果：6月龄转基因小鼠相对同窝对照真皮厚度降低39%、Masson胶原纤维密度降低60%；原位酶谱显示胶原降解活性增强，AFM显示胶原纤维碎裂和排列紊乱。伴成纤维细胞收缩、胶原基因表达下降及IL-1β/IL-6增加。；主体Results及Fig1b：1月龄开始他莫昔芬饲料，持续1个月，于6月龄分析背部皮肤；人皮肤代表性图像用于背景比较。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-mmp1-mouse-ecm-phenotype-2373163f4b00",
+    "sourceId": "target-mmp1",
+    "targetId": "phenotype-2373163f4b00",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-mmp1-mouse-ecm"
+    ],
+    "backgroundSourceIds": [],
+    "context": "他莫昔芬诱导成纤维细胞表达hMMP1的双转基因皮肤衰老相关模型；干预：Col1a2启动子/增强子驱动Cre-ERT2，诱导CAG-LSL-hMMP1表达；对照为同性别同龄同窝、含一个或不含转基因的小鼠，均按实验方案给予他莫昔芬。；结果：6月龄转基因小鼠相对同窝对照真皮厚度降低39%、Masson胶原纤维密度降低60%；原位酶谱显示胶原降解活性增强，AFM显示胶原纤维碎裂和排列紊乱。伴成纤维细胞收缩、胶原基因表达下降及IL-1β/IL-6增加。；主体Results及Fig1b：1月龄开始他莫昔芬饲料，持续1个月，于6月龄分析背部皮肤；人皮肤代表性图像用于背景比较。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-mmp1-mouse-ecm-phenotype-9cd8bf370739",
+    "sourceId": "target-mmp1",
+    "targetId": "phenotype-9cd8bf370739",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-mmp1-mouse-ecm"
+    ],
+    "backgroundSourceIds": [],
+    "context": "他莫昔芬诱导成纤维细胞表达hMMP1的双转基因皮肤衰老相关模型；干预：Col1a2启动子/增强子驱动Cre-ERT2，诱导CAG-LSL-hMMP1表达；对照为同性别同龄同窝、含一个或不含转基因的小鼠，均按实验方案给予他莫昔芬。；结果：6月龄转基因小鼠相对同窝对照真皮厚度降低39%、Masson胶原纤维密度降低60%；原位酶谱显示胶原降解活性增强，AFM显示胶原纤维碎裂和排列紊乱。伴成纤维细胞收缩、胶原基因表达下降及IL-1β/IL-6增加。；主体Results及Fig1b：1月龄开始他莫昔芬饲料，持续1个月，于6月龄分析背部皮肤；人皮肤代表性图像用于背景比较。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-mmp1-mouse-ecm-phenotype-ad8a411face9",
+    "sourceId": "target-mmp1",
+    "targetId": "phenotype-ad8a411face9",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-mmp1-mouse-ecm"
+    ],
+    "backgroundSourceIds": [],
+    "context": "他莫昔芬诱导成纤维细胞表达hMMP1的双转基因皮肤衰老相关模型；干预：Col1a2启动子/增强子驱动Cre-ERT2，诱导CAG-LSL-hMMP1表达；对照为同性别同龄同窝、含一个或不含转基因的小鼠，均按实验方案给予他莫昔芬。；结果：6月龄转基因小鼠相对同窝对照真皮厚度降低39%、Masson胶原纤维密度降低60%；原位酶谱显示胶原降解活性增强，AFM显示胶原纤维碎裂和排列紊乱。伴成纤维细胞收缩、胶原基因表达下降及IL-1β/IL-6增加。；主体Results及Fig1b：1月龄开始他莫昔芬饲料，持续1个月，于6月龄分析背部皮肤；人皮肤代表性图像用于背景比较。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-mmp1-mouse-ecm-intervention-290668b3cd10",
+    "sourceId": "intervention-290668b3cd10",
+    "targetId": "target-mmp1",
+    "relationType": "indirect",
+    "polarity": "unknown",
+    "directness": "实验处理与该条目功能主张的关联；药理关联不自动证明直接结合或特异性。",
+    "evidenceIds": [
+      "ev-mmp1-mouse-ecm"
+    ],
+    "backgroundSourceIds": [],
+    "context": "Col1a2启动子/增强子驱动Cre-ERT2，诱导CAG-LSL-hMMP1表达；对照为同性别同龄同窝、含一个或不含转基因的小鼠，均按实验方案给予他莫昔芬。；他莫昔芬诱导成纤维细胞表达hMMP1的双转基因皮肤衰老相关模型；遗传表达充分性证据，未验证药物抑制MMP1能逆转自然老化；未测整鼠寿命或SA-β-gal细胞衰老。论文另含DMBA/TPA乳头状瘤实验，该肿瘤结果未并入本条抗衰终点。原文对部分取材时间、AFM倍数及胶原基因图注有内部不一致，本条以主体Results/Fig1b的6月龄方案和Fig2厚度/胶原密度为核心，避免采用有歧义的AFM数值。",
+    "scope": "aging_experiment",
+    "label": "药理 / 处理关联",
+    "direction": "undirected"
+  },
+  {
     "id": "rel-member-target-sirt1-pathway-nad",
     "sourceId": "target-sirt1",
     "targetId": "pathway-nad",
@@ -1767,6 +2055,87 @@
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-23375372"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-crat-pathway-ecm-remodeling",
+    "sourceId": "target-crat",
+    "targetId": "pathway-ecm-remodeling",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-37828898"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-mtor-pathway-ecm-remodeling",
+    "sourceId": "target-mtor",
+    "targetId": "pathway-ecm-remodeling",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-31761958"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-ccn1-pathway-ecm-remodeling",
+    "sourceId": "target-ccn1",
+    "targetId": "pathway-ecm-remodeling",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-22566095",
+      "source-pub-20526329"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-mmp1-pathway-ecm-remodeling",
+    "sourceId": "target-mmp1",
+    "targetId": "pathway-ecm-remodeling",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-36914001"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-col17a1-pathway-basement-adhesion",
+    "sourceId": "target-col17a1",
+    "targetId": "pathway-basement-adhesion",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-30944469"
     ],
     "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
     "scope": "pathway_background",

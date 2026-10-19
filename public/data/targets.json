@@ -28,12 +28,14 @@
       "hallmark-07",
       "hallmark-08",
       "hallmark-10",
-      "hallmark-11"
+      "hallmark-11",
+      "mechanism-ecm"
     ],
     "pathwayIds": [
       "pathway-cgas",
       "pathway-sasp",
-      "pathway-mito"
+      "pathway-mito",
+      "pathway-ecm-remodeling"
     ],
     "skinClassification": "skin_aging",
     "skinSummary": "人原代真皮成纤维细胞与小鼠条件敲除皮肤；人体老年皮肤表达差异为关联补充。",
@@ -173,10 +175,12 @@
     "summary": "人体小规模探索试验中，外用雷帕霉素降低皮肤p16蛋白并增加VII型胶原。该证据支持mTOR相关药理干预，不证明MTOR单基因必要性或长期人体抗衰效果。",
     "taxonomyIds": [
       "hallmark-06",
-      "hallmark-08"
+      "hallmark-08",
+      "mechanism-ecm"
     ],
     "pathwayIds": [
-      "pathway-mtor"
+      "pathway-mtor",
+      "pathway-ecm-remodeling"
     ],
     "skinClassification": "skin_aging",
     "skinSummary": "40岁以上成人双手背部位对照试验；退出和可分析组织样本限制明显。",
@@ -759,6 +763,139 @@
     "evidenceIds": [
       "ev-TP53-11780111",
       "ev-TP53-12426394"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-ccn1",
+    "name": "细胞通讯网络因子1（富含半胱氨酸蛋白61）",
+    "symbol": "CCN1",
+    "entityType": "gene_protein",
+    "aliases": [
+      "CYR61",
+      "GIG1",
+      "IGFBP10",
+      "IBP-10",
+      "IGFBP-10"
+    ],
+    "externalIds": [
+      {
+        "database": "HGNC",
+        "id": "HGNC:2654",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/3491",
+        "checkedDate": "2026-10-19"
+      },
+      {
+        "database": "NCBI Gene",
+        "id": "3491",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/3491",
+        "checkedDate": "2026-10-19"
+      }
+    ],
+    "members": [],
+    "orthologMapping": "按标准符号汇总对应研究主题；原始物种及实际实验实体见每条证据。未完成全库同源数据库逐一映射，不把鼠基因名改写为人实验。",
+    "summary": "CCN1是ECM相关的基质细胞调节蛋白，连接细胞黏附信号、细胞衰老与胶原重塑。复制性衰老人真皮成纤维细胞中敲低CCN1可部分改善胶原稳态，但未证明逆转细胞周期停滞；外源CCN1可诱导细胞衰老，而在小鼠创面修复中这种局部衰老有助于限制纤维化。",
+    "taxonomyIds": [
+      "hallmark-08",
+      "hallmark-10",
+      "mechanism-ecm"
+    ],
+    "pathwayIds": [
+      "pathway-ecm-remodeling"
+    ],
+    "skinClassification": "skin_aging",
+    "skinSummary": "有人真皮成纤维细胞复制性衰老的胶原功能证据；BJ细胞促衰老和小鼠创面抗纤维化属于另一条件，不代表人体抗皱或自然老化逆转。",
+    "evidenceIds": [
+      "ev-ccn1-replicative-ecm",
+      "ev-ccn1-bj-senescence",
+      "ev-ccn1-wound-antifibrosis"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-col17a1",
+    "name": "XVII型胶原α1链",
+    "symbol": "COL17A1",
+    "entityType": "gene_protein",
+    "aliases": [
+      "BP180",
+      "BPAG2",
+      "BPA-2",
+      "collagen XVII",
+      "COL17"
+    ],
+    "externalIds": [
+      {
+        "database": "HGNC",
+        "id": "HGNC:2194",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:2194",
+        "checkedDate": "2026-10-19"
+      },
+      {
+        "database": "NCBI Gene",
+        "id": "1308",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/1308",
+        "checkedDate": "2026-10-19"
+      }
+    ],
+    "members": [],
+    "orthologMapping": "按标准符号汇总对应研究主题；原始物种及实际实验实体见每条证据。未完成全库同源数据库逐一映射，不把鼠基因名改写为人实验。",
+    "summary": "半桥粒跨膜胶原，将表皮基底细胞锚定于基底膜；与真皮纤维状I型胶原不同。小鼠与人细胞实验将COL17A1丢失、干细胞竞争及皮肤老化相联系；转基因维持可减轻老龄鼠相关表型。尚非人体抗衰疗效结论。",
+    "taxonomyIds": [
+      "hallmark-09",
+      "hallmark-10",
+      "mechanism-ecm"
+    ],
+    "pathwayIds": [
+      "pathway-basement-adhesion"
+    ],
+    "skinClassification": "skin_aging",
+    "skinSummary": "自然老龄鼠转基因维持、HaCaT三维竞争模型及人皮肤年龄关联；化合物实验另为细胞与年轻小鼠创伤修复。",
+    "evidenceIds": [
+      "ev-col17a1-aged-maintenance",
+      "ev-col17a1-human-3d",
+      "ev-col17a1-human-age-association",
+      "ev-col17a1-compounds-wound"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-mmp1",
+    "name": "基质金属蛋白酶1",
+    "symbol": "MMP1",
+    "entityType": "gene_protein",
+    "aliases": [
+      "CLG"
+    ],
+    "externalIds": [
+      {
+        "database": "HGNC",
+        "id": "HGNC:7155",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:7155",
+        "checkedDate": "2026-10-19"
+      },
+      {
+        "database": "NCBI Gene",
+        "id": "4312",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/4312",
+        "checkedDate": "2026-10-19"
+      }
+    ],
+    "members": [],
+    "orthologMapping": "按标准符号汇总对应研究主题；原始物种及实际实验实体见每条证据。未完成全库同源数据库逐一映射，不把鼠基因名改写为人实验。",
+    "summary": "小鼠真皮成纤维细胞中诱导表达有催化活性的人MMP1，导致真皮胶原减少、碎裂与衰老相关组织表型，为MMP1参与ECM失衡提供遗传功能证据。尚不能据此认定抑制MMP1可延寿或改善人体外用抗衰功效。",
+    "taxonomyIds": [
+      "hallmark-10",
+      "hallmark-11",
+      "mechanism-ecm"
+    ],
+    "pathwayIds": [
+      "pathway-ecm-remodeling"
+    ],
+    "skinClassification": "skin_aging",
+    "skinSummary": "人MMP1转基因表达的小鼠真皮ECM功能实验；人青年/老年皮肤图像只作形态背景比较，未构成人体干预证据。",
+    "evidenceIds": [
+      "ev-mmp1-mouse-ecm"
     ],
     "status": "core"
   }

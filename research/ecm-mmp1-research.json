@@ -1,0 +1,77 @@
+{
+  "publications": [
+    {
+      "id": "pub-36914001",
+      "title": "Matrix Metalloproteinase-1 Expression in Fibroblasts Accelerates Dermal Aging and Promotes Papilloma Development in Mouse Skin.",
+      "authors": ["Quan T", "Xia W", "He T", "Calderone K", "Bou-Gharios G", "Voorhees JJ", "Dlugosz AA", "Fisher GJ"],
+      "year": 2023,
+      "journal": "The Journal of investigative dermatology",
+      "doi": "10.1016/j.jid.2023.02.028",
+      "pmid": "36914001",
+      "pmcid": "PMC11577279",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36914001/",
+      "accessScope": "合法公开作者全文（PMC HTML，已核对 Results、Figures 1–3 图注及相关 Methods；Europe PMC fullTextXML 返回500）",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-10-19",
+      "correctionStatus": "已核对Europe PMC出版类型/更正字段及Crossref relation，未见关联撤稿或更正标记；不是穷尽性撤稿审查。原文部分数字/基因名称存在内部不一致，未将这些歧义值用于本条核心结论。",
+      "sourcePlatforms": ["Europe PMC", "PMC", "Crossref", "OpenAlex"],
+      "full_text_status": "html_not_pdf",
+      "download_status": "not_requested"
+    }
+  ],
+  "records": [
+    {
+      "symbol": "MMP1",
+      "chineseName": "基质金属蛋白酶1",
+      "entityType": "gene",
+      "englishName": "matrix metallopeptidase 1",
+      "aliases": ["CLG"],
+      "externalIds": {"hgnc": "HGNC:7155", "ncbiGene": "4312"},
+      "identitySourceUrl": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:7155",
+      "ncbiGeneUrl": "https://www.ncbi.nlm.nih.gov/gene/4312",
+      "identityVerified": true,
+      "summary": "小鼠真皮成纤维细胞中诱导表达有催化活性的人MMP1，导致真皮胶原减少、碎裂与衰老相关组织表型，为MMP1参与ECM失衡提供遗传功能证据。尚不能据此认定抑制MMP1可延寿或改善人体外用抗衰功效。",
+      "hallmarks": [10, 11],
+      "pathwayNames": ["真皮胶原降解与ECM稳态", "细胞—基质相互作用"],
+      "skinClassification": "皮肤衰老实验",
+      "skinSummary": "人MMP1转基因表达的小鼠真皮ECM功能实验；人青年/老年皮肤图像只作形态背景比较，未构成人体干预证据。",
+      "evidence": [
+        {
+          "id": "ev-mmp1-mouse-ecm",
+          "publicationId": "pub-36914001",
+          "claim": "成纤维细胞选择性表达有催化活性的人MMP1，促进小鼠真皮胶原破坏和皮肤衰老相关组织表型。",
+          "evidenceType": ["诱导性转基因表达", "组织学与胶原定量", "胶原酶活性与原子力显微镜"],
+          "species": ["Mus musculus"],
+          "actualEntity": "人源有催化活性全长MMP1转基因，表达于小鼠真皮成纤维细胞；不是内源小鼠Mmp1a的单独干预",
+          "tissueCell": "C57BL/6背景Col1a2-CreER;CAG-LSL-hMMP1小鼠背部皮肤与真皮成纤维细胞",
+          "model": "他莫昔芬诱导成纤维细胞表达hMMP1的双转基因皮肤衰老相关模型",
+          "intervention": "Col1a2启动子/增强子驱动Cre-ERT2，诱导CAG-LSL-hMMP1表达；对照为同性别同龄同窝、含一个或不含转基因的小鼠，均按实验方案给予他莫昔芬。",
+          "result": "6月龄转基因小鼠相对同窝对照真皮厚度降低39%、Masson胶原纤维密度降低60%；原位酶谱显示胶原降解活性增强，AFM显示胶原纤维碎裂和排列紊乱。伴成纤维细胞收缩、胶原基因表达下降及IL-1β/IL-6增加。",
+          "endpoints": ["真皮厚度（H&E/ImageJ）", "胶原纤维密度（Masson/ImageJ）", "胶原降解活性（原位酶谱）", "胶原纤维结构（AFM）", "成纤维细胞形态", "胶原基因表达", "IL-1β/IL-6"],
+          "conditions": "主体Results及Fig1b：1月龄开始他莫昔芬饲料，持续1个月，于6月龄分析背部皮肤；人皮肤代表性图像用于背景比较。",
+          "limitations": "遗传表达充分性证据，未验证药物抑制MMP1能逆转自然老化；未测整鼠寿命或SA-β-gal细胞衰老。论文另含DMBA/TPA乳头状瘤实验，该肿瘤结果未并入本条抗衰终点。原文对部分取材时间、AFM倍数及胶原基因图注有内部不一致，本条以主体Results/Fig1b的6月龄方案和Fig2厚度/胶原密度为核心，避免采用有歧义的AFM数值。",
+          "supportStatus": "支持",
+          "locator": "Results: Establishment of a humanized mouse model; Fibroblast-selective expression ... causes age-related dermal collagen alterations; Figures 1a–b, 2c–f, 3a–g; Methods: Histology, Zymography, AFM",
+          "accessScope": "合法公开作者全文（PMC HTML，Results、Figures 1–3图注与Methods已核对）",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11577279/",
+          "phenotypes": ["真皮胶原密度降低", "胶原碎裂与结构紊乱", "真皮变薄", "皮肤衰老相关表型"],
+          "interventionName": "成纤维细胞选择性hMMP1表达",
+          "dose": "已获取：他莫昔芬饲料400 mg/kg chow；为饲料含量，不是按体重给药剂量",
+          "time": "已获取：主体Results及Fig1b为1月龄开始诱导1个月，6月龄取材；另有图注时间表述不一致，未视为独立处理组",
+          "sampleSize": "已获取：Fig2厚度、Masson胶原、原位酶谱、AFM各每组n=5；Fig3形态每组n=6，细胞因子ELISA每组n=4；不将所有终点合并为同一n"
+        }
+      ]
+    }
+  ],
+  "searchLog": [
+    {
+      "date": "2026-10-19",
+      "source": "Europe PMC REST core; PMC作者全文; Crossref; OpenAlex; HGNC REST",
+      "query": "EXT_ID:36914001 AND SRC:MED; DOI:10.1016/j.jid.2023.02.028; HGNC fetch/symbol/MMP1",
+      "results": [{"pmid": "36914001", "decision": "纳入", "reason": "原始人MMP1转基因表达小鼠实验，具真皮厚度与胶原密度定量及组织结构终点"}],
+      "accessScope": "PMC作者全文HTML已获取并核对相关Results/Fig1–3/Methods；Europe PMC全文XML500，直接PubMed页面不完整，书目依Europe PMC MED core与Crossref交叉核验。",
+      "notes": "原始响应在research/raw/ecm/（已被.gitignore忽略）。OpenAlex判为bronze OA、无独立PDF直链；Unpaywall请求已执行但无配置邮箱返回422，不虚构其OA判定。未下载PDF。HGNC官方响应确认MMP1/HGNC:7155/NCBI Gene4312与旧符号CLG。2015 PMID25724359未凭题名纳入本条。"
+    }
+  ]
+}
