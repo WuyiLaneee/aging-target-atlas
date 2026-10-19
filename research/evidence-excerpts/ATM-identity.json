@@ -1,0 +1,98 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 0
+  },
+  "response": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "agr": "HGNC:795",
+        "mane_select": [
+          "ENST00000675843.1",
+          "NM_000051.4"
+        ],
+        "refseq_accession": [
+          "NM_000051"
+        ],
+        "pubmed_id": [
+          7792600,
+          7545545,
+          8589678
+        ],
+        "locus_type": "gene with protein product",
+        "alias_name": [
+          "TEL1, telomere maintenance 1, homolog (S. cerevisiae)"
+        ],
+        "date_modified": "2023-07-17T00:00:00Z",
+        "alias_symbol": [
+          "TEL1",
+          "TELO1"
+        ],
+        "gencc": "HGNC:795",
+        "hgnc_id": "HGNC:795",
+        "prev_name": [
+          "ataxia telangiectasia mutated (includes complementation groups A, C and D)",
+          "ataxia telangiectasia mutated"
+        ],
+        "uniprot_ids": [
+          "Q13315"
+        ],
+        "cosmic": "ATM",
+        "location": "11q22.3",
+        "ucsc_id": "uc001pkb.1",
+        "rgd_id": [
+          "RGD:1593265"
+        ],
+        "name": "ATM serine/threonine kinase",
+        "uuid": "cc21c64a-f5b3-4128-8066-b295bdd342db",
+        "lsdb": [
+          "Ataxia Telangiectasia Mutated (ATM)|http://www.LOVD.nl/ATM",
+          "Global Variome shared LOVD|https://databases.lovd.nl/shared/genes/ATM",
+          "LRG_135|http://ftp.ebi.ac.uk/pub/databases/lrgex/LRG_135.xml"
+        ],
+        "omim_id": [
+          "607585"
+        ],
+        "iuphar": "HGNC:795",
+        "status": "Approved",
+        "vega_id": "OTTHUMG00000166480",
+        "gene_group_id": [
+          1492,
+          3631,
+          3643
+        ],
+        "orphanet": 121474,
+        "locus_group": "protein-coding gene",
+        "symbol": "ATM",
+        "entrez_id": "472",
+        "date_name_changed": "2014-06-17T00:00:00Z",
+        "date_approved_reserved": "1995-07-07T00:00:00Z",
+        "prev_symbol": [
+          "ATA",
+          "ATDC",
+          "ATC",
+          "ATD"
+        ],
+        "mgd_id": [
+          "MGI:107202"
+        ],
+        "ena": [
+          "AB209133"
+        ],
+        "gene_group": [
+          "Armadillo like helical domain containing",
+          "Phosphatidylinositol 3-kinase-related kinase family",
+          "BRCA1-associated genome surveillance complex"
+        ],
+        "ensembl_gene_id": "ENSG00000149311",
+        "ccds_id": [
+          "CCDS31669",
+          "CCDS86245"
+        ]
+      }
+    ]
+  }
+}

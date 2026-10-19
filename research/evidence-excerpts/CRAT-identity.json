@@ -1,0 +1,78 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 1
+  },
+  "response": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "locus_type": "gene with protein product",
+        "date_modified": "2023-03-15T00:00:00Z",
+        "refseq_accession": [
+          "NM_000755"
+        ],
+        "mane_select": [
+          "ENST00000318080.7",
+          "NM_000755.5"
+        ],
+        "agr": "HGNC:2342",
+        "pubmed_id": [
+          7829107
+        ],
+        "status": "Approved",
+        "name": "carnitine O-acetyltransferase",
+        "omim_id": [
+          "600184"
+        ],
+        "uuid": "212bf380-94ec-49c7-bbc7-07c8ed6d0bbf",
+        "location": "9q34.11",
+        "uniprot_ids": [
+          "P43155"
+        ],
+        "prev_name": [
+          "carnitine acetyltransferase"
+        ],
+        "rgd_id": [
+          "RGD:1303031"
+        ],
+        "ucsc_id": "uc004bxh.4",
+        "alias_symbol": [
+          "CAT1"
+        ],
+        "hgnc_id": "HGNC:2342",
+        "gencc": "HGNC:2342",
+        "symbol": "CRAT",
+        "orphanet": 470132,
+        "gene_group_id": [
+          3695
+        ],
+        "locus_group": "protein-coding gene",
+        "enzyme_id": [
+          "2.3.1.7"
+        ],
+        "vega_id": "OTTHUMG00000147343",
+        "ccds_id": [
+          "CCDS6919",
+          "CCDS94505",
+          "CCDS94506"
+        ],
+        "ensembl_gene_id": "ENSG00000095321",
+        "mgd_id": [
+          "MGI:109501"
+        ],
+        "gene_group": [
+          "Carnitine acyltransferases"
+        ],
+        "ena": [
+          "X78706"
+        ],
+        "date_name_changed": "2010-04-27T00:00:00Z",
+        "entrez_id": "1384",
+        "date_approved_reserved": "1994-07-04T00:00:00Z"
+      }
+    ]
+  }
+}

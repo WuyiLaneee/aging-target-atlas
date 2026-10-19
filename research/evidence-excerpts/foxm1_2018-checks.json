@@ -1,0 +1,112 @@
+{
+  "doi": "10.1038/s41467-018-05258-6",
+  "pmid": "30026603",
+  "date": "2026-10-19",
+  "publicationTypes": {
+    "pubType": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ]
+  },
+  "europePmcNotices": {
+    "commentCorrectionList": {
+      "commentCorrection": [
+        {
+          "source": "PPR",
+          "id": "PPR19083",
+          "type": "Preprint in",
+          "note": "CrossRef Pre-print loader",
+          "orderIn": 10002
+        }
+      ]
+    }
+  },
+  "openalex": {
+    "status": 200,
+    "id": "https://openalex.org/W2883525804",
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-018-05258-6.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "best_oa_location": {
+      "id": "doi:10.1038/s41467-018-05258-6",
+      "doi": "https://doi.org/10.1038/s41467-018-05258-6",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/s41467-018-05258-6",
+      "pdf_url": "https://www.nature.com/articles/s41467-018-05258-6.pdf",
+      "source": {
+        "id": "https://openalex.org/S64187185",
+        "display_name": "Nature Communications",
+        "issn_l": "2041-1723",
+        "issn": [
+          "2041-1723"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "dongbi-a",
+          "doyens",
+          "jufo-3",
+          "ki-jl-3",
+          "medline",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Nature Communications",
+      "raw_type": "journal-article"
+    }
+  },
+  "unpaywall": {
+    "status": 422,
+    "result": {
+      "HTTP_status_code": 422,
+      "error": true,
+      "message": "Email address required in API call, see http://unpaywall.org/products/api"
+    }
+  },
+  "crossref": {
+    "status": 200,
+    "DOI": "10.1038/s41467-018-05258-6",
+    "title": [
+      "FoxM1 repression during human aging leads to mitotic decline and aneuploidy-driven full senescence"
+    ],
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.1101/261008",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "update-to": null,
+    "updated-by": null
+  }
+}

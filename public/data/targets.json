@@ -1,0 +1,765 @@
+[
+  {
+    "id": "target-crat",
+    "name": "肉碱乙酰转移酶",
+    "symbol": "CRAT",
+    "entityType": "gene_protein",
+    "aliases": [
+      "CAT1"
+    ],
+    "externalIds": [
+      {
+        "database": "HGNC",
+        "id": "HGNC:2342",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:2342",
+        "checkedDate": "2026-10-19"
+      },
+      {
+        "database": "NCBI Gene",
+        "id": "1384",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/1384",
+        "checkedDate": "2026-10-19"
+      }
+    ],
+    "members": [],
+    "orthologMapping": "按标准符号汇总对应研究主题；原始物种及实际实验实体见每条证据。未完成全库同源数据库逐一映射，不把鼠基因名改写为人实验。",
+    "summary": "人真皮成纤维细胞中，CRAT缺失引起线粒体异常、细胞衰老及分泌表型；小鼠成纤维细胞条件敲除提供皮肤组织功能证据。尚无人体CRAT恢复干预试验。",
+    "taxonomyIds": [
+      "hallmark-07",
+      "hallmark-08",
+      "hallmark-10",
+      "hallmark-11"
+    ],
+    "pathwayIds": [
+      "pathway-cgas",
+      "pathway-sasp",
+      "pathway-mito"
+    ],
+    "skinClassification": "skin_aging",
+    "skinSummary": "人原代真皮成纤维细胞与小鼠条件敲除皮肤；人体老年皮肤表达差异为关联补充。",
+    "evidenceIds": [
+      "ev-crat-hdf",
+      "ev-crat-mouse"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-foxm1",
+    "name": "叉头框蛋白M1",
+    "symbol": "FOXM1",
+    "entityType": "gene_protein",
+    "aliases": [
+      "HFH-11",
+      "trident",
+      "HNF-3",
+      "INS-1",
+      "MPP2",
+      "MPHOSPH2",
+      "TGT3",
+      "FKHL16"
+    ],
+    "externalIds": [
+      {
+        "database": "HGNC",
+        "id": "HGNC:3818",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:3818",
+        "checkedDate": "2026-10-19"
+      },
+      {
+        "database": "NCBI Gene",
+        "id": "2305",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/2305",
+        "checkedDate": "2026-10-19"
+      }
+    ],
+    "members": [],
+    "orthologMapping": "按标准符号汇总对应研究主题；原始物种及实际实验实体见每条证据。未完成全库同源数据库逐一映射，不把鼠基因名改写为人实验。",
+    "summary": "在年轻与老年人真皮成纤维细胞中双向遗传干预，将FOXM1水平与有丝分裂质量、非整倍体和细胞衰老联系起来；2025年研究补充年龄相关染色质调控。",
+    "taxonomyIds": [
+      "hallmark-01",
+      "hallmark-03",
+      "hallmark-08"
+    ],
+    "pathwayIds": [
+      "pathway-mitosis",
+      "pathway-chromatin"
+    ],
+    "skinClassification": "skin_aging",
+    "skinSummary": "低传代人真皮成纤维细胞，包含自然年龄和HGPS模型；不等同于人体皮肤临床获益。",
+    "evidenceIds": [
+      "ev-foxm1-gene",
+      "ev-foxm1-chromatin"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-mapk14",
+    "name": "丝裂原活化蛋白激酶14（p38α）",
+    "symbol": "MAPK14",
+    "entityType": "gene_protein",
+    "aliases": [
+      "p38alpha",
+      "PRKM14",
+      "p38",
+      "Mxi2",
+      "PRKM15",
+      "CSPB1",
+      "CSBP1",
+      "CSBP2"
+    ],
+    "externalIds": [
+      {
+        "database": "HGNC",
+        "id": "HGNC:6876",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:6876",
+        "checkedDate": "2026-10-19"
+      },
+      {
+        "database": "NCBI Gene",
+        "id": "1432",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/1432",
+        "checkedDate": "2026-10-19"
+      }
+    ],
+    "members": [],
+    "orthologMapping": "按标准符号汇总对应研究主题；原始物种及实际实验实体见每条证据。未完成全库同源数据库逐一映射，不把鼠基因名改写为人实验。",
+    "summary": "p38α特异shRNA在衰老成纤维细胞中降低IL-6分泌，支持MAPK14参与SASP调控。多种p38家族抑制剂的复制寿命实验为补充，不能全部归于MAPK14特异作用。",
+    "taxonomyIds": [
+      "hallmark-08",
+      "hallmark-10",
+      "hallmark-11"
+    ],
+    "pathwayIds": [
+      "pathway-sasp"
+    ],
+    "skinClassification": "skin_aging",
+    "skinSummary": "WS皮肤成纤维细胞有家族药理实验；核心p38α遗传实验使用HCA2正常人纤维细胞，当前原始片段未核实组织来源，不作完整皮肤证据归属。 核心 HCA2 来源未实核；皮肤归类依据另篇已核对的老年 / Werner 综合征真皮成纤维细胞衰老研究，不能把全部实验称作皮肤特异。",
+    "evidenceIds": [
+      "ev-mapk14-alpha",
+      "ev-mapk14-family-drug"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-mtor",
+    "name": "雷帕霉素机制靶蛋白激酶",
+    "symbol": "MTOR",
+    "entityType": "gene_protein",
+    "aliases": [
+      "mTOR",
+      "RAFT1",
+      "RAPT1",
+      "FLJ44809",
+      "FRAP",
+      "FRAP2",
+      "FRAP1"
+    ],
+    "externalIds": [
+      {
+        "database": "HGNC",
+        "id": "HGNC:3942",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:3942",
+        "checkedDate": "2026-10-19"
+      },
+      {
+        "database": "NCBI Gene",
+        "id": "2475",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/2475",
+        "checkedDate": "2026-10-19"
+      }
+    ],
+    "members": [],
+    "orthologMapping": "按标准符号汇总对应研究主题；原始物种及实际实验实体见每条证据。未完成全库同源数据库逐一映射，不把鼠基因名改写为人实验。",
+    "summary": "人体小规模探索试验中，外用雷帕霉素降低皮肤p16蛋白并增加VII型胶原。该证据支持mTOR相关药理干预，不证明MTOR单基因必要性或长期人体抗衰效果。",
+    "taxonomyIds": [
+      "hallmark-06",
+      "hallmark-08"
+    ],
+    "pathwayIds": [
+      "pathway-mtor"
+    ],
+    "skinClassification": "skin_aging",
+    "skinSummary": "40岁以上成人双手背部位对照试验；退出和可分析组织样本限制明显。",
+    "evidenceIds": [
+      "ev-mtor-human-skin"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-sirt1",
+    "name": "沉默信息调节因子1",
+    "symbol": "SIRT1",
+    "entityType": "gene_protein",
+    "aliases": [
+      "SIR2L1"
+    ],
+    "externalIds": [
+      {
+        "database": "HGNC",
+        "id": "HGNC:14929",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:14929",
+        "checkedDate": "2026-10-19"
+      },
+      {
+        "database": "NCBI Gene",
+        "id": "23411",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/23411",
+        "checkedDate": "2026-10-19"
+      }
+    ],
+    "members": [],
+    "orthologMapping": "按标准符号汇总对应研究主题；原始物种及实际实验实体见每条证据。未完成全库同源数据库逐一映射，不把鼠基因名改写为人实验。",
+    "summary": "H2O2应激性衰老的HS68人真皮成纤维细胞中，敲低SIRT1削弱高良姜素降低SA-β-gal阳性细胞的作用，提供靶点依赖证据；不等同于药物直接结合。",
+    "taxonomyIds": [
+      "hallmark-08",
+      "hallmark-07"
+    ],
+    "pathwayIds": [
+      "pathway-nad",
+      "pathway-mito"
+    ],
+    "skinClassification": "skin_aging",
+    "skinSummary": "HS68人真皮成纤维细胞应激衰老；同篇UVB小鼠结果属原料补充，不能替代小鼠Sirt1依赖验证。",
+    "evidenceIds": [
+      "ev-sirt1-dependency"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-atm",
+    "name": "ATM丝氨酸/苏氨酸蛋白激酶",
+    "symbol": "ATM",
+    "entityType": "gene_protein",
+    "aliases": [
+      "TEL1",
+      "TELO1",
+      "ATA",
+      "ATDC",
+      "ATC",
+      "ATD"
+    ],
+    "externalIds": [
+      {
+        "database": "HGNC",
+        "id": "HGNC:795",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:795",
+        "checkedDate": "2026-10-19"
+      },
+      {
+        "database": "NCBI Gene",
+        "id": "472",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/472",
+        "checkedDate": "2026-10-19"
+      }
+    ],
+    "members": [],
+    "orthologMapping": "按标准符号汇总对应研究主题；原始物种及实际实验实体见每条证据。未完成全库同源数据库逐一映射，不把鼠基因名改写为人实验。",
+    "summary": "ATM的衰老效应具有实验条件依赖性：正常皮肤成纤维细胞中敲低ATM加重衰老，而已衰老早老症成纤维细胞中ATM抑制剂改善部分指标。两者按模型并列保留。",
+    "taxonomyIds": [
+      "hallmark-01",
+      "hallmark-08",
+      "hallmark-07"
+    ],
+    "pathwayIds": [
+      "pathway-nad",
+      "pathway-dna"
+    ],
+    "skinClassification": "skin_aging",
+    "skinSummary": "正常人皮肤成纤维细胞及HGPS/WS皮肤成纤维细胞；药理方向不能跨模型统一。",
+    "evidenceIds": [
+      "ev-atm-knockdown",
+      "ev-atm-inhib-progeria",
+      "ev-atm-sirt6-mechanism"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-sirt6",
+    "name": "沉默信息调节因子 6",
+    "symbol": "SIRT6",
+    "entityType": "gene_protein",
+    "aliases": [
+      "Sirtuin 6"
+    ],
+    "externalIds": [],
+    "members": [],
+    "orthologMapping": "按标准符号汇总对应研究主题；原始物种及实际实验实体见每条证据。未完成全库同源数据库逐一映射，不把鼠基因名改写为人实验。",
+    "summary": "烟酰胺腺嘌呤二核苷酸（NAD⁺）依赖的去酰化酶。转基因研究支持其在特定小鼠背景下调节寿命和老年能量稳态；不同研究的性别效应并不相同。",
+    "taxonomyIds": [
+      "hallmark-03",
+      "hallmark-06"
+    ],
+    "pathwayIds": [
+      "pathway-nad",
+      "pathway-igf",
+      "pathway-chromatin"
+    ],
+    "skinClassification": "other_tissue",
+    "skinSummary": "本条所收录的是整鼠寿命、肝脏代谢及体能研究；本批未核验直接皮肤衰老功能实验。",
+    "evidenceIds": [
+      "ev-sirt6-1",
+      "ev-sirt6-2"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-tert",
+    "name": "端粒酶逆转录酶",
+    "symbol": "TERT",
+    "entityType": "gene_protein",
+    "aliases": [
+      "Telomerase reverse transcriptase"
+    ],
+    "externalIds": [],
+    "members": [],
+    "orthologMapping": "按标准符号汇总对应研究主题；原始物种及实际实验实体见每条证据。未完成全库同源数据库逐一映射，不把鼠基因名改写为人实验。",
+    "summary": "端粒酶催化亚基。成年及老年小鼠 AAV9 递送 mTERT 的研究观察到寿命与部分年龄相关功能改善，且依赖其催化活性。",
+    "taxonomyIds": [
+      "hallmark-02"
+    ],
+    "pathwayIds": [
+      "pathway-telomere"
+    ],
+    "skinClassification": "other_tissue",
+    "skinSummary": "本条关注小鼠生理衰老、骨代谢及神经肌肉功能；未据此推定人体或皮肤外用功效。",
+    "evidenceIds": [
+      "ev-tert-1"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-rps6kb1",
+    "name": "核糖体蛋白 S6 激酶 1",
+    "symbol": "RPS6KB1",
+    "entityType": "gene_protein",
+    "aliases": [
+      "S6K1",
+      "p70S6K"
+    ],
+    "externalIds": [],
+    "members": [],
+    "orthologMapping": "按标准符号汇总对应研究主题；原始物种及实际实验实体见每条证据。未完成全库同源数据库逐一映射，不把鼠基因名改写为人实验。",
+    "summary": "营养感知 mTOR 信号的下游激酶。全身敲除研究显示雌性小鼠寿命与多项老年功能改善，雄性寿命未显著延长。",
+    "taxonomyIds": [
+      "hallmark-06"
+    ],
+    "pathwayIds": [
+      "pathway-mtor"
+    ],
+    "skinClassification": "other_tissue",
+    "skinSummary": "本批证据涉及整鼠寿命、骨骼、免疫和运动功能；未核验皮肤衰老实验。",
+    "evidenceIds": [
+      "ev-rps6kb1-1"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-igf1r",
+    "name": "胰岛素样生长因子 1 受体",
+    "symbol": "IGF1R",
+    "entityType": "gene_protein",
+    "aliases": [
+      "IGF-1R",
+      "IGF-I receptor"
+    ],
+    "externalIds": [],
+    "members": [],
+    "orthologMapping": "按标准符号汇总对应研究主题；原始物种及实际实验实体见每条证据。未完成全库同源数据库逐一映射，不把鼠基因名改写为人实验。",
+    "summary": "胰岛素样生长因子受体。杂合缺失对寿命的影响具有性别及遗传背景依赖性；早期研究与后续研究的效应量和老年病理结论并不一致。",
+    "taxonomyIds": [
+      "hallmark-06"
+    ],
+    "pathwayIds": [
+      "pathway-igf"
+    ],
+    "skinClassification": "other_tissue",
+    "skinSummary": "本条为小鼠寿命与末期病理证据，未评估直接皮肤衰老功效。",
+    "evidenceIds": [
+      "ev-igf1r-1",
+      "ev-igf1r-2"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-kl",
+    "name": "克洛素（α-Klotho）",
+    "symbol": "KL",
+    "entityType": "gene_protein",
+    "aliases": [
+      "Klotho",
+      "α-Klotho"
+    ],
+    "externalIds": [],
+    "members": [],
+    "orthologMapping": "按标准符号汇总对应研究主题；原始物种及实际实验实体见每条证据。未完成全库同源数据库逐一映射，不把鼠基因名改写为人实验。",
+    "summary": "具有跨膜与可溶性形式的 Klotho 蛋白。转基因过表达研究支持在特定小鼠背景下延长寿命，并报告生殖相关代价。",
+    "taxonomyIds": [
+      "hallmark-06",
+      "hallmark-10"
+    ],
+    "pathwayIds": [
+      "pathway-igf"
+    ],
+    "skinClassification": "other_tissue",
+    "skinSummary": "本条依据整鼠寿命和内分泌实验；未把寿命结果转写成直接皮肤衰老功效。",
+    "evidenceIds": [
+      "ev-kl-1"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-sirt3",
+    "name": "沉默信息调节因子 3",
+    "symbol": "SIRT3",
+    "entityType": "gene_protein",
+    "aliases": [
+      "Sirtuin 3"
+    ],
+    "externalIds": [],
+    "members": [],
+    "orthologMapping": "按标准符号汇总对应研究主题；原始物种及实际实验实体见每条证据。未完成全库同源数据库逐一映射，不把鼠基因名改写为人实验。",
+    "summary": "线粒体 NAD⁺ 依赖去乙酰化酶。老龄小鼠造血干细胞中，遗传实验支持其维持再生功能；这与整鼠寿命延长是不同终点。",
+    "taxonomyIds": [
+      "hallmark-07",
+      "hallmark-09"
+    ],
+    "pathwayIds": [
+      "pathway-nad",
+      "pathway-mito",
+      "pathway-hsc"
+    ],
+    "skinClassification": "other_tissue",
+    "skinSummary": "核心证据来自骨髓造血干/祖细胞和移植再建，不是皮肤干细胞或皮肤抗衰实验。",
+    "evidenceIds": [
+      "ev-sirt3-1",
+      "ev-sirt3-2"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-bub1b",
+    "name": "有丝分裂检查点蛋白 BubR1",
+    "symbol": "BUB1B",
+    "entityType": "gene_protein",
+    "aliases": [
+      "BUBR1",
+      "BubR1"
+    ],
+    "externalIds": [],
+    "members": [],
+    "orthologMapping": "按标准符号汇总对应研究主题；原始物种及实际实验实体见每条证据。未完成全库同源数据库逐一映射，不把鼠基因名改写为人实验。",
+    "summary": "维持染色体分离准确性的有丝分裂调节蛋白。高表达转基因小鼠研究显示寿命延长及部分组织衰退延缓，但效应并非覆盖全部组织或老年表型。",
+    "taxonomyIds": [
+      "hallmark-01"
+    ],
+    "pathwayIds": [
+      "pathway-mitosis"
+    ],
+    "skinClassification": "other_tissue",
+    "skinSummary": "本批收录寿命、心肌及骨骼肌等老年终点。文中虽另含皮肤肿瘤实验，该部分不能改写为皮肤老化或化妆品功效。",
+    "evidenceIds": [
+      "ev-bub1b-1"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-cgas",
+    "name": "环GMP-AMP合成酶",
+    "symbol": "CGAS",
+    "entityType": "gene_protein",
+    "aliases": [
+      "cGAS",
+      "MB21D1",
+      "C6orf150"
+    ],
+    "externalIds": [
+      {
+        "database": "NCBI Gene",
+        "id": "115004",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/115004",
+        "checkedDate": "2026-10-19"
+      }
+    ],
+    "members": [],
+    "orthologMapping": "按标准符号汇总对应研究主题；原始物种及实际实验实体见每条证据。未完成全库同源数据库逐一映射，不把鼠基因名改写为人实验。",
+    "summary": "胞质DNA感知与核内染色质维持具有不同作用。小胶质细胞过度激活可导致衰老样脑损伤；全身缺失则可能加速衰老，不能把长期完全敲除等同于选择性抑制其催化活性。",
+    "taxonomyIds": [
+      "hallmark-01",
+      "hallmark-03",
+      "hallmark-07",
+      "hallmark-08",
+      "hallmark-10",
+      "hallmark-11"
+    ],
+    "pathwayIds": [
+      "pathway-cgas",
+      "pathway-chromatin"
+    ],
+    "skinClassification": "other_tissue",
+    "skinSummary": "当前核心证据来自鼠脑、全身衰老及肺原代细胞；未据此认定人体皮肤抗衰。",
+    "evidenceIds": [
+      "ev-CGAS-37532932",
+      "ev-CGAS-42642519"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-sting1",
+    "name": "干扰素反应刺激因子cGAMP相互作用蛋白1",
+    "symbol": "STING1",
+    "entityType": "gene_protein",
+    "aliases": [
+      "STING",
+      "TMEM173",
+      "MITA",
+      "ERIS",
+      "MPYS"
+    ],
+    "externalIds": [
+      {
+        "database": "NCBI Gene",
+        "id": "340061",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/340061",
+        "checkedDate": "2026-10-19"
+      }
+    ],
+    "members": [],
+    "orthologMapping": "按标准符号汇总对应研究主题；原始物种及实际实验实体见每条证据。未完成全库同源数据库逐一映射，不把鼠基因名改写为人实验。",
+    "summary": "DNA感知信号衔接蛋白；在特定细胞衰老和老龄鼠模型中，抑制STING减弱炎性分泌并改善功能。减炎不等于清除衰老细胞或逆转全部衰老状态。",
+    "taxonomyIds": [
+      "hallmark-07",
+      "hallmark-08",
+      "hallmark-10",
+      "hallmark-11"
+    ],
+    "pathwayIds": [
+      "pathway-cgas",
+      "pathway-sasp"
+    ],
+    "skinClassification": "skin_aging",
+    "skinSummary": "人BJ成纤维细胞诱导衰老后STING siRNA降低炎症转录；体外细胞结果，无人体皮肤组织逆龄或外用功效证据。",
+    "evidenceIds": [
+      "ev-STING1-37532932-aged",
+      "ev-STING1-37532932-BJ"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-nlrp3",
+    "name": "NLR家族含pyrin结构域蛋白3",
+    "symbol": "NLRP3",
+    "entityType": "gene_protein",
+    "aliases": [
+      "NALP3",
+      "CIAS1",
+      "Cryopyrin"
+    ],
+    "externalIds": [
+      {
+        "database": "NCBI Gene",
+        "id": "114548",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/114548",
+        "checkedDate": "2026-10-19"
+      }
+    ],
+    "members": [],
+    "orthologMapping": "按标准符号汇总对应研究主题；原始物种及实际实验实体见每条证据。未完成全库同源数据库逐一映射，不把鼠基因名改写为人实验。",
+    "summary": "NLRP3是炎性小体的传感组分，不能与整个复合物等同。自然老龄鼠遗传缺失研究支持其参与慢性无菌炎症和多器官功能下降。",
+    "taxonomyIds": [
+      "hallmark-10",
+      "hallmark-11"
+    ],
+    "pathwayIds": [
+      "pathway-nlrp3"
+    ],
+    "skinClassification": "other_tissue",
+    "skinSummary": "本条核心为鼠脑、代谢、骨和胸腺等研究，未建立皮肤老化功效。",
+    "evidenceIds": [
+      "ev-NLRP3-24093676"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-atg5",
+    "name": "自噬相关蛋白5",
+    "symbol": "ATG5",
+    "entityType": "gene_protein",
+    "aliases": [
+      "APG5",
+      "APG5L"
+    ],
+    "externalIds": [
+      {
+        "database": "NCBI Gene",
+        "id": "9474",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/9474",
+        "checkedDate": "2026-10-19"
+      }
+    ],
+    "members": [],
+    "orthologMapping": "按标准符号汇总对应研究主题；原始物种及实际实验实体见每条证据。未完成全库同源数据库逐一映射，不把鼠基因名改写为人实验。",
+    "summary": "参与自噬体形成。全身持续适度过表达Atg5延长鼠寿命，并改变代谢及体能；不能将所有提高ATG5表达的原料都视为等效干预。",
+    "taxonomyIds": [
+      "hallmark-04",
+      "hallmark-05",
+      "hallmark-06",
+      "hallmark-07"
+    ],
+    "pathwayIds": [
+      "pathway-autophagy"
+    ],
+    "skinClassification": "other_tissue",
+    "skinSummary": "主要是全身寿命、代谢及鼠胚胎成纤维细胞研究，无直接皮肤抗衰效能评价。",
+    "evidenceIds": [
+      "ev-ATG5-23939249"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-becn1",
+    "name": "Beclin 1自噬相关蛋白",
+    "symbol": "BECN1",
+    "entityType": "gene_protein",
+    "aliases": [
+      "Beclin-1",
+      "ATG6",
+      "VPS30"
+    ],
+    "externalIds": [
+      {
+        "database": "NCBI Gene",
+        "id": "8678",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/8678",
+        "checkedDate": "2026-10-19"
+      }
+    ],
+    "members": [],
+    "orthologMapping": "按标准符号汇总对应研究主题；原始物种及实际实验实体见每条证据。未完成全库同源数据库逐一映射，不把鼠基因名改写为人实验。",
+    "summary": "自噬调控节点。鼠Becn1 F121A突变减弱与BCL2结合、增强基础自噬，伴随延寿及心肾病理减轻；物种位点需保留。",
+    "taxonomyIds": [
+      "hallmark-04",
+      "hallmark-05"
+    ],
+    "pathwayIds": [
+      "pathway-autophagy"
+    ],
+    "skinClassification": "other_tissue",
+    "skinSummary": "核心证据为鼠全身寿命、心肾病理及胚胎成纤维细胞；无人体外用皮肤抗衰证据。",
+    "evidenceIds": [
+      "ev-BECN1-29849149"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-cd38",
+    "name": "CD38分子（NAD水解酶）",
+    "symbol": "CD38",
+    "entityType": "gene_protein",
+    "aliases": [
+      "ADPRC1",
+      "cADPR1"
+    ],
+    "externalIds": [
+      {
+        "database": "NCBI Gene",
+        "id": "952",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/952",
+        "checkedDate": "2026-10-19"
+      }
+    ],
+    "members": [],
+    "orthologMapping": "按标准符号汇总对应研究主题；原始物种及实际实验实体见每条证据。未完成全库同源数据库逐一映射，不把鼠基因名改写为人实验。",
+    "summary": "参与NAD代谢和免疫调节。在鼠自然老化研究中，CD38缺失维持NAD及线粒体功能，部分涉及SIRT3；不能将该结果等同于人类延寿或外用功效。",
+    "taxonomyIds": [
+      "hallmark-06",
+      "hallmark-07",
+      "hallmark-11"
+    ],
+    "pathwayIds": [
+      "pathway-nad",
+      "pathway-mito"
+    ],
+    "skinClassification": "other_tissue",
+    "skinSummary": "核心证据为鼠非皮肤组织衰老；尚未核验皮肤老化功能研究。",
+    "evidenceIds": [
+      "ev-CD38-27304511"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-rela",
+    "name": "NF-κB转录因子p65亚基",
+    "symbol": "RELA",
+    "entityType": "gene_protein",
+    "aliases": [
+      "p65",
+      "NFKB3",
+      "RelA"
+    ],
+    "externalIds": [
+      {
+        "database": "NCBI Gene",
+        "id": "5970",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/5970",
+        "checkedDate": "2026-10-19"
+      }
+    ],
+    "members": [],
+    "orthologMapping": "按标准符号汇总对应研究主题；原始物种及实际实验实体见每条证据。未完成全库同源数据库逐一映射，不把鼠基因名改写为人实验。",
+    "summary": "RELA编码p65亚基，不能与NF-κB家族或整个复合物混同。部分降低p65在DNA修复缺陷早衰模型中改善表型，但完全缺失可破坏基因组稳定性并使细胞提前逃逸衰老。",
+    "taxonomyIds": [
+      "hallmark-01",
+      "hallmark-08",
+      "hallmark-10",
+      "hallmark-11"
+    ],
+    "pathwayIds": [
+      "pathway-sasp",
+      "pathway-dna"
+    ],
+    "skinClassification": "other_tissue",
+    "skinSummary": "本条功能证据来自鼠早衰、多器官和成纤维细胞；未将NF-κB家族皮肤阻断论文算作RELA特异皮肤证据。",
+    "evidenceIds": [
+      "ev-RELA-22706308",
+      "ev-RELA-19779484"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-tp53",
+    "name": "肿瘤蛋白p53",
+    "symbol": "TP53",
+    "entityType": "gene_protein",
+    "aliases": [
+      "p53",
+      "P53",
+      "TRP53"
+    ],
+    "externalIds": [
+      {
+        "database": "NCBI Gene",
+        "id": "7157",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/7157",
+        "checkedDate": "2026-10-19"
+      }
+    ],
+    "members": [],
+    "orthologMapping": "按标准符号汇总对应研究主题；原始物种及实际实验实体见每条证据。未完成全库同源数据库逐一映射，不把鼠基因名改写为人实验。",
+    "summary": "应激与细胞命运调节因子。突变导致的异常激活与保留生理调控的额外基因剂量可产生不同衰老结果；不应给予永久促衰/抗衰标签。",
+    "taxonomyIds": [
+      "hallmark-01",
+      "hallmark-08",
+      "hallmark-09"
+    ],
+    "pathwayIds": [
+      "pathway-dna"
+    ],
+    "skinClassification": "other_tissue",
+    "skinSummary": "本次核心提取为整鼠衰老与肿瘤抵抗；未读取足够原始皮肤终点，不对皮肤疗效作结论。",
+    "evidenceIds": [
+      "ev-TP53-11780111",
+      "ev-TP53-12426394"
+    ],
+    "status": "core"
+  }
+]

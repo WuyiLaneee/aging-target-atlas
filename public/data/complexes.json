@@ -1,0 +1,15 @@
+[
+  {
+    "id": "complex-mtorc1",
+    "name": "mTOR 复合物 1（mTORC1）",
+    "entityType": "complex",
+    "summary": "由 MTOR 等成员组成的复合物；本版只为 Reactome 背景反应保留实体粒度，不计入核心靶点。",
+    "memberIds": [
+      "target-mtor"
+    ],
+    "membersNote": "仅映射当前已入库 MTOR，非完整复合物组成清单。",
+    "sourceIds": [
+      "src-reactome-s6k"
+    ]
+  }
+]

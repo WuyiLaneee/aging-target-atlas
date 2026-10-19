@@ -1,0 +1,64 @@
+{
+  "doi": "10.14348/molcells.2018.0352",
+  "pmid": "30726661",
+  "date": "2026-10-19",
+  "publicationTypes": {
+    "pubType": [
+      "research-article",
+      "Journal Article"
+    ]
+  },
+  "europePmcNotices": {},
+  "openalex": {
+    "status": 200,
+    "id": "https://openalex.org/W2970534187",
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6449716",
+      "any_repository_has_fulltext": true
+    },
+    "best_oa_location": {
+      "id": "pmh:oai:europepmc.org:5440354",
+      "doi": "https://doi.org/10.14348/molcells.2018.0352",
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6449716",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-sa",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "Text"
+    }
+  },
+  "unpaywall": {
+    "status": 422,
+    "result": {
+      "HTTP_status_code": 422,
+      "error": true,
+      "message": "Email address required in API call, see http://unpaywall.org/products/api"
+    }
+  },
+  "crossref": {
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "doi": "10.7554/elife.34836",
+  "pmid": "29717979",
+  "date": "2026-10-19",
+  "publicationTypes": {
+    "pubType": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ]
+  },
+  "europePmcNotices": {},
+  "openalex": {
+    "status": 200,
+    "id": "https://openalex.org/W2801799722",
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.7554/elife.34836",
+      "any_repository_has_fulltext": true
+    },
+    "best_oa_location": {
+      "id": "doi:10.7554/elife.34836",
+      "doi": "https://doi.org/10.7554/elife.34836",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.7554/elife.34836",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S1336409049",
+        "display_name": "eLife",
+        "issn_l": "2050-084X",
+        "issn": [
+          "2050-084X"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "dongbi-a",
+          "jufo-2",
+          "ki-jl-2",
+          "medline",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310311710",
+        "host_organization_name": "eLife Sciences Publications Ltd",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311710"
+        ],
+        "host_organization_lineage_names": [
+          "eLife Sciences Publications Ltd"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "eLife",
+      "raw_type": "journal-article"
+    }
+  },
+  "unpaywall": {
+    "status": 422,
+    "result": {
+      "HTTP_status_code": 422,
+      "error": true,
+      "message": "Email address required in API call, see http://unpaywall.org/products/api"
+    }
+  },
+  "crossref": {
+    "status": 200,
+    "DOI": "10.7554/elife.34836",
+    "title": [
+      "Boosting ATM activity alleviates aging and extends lifespan in a mouse model of progeria"
+    ],
+    "relation": {
+      "is-supplemented-by": [
+        {
+          "id-type": "uri",
+          "id": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE109280",
+          "asserted-by": "subject"
+        }
+      ],
+      "has-review": [
+        {
+          "id-type": "doi",
+          "id": "10.7554/eLife.34836.030",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.7554/eLife.34836.029",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "update-to": null,
+    "updated-by": null
+  }
+}

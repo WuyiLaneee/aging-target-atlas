@@ -1,0 +1,208 @@
+/* Keep scientific reading comfortable without increasing navigation density. */
+.identity-list {
+  font-size: 12px;
+}
+.paper-section p,
+.evidence-grid dd {
+  font-size: 13px;
+  color: #61735d;
+}
+.evidence-grid dt {
+  font-size: 11px;
+  color: #7f8f73;
+}
+.detail-hero p {
+  color: #63785f;
+}
+.source-note {
+  font-size: 11px;
+  color: #77876d;
+}
+.pub-card p {
+  font-size: 12px;
+  color: #7b896c;
+}
+.pub-foot small {
+  color: #81906f;
+}
+.graph-inspector p,
+.graph-inspector {
+  color: #6e805f;
+}
+.graph-inspector p {
+  font-size: 12px;
+}
+.prose p {
+  font-size: 14px;
+  color: #64785b;
+}
+.tag {
+  color: #657b67;
+}
+.notes-editor p {
+  color: #7b8d70;
+}
+.target-card > p {
+  color: #778871;
+}
+.filter-grid label {
+  color: #6d816d;
+}
+.taxonomy-card > small {
+  color: #84917d;
+}
+.graph-filter-title {
+  padding: 20px 17px 5px;
+  color: #668060;
+  font-size: 12px;
+  font-weight: 500;
+}
+.graph-filter-title span {
+  font-size: 8px;
+  letter-spacing: 1.4px;
+  color: #a6b297;
+  display: block;
+  margin-top: 5px;
+}
+.graph-category {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 10px;
+  color: #7e9273;
+  padding: 15px 17px 0;
+}
+.graph-category select {
+  font-size: 10px;
+  padding: 8px;
+  max-width: 100%;
+}
+.graph-module:not(.compact) {
+  display: grid;
+  grid-template-columns: 192px minmax(0, 1fr);
+}
+.graph-module:not(.compact) > .graph-filter-panel {
+  grid-column: 1;
+  grid-row: 1;
+  background: #fbfcf8;
+  border-right: 1px solid #e0e8d7;
+}
+.graph-module:not(.compact) > .graph-body {
+  grid-column: 2;
+  grid-row: 1;
+  grid-template-columns: minmax(0, 1fr) 240px;
+}
+.graph-module:not(.compact) .graph-toolbar {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 17px;
+  gap: 16px;
+  border: 0;
+  background: transparent;
+}
+.graph-module:not(.compact) .graph-toolbar > label:not(.check-label) {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+}
+.graph-module:not(.compact) .graph-toolbar select {
+  width: 100%;
+  max-width: 100%;
+}
+.graph-module:not(.compact) .graph-toolbar.secondary {
+  border-top: 1px solid #e3eadb;
+}
+.graph-module:not(.compact) .graph-toolbar input:not([type="checkbox"]) {
+  width: 100%;
+}
+.graph-module:not(.compact) .graph-toolbar .check-label {
+  font-size: 9px;
+  gap: 4px;
+}
+.graph-module:not(.compact) .graph-legend,
+.graph-module:not(.compact) .graph-bottom,
+.graph-module:not(.compact) .relations-list {
+  grid-column: 1/-1;
+}
+.graph-module:not(.compact) .graph-canvas {
+  height: 640px;
+}
+.graph-module:not(.compact) .graph-inspector {
+  max-height: 640px;
+}
+@media (max-width: 1100px) {
+  .graph-module:not(.compact) {
+    display: block;
+  }
+  .graph-module:not(.compact) > .graph-filter-panel {
+    border-right: 0;
+    border-bottom: 1px solid #e0e8d7;
+  }
+  .graph-module:not(.compact) .graph-filter-title {
+    display: none;
+  }
+  .graph-module:not(.compact) .graph-category {
+    max-width: 300px;
+  }
+  .graph-module:not(.compact) .graph-toolbar {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: end;
+    padding: 15px;
+  }
+  .graph-module:not(.compact) .graph-toolbar > label:not(.check-label) {
+    flex: 1;
+    min-width: 130px;
+    max-width: 260px;
+  }
+  .graph-module:not(.compact) .graph-toolbar input:not([type="checkbox"]) {
+    width: 180px;
+  }
+  .graph-module:not(.compact) > .graph-body {
+    grid-template-columns: minmax(0, 1fr) 240px;
+  }
+  .graph-module:not(.compact) .graph-canvas {
+    height: 500px;
+  }
+  .graph-module:not(.compact) .graph-inspector {
+    max-height: 500px;
+  }
+}
+@media (max-width: 900px) {
+  .graph-module:not(.compact) > .graph-body {
+    grid-template-columns: 1fr;
+  }
+  .graph-module:not(.compact) .graph-inspector {
+    max-height: 300px;
+  }
+}
+@media (max-width: 680px) {
+  .identity-list {
+    font-size: 11px;
+  }
+  .paper-section p,
+  .evidence-grid dd {
+    font-size: 12px;
+  }
+  .source-note {
+    font-size: 10px;
+  }
+  .pub-card p {
+    font-size: 11px;
+  }
+  .prose p {
+    font-size: 13px;
+  }
+  .graph-module:not(.compact) .graph-toolbar > label:not(.check-label) {
+    min-width: calc(50% - 10px);
+    max-width: 100%;
+  }
+  .graph-module:not(.compact) .graph-canvas {
+    height: 390px;
+  }
+  .graph-module:not(.compact) .graph-toolbar {
+    padding: 13px;
+    gap: 12px;
+  }
+}

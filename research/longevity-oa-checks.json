@@ -1,0 +1,459 @@
+[
+  {
+    "pmid": "22367546",
+    "doi": "10.1038/nature10815",
+    "OpenAlex": {
+      "id": "https://openalex.org/W1994540097",
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "best_oa_location": null
+    },
+    "Unpaywall": {
+      "status": "request_failed",
+      "reason": "HTTP Error 422: Unprocessable Entity",
+      "note": "未配置可用于 Unpaywall 的联系邮箱；未伪造用户邮箱"
+    }
+  },
+  {
+    "pmid": "34050173",
+    "doi": "10.1038/s41467-021-23545-7",
+    "OpenAlex": {
+      "id": "https://openalex.org/W3164061833",
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://www.nature.com/articles/s41467-021-23545-7.pdf",
+        "any_repository_has_fulltext": true
+      },
+      "best_oa_location": {
+        "id": "doi:10.1038/s41467-021-23545-7",
+        "doi": "https://doi.org/10.1038/s41467-021-23545-7",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1038/s41467-021-23545-7",
+        "pdf_url": "https://www.nature.com/articles/s41467-021-23545-7.pdf",
+        "source": {
+          "id": "https://openalex.org/S64187185",
+          "display_name": "Nature Communications",
+          "issn_l": "2041-1723",
+          "issn": [
+            "2041-1723"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "doaj",
+            "dongbi-a",
+            "doyens",
+            "jufo-3",
+            "ki-jl-3",
+            "medline",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_name": "Nature Portfolio",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nature Communications",
+        "raw_type": "journal-article"
+      }
+    },
+    "Unpaywall": {
+      "status": "request_failed",
+      "reason": "HTTP Error 422: Unprocessable Entity",
+      "note": "未配置可用于 Unpaywall 的联系邮箱；未伪造用户邮箱"
+    }
+  },
+  {
+    "pmid": "22585399",
+    "doi": "10.1002/emmm.201200245",
+    "OpenAlex": {
+      "id": "https://openalex.org/W2169621456",
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://doi.org/10.1002/emmm.201200245",
+        "any_repository_has_fulltext": true
+      },
+      "best_oa_location": {
+        "id": "doi:10.1002/emmm.201200245",
+        "doi": "https://doi.org/10.1002/emmm.201200245",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1002/emmm.201200245",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S163075119",
+          "display_name": "EMBO Molecular Medicine",
+          "issn_l": "1757-4676",
+          "issn": [
+            "1757-4676",
+            "1757-4684"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "doaj",
+            "dongbi-b",
+            "doyens",
+            "jufo-3",
+            "ki-jl-3",
+            "medline",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310319965",
+          "host_organization_name": "Springer Nature",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "EMBO Molecular Medicine",
+        "raw_type": "journal-article"
+      }
+    },
+    "Unpaywall": {
+      "status": "request_failed",
+      "reason": "HTTP Error 422: Unprocessable Entity",
+      "note": "未配置可用于 Unpaywall 的联系邮箱；未伪造用户邮箱"
+    }
+  },
+  {
+    "pmid": "19797661",
+    "doi": "10.1126/science.1177221",
+    "OpenAlex": {
+      "id": "https://openalex.org/W2014892893",
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/4954603",
+        "any_repository_has_fulltext": true
+      },
+      "best_oa_location": {
+        "id": "pmh:oai:pubmedcentral.nih.gov:4954603",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/4954603",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Science",
+        "raw_type": "Text"
+      }
+    },
+    "Unpaywall": {
+      "status": "request_failed",
+      "reason": "HTTP Error 422: Unprocessable Entity",
+      "note": "未配置可用于 Unpaywall 的联系邮箱；未伪造用户邮箱"
+    }
+  },
+  {
+    "pmid": "12483226",
+    "doi": "10.1038/nature01298",
+    "OpenAlex": {
+      "id": "https://openalex.org/W1985425785",
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "best_oa_location": null
+    },
+    "Unpaywall": {
+      "status": "request_failed",
+      "reason": "HTTP Error 422: Unprocessable Entity",
+      "note": "未配置可用于 Unpaywall 的联系邮箱；未伪造用户邮箱"
+    }
+  },
+  {
+    "pmid": "22132081",
+    "doi": "10.1371/journal.pone.0026891",
+    "OpenAlex": {
+      "id": "https://openalex.org/W2057913302",
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0026891&type=printable",
+        "any_repository_has_fulltext": true
+      },
+      "best_oa_location": {
+        "id": "doi:10.1371/journal.pone.0026891",
+        "doi": "https://doi.org/10.1371/journal.pone.0026891",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1371/journal.pone.0026891",
+        "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0026891&type=printable",
+        "source": {
+          "id": "https://openalex.org/S202381698",
+          "display_name": "PLoS ONE",
+          "issn_l": "1932-6203",
+          "issn": [
+            "1932-6203"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "doaj",
+            "dongbi-c",
+            "doyens",
+            "erih-plus",
+            "jufo-1",
+            "ki-jl-1",
+            "medline",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310315706",
+          "host_organization_name": "Public Library of Science",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315706"
+          ],
+          "host_organization_lineage_names": [
+            "Public Library of Science"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "PLoS ONE",
+        "raw_type": "journal-article"
+      }
+    },
+    "Unpaywall": {
+      "status": "request_failed",
+      "reason": "HTTP Error 422: Unprocessable Entity",
+      "note": "未配置可用于 Unpaywall 的联系邮箱；未伪造用户邮箱"
+    }
+  },
+  {
+    "pmid": "16123266",
+    "doi": "10.1126/science.1112766",
+    "OpenAlex": {
+      "id": "https://openalex.org/W2137720344",
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/2536606",
+        "any_repository_has_fulltext": true
+      },
+      "best_oa_location": {
+        "id": "pmh:oai:pubmedcentral.nih.gov:2536606",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/2536606",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Science",
+        "raw_type": "Text"
+      }
+    },
+    "Unpaywall": {
+      "status": "request_failed",
+      "reason": "HTTP Error 422: Unprocessable Entity",
+      "note": "未配置可用于 Unpaywall 的联系邮箱；未伪造用户邮箱"
+    }
+  },
+  {
+    "pmid": "23375372",
+    "doi": "10.1016/j.celrep.2013.01.005",
+    "OpenAlex": {
+      "id": "https://openalex.org/W2099348677",
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "http://www.cell.com/article/S2211124713000120/pdf",
+        "any_repository_has_fulltext": true
+      },
+      "best_oa_location": {
+        "id": "doi:10.1016/j.celrep.2013.01.005",
+        "doi": "https://doi.org/10.1016/j.celrep.2013.01.005",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.celrep.2013.01.005",
+        "pdf_url": "http://www.cell.com/article/S2211124713000120/pdf",
+        "source": {
+          "id": "https://openalex.org/S169236886",
+          "display_name": "Cell Reports",
+          "issn_l": "2211-1247",
+          "issn": [
+            "2211-1247",
+            "2639-1856"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "doaj",
+            "dongbi-b",
+            "doyens",
+            "jufo-3",
+            "ki-jl-2",
+            "medline",
+            "norway-2",
+            "poland-200",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310315673",
+          "host_organization_name": "Cell Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315673",
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Cell Press",
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Cell Reports",
+        "raw_type": "journal-article"
+      }
+    },
+    "Unpaywall": {
+      "status": "request_failed",
+      "reason": "HTTP Error 422: Unprocessable Entity",
+      "note": "未配置可用于 Unpaywall 的联系邮箱；未伪造用户邮箱"
+    }
+  },
+  {
+    "pmid": "23242215",
+    "doi": "10.1038/ncb2643",
+    "OpenAlex": {
+      "id": "https://openalex.org/W2094375019",
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3707109",
+        "any_repository_has_fulltext": true
+      },
+      "best_oa_location": {
+        "id": "pmh:oai:pubmedcentral.nih.gov:3707109",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3707109",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Nat Cell Biol",
+        "raw_type": "Text"
+      }
+    },
+    "Unpaywall": {
+      "status": "request_failed",
+      "reason": "HTTP Error 422: Unprocessable Entity",
+      "note": "未配置可用于 Unpaywall 的联系邮箱；未伪造用户邮箱"
+    }
+  }
+]

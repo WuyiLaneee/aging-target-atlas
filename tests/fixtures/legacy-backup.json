@@ -1,0 +1,9 @@
+{
+  "app": "aging-target-pathway-atlas",
+  "schemaVersion": 1,
+  "favorites": ["target-retired-fixture"],
+  "notes": {
+    "target-retired-fixture": "旧版本条目保留测试",
+    "target-crat": "不应覆盖当前笔记"
+  }
+}

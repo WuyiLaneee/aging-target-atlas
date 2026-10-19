@@ -1,0 +1,1920 @@
+[
+  {
+    "id": "rel-ev-crat-hdf-phenotype-39ccf81464b0",
+    "sourceId": "target-crat",
+    "targetId": "phenotype-39ccf81464b0",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-crat-hdf"
+    ],
+    "backgroundSourceIds": [],
+    "context": "靶基因缺失诱导的细胞衰老；干预：CRAT siRNA；分别共敲低cGAS、STING或p65/RELA；部分实验NAC救援。不是仅由下游表达变化推断依赖。；结果：CRAT敲低后增殖降低、SA-β-gal阳性增加及SASP升高，伴随线粒体异常。Fig5b分别共敲低cGAS或STING抑制CRAT敲低诱导的SASP mRNA；Fig5e共敲低p65抑制该SASP；S5a–b报告分泌SASP及SA-β-gal升高也被上述共敲低抑制。Fig5c–d显示NF-κB报告增强及p65核积累。；单基因下调；共敲低及NAC用于研究依赖环节。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-crat-hdf-phenotype-69945c3efcef",
+    "sourceId": "target-crat",
+    "targetId": "phenotype-69945c3efcef",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-crat-hdf"
+    ],
+    "backgroundSourceIds": [],
+    "context": "靶基因缺失诱导的细胞衰老；干预：CRAT siRNA；分别共敲低cGAS、STING或p65/RELA；部分实验NAC救援。不是仅由下游表达变化推断依赖。；结果：CRAT敲低后增殖降低、SA-β-gal阳性增加及SASP升高，伴随线粒体异常。Fig5b分别共敲低cGAS或STING抑制CRAT敲低诱导的SASP mRNA；Fig5e共敲低p65抑制该SASP；S5a–b报告分泌SASP及SA-β-gal升高也被上述共敲低抑制。Fig5c–d显示NF-κB报告增强及p65核积累。；单基因下调；共敲低及NAC用于研究依赖环节。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-crat-hdf-phenotype-ef8c4775c710",
+    "sourceId": "target-crat",
+    "targetId": "phenotype-ef8c4775c710",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-crat-hdf"
+    ],
+    "backgroundSourceIds": [],
+    "context": "靶基因缺失诱导的细胞衰老；干预：CRAT siRNA；分别共敲低cGAS、STING或p65/RELA；部分实验NAC救援。不是仅由下游表达变化推断依赖。；结果：CRAT敲低后增殖降低、SA-β-gal阳性增加及SASP升高，伴随线粒体异常。Fig5b分别共敲低cGAS或STING抑制CRAT敲低诱导的SASP mRNA；Fig5e共敲低p65抑制该SASP；S5a–b报告分泌SASP及SA-β-gal升高也被上述共敲低抑制。Fig5c–d显示NF-κB报告增强及p65核积累。；单基因下调；共敲低及NAC用于研究依赖环节。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-crat-mouse-phenotype-ad8a411face9",
+    "sourceId": "target-crat",
+    "targetId": "phenotype-ad8a411face9",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-crat-mouse"
+    ],
+    "backgroundSourceIds": [],
+    "context": "诱导性成纤维细胞特异敲除模型；干预：Crat flox与Col1a2-Cre诱导系统；他莫昔芬诱导；结果：真皮Ki67降低、p16升高、SASP增加、胶原密度降低。；4周龄开始诱导，10周龄取材。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-crat-mouse-phenotype-ef3feefc7a26",
+    "sourceId": "target-crat",
+    "targetId": "phenotype-ef3feefc7a26",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-crat-mouse"
+    ],
+    "backgroundSourceIds": [],
+    "context": "诱导性成纤维细胞特异敲除模型；干预：Crat flox与Col1a2-Cre诱导系统；他莫昔芬诱导；结果：真皮Ki67降低、p16升高、SASP增加、胶原密度降低。；4周龄开始诱导，10周龄取材。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-foxm1-gene-phenotype-39ccf81464b0",
+    "sourceId": "target-foxm1",
+    "targetId": "phenotype-39ccf81464b0",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-foxm1-gene"
+    ],
+    "backgroundSourceIds": [],
+    "context": "自然年龄相关细胞表型与早老症细胞；干预：年轻细胞FOXM1 RNAi；老年与HGPS细胞表达组成型活性截短FOXM1；结果：敲低增加有丝分裂错误、非整倍体和衰老标志；恢复表达降低老年/HGPS细胞衰老标志与分裂缺陷。；低传代人细胞；比较年轻供者和老年供者；组成型活性截短构建体。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-foxm1-gene-phenotype-884d9f222d66",
+    "sourceId": "target-foxm1",
+    "targetId": "phenotype-884d9f222d66",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-foxm1-gene"
+    ],
+    "backgroundSourceIds": [],
+    "context": "自然年龄相关细胞表型与早老症细胞；干预：年轻细胞FOXM1 RNAi；老年与HGPS细胞表达组成型活性截短FOXM1；结果：敲低增加有丝分裂错误、非整倍体和衰老标志；恢复表达降低老年/HGPS细胞衰老标志与分裂缺陷。；低传代人细胞；比较年轻供者和老年供者；组成型活性截短构建体。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-foxm1-gene-phenotype-7d2d5dcaf8c2",
+    "sourceId": "target-foxm1",
+    "targetId": "phenotype-7d2d5dcaf8c2",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-foxm1-gene"
+    ],
+    "backgroundSourceIds": [],
+    "context": "自然年龄相关细胞表型与早老症细胞；干预：年轻细胞FOXM1 RNAi；老年与HGPS细胞表达组成型活性截短FOXM1；结果：敲低增加有丝分裂错误、非整倍体和衰老标志；恢复表达降低老年/HGPS细胞衰老标志与分裂缺陷。；低传代人细胞；比较年轻供者和老年供者；组成型活性截短构建体。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-foxm1-chromatin-phenotype-6226a7a1a188",
+    "sourceId": "target-foxm1",
+    "targetId": "phenotype-6226a7a1a188",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-foxm1-chromatin"
+    ],
+    "backgroundSourceIds": [],
+    "context": "供者年龄相关染色质变化；干预：老年HDF外源表达FOXM1-dNdKEN；新生儿HDF敲低FOXM1并检测JUN/ATF3/FOS启动子报告；结果：部分老年特异可及区域关闭，新生儿特异区域重新开放；敲低FOXM1提高部分AP-1成员启动子活性。；组成型活性截短构建体及体外培养。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-mapk14-alpha-phenotype-69945c3efcef",
+    "sourceId": "target-mapk14",
+    "targetId": "phenotype-69945c3efcef",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-mapk14-alpha"
+    ],
+    "backgroundSourceIds": [],
+    "context": "X射线诱导细胞衰老；干预：两条独立p38α特异shRNA；对照shGFP；另测试p38β shRNA；结果：两条p38α shRNA降低衰老细胞条件培养基IL-6；文中报告β亚型shRNA未降低IL-6。；X射线诱导明确细胞衰老后研究SASP。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-mapk14-family-drug-phenotype-aaf6b79138ad",
+    "sourceId": "target-mapk14",
+    "targetId": "phenotype-aaf6b79138ad",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-mapk14-family-drug"
+    ],
+    "backgroundSourceIds": [],
+    "context": "复制性衰老与Werner早老症细胞；干预：SB203580、BIRB796、VX-745、UR13756，分别处理至复制衰老；结果：多种抑制剂改善复制能力，WS平均反应高于正常细胞；作用依药物与浓度变化。；此证据只引用原代细胞复制实验，永生化细胞仅用于剂量探索。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-mtor-human-skin-phenotype-b93d4c590de3",
+    "sourceId": "target-mtor",
+    "targetId": "phenotype-b93d4c590de3",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-mtor-human-skin"
+    ],
+    "backgroundSourceIds": [],
+    "context": "有年龄相关光老化/真皮体积降低者的部位对照研究；干预：一侧手背涂雷帕霉素乳膏，另一侧载体；随机标记左右侧；结果：可分析活检中p16INK4A降低，VII型胶原蛋白升高；部分组织学及外观观察改善。；10 µM外用制剂；分析对象与终点n不同。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-mtor-human-skin-intervention-f41513ebe4da",
+    "sourceId": "intervention-f41513ebe4da",
+    "targetId": "target-mtor",
+    "relationType": "indirect",
+    "polarity": "unknown",
+    "directness": "实验处理与该条目功能主张的关联；药理关联不自动证明直接结合或特异性。",
+    "evidenceIds": [
+      "ev-mtor-human-skin"
+    ],
+    "backgroundSourceIds": [],
+    "context": "一侧手背涂雷帕霉素乳膏，另一侧载体；随机标记左右侧；有年龄相关光老化/真皮体积降低者的部位对照研究；36入组、19退出或失访、17完成；组织终点可用n小。p16降低不等同于已经证明衰老细胞清除；不能由本试验推断寿命延长或化妆品原料功效。",
+    "scope": "aging_experiment",
+    "label": "药理 / 处理关联",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-sirt1-dependency-phenotype-4ecf549f4e7d",
+    "sourceId": "target-sirt1",
+    "targetId": "phenotype-4ecf549f4e7d",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-sirt1-dependency"
+    ],
+    "backgroundSourceIds": [],
+    "context": "H2O2诱导应激性细胞衰老；干预：高良姜素处理；SIRT1 siRNA依赖性检验；结果：高良姜素降低H2O2增加的SA-β-gal阳性细胞；SIRT1敲低使该改善减弱/逆转，并阻碍NRF2相关应答。；应激诱导细胞模型；不等同于自然内源皮肤老化。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-sirt1-dependency-intervention-c27bd50cf108",
+    "sourceId": "intervention-c27bd50cf108",
+    "targetId": "target-sirt1",
+    "relationType": "indirect",
+    "polarity": "unknown",
+    "directness": "实验处理与该条目功能主张的关联；药理关联不自动证明直接结合或特异性。",
+    "evidenceIds": [
+      "ev-sirt1-dependency"
+    ],
+    "backgroundSourceIds": [],
+    "context": "高良姜素处理；SIRT1 siRNA依赖性检验；H2O2诱导应激性细胞衰老；RNAi依赖支持作用环节，不证明高良姜素直接结合SIRT1；同篇小鼠未通过Sirt1遗传干预建立依赖，不能跨模型升级。",
+    "scope": "aging_experiment",
+    "label": "药理 / 处理关联",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-atm-knockdown-phenotype-39ccf81464b0",
+    "sourceId": "target-atm",
+    "targetId": "phenotype-39ccf81464b0",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-atm-knockdown"
+    ],
+    "backgroundSourceIds": [],
+    "context": "复制性衰老相关细胞模型；干预：ATM shRNA；部分实验比较低剂量氯喹在ATM正常或敲低条件下作用；结果：ATM敲低增加SA-β-gal、γH2AX和细胞增大并降低增殖；氯喹降低SA-β-gal的作用在ATM敲低时不再显著。；ATM缺失与低剂量氯喹实验；不可把氯喹视为ATM特异直接配体。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-atm-knockdown-phenotype-743a9d827964",
+    "sourceId": "target-atm",
+    "targetId": "phenotype-743a9d827964",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-atm-knockdown"
+    ],
+    "backgroundSourceIds": [],
+    "context": "复制性衰老相关细胞模型；干预：ATM shRNA；部分实验比较低剂量氯喹在ATM正常或敲低条件下作用；结果：ATM敲低增加SA-β-gal、γH2AX和细胞增大并降低增殖；氯喹降低SA-β-gal的作用在ATM敲低时不再显著。；ATM缺失与低剂量氯喹实验；不可把氯喹视为ATM特异直接配体。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-atm-knockdown-intervention-d7042b7ddf80",
+    "sourceId": "intervention-d7042b7ddf80",
+    "targetId": "target-atm",
+    "relationType": "indirect",
+    "polarity": "unknown",
+    "directness": "实验处理与该条目功能主张的关联；药理关联不自动证明直接结合或特异性。",
+    "evidenceIds": [
+      "ev-atm-knockdown"
+    ],
+    "backgroundSourceIds": [],
+    "context": "ATM shRNA；部分实验比较低剂量氯喹在ATM正常或敲低条件下作用；复制性衰老相关细胞模型；仅引用此文人细胞部分；不能把文中非哺乳动物寿命结果入库。该方向与已衰老HGPS/WS抑制试验不同。",
+    "scope": "aging_experiment",
+    "label": "药理 / 处理关联",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-atm-inhib-progeria-phenotype-39ccf81464b0",
+    "sourceId": "target-atm",
+    "targetId": "phenotype-39ccf81464b0",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-atm-inhib-progeria"
+    ],
+    "backgroundSourceIds": [],
+    "context": "早老症细胞复制至衰老阶段；干预：KU-60019；文中另用CP-466722验证部分结果；结果：KU-60019降低SA-β-gal、脂褐素及溶酶体质量并增加群体倍增，改善线粒体功能相关指标。；衰老HGPS/WS细胞，20%氧、25 mM葡萄糖培养；阶段与正常HSFs不同。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-atm-inhib-progeria-phenotype-3dfc6fc14d00",
+    "sourceId": "target-atm",
+    "targetId": "phenotype-3dfc6fc14d00",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-atm-inhib-progeria"
+    ],
+    "backgroundSourceIds": [],
+    "context": "早老症细胞复制至衰老阶段；干预：KU-60019；文中另用CP-466722验证部分结果；结果：KU-60019降低SA-β-gal、脂褐素及溶酶体质量并增加群体倍增，改善线粒体功能相关指标。；衰老HGPS/WS细胞，20%氧、25 mM葡萄糖培养；阶段与正常HSFs不同。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-atm-inhib-progeria-intervention-1e6f3a267139",
+    "sourceId": "intervention-1e6f3a267139",
+    "targetId": "target-atm",
+    "relationType": "indirect",
+    "polarity": "unknown",
+    "directness": "实验处理与该条目功能主张的关联；药理关联不自动证明直接结合或特异性。",
+    "evidenceIds": [
+      "ev-atm-inhib-progeria"
+    ],
+    "backgroundSourceIds": [],
+    "context": "KU-60019；文中另用CP-466722验证部分结果；早老症细胞复制至衰老阶段；药理和有限患者细胞株；不证明长期ATM抑制安全。与正常HSFs中ATM敲低促进衰老的结果并列，未解释为普遍抗衰方向。",
+    "scope": "aging_experiment",
+    "label": "药理 / 处理关联",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-atm-sirt6-mechanism-phenotype-abc8b0dd9dac",
+    "sourceId": "target-atm",
+    "targetId": "phenotype-abc8b0dd9dac",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-atm-sirt6-mechanism"
+    ],
+    "backgroundSourceIds": [],
+    "context": "ATM缺失相关代谢异常与早老/缩短寿命；另用细胞系和体外蛋白实验验证分子机制；干预：ATM KO/KD或WT/S1981A补回；SIRT6 WT、S112A、S112D及K346R构建体；免疫纯化ATM与重组GST-SIRT6体外激酶反应；HepG2补回SIRT6；Atm-/-;Sirt6-tg遗传救援；结果：ATM能在体外磷酸化GST-SIRT6，S112A不发生相同反应；ATM缺失降低SIRT6磷酸化并加快其降解，SIRT6 S112D相对稳定。ATM缺失HepG2的糖酵解基因改变可被SIRT6补回恢复；Atm-/-小鼠中额外Sirt6改善代谢并延长寿命。；直接磷酸化主要在体外重构和人细胞系验证；与衰老的功能联系来自同篇ATM缺失代谢/小鼠遗传救援，不能将各模型拼成已在人体皮肤验证的完整链。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-atm-sirt6-mechanism-phenotype-f6652ed93da4",
+    "sourceId": "target-atm",
+    "targetId": "phenotype-f6652ed93da4",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-atm-sirt6-mechanism"
+    ],
+    "backgroundSourceIds": [],
+    "context": "ATM缺失相关代谢异常与早老/缩短寿命；另用细胞系和体外蛋白实验验证分子机制；干预：ATM KO/KD或WT/S1981A补回；SIRT6 WT、S112A、S112D及K346R构建体；免疫纯化ATM与重组GST-SIRT6体外激酶反应；HepG2补回SIRT6；Atm-/-;Sirt6-tg遗传救援；结果：ATM能在体外磷酸化GST-SIRT6，S112A不发生相同反应；ATM缺失降低SIRT6磷酸化并加快其降解，SIRT6 S112D相对稳定。ATM缺失HepG2的糖酵解基因改变可被SIRT6补回恢复；Atm-/-小鼠中额外Sirt6改善代谢并延长寿命。；直接磷酸化主要在体外重构和人细胞系验证；与衰老的功能联系来自同篇ATM缺失代谢/小鼠遗传救援，不能将各模型拼成已在人体皮肤验证的完整链。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-sirt6-1-phenotype-0ce1e7dd2136",
+    "sourceId": "target-sirt6",
+    "targetId": "phenotype-0ce1e7dd2136",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-sirt6-1"
+    ],
+    "backgroundSourceIds": [],
+    "context": "Sirt6 转基因过表达小鼠与野生型对照；干预：转基因上调 Sirt6；结果：雄鼠寿命显著延长，雌鼠未延长；雄鼠血清 IGF1 较低、IGF 结合蛋白 1 较高，并观察到 IGF1 信号组分磷酸化改变。；结论限定于该转基因鼠队列；雄性和雌性分开解释。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-sirt6-2-phenotype-0ce1e7dd2136",
+    "sourceId": "target-sirt6",
+    "targetId": "phenotype-0ce1e7dd2136",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-sirt6-2"
+    ],
+    "backgroundSourceIds": [],
+    "context": "自然衰老 C57BL/6JOlaHsd SIRT6 转基因小鼠；干预：与野生型同窝对照比较 SIRT6 转基因过表达；结果：雄性、雌性中位寿命分别增加约 27% 和 15%；保存老年肝糖输出及葡萄糖稳态，并改善衰弱相关功能。；与 2012 年结果分开保留：遗传背景不同；该研究两性均获益。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-sirt6-2-phenotype-0bf75e4e54d6",
+    "sourceId": "target-sirt6",
+    "targetId": "phenotype-0bf75e4e54d6",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-sirt6-2"
+    ],
+    "backgroundSourceIds": [],
+    "context": "自然衰老 C57BL/6JOlaHsd SIRT6 转基因小鼠；干预：与野生型同窝对照比较 SIRT6 转基因过表达；结果：雄性、雌性中位寿命分别增加约 27% 和 15%；保存老年肝糖输出及葡萄糖稳态，并改善衰弱相关功能。；与 2012 年结果分开保留：遗传背景不同；该研究两性均获益。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-sirt6-2-phenotype-4e6afdc8b871",
+    "sourceId": "target-sirt6",
+    "targetId": "phenotype-4e6afdc8b871",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-sirt6-2"
+    ],
+    "backgroundSourceIds": [],
+    "context": "自然衰老 C57BL/6JOlaHsd SIRT6 转基因小鼠；干预：与野生型同窝对照比较 SIRT6 转基因过表达；结果：雄性、雌性中位寿命分别增加约 27% 和 15%；保存老年肝糖输出及葡萄糖稳态，并改善衰弱相关功能。；与 2012 年结果分开保留：遗传背景不同；该研究两性均获益。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-tert-1-phenotype-0ce1e7dd2136",
+    "sourceId": "target-tert",
+    "targetId": "phenotype-0ce1e7dd2136",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-tert-1"
+    ],
+    "backgroundSourceIds": [],
+    "context": ">95% C57BL6 背景，自然衰老小鼠；420 日龄和 720 日龄开始处理；干预：尾静脉给予 AAV9-mTERT；AAV9-GFP 对照；成年组另设催化失活 mTERT 对照；结果：原文称 1 岁和 2 岁队列的中位寿命分别增加 24% 与 13%，并改善胰岛素敏感性、骨质疏松和神经肌肉协调指标；催化失活构建未产生相同获益。研究观察期内未见肿瘤增加。；给药为全身基因递送；雌雄混合寿命队列；结论限于该载体、年龄和遗传背景。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-tert-1-phenotype-97bd9d10909e",
+    "sourceId": "target-tert",
+    "targetId": "phenotype-97bd9d10909e",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-tert-1"
+    ],
+    "backgroundSourceIds": [],
+    "context": ">95% C57BL6 背景，自然衰老小鼠；420 日龄和 720 日龄开始处理；干预：尾静脉给予 AAV9-mTERT；AAV9-GFP 对照；成年组另设催化失活 mTERT 对照；结果：原文称 1 岁和 2 岁队列的中位寿命分别增加 24% 与 13%，并改善胰岛素敏感性、骨质疏松和神经肌肉协调指标；催化失活构建未产生相同获益。研究观察期内未见肿瘤增加。；给药为全身基因递送；雌雄混合寿命队列；结论限于该载体、年龄和遗传背景。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-tert-1-intervention-b662b489646b",
+    "sourceId": "intervention-b662b489646b",
+    "targetId": "target-tert",
+    "relationType": "indirect",
+    "polarity": "unknown",
+    "directness": "实验处理与该条目功能主张的关联；药理关联不自动证明直接结合或特异性。",
+    "evidenceIds": [
+      "ev-tert-1"
+    ],
+    "backgroundSourceIds": [],
+    "context": "尾静脉给予 AAV9-mTERT；AAV9-GFP 对照；成年组另设催化失活 mTERT 对照；>95% C57BL6 背景，自然衰老小鼠；420 日龄和 720 日龄开始处理；本队列未见肿瘤增加不等于所有 TERT 干预无致癌风险，也不证明人体安全或化妆品功效。",
+    "scope": "aging_experiment",
+    "label": "药理 / 处理关联",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-rps6kb1-1-phenotype-0ce1e7dd2136",
+    "sourceId": "target-rps6kb1",
+    "targetId": "phenotype-0ce1e7dd2136",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-rps6kb1-1"
+    ],
+    "backgroundSourceIds": [],
+    "context": "C57BL/6 背景 S6K1−/− 小鼠及同窝 WT；600 日龄功能检测；干预：全身 Rps6kb1 敲除；结果：雌鼠中位寿命从 829 日增至 982 日（约 19%）；雄鼠中位及最大寿命未显著改变。老年雌鼠运动、骨小梁和胰岛素敏感性指标较好。；雌性寿命结论不能直接推广至雄性；健康指标在 600 日龄检测。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-rps6kb1-1-phenotype-0456f18d7839",
+    "sourceId": "target-rps6kb1",
+    "targetId": "phenotype-0456f18d7839",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-rps6kb1-1"
+    ],
+    "backgroundSourceIds": [],
+    "context": "C57BL/6 背景 S6K1−/− 小鼠及同窝 WT；600 日龄功能检测；干预：全身 Rps6kb1 敲除；结果：雌鼠中位寿命从 829 日增至 982 日（约 19%）；雄鼠中位及最大寿命未显著改变。老年雌鼠运动、骨小梁和胰岛素敏感性指标较好。；雌性寿命结论不能直接推广至雄性；健康指标在 600 日龄检测。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-rps6kb1-1-phenotype-21b7d60eecc2",
+    "sourceId": "target-rps6kb1",
+    "targetId": "phenotype-21b7d60eecc2",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-rps6kb1-1"
+    ],
+    "backgroundSourceIds": [],
+    "context": "C57BL/6 背景 S6K1−/− 小鼠及同窝 WT；600 日龄功能检测；干预：全身 Rps6kb1 敲除；结果：雌鼠中位寿命从 829 日增至 982 日（约 19%）；雄鼠中位及最大寿命未显著改变。老年雌鼠运动、骨小梁和胰岛素敏感性指标较好。；雌性寿命结论不能直接推广至雄性；健康指标在 600 日龄检测。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-rps6kb1-1-phenotype-a5e8fa9ae817",
+    "sourceId": "target-rps6kb1",
+    "targetId": "phenotype-a5e8fa9ae817",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-rps6kb1-1"
+    ],
+    "backgroundSourceIds": [],
+    "context": "C57BL/6 背景 S6K1−/− 小鼠及同窝 WT；600 日龄功能检测；干预：全身 Rps6kb1 敲除；结果：雌鼠中位寿命从 829 日增至 982 日（约 19%）；雄鼠中位及最大寿命未显著改变。老年雌鼠运动、骨小梁和胰岛素敏感性指标较好。；雌性寿命结论不能直接推广至雄性；健康指标在 600 日龄检测。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-igf1r-1-phenotype-0ce1e7dd2136",
+    "sourceId": "target-igf1r",
+    "targetId": "phenotype-0ce1e7dd2136",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-igf1r-1"
+    ],
+    "backgroundSourceIds": [],
+    "context": "Igf1r+/− 小鼠与 WT 同窝对照；纯合缺失不存活；干预：遗传减少一个 Igf1r 等位基因；结果：总体平均寿命约增加 26%；雌性约增加 33%，雄性约增加 16% 但不显著；抗氧化应激能力增强。；显著寿命效应主要见于雌性；该队列模型，不能推广为永久固定促寿命作用。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-igf1r-2-phenotype-0ce1e7dd2136",
+    "sourceId": "target-igf1r",
+    "targetId": "phenotype-0ce1e7dd2136",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-igf1r-2"
+    ],
+    "backgroundSourceIds": [],
+    "context": "C57Bl/6 Igf1r+/− 小鼠，在优化饲养条件下与 WT 比较；干预：Igf1r 杂合缺失；结果：雄鼠寿命无显著差异；雌鼠平均寿命增幅不足 5%；末期病理病变无显著差异。两性随老龄发展出胰岛素抵抗，老年雄鼠出现葡萄糖耐受不良。；与 2003 年模型条件分开解释；小幅雌性寿命变化不能概括为各性别均获益。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-igf1r-2-phenotype-df1f1493ff18",
+    "sourceId": "target-igf1r",
+    "targetId": "phenotype-df1f1493ff18",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-igf1r-2"
+    ],
+    "backgroundSourceIds": [],
+    "context": "C57Bl/6 Igf1r+/− 小鼠，在优化饲养条件下与 WT 比较；干预：Igf1r 杂合缺失；结果：雄鼠寿命无显著差异；雌鼠平均寿命增幅不足 5%；末期病理病变无显著差异。两性随老龄发展出胰岛素抵抗，老年雄鼠出现葡萄糖耐受不良。；与 2003 年模型条件分开解释；小幅雌性寿命变化不能概括为各性别均获益。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-igf1r-2-phenotype-0bf75e4e54d6",
+    "sourceId": "target-igf1r",
+    "targetId": "phenotype-0bf75e4e54d6",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-igf1r-2"
+    ],
+    "backgroundSourceIds": [],
+    "context": "C57Bl/6 Igf1r+/− 小鼠，在优化饲养条件下与 WT 比较；干预：Igf1r 杂合缺失；结果：雄鼠寿命无显著差异；雌鼠平均寿命增幅不足 5%；末期病理病变无显著差异。两性随老龄发展出胰岛素抵抗，老年雄鼠出现葡萄糖耐受不良。；与 2003 年模型条件分开解释；小幅雌性寿命变化不能概括为各性别均获益。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-kl-1-phenotype-0ce1e7dd2136",
+    "sourceId": "target-kl",
+    "targetId": "phenotype-0ce1e7dd2136",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-kl-1"
+    ],
+    "backgroundSourceIds": [],
+    "context": "回交 C3H 四代、近同源背景 EFmKL46 / EFmKL48 小鼠及野生型对照；自由摄食；干预：人延伸因子 1α 启动子驱动 Klotho 转基因过表达；结果：两个品系雄鼠寿命较对照分别增加 20.0% 和 30.8%，雌鼠分别增加 18.8% 和 19.0%；生长、摄食量未见显著差异，转基因繁殖对后代数较少。；依赖转基因及特定背景；保留繁殖权衡；不是给药实验。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-kl-1-phenotype-0f96670f53fb",
+    "sourceId": "target-kl",
+    "targetId": "phenotype-0f96670f53fb",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-kl-1"
+    ],
+    "backgroundSourceIds": [],
+    "context": "回交 C3H 四代、近同源背景 EFmKL46 / EFmKL48 小鼠及野生型对照；自由摄食；干预：人延伸因子 1α 启动子驱动 Klotho 转基因过表达；结果：两个品系雄鼠寿命较对照分别增加 20.0% 和 30.8%，雌鼠分别增加 18.8% 和 19.0%；生长、摄食量未见显著差异，转基因繁殖对后代数较少。；依赖转基因及特定背景；保留繁殖权衡；不是给药实验。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-sirt3-1-phenotype-ef263b009bda",
+    "sourceId": "target-sirt3",
+    "targetId": "phenotype-ef263b009bda",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-sirt3-1"
+    ],
+    "backgroundSourceIds": [],
+    "context": "18–24 月龄 SIRT3 KO 与 WT 同窝小鼠；骨髓移植和集落实验；干预：Sirt3 基因敲除；结果：老龄 KO 的表面标记定义 HSC/HSPC 库约少 50%，供体细胞再建能力降低；年轻稳态条件下未呈现相同缺陷。；年龄及应激依赖；细胞数量与单细胞功能不能仅据表面标记定量混同。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-sirt3-2-phenotype-ef263b009bda",
+    "sourceId": "target-sirt3",
+    "targetId": "phenotype-ef263b009bda",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-sirt3-2"
+    ],
+    "backgroundSourceIds": [],
+    "context": "老龄小鼠来源细胞，慢病毒转导后进行集落形成和竞争性移植；干预：SIRT3 慢病毒表达与对照病毒比较；结果：集落形成活性约增加 40%；竞争性移植中功能性再建约增加 5 倍。年轻细胞未观察到相同功能改善。；老龄来源细胞；体外转导后移植；不能把细胞再建解释为全身逆龄。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-bub1b-1-phenotype-0ce1e7dd2136",
+    "sourceId": "target-bub1b",
+    "targetId": "phenotype-0ce1e7dd2136",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-bub1b-1"
+    ],
+    "backgroundSourceIds": [],
+    "context": "CAGGS 启动子 Flag-BubR1 转基因 T23 高表达品系，对照 WT 与 T-GFP；另有中等表达 T7；干预：转基因持续高水平 BubR1 表达；结果：T23 寿命及部分组织功能获益，两性均观察到、雄性更明显；骨质疏松和白内障未延迟。心脏等组织老年非整倍体减少，但骨髓/小肠未呈现统一改善；中等表达 T7 不复制相同获益。；高表达阈值、组织与性别依赖；自然衰老与早衰鼠实验分别解释。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-bub1b-1-phenotype-97bd9d10909e",
+    "sourceId": "target-bub1b",
+    "targetId": "phenotype-97bd9d10909e",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-bub1b-1"
+    ],
+    "backgroundSourceIds": [],
+    "context": "CAGGS 启动子 Flag-BubR1 转基因 T23 高表达品系，对照 WT 与 T-GFP；另有中等表达 T7；干预：转基因持续高水平 BubR1 表达；结果：T23 寿命及部分组织功能获益，两性均观察到、雄性更明显；骨质疏松和白内障未延迟。心脏等组织老年非整倍体减少，但骨髓/小肠未呈现统一改善；中等表达 T7 不复制相同获益。；高表达阈值、组织与性别依赖；自然衰老与早衰鼠实验分别解释。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-bub1b-1-phenotype-85bf3a62f600",
+    "sourceId": "target-bub1b",
+    "targetId": "phenotype-85bf3a62f600",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-bub1b-1"
+    ],
+    "backgroundSourceIds": [],
+    "context": "CAGGS 启动子 Flag-BubR1 转基因 T23 高表达品系，对照 WT 与 T-GFP；另有中等表达 T7；干预：转基因持续高水平 BubR1 表达；结果：T23 寿命及部分组织功能获益，两性均观察到、雄性更明显；骨质疏松和白内障未延迟。心脏等组织老年非整倍体减少，但骨髓/小肠未呈现统一改善；中等表达 T7 不复制相同获益。；高表达阈值、组织与性别依赖；自然衰老与早衰鼠实验分别解释。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-CGAS-37532932-phenotype-13499fe75c07",
+    "sourceId": "target-cgas",
+    "targetId": "phenotype-13499fe75c07",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-CGAS-37532932"
+    ],
+    "backgroundSourceIds": [],
+    "context": "诱导性Tmem119-creERT2-CgasWT/R241E；另有自然老龄小胶质细胞；干预：诱导表达解除核小体抑制的cGAS突变；H-151救援及TNF中和；结果：小胶质细胞活化、神经元密度下降和空间学习受损；STING抑制改善，TNF中和改善共培养神经元存活。；小胶质细胞/脑巨噬细胞为主的诱导表达；遗传模型采用年轻成年鼠模拟衰老相关机制。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-CGAS-37532932-phenotype-1568ea410bb0",
+    "sourceId": "target-cgas",
+    "targetId": "phenotype-1568ea410bb0",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-CGAS-37532932"
+    ],
+    "backgroundSourceIds": [],
+    "context": "诱导性Tmem119-creERT2-CgasWT/R241E；另有自然老龄小胶质细胞；干预：诱导表达解除核小体抑制的cGAS突变；H-151救援及TNF中和；结果：小胶质细胞活化、神经元密度下降和空间学习受损；STING抑制改善，TNF中和改善共培养神经元存活。；小胶质细胞/脑巨噬细胞为主的诱导表达；遗传模型采用年轻成年鼠模拟衰老相关机制。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-CGAS-42642519-phenotype-26d63b11adcc",
+    "sourceId": "target-cgas",
+    "targetId": "phenotype-26d63b11adcc",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-CGAS-42642519"
+    ],
+    "backgroundSourceIds": [],
+    "context": "cGAS KO与WT自然老化比较；干预：全身基因缺失；细胞敲低；回补；与RU.521催化抑制作比较；结果：KO鼠虚弱增加，合并中位寿命2.01降至1.64年；正文指出性别分层寿命下降见雌鼠。细胞LINE1去抑制、异染色质改变，催化抑制未复制敲低的LINE1效应。；全身长期蛋白缺失；核内染色质功能与胞质催化功能需分开。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-CGAS-42642519-phenotype-020e1bb5ce1a",
+    "sourceId": "target-cgas",
+    "targetId": "phenotype-020e1bb5ce1a",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-CGAS-42642519"
+    ],
+    "backgroundSourceIds": [],
+    "context": "cGAS KO与WT自然老化比较；干预：全身基因缺失；细胞敲低；回补；与RU.521催化抑制作比较；结果：KO鼠虚弱增加，合并中位寿命2.01降至1.64年；正文指出性别分层寿命下降见雌鼠。细胞LINE1去抑制、异染色质改变，催化抑制未复制敲低的LINE1效应。；全身长期蛋白缺失；核内染色质功能与胞质催化功能需分开。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-CGAS-42642519-phenotype-186b043a0827",
+    "sourceId": "target-cgas",
+    "targetId": "phenotype-186b043a0827",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-CGAS-42642519"
+    ],
+    "backgroundSourceIds": [],
+    "context": "cGAS KO与WT自然老化比较；干预：全身基因缺失；细胞敲低；回补；与RU.521催化抑制作比较；结果：KO鼠虚弱增加，合并中位寿命2.01降至1.64年；正文指出性别分层寿命下降见雌鼠。细胞LINE1去抑制、异染色质改变，催化抑制未复制敲低的LINE1效应。；全身长期蛋白缺失；核内染色质功能与胞质催化功能需分开。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-STING1-37532932-aged-phenotype-bbb11c912de7",
+    "sourceId": "target-sting1",
+    "targetId": "phenotype-bbb11c912de7",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-STING1-37532932-aged"
+    ],
+    "backgroundSourceIds": [],
+    "context": "自然老龄C57BL/6J鼠与老龄Sting1缺失鼠；干预：腹腔H-151；Sting1−/−对照；结果：H-151改善握力、跑台表现和认知，降低炎症/部分肾损伤指标；遗传缺失支持部分炎症与脑组织学结果。；自然老龄鼠；药理和KO分别支持的终点应按原图区分。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-STING1-37532932-aged-phenotype-13499fe75c07",
+    "sourceId": "target-sting1",
+    "targetId": "phenotype-13499fe75c07",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-STING1-37532932-aged"
+    ],
+    "backgroundSourceIds": [],
+    "context": "自然老龄C57BL/6J鼠与老龄Sting1缺失鼠；干预：腹腔H-151；Sting1−/−对照；结果：H-151改善握力、跑台表现和认知，降低炎症/部分肾损伤指标；遗传缺失支持部分炎症与脑组织学结果。；自然老龄鼠；药理和KO分别支持的终点应按原图区分。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-STING1-37532932-aged-phenotype-186b043a0827",
+    "sourceId": "target-sting1",
+    "targetId": "phenotype-186b043a0827",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-STING1-37532932-aged"
+    ],
+    "backgroundSourceIds": [],
+    "context": "自然老龄C57BL/6J鼠与老龄Sting1缺失鼠；干预：腹腔H-151；Sting1−/−对照；结果：H-151改善握力、跑台表现和认知，降低炎症/部分肾损伤指标；遗传缺失支持部分炎症与脑组织学结果。；自然老龄鼠；药理和KO分别支持的终点应按原图区分。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-STING1-37532932-aged-intervention-caebb80f6349",
+    "sourceId": "intervention-caebb80f6349",
+    "targetId": "target-sting1",
+    "relationType": "indirect",
+    "polarity": "unknown",
+    "directness": "实验处理与该条目功能主张的关联；药理关联不自动证明直接结合或特异性。",
+    "evidenceIds": [
+      "ev-STING1-37532932-aged"
+    ],
+    "backgroundSourceIds": [],
+    "context": "腹腔H-151；Sting1−/−对照；自然老龄C57BL/6J鼠与老龄Sting1缺失鼠；未检测寿命延长；不能把全部药理行为终点宣称为KO重复；无化妆品外用研究。",
+    "scope": "aging_experiment",
+    "label": "药理 / 处理关联",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-STING1-37532932-BJ-phenotype-c1aca853681a",
+    "sourceId": "target-sting1",
+    "targetId": "phenotype-c1aca853681a",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-STING1-37532932-BJ"
+    ],
+    "backgroundSourceIds": [],
+    "context": "12 Gy辐射诱导的细胞衰老；干预：辐射后10天使用si-STING，72 h后比较si-NC；结果：促炎和干扰素刺激基因转录下降。；辐射已建立的细胞衰老环境；是细胞衰老模型而非急性UV存活实验。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-NLRP3-24093676-phenotype-13499fe75c07",
+    "sourceId": "target-nlrp3",
+    "targetId": "phenotype-13499fe75c07",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-NLRP3-24093676"
+    ],
+    "backgroundSourceIds": [],
+    "context": "正常饲料自然衰老鼠；不同终点含18–24月龄群体；干预：Nlrp3遗传消融与年龄匹配WT比较；结果：改善糖耐量、减轻骨丢失和胸腺退化，改善认知与运动；IL-1信号仅解释部分表型。；非经典caspase-11与IL-1受体敲除用于区分机制；不能把IL-1下降当所有获益的统一中介。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-NLRP3-24093676-phenotype-bbb11c912de7",
+    "sourceId": "target-nlrp3",
+    "targetId": "phenotype-bbb11c912de7",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-NLRP3-24093676"
+    ],
+    "backgroundSourceIds": [],
+    "context": "正常饲料自然衰老鼠；不同终点含18–24月龄群体；干预：Nlrp3遗传消融与年龄匹配WT比较；结果：改善糖耐量、减轻骨丢失和胸腺退化，改善认知与运动；IL-1信号仅解释部分表型。；非经典caspase-11与IL-1受体敲除用于区分机制；不能把IL-1下降当所有获益的统一中介。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-NLRP3-24093676-phenotype-270e792e30d1",
+    "sourceId": "target-nlrp3",
+    "targetId": "phenotype-270e792e30d1",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-NLRP3-24093676"
+    ],
+    "backgroundSourceIds": [],
+    "context": "正常饲料自然衰老鼠；不同终点含18–24月龄群体；干预：Nlrp3遗传消融与年龄匹配WT比较；结果：改善糖耐量、减轻骨丢失和胸腺退化，改善认知与运动；IL-1信号仅解释部分表型。；非经典caspase-11与IL-1受体敲除用于区分机制；不能把IL-1下降当所有获益的统一中介。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-NLRP3-24093676-phenotype-9e194ab8a214",
+    "sourceId": "target-nlrp3",
+    "targetId": "phenotype-9e194ab8a214",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-NLRP3-24093676"
+    ],
+    "backgroundSourceIds": [],
+    "context": "正常饲料自然衰老鼠；不同终点含18–24月龄群体；干预：Nlrp3遗传消融与年龄匹配WT比较；结果：改善糖耐量、减轻骨丢失和胸腺退化，改善认知与运动；IL-1信号仅解释部分表型。；非经典caspase-11与IL-1受体敲除用于区分机制；不能把IL-1下降当所有获益的统一中介。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-NLRP3-24093676-phenotype-186b043a0827",
+    "sourceId": "target-nlrp3",
+    "targetId": "phenotype-186b043a0827",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-NLRP3-24093676"
+    ],
+    "backgroundSourceIds": [],
+    "context": "正常饲料自然衰老鼠；不同终点含18–24月龄群体；干预：Nlrp3遗传消融与年龄匹配WT比较；结果：改善糖耐量、减轻骨丢失和胸腺退化，改善认知与运动；IL-1信号仅解释部分表型。；非经典caspase-11与IL-1受体敲除用于区分机制；不能把IL-1下降当所有获益的统一中介。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-ATG5-23939249-phenotype-a07d8600aaff",
+    "sourceId": "target-atg5",
+    "targetId": "phenotype-a07d8600aaff",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-ATG5-23939249"
+    ],
+    "backgroundSourceIds": [],
+    "context": "WT同窝鼠与全身Atg5转基因自然老化比较；干预：CAG驱动Atg5持续过表达；细胞自噬抑制对照；结果：主要转基因系中位寿命约增加17%；两性均有延长，另见较瘦体型及更好悬挂表现。；持续全身遗传干预；各细胞氧化应激结果只是机制补充。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-ATG5-23939249-phenotype-a10fd536393e",
+    "sourceId": "target-atg5",
+    "targetId": "phenotype-a10fd536393e",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-ATG5-23939249"
+    ],
+    "backgroundSourceIds": [],
+    "context": "WT同窝鼠与全身Atg5转基因自然老化比较；干预：CAG驱动Atg5持续过表达；细胞自噬抑制对照；结果：主要转基因系中位寿命约增加17%；两性均有延长，另见较瘦体型及更好悬挂表现。；持续全身遗传干预；各细胞氧化应激结果只是机制补充。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-ATG5-23939249-phenotype-fd3a37af83a8",
+    "sourceId": "target-atg5",
+    "targetId": "phenotype-fd3a37af83a8",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-ATG5-23939249"
+    ],
+    "backgroundSourceIds": [],
+    "context": "WT同窝鼠与全身Atg5转基因自然老化比较；干预：CAG驱动Atg5持续过表达；细胞自噬抑制对照；结果：主要转基因系中位寿命约增加17%；两性均有延长，另见较瘦体型及更好悬挂表现。；持续全身遗传干预；各细胞氧化应激结果只是机制补充。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-BECN1-29849149-phenotype-a07d8600aaff",
+    "sourceId": "target-becn1",
+    "targetId": "phenotype-a07d8600aaff",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-BECN1-29849149"
+    ],
+    "backgroundSourceIds": [],
+    "context": "C57BL/6自然老龄敲入鼠；另有Klotho低表达早衰模型；干预：Becn1 F121A敲入，减少与Bcl2结合；与Klotho早衰模型杂交；结果：合并中位寿命26增至29个月；两性均延长，20月龄心肾纤维化等减轻；救援Klotho模型早死。；遗传突变特定于结合界面；自噬仍随年龄下降，属于延缓而非完全阻止。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-BECN1-29849149-phenotype-0256c86d1f24",
+    "sourceId": "target-becn1",
+    "targetId": "phenotype-0256c86d1f24",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-BECN1-29849149"
+    ],
+    "backgroundSourceIds": [],
+    "context": "C57BL/6自然老龄敲入鼠；另有Klotho低表达早衰模型；干预：Becn1 F121A敲入，减少与Bcl2结合；与Klotho早衰模型杂交；结果：合并中位寿命26增至29个月；两性均延长，20月龄心肾纤维化等减轻；救援Klotho模型早死。；遗传突变特定于结合界面；自噬仍随年龄下降，属于延缓而非完全阻止。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-CD38-27304511-phenotype-e89060bc58a5",
+    "sourceId": "target-cd38",
+    "targetId": "phenotype-e89060bc58a5",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-CD38-27304511"
+    ],
+    "backgroundSourceIds": [],
+    "context": "自然老龄鼠NAD代谢与线粒体功能比较；干预：比较Cd38 KO与WT；建立Cd38/Sirt3双KO检验代谢及线粒体表型的SIRT3依赖；结果：CD38对于年龄相关NAD下降与线粒体功能障碍具有功能贡献，SIRT3至少部分介导；CD38亦参与体内NMN降解。；只将鼠功能实验用于因果支持；人老年脂肪表达资料为相关性，未作为核心人功能证据。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-CD38-27304511-phenotype-ef8c4775c710",
+    "sourceId": "target-cd38",
+    "targetId": "phenotype-ef8c4775c710",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-CD38-27304511"
+    ],
+    "backgroundSourceIds": [],
+    "context": "自然老龄鼠NAD代谢与线粒体功能比较；干预：比较Cd38 KO与WT；建立Cd38/Sirt3双KO检验代谢及线粒体表型的SIRT3依赖；结果：CD38对于年龄相关NAD下降与线粒体功能障碍具有功能贡献，SIRT3至少部分介导；CD38亦参与体内NMN降解。；只将鼠功能实验用于因果支持；人老年脂肪表达资料为相关性，未作为核心人功能证据。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-RELA-22706308-phenotype-03e5a97c28b4",
+    "sourceId": "target-rela",
+    "targetId": "phenotype-03e5a97c28b4",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-RELA-22706308"
+    ],
+    "backgroundSourceIds": [],
+    "context": "Ercc1DNA修复缺陷早衰模型；细胞氧化应激衰老；干预：降低Rela一个等位基因；另以IKK/NF-κB通路抑制肽验证；结果：早衰症状及组织病理延缓；肝细胞及应激MEF衰老降低。；早衰及应激条件；不能将下游抑制剂描述为RELA特异直接结合药物。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-RELA-22706308-phenotype-588ce4fde329",
+    "sourceId": "target-rela",
+    "targetId": "phenotype-588ce4fde329",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-RELA-22706308"
+    ],
+    "backgroundSourceIds": [],
+    "context": "Ercc1DNA修复缺陷早衰模型；细胞氧化应激衰老；干预：降低Rela一个等位基因；另以IKK/NF-κB通路抑制肽验证；结果：早衰症状及组织病理延缓；肝细胞及应激MEF衰老降低。；早衰及应激条件；不能将下游抑制剂描述为RELA特异直接结合药物。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-RELA-22706308-intervention-916889e26e44",
+    "sourceId": "intervention-916889e26e44",
+    "targetId": "target-rela",
+    "relationType": "indirect",
+    "polarity": "unknown",
+    "directness": "实验处理与该条目功能主张的关联；药理关联不自动证明直接结合或特异性。",
+    "evidenceIds": [
+      "ev-RELA-22706308"
+    ],
+    "backgroundSourceIds": [],
+    "context": "降低Rela一个等位基因；另以IKK/NF-κB通路抑制肽验证；Ercc1DNA修复缺陷早衰模型；细胞氧化应激衰老；未证明自然老龄WT寿命延长；不能等同完全长期抑制NF-κB安全有效。",
+    "scope": "aging_experiment",
+    "label": "药理 / 处理关联",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-RELA-19779484-phenotype-d8bad7dc2b24",
+    "sourceId": "target-rela",
+    "targetId": "phenotype-d8bad7dc2b24",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-RELA-19779484"
+    ],
+    "backgroundSourceIds": [],
+    "context": "从衰老到永生化的细胞培养模型；干预：缺失RelA/p65，与WT原代成纤维细胞比较；结果：鼠细胞更快永生化，伴DNA修复缺陷、突变/缺失/染色体重排增加；人细胞NF-κB缺失条件有相似结果。；维持抗肿瘤性细胞衰老与机体健康寿命不同；完全KO与早衰鼠Rela+/−不是同一干预。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-RELA-19779484-phenotype-9f69abb82003",
+    "sourceId": "target-rela",
+    "targetId": "phenotype-9f69abb82003",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-RELA-19779484"
+    ],
+    "backgroundSourceIds": [],
+    "context": "从衰老到永生化的细胞培养模型；干预：缺失RelA/p65，与WT原代成纤维细胞比较；结果：鼠细胞更快永生化，伴DNA修复缺陷、突变/缺失/染色体重排增加；人细胞NF-κB缺失条件有相似结果。；维持抗肿瘤性细胞衰老与机体健康寿命不同；完全KO与早衰鼠Rela+/−不是同一干预。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-TP53-11780111-phenotype-26d63b11adcc",
+    "sourceId": "target-tp53",
+    "targetId": "phenotype-26d63b11adcc",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-TP53-11780111"
+    ],
+    "backgroundSourceIds": [],
+    "context": "特定p53突变引起异常功能的早衰样模型；干预：构建异常激活样p53突变，与WT同窝比较；结果：肿瘤抵抗增强，但寿命缩短、骨质疏松、器官萎缩及应激耐受下降。；特定突变等位基因，不能推广为所有p53上调。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-TP53-11780111-phenotype-af48fe820fb8",
+    "sourceId": "target-tp53",
+    "targetId": "phenotype-af48fe820fb8",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-TP53-11780111"
+    ],
+    "backgroundSourceIds": [],
+    "context": "特定p53突变引起异常功能的早衰样模型；干预：构建异常激活样p53突变，与WT同窝比较；结果：肿瘤抵抗增强，但寿命缩短、骨质疏松、器官萎缩及应激耐受下降。；特定突变等位基因，不能推广为所有p53上调。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-TP53-12426394-phenotype-63bf17c97ae9",
+    "sourceId": "target-tp53",
+    "targetId": "phenotype-63bf17c97ae9",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-TP53-12426394"
+    ],
+    "backgroundSourceIds": [],
+    "context": "Super-p53鼠，保持生理基因调控；干预：在内源两拷贝上增加完整p53基因组转基因；结果：DNA损伤响应和肿瘤抵抗增强；无早衰迹象。；完整基因组及正常调控；与截短异常激活突变不同。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-TP53-12426394-phenotype-1b91126a1d43",
+    "sourceId": "target-tp53",
+    "targetId": "phenotype-1b91126a1d43",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-TP53-12426394"
+    ],
+    "backgroundSourceIds": [],
+    "context": "Super-p53鼠，保持生理基因调控；干预：在内源两拷贝上增加完整p53基因组转基因；结果：DNA损伤响应和肿瘤抵抗增强；无早衰迹象。；完整基因组及正常调控；与截短异常激活突变不同。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-sirt1-pathway-nad",
+    "sourceId": "target-sirt1",
+    "targetId": "pathway-nad",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-35163314"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-atm-pathway-nad",
+    "sourceId": "target-atm",
+    "targetId": "pathway-nad",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-29717979",
+      "source-pub-30726661"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-sirt6-pathway-nad",
+    "sourceId": "target-sirt6",
+    "targetId": "pathway-nad",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-22367546",
+      "source-pub-34050173"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-sirt3-pathway-nad",
+    "sourceId": "target-sirt3",
+    "targetId": "pathway-nad",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-23375372"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-cd38-pathway-nad",
+    "sourceId": "target-cd38",
+    "targetId": "pathway-nad",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-27304511"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-sirt6-pathway-igf",
+    "sourceId": "target-sirt6",
+    "targetId": "pathway-igf",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-22367546",
+      "source-pub-34050173"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-igf1r-pathway-igf",
+    "sourceId": "target-igf1r",
+    "targetId": "pathway-igf",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-12483226",
+      "source-pub-22132081"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-kl-pathway-igf",
+    "sourceId": "target-kl",
+    "targetId": "pathway-igf",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-16123266"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-mtor-pathway-mtor",
+    "sourceId": "target-mtor",
+    "targetId": "pathway-mtor",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-31761958"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-rps6kb1-pathway-mtor",
+    "sourceId": "target-rps6kb1",
+    "targetId": "pathway-mtor",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-19797661"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-atg5-pathway-autophagy",
+    "sourceId": "target-atg5",
+    "targetId": "pathway-autophagy",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-23939249"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-becn1-pathway-autophagy",
+    "sourceId": "target-becn1",
+    "targetId": "pathway-autophagy",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-29849149"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-crat-pathway-cgas",
+    "sourceId": "target-crat",
+    "targetId": "pathway-cgas",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-37828898"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-cgas-pathway-cgas",
+    "sourceId": "target-cgas",
+    "targetId": "pathway-cgas",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-37532932",
+      "source-pub-42642519"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-sting1-pathway-cgas",
+    "sourceId": "target-sting1",
+    "targetId": "pathway-cgas",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-37532932"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-crat-pathway-sasp",
+    "sourceId": "target-crat",
+    "targetId": "pathway-sasp",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-37828898"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-mapk14-pathway-sasp",
+    "sourceId": "target-mapk14",
+    "targetId": "pathway-sasp",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-21399611",
+      "source-pub-27136566"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-sting1-pathway-sasp",
+    "sourceId": "target-sting1",
+    "targetId": "pathway-sasp",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-37532932"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-rela-pathway-sasp",
+    "sourceId": "target-rela",
+    "targetId": "pathway-sasp",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-22706308",
+      "source-pub-19779484"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-atm-pathway-dna",
+    "sourceId": "target-atm",
+    "targetId": "pathway-dna",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-29717979",
+      "source-pub-30726661"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-rela-pathway-dna",
+    "sourceId": "target-rela",
+    "targetId": "pathway-dna",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-22706308",
+      "source-pub-19779484"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-tp53-pathway-dna",
+    "sourceId": "target-tp53",
+    "targetId": "pathway-dna",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-11780111",
+      "source-pub-12426394"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-foxm1-pathway-mitosis",
+    "sourceId": "target-foxm1",
+    "targetId": "pathway-mitosis",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-30026603",
+      "source-pub-40133272"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-bub1b-pathway-mitosis",
+    "sourceId": "target-bub1b",
+    "targetId": "pathway-mitosis",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-23242215"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-foxm1-pathway-chromatin",
+    "sourceId": "target-foxm1",
+    "targetId": "pathway-chromatin",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-30026603",
+      "source-pub-40133272"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-sirt6-pathway-chromatin",
+    "sourceId": "target-sirt6",
+    "targetId": "pathway-chromatin",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-22367546",
+      "source-pub-34050173"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-cgas-pathway-chromatin",
+    "sourceId": "target-cgas",
+    "targetId": "pathway-chromatin",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-37532932",
+      "source-pub-42642519"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-crat-pathway-mito",
+    "sourceId": "target-crat",
+    "targetId": "pathway-mito",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-37828898"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-sirt1-pathway-mito",
+    "sourceId": "target-sirt1",
+    "targetId": "pathway-mito",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-35163314"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-sirt3-pathway-mito",
+    "sourceId": "target-sirt3",
+    "targetId": "pathway-mito",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-23375372"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-cd38-pathway-mito",
+    "sourceId": "target-cd38",
+    "targetId": "pathway-mito",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-27304511"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-tert-pathway-telomere",
+    "sourceId": "target-tert",
+    "targetId": "pathway-telomere",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-22585399"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-nlrp3-pathway-nlrp3",
+    "sourceId": "target-nlrp3",
+    "targetId": "pathway-nlrp3",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-24093676"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-sirt3-pathway-hsc",
+    "sourceId": "target-sirt3",
+    "targetId": "pathway-hsc",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-23375372"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-cgas-sting-functional",
+    "sourceId": "target-cgas",
+    "targetId": "target-sting1",
+    "relationType": "indirect",
+    "polarity": "positive",
+    "directness": "间接功能关系：STING 抑制剂 H-151 救援；不代表两蛋白直接结合。",
+    "evidenceIds": [
+      "ev-CGAS-37532932"
+    ],
+    "backgroundSourceIds": [],
+    "context": "小胶质细胞 Cgas R241E 功能获得；H-151 救援。小胶质细胞/脑巨噬细胞为主的诱导表达；遗传模型采用年轻成年鼠模拟衰老相关机制。 不是自然衰老全身CGAS敲除；共培养TNF救援不能外推全部机体衰老；不支持与STING直接物理结合。",
+    "scope": "aging_experiment",
+    "label": "功能获得 / H-151救援",
+    "direction": "directed"
+  },
+  {
+    "id": "rel-functional-crat-cgas-ev-crat-hdf",
+    "sourceId": "target-crat",
+    "targetId": "target-cgas",
+    "relationType": "indirect",
+    "polarity": "unknown",
+    "directness": "共敲低确定的条件性功能依赖；无直接物理调控证明，未指定正常CRAT对该分子活性的永久极性。",
+    "evidenceIds": [
+      "ev-crat-hdf"
+    ],
+    "backgroundSourceIds": [],
+    "context": "PMID37828898，正常人原代真皮成纤维细胞。CRAT siRNA诱导SASP和SA-β-gal升高；分别共敲低CGAS降低该表型（Fig5b；S4、S5a–b）。这是一项CRAT缺失表型的遗传依赖关系，不由共通路推断，不把其等同为直接抑制或完整信号顺序。",
+    "scope": "aging_experiment",
+    "label": "CRAT缺失表型依赖CGAS",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-functional-crat-sting1-ev-crat-hdf",
+    "sourceId": "target-crat",
+    "targetId": "target-sting1",
+    "relationType": "indirect",
+    "polarity": "unknown",
+    "directness": "共敲低确定的条件性功能依赖；无直接物理调控证明，未指定正常CRAT对该分子活性的永久极性。",
+    "evidenceIds": [
+      "ev-crat-hdf"
+    ],
+    "backgroundSourceIds": [],
+    "context": "PMID37828898，正常人原代真皮成纤维细胞。CRAT siRNA诱导SASP和SA-β-gal升高；分别共敲低STING1降低该表型（Fig5b；S4、S5a–b）。这是一项CRAT缺失表型的遗传依赖关系，不由共通路推断，不把其等同为直接抑制或完整信号顺序。",
+    "scope": "aging_experiment",
+    "label": "CRAT缺失表型依赖STING1",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-functional-crat-rela-ev-crat-hdf",
+    "sourceId": "target-crat",
+    "targetId": "target-rela",
+    "relationType": "indirect",
+    "polarity": "unknown",
+    "directness": "共敲低确定的条件性功能依赖；无直接物理调控证明，未指定正常CRAT对该分子活性的永久极性。",
+    "evidenceIds": [
+      "ev-crat-hdf"
+    ],
+    "backgroundSourceIds": [],
+    "context": "PMID37828898，正常人原代真皮成纤维细胞。CRAT siRNA诱导SASP和SA-β-gal升高；分别共敲低RELA/p65降低该表型（Fig5c–e；S4、S5a–b）。这是一项CRAT缺失表型的遗传依赖关系，不由共通路推断，不把其等同为直接抑制或完整信号顺序。",
+    "scope": "aging_experiment",
+    "label": "CRAT缺失表型依赖RELA",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-functional-atm-sirt6-ev-atm-sirt6-mechanism",
+    "sourceId": "target-atm",
+    "targetId": "target-sirt6",
+    "relationType": "phosphorylates",
+    "polarity": "positive",
+    "directness": "直接底物磷酸化有体外激酶、Ser112突变和ATM补回支持；稳定性与代谢/小鼠救援另有同篇功能实验。",
+    "evidenceIds": [
+      "ev-atm-sirt6-mechanism"
+    ],
+    "backgroundSourceIds": [],
+    "context": "PMID29717979。Figure3及supplement1k：免疫纯化ATM可体外磷酸化GST-SIRT6，S112A突变阻断该反应；Figure4：ATM相关Ser112磷酸化限制SIRT6降解。Figure2 supplement2c：SIRT6补回恢复ATM缺失HepG2的糖酵解基因改变；Figure2j–l：Sirt6转基因改善Atm-/-小鼠代谢并延长寿命。分子实验包含HEK293/HepG2/U2OS等细胞系及体外蛋白，与原代皮肤及人体外推区分；这里的正向是SIRT6磷酸化/稳定性，不是无条件提高去乙酰化酶活性。",
+    "scope": "aging_experiment",
+    "label": "磷酸化SIRT6 Ser112并稳定蛋白",
+    "direction": "directed"
+  },
+  {
+    "id": "rel-functional-cd38-sirt3-ev-CD38-27304511",
+    "sourceId": "target-cd38",
+    "targetId": "target-sirt3",
+    "relationType": "indirect",
+    "polarity": "negative",
+    "directness": "经NAD可用性的间接酶活调控与遗传依赖；双敲除并非直接结合或直接酶激活实验。",
+    "evidenceIds": [
+      "ev-CD38-27304511"
+    ],
+    "backgroundSourceIds": [],
+    "context": "雄鼠Cd38 KO与WT比较；1岁肝内源NAD条件下SIRT3活性较高，加入饱和NAD后组间活性相近，SIRT3蛋白水平相近。2岁Cd38/Sirt3双KO逆转Cd38单KO的糖耐量及ATP合成耦联呼吸获益，支持这些终点的SIRT3依赖。箭头表示CD38经NAD消耗对SIRT3功能的间接负向影响，不能外推所有组织、所有衰老终点或直接物理相互作用。原文Fig.5A–E；Results: CD38 regulates metabolic state by a SIRT3-dependent mechanism。",
+    "scope": "aging_experiment",
+    "label": "CD38缺失的代谢获益依赖SIRT3",
+    "direction": "directed"
+  },
+  {
+    "id": "rel-functional-becn1-kl-ev-BECN1-29849149",
+    "sourceId": "target-becn1",
+    "targetId": "target-kl",
+    "relationType": "indirect",
+    "polarity": "not_applicable",
+    "directness": "跨基因遗传救援/旁路关系；不表示BECN1调控KL表达或两蛋白直接结合，故无方向箭头。",
+    "evidenceIds": [
+      "ev-BECN1-29849149"
+    ],
+    "backgroundSourceIds": [],
+    "context": "将Becn1 F121A/F121A与Klotho低表达早衰鼠交配。F121A降低肾内Beclin1–Bcl2共沉淀、恢复LC3/p62自噬指标，近乎完全救援早死并改善不育和生长迟缓；KL蛋白表达未见明显改变。该实验支持增强Beclin1相关自噬可绕过部分KL缺乏表型，不能证明BECN1激活KL。Klotho低表达早衰模型不等于全部自然衰老。原文Fig.4a–i；存在Fig.2c作者更正，见该publication.correctionStatus。",
+    "scope": "aging_experiment",
+    "label": "BECN1 F121A救援KL低表达早衰",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-mtor-member-complex",
+    "sourceId": "target-mtor",
+    "targetId": "complex-mtorc1",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "复合物成员归属",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "src-reactome-s6k"
+    ],
+    "context": "Reactome R-HSA-165718 催化实体为 active mTORC1 complex；不能把 MTOR 单蛋白等同复合物。",
+    "scope": "pathway_background",
+    "label": "复合物成员",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-mtorc1-s6k-background",
+    "sourceId": "complex-mtorc1",
+    "targetId": "target-rps6kb1",
+    "relationType": "activates",
+    "polarity": "positive",
+    "directness": "数据库整理的催化磷酸化背景反应",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "src-reactome-s6k"
+    ],
+    "context": "Reactome R-HSA-165718，人类事件。mTORC1 磷酸化 p70 S6K1 Thr389 / p85 Thr412；本背景边不证明在当前皮肤或衰老模型中的完整因果链。",
+    "scope": "pathway_background",
+    "label": "磷酸化 T389 / T412",
+    "direction": "directed"
+  }
+]

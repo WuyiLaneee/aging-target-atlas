@@ -1,0 +1,93 @@
+[
+  {
+    "id": "intervention-f41513ebe4da",
+    "name": "雷帕霉素（rapamycin）",
+    "category": "研究用药理分子 / 原料",
+    "identity": "身份以关联原始论文中的名称和处理为依据；未核实的 CAS / 外部化学 ID 不填写。",
+    "targetIds": [
+      "target-mtor"
+    ],
+    "evidenceIds": [
+      "ev-mtor-human-skin"
+    ],
+    "route": "一侧手背涂雷帕霉素乳膏，另一侧载体；随机标记左右侧"
+  },
+  {
+    "id": "intervention-c27bd50cf108",
+    "name": "高良姜素（galangin）",
+    "category": "研究用药理分子 / 原料",
+    "identity": "身份以关联原始论文中的名称和处理为依据；未核实的 CAS / 外部化学 ID 不填写。",
+    "targetIds": [
+      "target-sirt1"
+    ],
+    "evidenceIds": [
+      "ev-sirt1-dependency"
+    ],
+    "route": "高良姜素处理；SIRT1 siRNA依赖性检验"
+  },
+  {
+    "id": "intervention-d7042b7ddf80",
+    "name": "氯喹（chloroquine）",
+    "category": "研究用药理分子 / 原料",
+    "identity": "身份以关联原始论文中的名称和处理为依据；未核实的 CAS / 外部化学 ID 不填写。",
+    "targetIds": [
+      "target-atm"
+    ],
+    "evidenceIds": [
+      "ev-atm-knockdown"
+    ],
+    "route": "ATM shRNA；部分实验比较低剂量氯喹在ATM正常或敲低条件下作用"
+  },
+  {
+    "id": "intervention-1e6f3a267139",
+    "name": "KU-60019",
+    "category": "研究用药理分子 / 原料",
+    "identity": "身份以关联原始论文中的名称和处理为依据；未核实的 CAS / 外部化学 ID 不填写。",
+    "targetIds": [
+      "target-atm"
+    ],
+    "evidenceIds": [
+      "ev-atm-inhib-progeria"
+    ],
+    "route": "KU-60019；文中另用CP-466722验证部分结果"
+  },
+  {
+    "id": "intervention-b662b489646b",
+    "name": "AAV9-mTERT 基因递送",
+    "category": "遗传工具",
+    "identity": "身份以关联原始论文中的名称和处理为依据；未核实的 CAS / 外部化学 ID 不填写。",
+    "targetIds": [
+      "target-tert"
+    ],
+    "evidenceIds": [
+      "ev-tert-1"
+    ],
+    "route": "尾静脉给予 AAV9-mTERT；AAV9-GFP 对照；成年组另设催化失活 mTERT 对照"
+  },
+  {
+    "id": "intervention-caebb80f6349",
+    "name": "H-151",
+    "category": "研究用药理分子 / 原料",
+    "identity": "身份以关联原始论文中的名称和处理为依据；未核实的 CAS / 外部化学 ID 不填写。",
+    "targetIds": [
+      "target-sting1"
+    ],
+    "evidenceIds": [
+      "ev-STING1-37532932-aged"
+    ],
+    "route": "腹腔H-151；Sting1−/−对照"
+  },
+  {
+    "id": "intervention-916889e26e44",
+    "name": "8K-NBD（IKK/NF-κB通路抑制肽；非RELA直接配体）",
+    "category": "研究用药理分子 / 原料",
+    "identity": "身份以关联原始论文中的名称和处理为依据；未核实的 CAS / 外部化学 ID 不填写。",
+    "targetIds": [
+      "target-rela"
+    ],
+    "evidenceIds": [
+      "ev-RELA-22706308"
+    ],
+    "route": "降低Rela一个等位基因；另以IKK/NF-κB通路抑制肽验证"
+  }
+]

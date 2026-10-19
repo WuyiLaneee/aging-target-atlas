@@ -1,0 +1,122 @@
+[
+  {
+    "id": "hallmark-01",
+    "name": "基因组不稳定性",
+    "englishName": "Genomic instability",
+    "number": 1,
+    "description": "以 Cell 2023 工作框架为导航；跨分类主题归属不表示已经证明特定因果作用。",
+    "sourceId": "src-hallmarks",
+    "version": "Cell-2023-v1",
+    "color": "#6b9980"
+  },
+  {
+    "id": "hallmark-02",
+    "name": "端粒耗损",
+    "englishName": "Telomere attrition",
+    "number": 2,
+    "description": "以 Cell 2023 工作框架为导航；跨分类主题归属不表示已经证明特定因果作用。",
+    "sourceId": "src-hallmarks",
+    "version": "Cell-2023-v1",
+    "color": "#87a588"
+  },
+  {
+    "id": "hallmark-03",
+    "name": "表观遗传改变",
+    "englishName": "Epigenetic alterations",
+    "number": 3,
+    "description": "以 Cell 2023 工作框架为导航；跨分类主题归属不表示已经证明特定因果作用。",
+    "sourceId": "src-hallmarks",
+    "version": "Cell-2023-v1",
+    "color": "#94a287"
+  },
+  {
+    "id": "hallmark-04",
+    "name": "蛋白质稳态丧失",
+    "englishName": "Loss of proteostasis",
+    "number": 4,
+    "description": "以 Cell 2023 工作框架为导航；跨分类主题归属不表示已经证明特定因果作用。",
+    "sourceId": "src-hallmarks",
+    "version": "Cell-2023-v1",
+    "color": "#809aa4"
+  },
+  {
+    "id": "hallmark-05",
+    "name": "宏自噬受损",
+    "englishName": "Disabled macroautophagy",
+    "number": 5,
+    "description": "以 Cell 2023 工作框架为导航；跨分类主题归属不表示已经证明特定因果作用。",
+    "sourceId": "src-hallmarks",
+    "version": "Cell-2023-v1",
+    "color": "#7e9a89"
+  },
+  {
+    "id": "hallmark-06",
+    "name": "营养感知失调",
+    "englishName": "Deregulated nutrient-sensing",
+    "number": 6,
+    "description": "以 Cell 2023 工作框架为导航；跨分类主题归属不表示已经证明特定因果作用。",
+    "sourceId": "src-hallmarks",
+    "version": "Cell-2023-v1",
+    "color": "#7b9c93"
+  },
+  {
+    "id": "hallmark-07",
+    "name": "线粒体功能障碍",
+    "englishName": "Mitochondrial dysfunction",
+    "number": 7,
+    "description": "以 Cell 2023 工作框架为导航；跨分类主题归属不表示已经证明特定因果作用。",
+    "sourceId": "src-hallmarks",
+    "version": "Cell-2023-v1",
+    "color": "#a99b70"
+  },
+  {
+    "id": "hallmark-08",
+    "name": "细胞衰老",
+    "englishName": "Cellular senescence",
+    "number": 8,
+    "description": "以 Cell 2023 工作框架为导航；跨分类主题归属不表示已经证明特定因果作用。",
+    "sourceId": "src-hallmarks",
+    "version": "Cell-2023-v1",
+    "color": "#8a9f7b"
+  },
+  {
+    "id": "hallmark-09",
+    "name": "干细胞耗竭",
+    "englishName": "Stem cell exhaustion",
+    "number": 9,
+    "description": "以 Cell 2023 工作框架为导航；跨分类主题归属不表示已经证明特定因果作用。",
+    "sourceId": "src-hallmarks",
+    "version": "Cell-2023-v1",
+    "color": "#7d9c76"
+  },
+  {
+    "id": "hallmark-10",
+    "name": "细胞间通讯改变",
+    "englishName": "Altered intercellular communication",
+    "number": 10,
+    "description": "以 Cell 2023 工作框架为导航；跨分类主题归属不表示已经证明特定因果作用。",
+    "sourceId": "src-hallmarks",
+    "version": "Cell-2023-v1",
+    "color": "#819f96"
+  },
+  {
+    "id": "hallmark-11",
+    "name": "慢性炎症",
+    "englishName": "Chronic inflammation",
+    "number": 11,
+    "description": "以 Cell 2023 工作框架为导航；跨分类主题归属不表示已经证明特定因果作用。",
+    "sourceId": "src-hallmarks",
+    "version": "Cell-2023-v1",
+    "color": "#b49c79"
+  },
+  {
+    "id": "hallmark-12",
+    "name": "微生物群失衡",
+    "englishName": "Dysbiosis",
+    "number": 12,
+    "description": "以 Cell 2023 工作框架为导航；跨分类主题归属不表示已经证明特定因果作用。",
+    "sourceId": "src-hallmarks",
+    "version": "Cell-2023-v1",
+    "color": "#91a385"
+  }
+]

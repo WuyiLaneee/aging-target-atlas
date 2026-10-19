@@ -1,0 +1,107 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 0
+  },
+  "response": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "ccds_id": [
+          "CCDS127"
+        ],
+        "ensembl_gene_id": "ENSG00000198793",
+        "gene_group": [
+          "MTOR complex 1",
+          "MTOR complex 2",
+          "Armadillo like helical domain containing",
+          "Phosphatidylinositol 3-kinase-related kinase family"
+        ],
+        "ena": [
+          "L34075"
+        ],
+        "mgd_id": [
+          "MGI:1928394"
+        ],
+        "prev_symbol": [
+          "FRAP",
+          "FRAP2",
+          "FRAP1"
+        ],
+        "date_approved_reserved": "1995-07-18T00:00:00Z",
+        "date_name_changed": "2017-08-04T00:00:00Z",
+        "entrez_id": "2475",
+        "symbol": "MTOR",
+        "locus_group": "protein-coding gene",
+        "orphanet": 431220,
+        "gene_group_id": [
+          1332,
+          1333,
+          1492,
+          3631
+        ],
+        "date_symbol_changed": "2009-05-29T00:00:00Z",
+        "vega_id": "OTTHUMG00000002001",
+        "status": "Approved",
+        "iuphar": "HGNC:3942",
+        "omim_id": [
+          "601231"
+        ],
+        "uuid": "06626d30-5907-4cff-a33a-194a5b50b84a",
+        "lsdb": [
+          "LRG_734|http://ftp.ebi.ac.uk/pub/databases/lrgex/LRG_734.xml"
+        ],
+        "name": "mechanistic target of rapamycin kinase",
+        "rgd_id": [
+          "RGD:68371"
+        ],
+        "ucsc_id": "uc001asd.4",
+        "location": "1p36.22",
+        "cosmic": "MTOR",
+        "uniprot_ids": [
+          "P42345"
+        ],
+        "prev_name": [
+          "FK506 binding protein 12-rapamycin associated protein 1",
+          "mechanistic target of rapamycin (serine/threonine kinase)",
+          "mechanistic target of rapamycin"
+        ],
+        "hgnc_id": "HGNC:3942",
+        "gencc": "HGNC:3942",
+        "alias_symbol": [
+          "mTOR",
+          "RAFT1",
+          "RAPT1",
+          "FLJ44809"
+        ],
+        "date_modified": "2026-02-11T00:00:00Z",
+        "alias_name": [
+          "FK506 binding protein 12-rapamycin associated protein 2",
+          "rapamycin target protein",
+          "FKBP12-rapamycin complex-associated protein 1",
+          "FKBP-rapamycin associated protein",
+          "rapamycin associated protein FRAP2",
+          "dJ576K7.1 (FK506 binding protein 12-rapamycin associated protein 1)",
+          "rapamycin and FKBP12 target 1",
+          "mammalian target of rapamycin"
+        ],
+        "locus_type": "gene with protein product",
+        "pubmed_id": [
+          8008069,
+          8660990,
+          34032352
+        ],
+        "mane_select": [
+          "ENST00000361445.9",
+          "NM_004958.4"
+        ],
+        "refseq_accession": [
+          "NM_004958"
+        ],
+        "agr": "HGNC:3942"
+      }
+    ]
+  }
+}

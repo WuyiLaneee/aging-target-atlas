@@ -1,0 +1,332 @@
+[
+  {
+    "id": "pathway-nad",
+    "name": "NAD⁺ 代谢与 Sirtuin 调控",
+    "summary": "围绕烟酰胺腺嘌呤二核苷酸（NAD⁺）利用、去酰化与衰老功能的研究主题。各 Sirtuin 亚型、组织与终点分别解释。",
+    "memberIds": [
+      "target-sirt1",
+      "target-atm",
+      "target-sirt6",
+      "target-sirt3",
+      "target-cd38"
+    ],
+    "taxonomyIds": [
+      "hallmark-03",
+      "hallmark-06",
+      "hallmark-07"
+    ],
+    "backgroundSourceIds": [
+      "source-pub-35163314",
+      "source-pub-29717979",
+      "source-pub-30726661",
+      "source-pub-22367546",
+      "source-pub-34050173",
+      "source-pub-23375372",
+      "source-pub-27304511"
+    ],
+    "relationIds": [
+      "rel-member-target-sirt1-pathway-nad",
+      "rel-member-target-atm-pathway-nad",
+      "rel-member-target-sirt6-pathway-nad",
+      "rel-member-target-sirt3-pathway-nad",
+      "rel-member-target-cd38-pathway-nad"
+    ],
+    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+  },
+  {
+    "id": "pathway-igf",
+    "name": "胰岛素 / IGF-1 营养感知",
+    "summary": "胰岛素样生长因子 1（IGF-1）及相关内分泌、能量稳态研究。共享主题不等于所有节点间存在直接调控。",
+    "memberIds": [
+      "target-sirt6",
+      "target-igf1r",
+      "target-kl"
+    ],
+    "taxonomyIds": [
+      "hallmark-06",
+      "hallmark-10"
+    ],
+    "backgroundSourceIds": [
+      "source-pub-22367546",
+      "source-pub-34050173",
+      "source-pub-12483226",
+      "source-pub-22132081",
+      "source-pub-16123266"
+    ],
+    "relationIds": [
+      "rel-member-target-sirt6-pathway-igf",
+      "rel-member-target-igf1r-pathway-igf",
+      "rel-member-target-kl-pathway-igf"
+    ],
+    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+  },
+  {
+    "id": "pathway-mtor",
+    "name": "mTOR 营养感知与蛋白翻译",
+    "summary": "雷帕霉素机制靶蛋白（mTOR）相关营养感知和翻译调节研究。MTOR 是基因 / 蛋白，mTORC1 是复合物；两者分开记录。",
+    "memberIds": [
+      "target-mtor",
+      "target-rps6kb1"
+    ],
+    "taxonomyIds": [
+      "hallmark-04",
+      "hallmark-05",
+      "hallmark-06"
+    ],
+    "backgroundSourceIds": [
+      "source-pub-31761958",
+      "source-pub-19797661"
+    ],
+    "relationIds": [
+      "rel-member-target-mtor-pathway-mtor",
+      "rel-member-target-rps6kb1-pathway-mtor"
+    ],
+    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+  },
+  {
+    "id": "pathway-autophagy",
+    "name": "宏自噬与自噬调控",
+    "summary": "ATG5 与 Beclin 1 相关的自噬遗传干预研究。自噬相关机制、细胞功能和整鼠寿命终点分别记录。",
+    "memberIds": [
+      "target-atg5",
+      "target-becn1"
+    ],
+    "taxonomyIds": [
+      "hallmark-04",
+      "hallmark-05",
+      "hallmark-07"
+    ],
+    "backgroundSourceIds": [
+      "source-pub-23939249",
+      "source-pub-29849149"
+    ],
+    "relationIds": [
+      "rel-member-target-atg5-pathway-autophagy",
+      "rel-member-target-becn1-pathway-autophagy"
+    ],
+    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+  },
+  {
+    "id": "pathway-cgas",
+    "name": "cGAS–STING 胞质 DNA 感知",
+    "summary": "环状 GMP–AMP 合酶（cGAS）与干扰素基因刺激蛋白（STING）相关炎症和衰老研究，保留核内 cGAS 功能及全身敲除的条件差异。",
+    "memberIds": [
+      "target-crat",
+      "target-cgas",
+      "target-sting1"
+    ],
+    "taxonomyIds": [
+      "hallmark-01",
+      "hallmark-07",
+      "hallmark-08",
+      "hallmark-11"
+    ],
+    "backgroundSourceIds": [
+      "source-pub-37828898",
+      "source-pub-37532932",
+      "source-pub-42642519"
+    ],
+    "relationIds": [
+      "rel-member-target-crat-pathway-cgas",
+      "rel-member-target-cgas-pathway-cgas",
+      "rel-member-target-sting1-pathway-cgas"
+    ],
+    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+  },
+  {
+    "id": "pathway-sasp",
+    "name": "应激信号与衰老相关分泌表型",
+    "summary": "衰老相关分泌表型（SASP）及 p38、NF-κB 等相关调节主题。调节炎性分泌不等于逆转全部细胞衰老状态。",
+    "memberIds": [
+      "target-crat",
+      "target-mapk14",
+      "target-sting1",
+      "target-rela"
+    ],
+    "taxonomyIds": [
+      "hallmark-08",
+      "hallmark-10",
+      "hallmark-11"
+    ],
+    "backgroundSourceIds": [
+      "source-pub-37828898",
+      "source-pub-21399611",
+      "source-pub-27136566",
+      "source-pub-37532932",
+      "source-pub-22706308",
+      "source-pub-19779484"
+    ],
+    "relationIds": [
+      "rel-member-target-crat-pathway-sasp",
+      "rel-member-target-mapk14-pathway-sasp",
+      "rel-member-target-sting1-pathway-sasp",
+      "rel-member-target-rela-pathway-sasp"
+    ],
+    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+  },
+  {
+    "id": "pathway-dna",
+    "name": "DNA 损伤应答与 p53 调控",
+    "summary": "DNA 损伤、ATM 和 p53 相关衰老研究。保留完全缺失、部分降低、特定突变及药理处理的不同背景。",
+    "memberIds": [
+      "target-atm",
+      "target-rela",
+      "target-tp53"
+    ],
+    "taxonomyIds": [
+      "hallmark-01",
+      "hallmark-08"
+    ],
+    "backgroundSourceIds": [
+      "source-pub-29717979",
+      "source-pub-30726661",
+      "source-pub-22706308",
+      "source-pub-19779484",
+      "source-pub-11780111",
+      "source-pub-12426394"
+    ],
+    "relationIds": [
+      "rel-member-target-atm-pathway-dna",
+      "rel-member-target-rela-pathway-dna",
+      "rel-member-target-tp53-pathway-dna"
+    ],
+    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+  },
+  {
+    "id": "pathway-mitosis",
+    "name": "有丝分裂与染色体稳态",
+    "summary": "BubR1 检查点和 FOXM1 转录程序相关的分裂准确性、细胞衰老与年龄相关功能研究。",
+    "memberIds": [
+      "target-foxm1",
+      "target-bub1b"
+    ],
+    "taxonomyIds": [
+      "hallmark-01",
+      "hallmark-08"
+    ],
+    "backgroundSourceIds": [
+      "source-pub-30026603",
+      "source-pub-40133272",
+      "source-pub-23242215"
+    ],
+    "relationIds": [
+      "rel-member-target-foxm1-pathway-mitosis",
+      "rel-member-target-bub1b-pathway-mitosis"
+    ],
+    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+  },
+  {
+    "id": "pathway-chromatin",
+    "name": "染色质状态与衰老",
+    "summary": "SIRT6、核内 cGAS 和 FOXM1 相关的染色质研究主题。不同机制间的主题关联不表示已验证直接分子连接。",
+    "memberIds": [
+      "target-foxm1",
+      "target-sirt6",
+      "target-cgas"
+    ],
+    "taxonomyIds": [
+      "hallmark-01",
+      "hallmark-03",
+      "hallmark-08"
+    ],
+    "backgroundSourceIds": [
+      "source-pub-30026603",
+      "source-pub-40133272",
+      "source-pub-22367546",
+      "source-pub-34050173",
+      "source-pub-37532932",
+      "source-pub-42642519"
+    ],
+    "relationIds": [
+      "rel-member-target-foxm1-pathway-chromatin",
+      "rel-member-target-sirt6-pathway-chromatin",
+      "rel-member-target-cgas-pathway-chromatin"
+    ],
+    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+  },
+  {
+    "id": "pathway-mito",
+    "name": "线粒体代谢与细胞功能维护",
+    "summary": "线粒体代谢、肉碱乙酰转移酶（CRAT）缺失及 SIRT3 相关年龄依赖功能研究。",
+    "memberIds": [
+      "target-crat",
+      "target-sirt1",
+      "target-sirt3",
+      "target-cd38"
+    ],
+    "taxonomyIds": [
+      "hallmark-07",
+      "hallmark-08",
+      "hallmark-09"
+    ],
+    "backgroundSourceIds": [
+      "source-pub-37828898",
+      "source-pub-35163314",
+      "source-pub-23375372",
+      "source-pub-27304511"
+    ],
+    "relationIds": [
+      "rel-member-target-crat-pathway-mito",
+      "rel-member-target-sirt1-pathway-mito",
+      "rel-member-target-sirt3-pathway-mito",
+      "rel-member-target-cd38-pathway-mito"
+    ],
+    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+  },
+  {
+    "id": "pathway-telomere",
+    "name": "端粒维护与端粒酶干预",
+    "summary": "端粒酶逆转录酶（TERT）基因递送与成年、老年小鼠功能研究；催化活性、载体和动物背景限定解释范围。",
+    "memberIds": [
+      "target-tert"
+    ],
+    "taxonomyIds": [
+      "hallmark-02"
+    ],
+    "backgroundSourceIds": [
+      "source-pub-22585399"
+    ],
+    "relationIds": [
+      "rel-member-target-tert-pathway-telomere"
+    ],
+    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+  },
+  {
+    "id": "pathway-nlrp3",
+    "name": "NLRP3 炎性小体与慢性炎症",
+    "summary": "NLRP3 遗传干预及自然衰老中的炎症、代谢和功能结果。NLRP3 蛋白与包含多个成员的炎性小体复合物分开理解。",
+    "memberIds": [
+      "target-nlrp3"
+    ],
+    "taxonomyIds": [
+      "hallmark-07",
+      "hallmark-11"
+    ],
+    "backgroundSourceIds": [
+      "source-pub-24093676"
+    ],
+    "relationIds": [
+      "rel-member-target-nlrp3-pathway-nlrp3"
+    ],
+    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+  },
+  {
+    "id": "pathway-hsc",
+    "name": "造血干细胞的年龄相关功能",
+    "summary": "老龄造血干细胞（HSC）的细胞库、集落形成与竞争性移植再建研究；细胞再生终点不等于整鼠延寿。",
+    "memberIds": [
+      "target-sirt3"
+    ],
+    "taxonomyIds": [
+      "hallmark-07",
+      "hallmark-09"
+    ],
+    "backgroundSourceIds": [
+      "source-pub-23375372"
+    ],
+    "relationIds": [
+      "rel-member-target-sirt3-pathway-hsc"
+    ],
+    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+  }
+]

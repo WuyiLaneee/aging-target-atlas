@@ -1,0 +1,82 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 1
+  },
+  "response": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "ucsc_id": "uc001jnd.3",
+        "rgd_id": [
+          "RGD:1308542"
+        ],
+        "prev_name": [
+          "sirtuin (silent mating type information regulation 2, S. cerevisiae, homolog) 1",
+          "sirtuin (silent mating type information regulation 2 homolog) 1 (S. cerevisiae)"
+        ],
+        "uniprot_ids": [
+          "Q96EB6"
+        ],
+        "location": "10q21.3",
+        "gencc": "HGNC:14929",
+        "hgnc_id": "HGNC:14929",
+        "alias_symbol": [
+          "SIR2L1"
+        ],
+        "status": "Approved",
+        "iuphar": "HGNC:14929",
+        "uuid": "bd3f0b71-da95-4c72-8519-09e4bb242ebe",
+        "omim_id": [
+          "604479"
+        ],
+        "name": "sirtuin 1",
+        "pubmed_id": [
+          10381378
+        ],
+        "agr": "HGNC:14929",
+        "mane_select": [
+          "ENST00000212015.11",
+          "NM_012238.5"
+        ],
+        "refseq_accession": [
+          "NM_012238"
+        ],
+        "date_modified": "2026-02-06T00:00:00Z",
+        "locus_type": "gene with protein product",
+        "date_approved_reserved": "2001-03-20T00:00:00Z",
+        "entrez_id": "23411",
+        "date_name_changed": "2010-06-25T00:00:00Z",
+        "ensembl_gene_id": "ENSG00000096717",
+        "ccds_id": [
+          "CCDS44412",
+          "CCDS7273",
+          "CCDS81469"
+        ],
+        "ena": [
+          "AF083106"
+        ],
+        "gene_group": [
+          "Sirtuins",
+          "eNoSC complex"
+        ],
+        "mgd_id": [
+          "MGI:2135607"
+        ],
+        "vega_id": "OTTHUMG00000018340",
+        "enzyme_id": [
+          "2.3.1.286"
+        ],
+        "symbol": "SIRT1",
+        "locus_group": "protein-coding gene",
+        "gene_group_id": [
+          938,
+          1477
+        ],
+        "orphanet": 471064
+      }
+    ]
+  }
+}

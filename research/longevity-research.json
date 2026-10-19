@@ -1,0 +1,950 @@
+{
+  "publications": [
+    {
+      "id": "pub-22367546",
+      "title": "The sirtuin SIRT6 regulates lifespan in male mice.",
+      "authors": [
+        "Kanfi Y",
+        "Naiman S",
+        "Amir G",
+        "Peshti V",
+        "Zinman G",
+        "Nahum L",
+        "Bar-Joseph Z",
+        "Cohen HY"
+      ],
+      "year": 2012,
+      "journal": "Nature",
+      "doi": "10.1038/nature10815",
+      "pmid": "22367546",
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22367546/",
+      "fullTextUrl": null,
+      "accessScope": "abstract",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-10-19",
+      "correctionStatus": "已检查 Europe PMC 关联更正/撤稿字段；未见更正或撤稿标记。未实施全面 Crossmark 或逐出版商更正审计。",
+      "correctionRecords": [],
+      "sourcePlatforms": [
+        "PubMed",
+        "Europe PMC"
+      ],
+      "metadataSourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:22367546%20AND%20SRC:MED&format=json&resultType=core",
+      "verificationMethod": "Codex 联网整理并与实际可访问摘要或正文核对；不表示人工专家审核"
+    },
+    {
+      "id": "pub-34050173",
+      "title": "Restoration of energy homeostasis by SIRT6 extends healthy lifespan.",
+      "authors": [
+        "Roichman A",
+        "Elhanati S",
+        "Aon MA",
+        "Abramovich I",
+        "Di Francesco A",
+        "Shahar Y",
+        "Avivi MY",
+        "Shurgi M",
+        "Rubinstein A",
+        "Wiesner Y",
+        "Shuchami A",
+        "Petrover Z",
+        "Lebenthal-Loinger I",
+        "Yaron O",
+        "Lyashkov A",
+        "Ubaida-Mohien C",
+        "Kanfi Y",
+        "Lerrer B",
+        "Fernández-Marcos PJ",
+        "Serrano M",
+        "Gottlieb E",
+        "de Cabo R",
+        "Cohen HY"
+      ],
+      "year": 2021,
+      "journal": "Nature communications",
+      "doi": "10.1038/s41467-021-23545-7",
+      "pmid": "34050173",
+      "pmcid": "PMC8163764",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34050173/",
+      "fullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8163764/",
+      "accessScope": "full_text",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-10-19",
+      "correctionStatus": "已检查 Europe PMC 关联更正/撤稿字段；未见更正或撤稿标记。未实施全面 Crossmark 或逐出版商更正审计。",
+      "correctionRecords": [],
+      "sourcePlatforms": [
+        "PubMed",
+        "Europe PMC"
+      ],
+      "metadataSourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:34050173%20AND%20SRC:MED&format=json&resultType=core",
+      "verificationMethod": "Codex 联网整理并与实际可访问摘要或正文核对；不表示人工专家审核"
+    },
+    {
+      "id": "pub-22585399",
+      "title": "Telomerase gene therapy in adult and old mice delays aging and increases longevity without increasing cancer.",
+      "authors": [
+        "Bernardes de Jesus B",
+        "Vera E",
+        "Schneeberger K",
+        "Tejera AM",
+        "Ayuso E",
+        "Bosch F",
+        "Blasco MA"
+      ],
+      "year": 2012,
+      "journal": "EMBO molecular medicine",
+      "doi": "10.1002/emmm.201200245",
+      "pmid": "22585399",
+      "pmcid": "PMC3494070",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22585399/",
+      "fullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3494070/",
+      "accessScope": "full_text",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-10-19",
+      "correctionStatus": "已检查 Europe PMC 关联更正/撤稿字段；未见更正或撤稿标记。未实施全面 Crossmark 或逐出版商更正审计。",
+      "correctionRecords": [],
+      "sourcePlatforms": [
+        "PubMed",
+        "Europe PMC"
+      ],
+      "metadataSourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:22585399%20AND%20SRC:MED&format=json&resultType=core",
+      "verificationMethod": "Codex 联网整理并与实际可访问摘要或正文核对；不表示人工专家审核"
+    },
+    {
+      "id": "pub-19797661",
+      "title": "Ribosomal protein S6 kinase 1 signaling regulates mammalian life span.",
+      "authors": [
+        "Selman C",
+        "Tullet JM",
+        "Wieser D",
+        "Irvine E",
+        "Lingard SJ",
+        "Choudhury AI",
+        "Claret M",
+        "Al-Qassab H",
+        "Carmignac D",
+        "Ramadani F",
+        "Woods A",
+        "Robinson IC",
+        "Schuster E",
+        "Batterham RL",
+        "Kozma SC",
+        "Thomas G",
+        "Carling D",
+        "Okkenhaug K",
+        "Thornton JM",
+        "Partridge L",
+        "Gems D",
+        "Withers DJ"
+      ],
+      "year": 2009,
+      "journal": "Science (New York, N.Y.)",
+      "doi": "10.1126/science.1177221",
+      "pmid": "19797661",
+      "pmcid": "PMC4954603",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19797661/",
+      "fullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4954603/",
+      "accessScope": "full_text",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-10-19",
+      "correctionStatus": "发现更正：Science. 2011 Oct 7;334(6052):39。更正全文出版商访问受限；本批仅提取小鼠寿命和年龄相关功能，不纳入线虫遗传互作结论。",
+      "correctionRecords": [
+        {
+          "source": "MED",
+          "reference": "Science. 2011 Oct 7;334(6052):39",
+          "type": "Erratum in",
+          "orderIn": 1
+        }
+      ],
+      "sourcePlatforms": [
+        "PubMed",
+        "Europe PMC"
+      ],
+      "metadataSourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:19797661%20AND%20SRC:MED&format=json&resultType=core",
+      "verificationMethod": "Codex 联网整理并与实际可访问摘要或正文核对；不表示人工专家审核"
+    },
+    {
+      "id": "pub-12483226",
+      "title": "IGF-1 receptor regulates lifespan and resistance to oxidative stress in mice.",
+      "authors": [
+        "Holzenberger M",
+        "Dupont J",
+        "Ducos B",
+        "Leneuve P",
+        "Géloën A",
+        "Even PC",
+        "Cervera P",
+        "Le Bouc Y"
+      ],
+      "year": 2003,
+      "journal": "Nature",
+      "doi": "10.1038/nature01298",
+      "pmid": "12483226",
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12483226/",
+      "fullTextUrl": null,
+      "accessScope": "abstract",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-10-19",
+      "correctionStatus": "已检查 Europe PMC 关联更正/撤稿字段；未见更正或撤稿标记。未实施全面 Crossmark 或逐出版商更正审计。",
+      "correctionRecords": [],
+      "sourcePlatforms": [
+        "PubMed",
+        "Europe PMC"
+      ],
+      "metadataSourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:12483226%20AND%20SRC:MED&format=json&resultType=core",
+      "verificationMethod": "Codex 联网整理并与实际可访问摘要或正文核对；不表示人工专家审核"
+    },
+    {
+      "id": "pub-22132081",
+      "title": "Does reduced IGF-1R signaling in Igf1r+/- mice alter aging?",
+      "authors": [
+        "Bokov AF",
+        "Garg N",
+        "Ikeno Y",
+        "Thakur S",
+        "Musi N",
+        "DeFronzo RA",
+        "Zhang N",
+        "Erickson RC",
+        "Gelfond J",
+        "Hubbard GB",
+        "Adamo ML",
+        "Richardson A"
+      ],
+      "year": 2011,
+      "journal": "PloS one",
+      "doi": "10.1371/journal.pone.0026891",
+      "pmid": "22132081",
+      "pmcid": "PMC3223158",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22132081/",
+      "fullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3223158/",
+      "accessScope": "abstract",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-10-19",
+      "correctionStatus": "已检查 Europe PMC 关联更正/撤稿字段；未见更正或撤稿标记。未实施全面 Crossmark 或逐出版商更正审计。",
+      "correctionRecords": [],
+      "sourcePlatforms": [
+        "PubMed",
+        "Europe PMC"
+      ],
+      "metadataSourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:22132081%20AND%20SRC:MED&format=json&resultType=core",
+      "verificationMethod": "Codex 联网整理并与实际可访问摘要或正文核对；不表示人工专家审核"
+    },
+    {
+      "id": "pub-16123266",
+      "title": "Suppression of aging in mice by the hormone Klotho.",
+      "authors": [
+        "Kurosu H",
+        "Yamamoto M",
+        "Clark JD",
+        "Pastor JV",
+        "Nandi A",
+        "Gurnani P",
+        "McGuinness OP",
+        "Chikuda H",
+        "Yamaguchi M",
+        "Kawaguchi H",
+        "Shimomura I",
+        "Takayama Y",
+        "Herz J",
+        "Kahn CR",
+        "Rosenblatt KP",
+        "Kuro-o M"
+      ],
+      "year": 2005,
+      "journal": "Science (New York, N.Y.)",
+      "doi": "10.1126/science.1112766",
+      "pmid": "16123266",
+      "pmcid": "PMC2536606",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16123266/",
+      "fullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2536606/",
+      "accessScope": "full_text",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-10-19",
+      "correctionStatus": "已检查 Europe PMC 关联更正/撤稿字段；未见更正或撤稿标记。未实施全面 Crossmark 或逐出版商更正审计。",
+      "correctionRecords": [],
+      "sourcePlatforms": [
+        "PubMed",
+        "Europe PMC"
+      ],
+      "metadataSourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:16123266%20AND%20SRC:MED&format=json&resultType=core",
+      "verificationMethod": "Codex 联网整理并与实际可访问摘要或正文核对；不表示人工专家审核"
+    },
+    {
+      "id": "pub-23375372",
+      "title": "SIRT3 reverses aging-associated degeneration.",
+      "authors": [
+        "Brown K",
+        "Xie S",
+        "Qiu X",
+        "Mohrin M",
+        "Shin J",
+        "Liu Y",
+        "Zhang D",
+        "Scadden DT",
+        "Chen D"
+      ],
+      "year": 2013,
+      "journal": "Cell reports",
+      "doi": "10.1016/j.celrep.2013.01.005",
+      "pmid": "23375372",
+      "pmcid": "PMC3582834",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23375372/",
+      "fullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3582834/",
+      "accessScope": "full_text",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-10-19",
+      "correctionStatus": "已检查 Europe PMC 关联更正/撤稿字段；未见更正或撤稿标记。未实施全面 Crossmark 或逐出版商更正审计。",
+      "correctionRecords": [],
+      "sourcePlatforms": [
+        "PubMed",
+        "Europe PMC"
+      ],
+      "metadataSourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:23375372%20AND%20SRC:MED&format=json&resultType=core",
+      "verificationMethod": "Codex 联网整理并与实际可访问摘要或正文核对；不表示人工专家审核"
+    },
+    {
+      "id": "pub-23242215",
+      "title": "Increased expression of BubR1 protects against aneuploidy and cancer and extends healthy lifespan.",
+      "authors": [
+        "Baker DJ",
+        "Dawlaty MM",
+        "Wijshake T",
+        "Jeganathan KB",
+        "Malureanu L",
+        "van Ree JH",
+        "Crespo-Diaz R",
+        "Reyes S",
+        "Seaburg L",
+        "Shapiro V",
+        "Behfar A",
+        "Terzic A",
+        "van de Sluis B",
+        "van Deursen JM"
+      ],
+      "year": 2013,
+      "journal": "Nature cell biology",
+      "doi": "10.1038/ncb2643",
+      "pmid": "23242215",
+      "pmcid": "PMC3707109",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23242215/",
+      "fullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3707109/",
+      "accessScope": "full_text",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-10-19",
+      "correctionStatus": "已检查 Europe PMC 关联更正/撤稿字段；未见更正或撤稿标记。未实施全面 Crossmark 或逐出版商更正审计。",
+      "correctionRecords": [],
+      "sourcePlatforms": [
+        "PubMed",
+        "Europe PMC"
+      ],
+      "metadataSourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:23242215%20AND%20SRC:MED&format=json&resultType=core",
+      "verificationMethod": "Codex 联网整理并与实际可访问摘要或正文核对；不表示人工专家审核"
+    }
+  ],
+  "records": [
+    {
+      "symbol": "SIRT6",
+      "chineseName": "沉默信息调节因子 6",
+      "entityType": "gene_protein",
+      "aliases": [
+        "Sirtuin 6"
+      ],
+      "summary": "烟酰胺腺嘌呤二核苷酸（NAD⁺）依赖的去酰化酶。转基因研究支持其在特定小鼠背景下调节寿命和老年能量稳态；不同研究的性别效应并不相同。",
+      "hallmarks": [
+        3,
+        6
+      ],
+      "pathwayNames": [
+        "Sirtuin / NAD⁺ 代谢",
+        "胰岛素 / IGF-1 信号"
+      ],
+      "skinClassification": "other_tissue",
+      "skinSummary": "本条所收录的是整鼠寿命、肝脏代谢及体能研究；本批未核验直接皮肤衰老功能实验。",
+      "evidence": [
+        {
+          "publicationId": "pub-22367546",
+          "claim": "Sirt6 过表达在该研究中延长雄鼠寿命，雌鼠未显示相同结果。",
+          "evidenceType": [
+            "遗传干预"
+          ],
+          "species": [
+            "小鼠（Mus musculus）"
+          ],
+          "actualEntity": "小鼠 Sirt6 基因 / SIRT6 蛋白",
+          "tissueCell": "整鼠；血清",
+          "model": "Sirt6 转基因过表达小鼠与野生型对照",
+          "intervention": "转基因上调 Sirt6",
+          "result": "雄鼠寿命显著延长，雌鼠未延长；雄鼠血清 IGF1 较低、IGF 结合蛋白 1 较高，并观察到 IGF1 信号组分磷酸化改变。",
+          "endpoints": [
+            "生存时间",
+            "血清 IGF1",
+            "IGF 结合蛋白 1",
+            "信号组分磷酸化"
+          ],
+          "conditions": "结论限定于该转基因鼠队列；雄性和雌性分开解释。",
+          "limitations": "依据摘要；未读取剂量、样本量及原图。下游磷酸化改变不等于所有信号均被直接抑制；不构成外用抗衰功效证据。",
+          "supportStatus": "supports",
+          "locator": "PubMed / Europe PMC 摘要中 Here we show 开始的结果部分",
+          "accessScope": "abstract",
+          "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/22367546/",
+          "phenotypes": [
+            "小鼠寿命"
+          ],
+          "dose": "当前未获取",
+          "time": "当前未获取",
+          "sampleSize": "当前未获取",
+          "id": "ev-sirt6-1"
+        },
+        {
+          "publicationId": "pub-34050173",
+          "claim": "在 C57BL/6JOlaHsd 背景中，SIRT6 过表达可延长两性寿命并减少老年衰弱。",
+          "evidenceType": [
+            "遗传干预"
+          ],
+          "species": [
+            "小鼠（Mus musculus）"
+          ],
+          "actualEntity": "小鼠 Sirt6 基因 / SIRT6 蛋白",
+          "tissueCell": "整鼠；肝脏；脂肪组织",
+          "model": "自然衰老 C57BL/6JOlaHsd SIRT6 转基因小鼠",
+          "intervention": "与野生型同窝对照比较 SIRT6 转基因过表达",
+          "result": "雄性、雌性中位寿命分别增加约 27% 和 15%；保存老年肝糖输出及葡萄糖稳态，并改善衰弱相关功能。",
+          "endpoints": [
+            "Kaplan–Meier 生存",
+            "中位/最大寿命",
+            "肝糖输出",
+            "运动能力",
+            "葡萄糖稳态"
+          ],
+          "conditions": "与 2012 年结果分开保留：遗传背景不同；该研究两性均获益。",
+          "limitations": "终生转基因不等于老年短期给药。未证明人体寿命、皮肤效应或某小分子直接激活 SIRT6 的功效。",
+          "supportStatus": "supports",
+          "locator": "正文 Results: SIRT6, but not SIRT1, regulates lifespan in C57BL/6JOlaHsd mice in both sexes；Fig. 1a；后续能量稳态结果",
+          "accessScope": "full_text",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8163764/",
+          "phenotypes": [
+            "小鼠寿命",
+            "年龄相关代谢功能",
+            "衰弱"
+          ],
+          "dose": "不适用：转基因表达",
+          "time": "终生观察；老年功能实验分年龄开展",
+          "sampleSize": "寿命队列：WT 雄 52、雌 50；SIRT6-tg 雄 51、雌 41；其他检测样本量另计",
+          "id": "ev-sirt6-2"
+        }
+      ]
+    },
+    {
+      "symbol": "TERT",
+      "chineseName": "端粒酶逆转录酶",
+      "entityType": "gene_protein",
+      "aliases": [
+        "Telomerase reverse transcriptase"
+      ],
+      "summary": "端粒酶催化亚基。成年及老年小鼠 AAV9 递送 mTERT 的研究观察到寿命与部分年龄相关功能改善，且依赖其催化活性。",
+      "hallmarks": [
+        2
+      ],
+      "pathwayNames": [
+        "端粒维护 / 端粒酶"
+      ],
+      "skinClassification": "other_tissue",
+      "skinSummary": "本条关注小鼠生理衰老、骨代谢及神经肌肉功能；未据此推定人体或皮肤外用功效。",
+      "evidence": [
+        {
+          "publicationId": "pub-22585399",
+          "claim": "向成年或老年小鼠递送有催化活性的 mTERT 可延长该队列中位寿命并改善部分年龄相关功能。",
+          "evidenceType": [
+            "遗传干预",
+            "催化失活对照"
+          ],
+          "species": [
+            "小鼠（Mus musculus）"
+          ],
+          "actualEntity": "小鼠 Tert 基因 / mTERT 催化蛋白",
+          "tissueCell": "整鼠；多组织；骨骼和神经肌肉功能",
+          "model": ">95% C57BL6 背景，自然衰老小鼠；420 日龄和 720 日龄开始处理",
+          "intervention": "尾静脉给予 AAV9-mTERT；AAV9-GFP 对照；成年组另设催化失活 mTERT 对照",
+          "result": "原文称 1 岁和 2 岁队列的中位寿命分别增加 24% 与 13%，并改善胰岛素敏感性、骨质疏松和神经肌肉协调指标；催化失活构建未产生相同获益。研究观察期内未见肿瘤增加。",
+          "endpoints": [
+            "中位寿命",
+            "胰岛素敏感性",
+            "骨密度/骨质疏松相关指标",
+            "神经肌肉协调",
+            "肿瘤发生"
+          ],
+          "conditions": "给药为全身基因递送；雌雄混合寿命队列；结论限于该载体、年龄和遗传背景。",
+          "limitations": "本队列未见肿瘤增加不等于所有 TERT 干预无致癌风险，也不证明人体安全或化妆品功效。",
+          "supportStatus": "supports",
+          "locator": "摘要；Results: Increased median and maximum longevity；Methods: Mice and animal procedures；寿命图及催化失活对照段落",
+          "accessScope": "full_text",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3494070/",
+          "phenotypes": [
+            "小鼠寿命",
+            "年龄相关组织功能"
+          ],
+          "dose": "2 × 10^12 viral genomes / 只，尾静脉",
+          "time": "420 或 720 日龄给药，随后随访寿命",
+          "sampleSize": "420 日龄：GFP 14、mTERT 21、mTERT-DN 17；720 日龄：GFP 14、mTERT 23；各组包含雌雄",
+          "interventionName": "AAV9-mTERT 基因递送",
+          "id": "ev-tert-1"
+        }
+      ]
+    },
+    {
+      "symbol": "RPS6KB1",
+      "chineseName": "核糖体蛋白 S6 激酶 1",
+      "entityType": "gene_protein",
+      "aliases": [
+        "S6K1",
+        "p70S6K"
+      ],
+      "summary": "营养感知 mTOR 信号的下游激酶。全身敲除研究显示雌性小鼠寿命与多项老年功能改善，雄性寿命未显著延长。",
+      "hallmarks": [
+        6
+      ],
+      "pathwayNames": [
+        "mTOR 信号",
+        "AMPK 能量感知"
+      ],
+      "skinClassification": "other_tissue",
+      "skinSummary": "本批证据涉及整鼠寿命、骨骼、免疫和运动功能；未核验皮肤衰老实验。",
+      "evidence": [
+        {
+          "publicationId": "pub-19797661",
+          "claim": "Rps6kb1 缺失延长雌性小鼠寿命并减轻部分年龄相关功能下降。",
+          "evidenceType": [
+            "遗传干预"
+          ],
+          "species": [
+            "小鼠（Mus musculus）"
+          ],
+          "actualEntity": "小鼠 Rps6kb1 / S6K1；非 S6K 家族整体",
+          "tissueCell": "整鼠；骨骼；免疫细胞；肝脏等",
+          "model": "C57BL/6 背景 S6K1−/− 小鼠及同窝 WT；600 日龄功能检测",
+          "intervention": "全身 Rps6kb1 敲除",
+          "result": "雌鼠中位寿命从 829 日增至 982 日（约 19%）；雄鼠中位及最大寿命未显著改变。老年雌鼠运动、骨小梁和胰岛素敏感性指标较好。",
+          "endpoints": [
+            "性别分层寿命",
+            "转棒实验",
+            "记忆/初始 T 细胞",
+            "骨小梁体积",
+            "胰岛素敏感性"
+          ],
+          "conditions": "雌性寿命结论不能直接推广至雄性；健康指标在 600 日龄检测。",
+          "limitations": "文献存在 2011 年更正记录，更正全文当前未获取；本条不引用线虫 aak-2 遗传互作，也不宣称小鼠中 AMPK 是必需的寿命中介。全身敲除不等于药物选择性抑制。",
+          "supportStatus": "supports",
+          "locator": "PMC 正文 Fig. 1A–C、Table 1、Fig. 2；不使用 Fig. 3 中线虫部分",
+          "accessScope": "full_text",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4954603/",
+          "phenotypes": [
+            "小鼠寿命",
+            "年龄相关免疫功能",
+            "年龄相关骨功能",
+            "年龄相关运动功能"
+          ],
+          "dose": "不适用：基因敲除",
+          "time": "终生寿命观察；600 日龄功能终点",
+          "sampleSize": "寿命：雌 WT 23、KO 29；雄 WT 26、KO 19；600 日龄功能图每基因型 n=6–8",
+          "id": "ev-rps6kb1-1"
+        }
+      ]
+    },
+    {
+      "symbol": "IGF1R",
+      "chineseName": "胰岛素样生长因子 1 受体",
+      "entityType": "gene_protein",
+      "aliases": [
+        "IGF-1R",
+        "IGF-I receptor"
+      ],
+      "summary": "胰岛素样生长因子受体。杂合缺失对寿命的影响具有性别及遗传背景依赖性；早期研究与后续研究的效应量和老年病理结论并不一致。",
+      "hallmarks": [
+        6
+      ],
+      "pathwayNames": [
+        "胰岛素 / IGF-1 信号"
+      ],
+      "skinClassification": "other_tissue",
+      "skinSummary": "本条为小鼠寿命与末期病理证据，未评估直接皮肤衰老功效。",
+      "evidence": [
+        {
+          "publicationId": "pub-12483226",
+          "claim": "该小鼠队列中 Igf1r 杂合缺失与雌性寿命延长相关，雄性效应未显著。",
+          "evidenceType": [
+            "遗传干预"
+          ],
+          "species": [
+            "小鼠（Mus musculus）"
+          ],
+          "actualEntity": "小鼠 Igf1r / IGF-1 受体",
+          "tissueCell": "整鼠",
+          "model": "Igf1r+/− 小鼠与 WT 同窝对照；纯合缺失不存活",
+          "intervention": "遗传减少一个 Igf1r 等位基因",
+          "result": "总体平均寿命约增加 26%；雌性约增加 33%，雄性约增加 16% 但不显著；抗氧化应激能力增强。",
+          "endpoints": [
+            "平均寿命",
+            "氧化应激抵抗"
+          ],
+          "conditions": "显著寿命效应主要见于雌性；该队列模型，不能推广为永久固定促寿命作用。",
+          "limitations": "依据摘要；遗传背景、样本量、图号当前未从本篇全文获取；平均寿命增加不能改写为最大寿命增加。",
+          "supportStatus": "supports",
+          "locator": "PubMed / Europe PMC 摘要：Here, using heterozygous knockout mice 开始的结果",
+          "accessScope": "abstract",
+          "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/12483226/",
+          "phenotypes": [
+            "小鼠寿命"
+          ],
+          "dose": "当前未获取",
+          "time": "当前未获取",
+          "sampleSize": "当前未获取",
+          "id": "ev-igf1r-1"
+        },
+        {
+          "publicationId": "pub-22132081",
+          "claim": "在 C57Bl/6 背景的后续研究中，Igf1r 杂合缺失未复制大幅寿命延长或全面延迟老年病理。",
+          "evidenceType": [
+            "遗传干预",
+            "条件依赖/相反结果"
+          ],
+          "species": [
+            "小鼠（Mus musculus）"
+          ],
+          "actualEntity": "小鼠 Igf1r / IGF-1 受体",
+          "tissueCell": "整鼠；末期多组织病理；代谢表型",
+          "model": "C57Bl/6 Igf1r+/− 小鼠，在优化饲养条件下与 WT 比较",
+          "intervention": "Igf1r 杂合缺失",
+          "result": "雄鼠寿命无显著差异；雌鼠平均寿命增幅不足 5%；末期病理病变无显著差异。两性随老龄发展出胰岛素抵抗，老年雄鼠出现葡萄糖耐受不良。",
+          "endpoints": [
+            "寿命",
+            "终末病理",
+            "胰岛素抵抗",
+            "葡萄糖耐受"
+          ],
+          "conditions": "与 2003 年模型条件分开解释；小幅雌性寿命变化不能概括为各性别均获益。",
+          "limitations": "依据摘要；未读取完整生存统计图及具体样本量。该结果反对普遍大幅延寿的概括，而非证明所有 IGF1R 干预均无效。",
+          "supportStatus": "opposes",
+          "locator": "PubMed / Europe PMC 摘要 However 开始的结果及末句",
+          "accessScope": "abstract",
+          "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/22132081/",
+          "phenotypes": [
+            "小鼠寿命",
+            "终末病理",
+            "年龄相关代谢功能"
+          ],
+          "dose": "当前未获取",
+          "time": "当前未获取",
+          "sampleSize": "当前未获取",
+          "id": "ev-igf1r-2"
+        }
+      ]
+    },
+    {
+      "symbol": "KL",
+      "chineseName": "克洛素（α-Klotho）",
+      "entityType": "gene_protein",
+      "aliases": [
+        "Klotho",
+        "α-Klotho"
+      ],
+      "summary": "具有跨膜与可溶性形式的 Klotho 蛋白。转基因过表达研究支持在特定小鼠背景下延长寿命，并报告生殖相关代价。",
+      "hallmarks": [
+        6,
+        10
+      ],
+      "pathwayNames": [
+        "胰岛素 / IGF-1 信号",
+        "Klotho 内分泌信号"
+      ],
+      "skinClassification": "other_tissue",
+      "skinSummary": "本条依据整鼠寿命和内分泌实验；未把寿命结果转写成直接皮肤衰老功效。",
+      "evidence": [
+        {
+          "publicationId": "pub-16123266",
+          "claim": "两个独立 Klotho 转基因品系在该实验背景中寿命较长，但繁殖后代数较少。",
+          "evidenceType": [
+            "遗传干预"
+          ],
+          "species": [
+            "小鼠（Mus musculus）"
+          ],
+          "actualEntity": "小鼠 Kl / α-Klotho；不包含 KLB（β-Klotho）",
+          "tissueCell": "整鼠；全身内分泌",
+          "model": "回交 C3H 四代、近同源背景 EFmKL46 / EFmKL48 小鼠及野生型对照；自由摄食",
+          "intervention": "人延伸因子 1α 启动子驱动 Klotho 转基因过表达",
+          "result": "两个品系雄鼠寿命较对照分别增加 20.0% 和 30.8%，雌鼠分别增加 18.8% 和 19.0%；生长、摄食量未见显著差异，转基因繁殖对后代数较少。",
+          "endpoints": [
+            "寿命",
+            "摄食量",
+            "生长",
+            "繁殖后代数"
+          ],
+          "conditions": "依赖转基因及特定背景；保留繁殖权衡；不是给药实验。",
+          "limitations": "外源可溶性蛋白处理与整鼠转基因不能视为相同干预；未证明 α-Klotho 与 β-Klotho 等同，未证明人类延寿。",
+          "supportStatus": "supports",
+          "locator": "PMC 正文 We previously generated independent transgenic lines 段落；Fig. 1A–D；table S1 被正文引用但本批未独立审阅",
+          "accessScope": "full_text",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2536606/",
+          "phenotypes": [
+            "小鼠寿命",
+            "生殖权衡"
+          ],
+          "dose": "不适用：转基因表达",
+          "time": "寿命随访；摄食/耗氧检测于 32–36 周龄",
+          "sampleSize": "当前未获取",
+          "id": "ev-kl-1"
+        }
+      ]
+    },
+    {
+      "symbol": "SIRT3",
+      "chineseName": "沉默信息调节因子 3",
+      "entityType": "gene_protein",
+      "aliases": [
+        "Sirtuin 3"
+      ],
+      "summary": "线粒体 NAD⁺ 依赖去乙酰化酶。老龄小鼠造血干细胞中，遗传实验支持其维持再生功能；这与整鼠寿命延长是不同终点。",
+      "hallmarks": [
+        7,
+        9
+      ],
+      "pathwayNames": [
+        "Sirtuin / NAD⁺ 代谢",
+        "线粒体应激与造血干细胞维护"
+      ],
+      "skinClassification": "other_tissue",
+      "skinSummary": "核心证据来自骨髓造血干/祖细胞和移植再建，不是皮肤干细胞或皮肤抗衰实验。",
+      "evidence": [
+        {
+          "publicationId": "pub-23375372",
+          "claim": "Sirt3 缺失在老龄条件下损害造血干细胞库及其再生功能。",
+          "evidenceType": [
+            "遗传干预"
+          ],
+          "species": [
+            "小鼠（Mus musculus）"
+          ],
+          "actualEntity": "小鼠 Sirt3 / SIRT3",
+          "tissueCell": "骨髓；造血干细胞（HSC）及造血干/祖细胞（HSPC）",
+          "model": "18–24 月龄 SIRT3 KO 与 WT 同窝小鼠；骨髓移植和集落实验",
+          "intervention": "Sirt3 基因敲除",
+          "result": "老龄 KO 的表面标记定义 HSC/HSPC 库约少 50%，供体细胞再建能力降低；年轻稳态条件下未呈现相同缺陷。",
+          "endpoints": [
+            "HSC/HSPC 数量",
+            "竞争性再建",
+            "集落形成"
+          ],
+          "conditions": "年龄及应激依赖；细胞数量与单细胞功能不能仅据表面标记定量混同。",
+          "limitations": "不是整鼠寿命终点，不能推断已经证明 SIRT3 延长小鼠寿命。",
+          "supportStatus": "supports",
+          "locator": "正文 Results；Fig. 2A–G；讨论明确 Future studies will determine the effect of SIRT3 on lifespan",
+          "accessScope": "full_text",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3582834/",
+          "phenotypes": [
+            "年龄相关干细胞再生功能"
+          ],
+          "dose": "不适用：基因敲除",
+          "time": "18–24 月龄小鼠；随访移植再建",
+          "sampleSize": "当前未获取",
+          "id": "ev-sirt3-1"
+        },
+        {
+          "publicationId": "pub-23375372",
+          "claim": "在老龄造血细胞中恢复 SIRT3 表达可改善再生功能。",
+          "evidenceType": [
+            "遗传干预",
+            "功能恢复实验"
+          ],
+          "species": [
+            "小鼠（Mus musculus）"
+          ],
+          "actualEntity": "小鼠 Sirt3 / SIRT3",
+          "tissueCell": "骨髓 Lin− 细胞；HSC 富集群体；移植受体外周血",
+          "model": "老龄小鼠来源细胞，慢病毒转导后进行集落形成和竞争性移植",
+          "intervention": "SIRT3 慢病毒表达与对照病毒比较",
+          "result": "集落形成活性约增加 40%；竞争性移植中功能性再建约增加 5 倍。年轻细胞未观察到相同功能改善。",
+          "endpoints": [
+            "ROS 染色",
+            "集落形成",
+            "供体来源细胞比例",
+            "B 细胞/粒细胞/巨噬细胞再建"
+          ],
+          "conditions": "老龄来源细胞；体外转导后移植；不能把细胞再建解释为全身逆龄。",
+          "limitations": "供体数与受体数是不同统计层次；未验证皮肤效应和整鼠延寿。",
+          "supportStatus": "supports",
+          "locator": "正文 SIRT3 upregulation rescues functional defects of aged HSCs；Fig. 4A–F；Experimental procedures",
+          "accessScope": "full_text",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3582834/",
+          "phenotypes": [
+            "年龄相关干细胞再生功能"
+          ],
+          "dose": "当前未获取：病毒滴度；方法报告 5×10^4 转导细胞与 5×10^5 竞争细胞移植",
+          "time": "移植后 4、6、10、12、16 周再建监测",
+          "sampleSize": "Fig. 4：ROS n=3，集落 n=6；移植供体 n=3、受体 n=15",
+          "id": "ev-sirt3-2"
+        }
+      ]
+    },
+    {
+      "symbol": "BUB1B",
+      "chineseName": "有丝分裂检查点蛋白 BubR1",
+      "entityType": "gene_protein",
+      "aliases": [
+        "BUBR1",
+        "BubR1"
+      ],
+      "summary": "维持染色体分离准确性的有丝分裂调节蛋白。高表达转基因小鼠研究显示寿命延长及部分组织衰退延缓，但效应并非覆盖全部组织或老年表型。",
+      "hallmarks": [
+        1
+      ],
+      "pathwayNames": [
+        "有丝分裂检查点 / 染色体分离"
+      ],
+      "skinClassification": "other_tissue",
+      "skinSummary": "本批收录寿命、心肌及骨骼肌等老年终点。文中虽另含皮肤肿瘤实验，该部分不能改写为皮肤老化或化妆品功效。",
+      "evidence": [
+        {
+          "publicationId": "pub-23242215",
+          "claim": "持续高表达 BubR1 可延长该小鼠队列寿命并减轻部分组织年龄相关衰退。",
+          "evidenceType": [
+            "遗传干预"
+          ],
+          "species": [
+            "小鼠（Mus musculus）"
+          ],
+          "actualEntity": "小鼠 Bub1b / BubR1；非 BUB1",
+          "tissueCell": "整鼠；心脏；骨骼肌；眼；多组织染色体检测",
+          "model": "CAGGS 启动子 Flag-BubR1 转基因 T23 高表达品系，对照 WT 与 T-GFP；另有中等表达 T7",
+          "intervention": "转基因持续高水平 BubR1 表达",
+          "result": "T23 寿命及部分组织功能获益，两性均观察到、雄性更明显；骨质疏松和白内障未延迟。心脏等组织老年非整倍体减少，但骨髓/小肠未呈现统一改善；中等表达 T7 不复制相同获益。",
+          "endpoints": [
+            "总体生存",
+            "最大寿命",
+            "年龄相关肌肉功能",
+            "心脏纤维化",
+            "染色体非整倍体"
+          ],
+          "conditions": "高表达阈值、组织与性别依赖；自然衰老与早衰鼠实验分别解释。",
+          "limitations": "非整倍体与寿命改善相关，不能仅凭相关变化断言其为唯一必要中介；并非所有老年病理改善。",
+          "supportStatus": "supports",
+          "locator": "正文 spontaneous tumorigenesis / chronological aging 段落；Fig. 3b、Fig. 4；Table 1；Supplementary Fig. S3/S4 的结论由正文引用，未独立读取所有补充图",
+          "accessScope": "full_text",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3707109/",
+          "phenotypes": [
+            "小鼠寿命",
+            "年龄相关组织功能",
+            "染色体非整倍体"
+          ],
+          "dose": "不适用：转基因高表达",
+          "time": "终生随访；3 月龄与 24 月龄组织非整倍体比较",
+          "sampleSize": "当前未获取",
+          "id": "ev-bub1b-1"
+        }
+      ]
+    }
+  ],
+  "searchLog": [
+    {
+      "date": "2026-10-19",
+      "source": "PubMed / PMC，经联网网页检索发现",
+      "query": "SIRT6 overexpression lifespan male mice Kanfi 2012 PubMed",
+      "result": "PMID 22367546；另发现 PMID 34050173",
+      "decision": "纳入两篇原始转基因寿命研究，保留跨研究性别差异。"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "PubMed / PMC，经联网网页检索发现",
+      "query": "telomerase gene therapy adult old mice delays aging increases longevity Bernardes de Jesus 2012 PubMed",
+      "result": "PMID 22585399",
+      "decision": "纳入：哺乳动物自然衰老、明确遗传干预及寿命终点。"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "PubMed / PMC，经联网网页检索发现",
+      "query": "ribosomal S6 kinase 1 deletion lifespan female mice Selman 2009 PubMed",
+      "result": "PMID 19797661，PMCID PMC4954603",
+      "decision": "纳入小鼠部分；排除该文线虫机制结果；标记 2011 年更正。"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "PubMed / PMC，经联网网页检索发现",
+      "query": "BubR1 overexpression healthy lifespan mice 2013 PubMed",
+      "result": "PMID 23242215",
+      "decision": "纳入高表达小鼠的寿命与年龄相关组织功能；保留阴性组织终点。"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "PubMed / PMC，经联网网页检索发现",
+      "query": "IGF1 receptor regulates lifespan resistance oxidative stress mice Holzenberger 2003 PubMed",
+      "result": "PMID 12483226",
+      "decision": "纳入；仅提取摘要；后续主动检索相反/条件依赖结果。"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "PubMed / PMC，经联网网页检索发现",
+      "query": "Igf1r longevity not replicated mice lifespan 2011 Bokov",
+      "result": "PMID 22132081；另发现背景依赖性研究 PMC4326867",
+      "decision": "纳入 PMID 22132081 摘要作为条件依赖证据；PMC4326867 本批未完成完整提取，不计正式证据。"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "PubMed / PMC，经联网网页检索发现",
+      "query": "Klotho suppresses aging mice overexpression extends lifespan Kurosu 2005 PubMed",
+      "result": "PMID 16123266",
+      "decision": "纳入独立转基因品系的鼠寿命证据；不把 KLB 与 KL 合并。"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "PubMed / PMC，经联网网页检索发现",
+      "query": "Sirt3 reverses aging associated degeneration hematopoietic stem cell 2013 PubMed",
+      "result": "PMID 23375372",
+      "decision": "纳入老龄鼠造血干细胞功能性敲除及恢复实验；不宣称整鼠延寿。"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "PubMed / PMC，经联网网页检索发现",
+      "query": "Foxo3 deficient mice hematopoietic stem cell aging oxidative stress Miyamoto 2007 PubMed",
+      "result": "检得 FoxO1/3/4 多基因删除、氧化 DNA 损伤等研究线索；未完成单独 FOXO3 与年龄特异结果核验",
+      "decision": "本批不纳入 FOXO3；这是未完成核验，不是断言没有合格研究。"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "Europe PMC 官方 REST（MED / PubMed 来源）",
+      "query": "EXT_ID:{PMID} AND SRC:MED；resultType=core；9 篇逐 PMID 精确查询",
+      "result": "9 篇题名、作者、年份、期刊、DOI、PMID 及可用摘要获取成功；检查 commentCorrectionList",
+      "decision": "元数据与结论核验分开记录；S6K1 存在更正；其余仅能称未见关联字段标记，不能称全面撤稿核查完成。"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "Europe PMC fullTextXML；PMC 官方 HTML",
+      "query": "PMCID 全文读取",
+      "result": "SIRT6 2021、TERT、BUB1B XML 正文可读；SIRT3/KL XML 返回 500 后从 PMC HTML 合法读取；S6K1 PMC 网页正文可读；部分网页访问触发 reCAPTCHA",
+      "decision": "不绕过访问控制。SIRT6 2012、IGF1R 两篇按实际已读摘要范围提取；未获取字段保持当前未获取。"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "Science 出版商更正入口与 Europe PMC 更正关联",
+      "query": "Ribosomal protein S6 kinase 1 2011 Erratum；Science. 2011 Oct 7;334(6052):39",
+      "result": "关联字段确认存在 Erratum；出版商请求受限；检索提示更正涉及线虫部分，但当前未成功取得出版商更正原文",
+      "decision": "仅纳入已直接阅读的小鼠功能段落，保留更正警示，不纳入线虫互作。"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "OpenAlex / Unpaywall 官方 API",
+      "query": "按 9 篇 DOI 精确查询开放获取状态",
+      "result": "实际请求结果另存 research/longevity-oa-checks.json；Unpaywall 因缺少联系邮箱请求失败，不伪造邮箱；未据此声称无合法全文。",
+      "decision": "本批不下载或转载 PDF；以实际已访问 PMC / Europe PMC 正文或 PubMed 摘要记录访问范围。"
+    }
+  ]
+}

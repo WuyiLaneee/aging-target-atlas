@@ -1,0 +1,736 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "taxonomy": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "englishName": {
+            "type": "string"
+          },
+          "number": {
+            "type": "number"
+          },
+          "description": {
+            "type": "string"
+          },
+          "sourceId": {
+            "type": "string"
+          },
+          "version": {
+            "type": "string"
+          },
+          "color": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "englishName",
+          "number",
+          "description",
+          "sourceId",
+          "version",
+          "color"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "targets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "symbol": {
+            "type": "string"
+          },
+          "entityType": {
+            "type": "string",
+            "enum": [
+              "gene_protein",
+              "family",
+              "complex"
+            ]
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "externalIds": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "database": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "checkedDate": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "database",
+                "id",
+                "url",
+                "checkedDate"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "members": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "orthologMapping": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "taxonomyIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "pathwayIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "skinClassification": {
+            "type": "string",
+            "enum": [
+              "skin_aging",
+              "skin_damage",
+              "other_tissue",
+              "not_assessed"
+            ]
+          },
+          "skinSummary": {
+            "type": "string"
+          },
+          "evidenceIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "status": {
+            "type": "string",
+            "const": "core"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "symbol",
+          "entityType",
+          "aliases",
+          "externalIds",
+          "members",
+          "orthologMapping",
+          "summary",
+          "taxonomyIds",
+          "pathwayIds",
+          "skinClassification",
+          "skinSummary",
+          "evidenceIds",
+          "status"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "complexes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "entityType": {
+            "type": "string",
+            "const": "complex"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "memberIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "membersNote": {
+            "type": "string"
+          },
+          "sourceIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "entityType",
+          "summary",
+          "memberIds",
+          "membersNote",
+          "sourceIds"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "pathways": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "summary": {
+            "type": "string"
+          },
+          "memberIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "taxonomyIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "backgroundSourceIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "relationIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "mappingBasis": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "summary",
+          "memberIds",
+          "taxonomyIds",
+          "backgroundSourceIds",
+          "relationIds",
+          "mappingBasis"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "phenotypes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "level": {
+            "type": "string"
+          },
+          "definition": {
+            "type": "string"
+          },
+          "sourceIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "level",
+          "definition",
+          "sourceIds"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "interventions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "category": {
+            "type": "string"
+          },
+          "identity": {
+            "type": "string"
+          },
+          "targetIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "evidenceIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "route": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "category",
+          "identity",
+          "targetIds",
+          "evidenceIds",
+          "route"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "publications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "authors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "year": {
+            "type": "number"
+          },
+          "journal": {
+            "type": "string"
+          },
+          "doi": {
+            "type": "string"
+          },
+          "pmid": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "accessScope": {
+            "type": "string"
+          },
+          "metadataVerified": {
+            "type": "boolean"
+          },
+          "claimVerified": {
+            "type": "boolean"
+          },
+          "checkedDate": {
+            "type": "string"
+          },
+          "correctionStatus": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "authors",
+          "year",
+          "journal",
+          "doi",
+          "pmid",
+          "url",
+          "accessScope",
+          "metadataVerified",
+          "claimVerified",
+          "checkedDate",
+          "correctionStatus",
+          "type"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "targetId": {
+            "type": "string"
+          },
+          "publicationId": {
+            "type": "string"
+          },
+          "claim": {
+            "type": "string"
+          },
+          "evidenceType": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "species": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "actualEntity": {
+            "type": "string"
+          },
+          "tissueCell": {
+            "type": "string"
+          },
+          "model": {
+            "type": "string"
+          },
+          "intervention": {
+            "type": "string"
+          },
+          "result": {
+            "type": "string"
+          },
+          "endpoints": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "conditions": {
+            "type": "string"
+          },
+          "limitations": {
+            "type": "string"
+          },
+          "supportStatus": {
+            "type": "string"
+          },
+          "locator": {
+            "type": "string"
+          },
+          "accessScope": {
+            "type": "string"
+          },
+          "sourceUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "phenotypeIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "interventionIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "dose": {
+            "type": "string"
+          },
+          "time": {
+            "type": "string"
+          },
+          "sampleSize": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "targetId",
+          "publicationId",
+          "claim",
+          "evidenceType",
+          "species",
+          "actualEntity",
+          "tissueCell",
+          "model",
+          "intervention",
+          "result",
+          "endpoints",
+          "conditions",
+          "limitations",
+          "supportStatus",
+          "locator",
+          "accessScope",
+          "sourceUrl",
+          "phenotypeIds",
+          "interventionIds",
+          "dose",
+          "time",
+          "sampleSize"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "sourceId": {
+            "type": "string"
+          },
+          "targetId": {
+            "type": "string"
+          },
+          "relationType": {
+            "type": "string",
+            "enum": [
+              "activates",
+              "inhibits",
+              "phosphorylates",
+              "binds",
+              "indirect",
+              "member_of",
+              "associated_with"
+            ]
+          },
+          "polarity": {
+            "type": "string",
+            "enum": [
+              "positive",
+              "negative",
+              "mixed",
+              "unknown",
+              "not_applicable"
+            ]
+          },
+          "directness": {
+            "type": "string"
+          },
+          "evidenceIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "backgroundSourceIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "context": {
+            "type": "string"
+          },
+          "scope": {
+            "type": "string",
+            "enum": [
+              "aging_experiment",
+              "pathway_background"
+            ]
+          },
+          "label": {
+            "type": "string"
+          },
+          "direction": {
+            "type": "string",
+            "enum": [
+              "directed",
+              "undirected"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "sourceId",
+          "targetId",
+          "relationType",
+          "polarity",
+          "directness",
+          "evidenceIds",
+          "backgroundSourceIds",
+          "context",
+          "scope",
+          "label",
+          "direction"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "role": {
+            "type": "string"
+          },
+          "checkedDate": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "url",
+          "role",
+          "checkedDate"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "manifest": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "type": "string"
+        },
+        "updated": {
+          "type": "string"
+        },
+        "counts": {
+          "type": "object",
+          "propertyNames": {
+            "type": "string"
+          },
+          "additionalProperties": {
+            "type": "number"
+          }
+        },
+        "coverage": {
+          "type": "string"
+        },
+        "gaps": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "reviewStatus": {
+          "type": "string"
+        },
+        "searchScope": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "version",
+        "updated",
+        "counts",
+        "coverage",
+        "gaps",
+        "reviewStatus",
+        "searchScope"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "taxonomy",
+    "targets",
+    "complexes",
+    "pathways",
+    "phenotypes",
+    "interventions",
+    "publications",
+    "evidence",
+    "relations",
+    "sources",
+    "manifest"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,83 @@
+{
+  "doi": "10.3390/ijms23031387",
+  "pmid": "35163314",
+  "date": "2026-10-19",
+  "publicationTypes": {
+    "pubType": [
+      "research-article",
+      "Journal Article"
+    ]
+  },
+  "europePmcNotices": {},
+  "openalex": {
+    "status": 200,
+    "id": "https://openalex.org/W4210431339",
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/1422-0067/23/3/1387/pdf?version=1643197380",
+      "any_repository_has_fulltext": true
+    },
+    "best_oa_location": {
+      "id": "doi:10.3390/ijms23031387",
+      "doi": "https://doi.org/10.3390/ijms23031387",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/ijms23031387",
+      "pdf_url": "https://www.mdpi.com/1422-0067/23/3/1387/pdf?version=1643197380",
+      "source": {
+        "id": "https://openalex.org/S10623703",
+        "display_name": "International Journal of Molecular Sciences",
+        "issn_l": "1422-0067",
+        "issn": [
+          "1422-0067",
+          "1661-6596"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "medline",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "International Journal of Molecular Sciences",
+      "raw_type": "journal-article"
+    }
+  },
+  "unpaywall": {
+    "status": 422,
+    "result": {
+      "HTTP_status_code": 422,
+      "error": true,
+      "message": "Email address required in API call, see http://unpaywall.org/products/api"
+    }
+  },
+  "crossref": {
+    "status": 200,
+    "DOI": "10.3390/ijms23031387",
+    "title": [
+      "Galangin Reverses H2O2-Induced Dermal Fibroblast Senescence via SIRT1-PGC-1α/Nrf2 Signaling"
+    ],
+    "relation": {},
+    "update-to": null,
+    "updated-by": null
+  }
+}

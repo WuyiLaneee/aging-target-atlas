@@ -1,0 +1,46 @@
+[
+  {
+    "sourceSymbol": "CRAT",
+    "targetSymbol": "CGAS",
+    "relationType": "indirect",
+    "polarity": "unknown",
+    "directness": "共敲低确定的条件性功能依赖；无直接物理调控证明，未指定正常CRAT对该分子活性的永久极性。",
+    "evidenceId": "ev-crat-hdf",
+    "context": "PMID37828898，正常人原代真皮成纤维细胞。CRAT siRNA诱导SASP和SA-β-gal升高；分别共敲低CGAS降低该表型（Fig5b；S4、S5a–b）。这是一项CRAT缺失表型的遗传依赖关系，不由共通路推断，不把其等同为直接抑制或完整信号顺序。",
+    "label": "CRAT缺失表型依赖CGAS",
+    "direction": "undirected"
+  },
+  {
+    "sourceSymbol": "CRAT",
+    "targetSymbol": "STING1",
+    "relationType": "indirect",
+    "polarity": "unknown",
+    "directness": "共敲低确定的条件性功能依赖；无直接物理调控证明，未指定正常CRAT对该分子活性的永久极性。",
+    "evidenceId": "ev-crat-hdf",
+    "context": "PMID37828898，正常人原代真皮成纤维细胞。CRAT siRNA诱导SASP和SA-β-gal升高；分别共敲低STING1降低该表型（Fig5b；S4、S5a–b）。这是一项CRAT缺失表型的遗传依赖关系，不由共通路推断，不把其等同为直接抑制或完整信号顺序。",
+    "label": "CRAT缺失表型依赖STING1",
+    "direction": "undirected"
+  },
+  {
+    "sourceSymbol": "CRAT",
+    "targetSymbol": "RELA",
+    "relationType": "indirect",
+    "polarity": "unknown",
+    "directness": "共敲低确定的条件性功能依赖；无直接物理调控证明，未指定正常CRAT对该分子活性的永久极性。",
+    "evidenceId": "ev-crat-hdf",
+    "context": "PMID37828898，正常人原代真皮成纤维细胞。CRAT siRNA诱导SASP和SA-β-gal升高；分别共敲低RELA/p65降低该表型（Fig5c–e；S4、S5a–b）。这是一项CRAT缺失表型的遗传依赖关系，不由共通路推断，不把其等同为直接抑制或完整信号顺序。",
+    "label": "CRAT缺失表型依赖RELA",
+    "direction": "undirected"
+  },
+  {
+    "sourceSymbol": "ATM",
+    "targetSymbol": "SIRT6",
+    "relationType": "activates",
+    "polarity": "positive",
+    "directness": "直接底物磷酸化有体外激酶、Ser112突变和ATM补回支持；稳定性与代谢/小鼠救援另有同篇功能实验。",
+    "evidenceId": "ev-atm-sirt6-mechanism",
+    "context": "PMID29717979。Figure3及supplement1k：免疫纯化ATM可体外磷酸化GST-SIRT6，S112A突变阻断该反应；Figure4：ATM相关Ser112磷酸化限制SIRT6降解。Figure2 supplement2c：SIRT6补回恢复ATM缺失HepG2的糖酵解基因改变；Figure2j–l：Sirt6转基因改善Atm-/-小鼠代谢并延长寿命。分子实验包含HEK293/HepG2/U2OS等细胞系及体外蛋白，与原代皮肤及人体外推区分；这里的正向是SIRT6磷酸化/稳定性，不是无条件提高去乙酰化酶活性。",
+    "label": "磷酸化SIRT6 Ser112并稳定蛋白",
+    "direction": "directed"
+  }
+]

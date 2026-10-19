@@ -1,0 +1,24 @@
+[
+  {
+    "sourceSymbol": "CD38",
+    "targetSymbol": "SIRT3",
+    "relationType": "indirect",
+    "polarity": "negative",
+    "directness": "经NAD可用性的间接酶活调控与遗传依赖；双敲除并非直接结合或直接酶激活实验。",
+    "evidenceId": "ev-CD38-27304511",
+    "context": "雄鼠Cd38 KO与WT比较；1岁肝内源NAD条件下SIRT3活性较高，加入饱和NAD后组间活性相近，SIRT3蛋白水平相近。2岁Cd38/Sirt3双KO逆转Cd38单KO的糖耐量及ATP合成耦联呼吸获益，支持这些终点的SIRT3依赖。箭头表示CD38经NAD消耗对SIRT3功能的间接负向影响，不能外推所有组织、所有衰老终点或直接物理相互作用。原文Fig.5A–E；Results: CD38 regulates metabolic state by a SIRT3-dependent mechanism。",
+    "label": "CD38缺失的代谢获益依赖SIRT3",
+    "direction": "directed"
+  },
+  {
+    "sourceSymbol": "BECN1",
+    "targetSymbol": "KL",
+    "relationType": "indirect",
+    "polarity": "not_applicable",
+    "directness": "跨基因遗传救援/旁路关系；不表示BECN1调控KL表达或两蛋白直接结合，故无方向箭头。",
+    "evidenceId": "ev-BECN1-29849149",
+    "context": "将Becn1 F121A/F121A与Klotho低表达早衰鼠交配。F121A降低肾内Beclin1–Bcl2共沉淀、恢复LC3/p62自噬指标，近乎完全救援早死并改善不育和生长迟缓；KL蛋白表达未见明显改变。该实验支持增强Beclin1相关自噬可绕过部分KL缺乏表型，不能证明BECN1激活KL。Klotho低表达早衰模型不等于全部自然衰老。原文Fig.4a–i；存在Fig.2c作者更正，见该publication.correctionStatus。",
+    "label": "BECN1 F121A救援KL低表达早衰",
+    "direction": "undirected"
+  }
+]

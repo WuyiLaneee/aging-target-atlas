@@ -1,0 +1,104 @@
+{
+  "doi": "10.1007/s11357-019-00113-y",
+  "pmid": "31761958",
+  "date": "2026-10-19",
+  "publicationTypes": {
+    "pubType": [
+      "research-article",
+      "Randomized Controlled Trial",
+      "Journal Article"
+    ]
+  },
+  "europePmcNotices": {
+    "commentCorrectionList": {
+      "commentCorrection": [
+        {
+          "source": "MED",
+          "id": "32227278",
+          "reference": "Geroscience. 2020 Apr;42(2):813-815. doi: 10.1007/s11357-020-00184-2",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ]
+    }
+  },
+  "openalex": {
+    "status": 200,
+    "id": "https://openalex.org/W2989720469",
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s11357-019-00113-y.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "best_oa_location": {
+      "id": "doi:10.1007/s11357-019-00113-y",
+      "doi": "https://doi.org/10.1007/s11357-019-00113-y",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1007/s11357-019-00113-y",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11357-019-00113-y.pdf",
+      "source": {
+        "id": "https://openalex.org/S4210237251",
+        "display_name": "GeroScience",
+        "issn_l": "2152-4041",
+        "issn": [
+          "2152-4041",
+          "2331-3773",
+          "2509-2715",
+          "2509-2723"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "dongbi-d",
+          "doyens",
+          "jufo-1",
+          "ki-jl-1",
+          "medline",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310319972",
+        "host_organization_name": "Springer International Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319972",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer International Publishing",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "GeroScience",
+      "raw_type": "journal-article"
+    }
+  },
+  "unpaywall": {
+    "status": 422,
+    "result": {
+      "HTTP_status_code": 422,
+      "error": true,
+      "message": "Email address required in API call, see http://unpaywall.org/products/api"
+    }
+  },
+  "crossref": {
+    "status": 200,
+    "DOI": "10.1007/s11357-019-00113-y",
+    "title": [
+      "Topical rapamycin reduces markers of senescence and aging in human skin: an exploratory, prospective, randomized trial"
+    ],
+    "relation": {},
+    "update-to": null,
+    "updated-by": null
+  }
+}

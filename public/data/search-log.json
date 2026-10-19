@@ -1,0 +1,412 @@
+[
+  {
+    "date": "2026-10-19",
+    "source": "PubMed / 官方开发文档",
+    "query": "Hallmarks of aging expanding universe；Reactome R-HSA-165718；Vite static deploy；GitHub Actions Pages；Cytoscape.js",
+    "result": "框架摘要核对 12 项；Reactome 人类反应及复合物成员；Vite/GitHub/Router/Cytoscape 官方文档。近期综述 PMID 42765942、41690118 用作前沿检索线索，不作核心验证。",
+    "decision": "框架和数据库背景分开保存；不把综述作为靶点功能证据。"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "Europe PMC REST search + fullTextXML; PubMed; Crossref; OpenAlex",
+    "query": "PMC10652321",
+    "results": [
+      {
+        "pmid": "37828898",
+        "decision": "纳入",
+        "reason": "原始哺乳动物功能干预及明确衰老相关结果；合法开放全文（Europe PMC XML，已核对相关 Results 与图注）"
+      }
+    ],
+    "accessScope": "合法开放全文（Europe PMC XML，已核对相关 Results 与图注）",
+    "notes": "OpenAlex OA查询已执行并保存在checks.json；Unpaywall无配置邮箱返回422，未虚构可用状态；没有下载PDF。"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "Europe PMC REST search + fullTextXML; PubMed; Crossref; OpenAlex",
+    "query": "PMC6053425",
+    "results": [
+      {
+        "pmid": "30026603",
+        "decision": "纳入",
+        "reason": "原始哺乳动物功能干预及明确衰老相关结果；合法开放全文（Europe PMC XML，已核对相关 Results 与图注）"
+      }
+    ],
+    "accessScope": "合法开放全文（Europe PMC XML，已核对相关 Results 与图注）",
+    "notes": "OpenAlex OA查询已执行并保存在checks.json；Unpaywall无配置邮箱返回422，未虚构可用状态；没有下载PDF。"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "Europe PMC REST search + fullTextXML; PubMed; Crossref; OpenAlex",
+    "query": "PMC11937471",
+    "results": [
+      {
+        "pmid": "40133272",
+        "decision": "纳入",
+        "reason": "原始哺乳动物功能干预及明确衰老相关结果；合法开放全文（Europe PMC XML，已核对相关 Results 与图注）"
+      }
+    ],
+    "accessScope": "合法开放全文（Europe PMC XML，已核对相关 Results 与图注）",
+    "notes": "OpenAlex OA查询已执行并保存在checks.json；Unpaywall无配置邮箱返回422，未虚构可用状态；没有下载PDF。"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "Europe PMC REST search + fullTextXML; PubMed; Crossref; OpenAlex",
+    "query": "PMC3102277",
+    "results": [
+      {
+        "pmid": "21399611",
+        "decision": "纳入",
+        "reason": "原始哺乳动物功能干预及明确衰老相关结果；PubMed元数据及PMC可检索原始全文片段（直接页面遇验证码，Europe PMC XML未提供）"
+      }
+    ],
+    "accessScope": "PubMed元数据及PMC可检索原始全文片段（直接页面遇验证码，Europe PMC XML未提供）",
+    "notes": "OpenAlex OA查询已执行并保存在checks.json；Unpaywall无配置邮箱返回422，未虚构可用状态；没有下载PDF。"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "Europe PMC REST search + fullTextXML; PubMed; Crossref; OpenAlex",
+    "query": "PMC4932541",
+    "results": [
+      {
+        "pmid": "27136566",
+        "decision": "纳入",
+        "reason": "原始哺乳动物功能干预及明确衰老相关结果；合法开放全文（Europe PMC XML，已核对相关 Results 与图注）"
+      }
+    ],
+    "accessScope": "合法开放全文（Europe PMC XML，已核对相关 Results 与图注）",
+    "notes": "OpenAlex OA查询已执行并保存在checks.json；Unpaywall无配置邮箱返回422，未虚构可用状态；没有下载PDF。"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "Europe PMC REST search + fullTextXML; PubMed; Crossref; OpenAlex",
+    "query": "PMC6925069",
+    "results": [
+      {
+        "pmid": "31761958",
+        "decision": "纳入",
+        "reason": "原始哺乳动物功能干预及明确衰老相关结果；合法开放全文（Europe PMC XML，已核对相关 Results 与图注）"
+      }
+    ],
+    "accessScope": "合法开放全文（Europe PMC XML，已核对相关 Results 与图注）",
+    "notes": "OpenAlex OA查询已执行并保存在checks.json；Unpaywall无配置邮箱返回422，未虚构可用状态；没有下载PDF。"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "Europe PMC REST search + fullTextXML; PubMed; Crossref; OpenAlex",
+    "query": "PMC8836071",
+    "results": [
+      {
+        "pmid": "35163314",
+        "decision": "纳入",
+        "reason": "原始哺乳动物功能干预及明确衰老相关结果；合法开放全文（Europe PMC XML，已核对相关 Results 与图注）"
+      }
+    ],
+    "accessScope": "合法开放全文（Europe PMC XML，已核对相关 Results 与图注）",
+    "notes": "OpenAlex OA查询已执行并保存在checks.json；Unpaywall无配置邮箱返回422，未虚构可用状态；没有下载PDF。"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "Europe PMC REST search + fullTextXML; PubMed; Crossref; OpenAlex",
+    "query": "PMC5957528",
+    "results": [
+      {
+        "pmid": "29717979",
+        "decision": "纳入",
+        "reason": "原始哺乳动物功能干预及明确衰老相关结果；合法开放全文（Europe PMC XML，已核对相关 Results 与图注）"
+      }
+    ],
+    "accessScope": "合法开放全文（Europe PMC XML，已核对相关 Results 与图注）",
+    "notes": "OpenAlex OA查询已执行并保存在checks.json；Unpaywall无配置邮箱返回422，未虚构可用状态；没有下载PDF。"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "Europe PMC REST search + fullTextXML; PubMed; Crossref; OpenAlex",
+    "query": "PMC6449716",
+    "results": [
+      {
+        "pmid": "30726661",
+        "decision": "纳入",
+        "reason": "原始哺乳动物功能干预及明确衰老相关结果；合法开放全文（Europe PMC XML，已核对相关 Results 与图注）"
+      }
+    ],
+    "accessScope": "合法开放全文（Europe PMC XML，已核对相关 Results 与图注）",
+    "notes": "OpenAlex OA查询已执行并保存在checks.json；Unpaywall无配置邮箱返回422，未虚构可用状态；没有下载PDF。"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "Web search（原始期刊/PMC/PubMed发现）",
+    "query": "CRAT carnitine acetyltransferase skin senescence fibroblasts aging; FOXM1 human dermal fibroblasts aging senescence overexpression; p38 MAPK14 skin fibroblast senescence SB203580 aging",
+    "results": [
+      "发现并纳入CRAT PMID37828898",
+      "发现并纳入FOXM1 PMID40133272及30026603",
+      "MAPK14先定位家族药理，后追溯亚型特异RNAi PMID21399611"
+    ]
+  },
+  {
+    "date": "2026-10-19",
+    "source": "Web search（PubMed/PMC/原始期刊）",
+    "query": "SIRT1 knockdown human dermal fibroblasts senescence UVB original study; ATM inhibition skin fibroblasts senescence aging original; mTOR rapamycin human skin aging randomized trial p16 2019",
+    "results": [
+      "纳入SIRT1 PMID35163314的靶点依赖细胞实验",
+      "纳入ATM方向相反的2018/2019原始研究",
+      "纳入MTOR人体皮肤雷帕霉素探索试验"
+    ]
+  },
+  {
+    "date": "2026-10-19",
+    "source": "Europe PMC/Web search",
+    "query": "SIRT1 suppresses cellular senescence and inflammatory cytokine release; Antcin M SIRT1 knockdown",
+    "results": [
+      {
+        "pmid": "33965557",
+        "decision": "未纳入本批正式证据",
+        "reason": "仅摘要可得且SRT1720靶点依赖细节不足，优先纳入有siRNA和SA-β-gal明确对应的研究"
+      },
+      {
+        "pmid": "27542238",
+        "decision": "本批不入库",
+        "reason": "已找到合格人皮肤细胞部分，存在C.elegans混合物种部分；为控制首批规模改用完整核对的35163314，并非否定其合格人细胞证据"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-19",
+    "source": "HGNC REST fetch/symbol",
+    "query": "CRAT; FOXM1; MAPK14; MTOR; SIRT1; ATM",
+    "results": "六个规范人类基因符号、HGNC ID、NCBI Gene ID及别名已实核，原始响应分别保存*-identity.json"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "Web search（PMC原始片段）",
+    "query": "\"p38MAPK\" \"SASP\" \"shRNA\" \"2011\"; \"p38MAPK is a novel\" \"HCA2\" \"10 Gy\"",
+    "results": "纳入p38α特异两条shRNA→分泌IL6；HCA2确认为正常人纤维细胞，当前原始片段未确认其组织来源，皮肤关联只由2016皮肤原代药理补充支持。",
+    "accessScope": "PMC检索可见Results原始段落；直接访问遇验证码；EuropePMC XML失败，未绕过"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "PubMed / PMC，经联网网页检索发现",
+    "query": "SIRT6 overexpression lifespan male mice Kanfi 2012 PubMed",
+    "result": "PMID 22367546；另发现 PMID 34050173",
+    "decision": "纳入两篇原始转基因寿命研究，保留跨研究性别差异。"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "PubMed / PMC，经联网网页检索发现",
+    "query": "telomerase gene therapy adult old mice delays aging increases longevity Bernardes de Jesus 2012 PubMed",
+    "result": "PMID 22585399",
+    "decision": "纳入：哺乳动物自然衰老、明确遗传干预及寿命终点。"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "PubMed / PMC，经联网网页检索发现",
+    "query": "ribosomal S6 kinase 1 deletion lifespan female mice Selman 2009 PubMed",
+    "result": "PMID 19797661，PMCID PMC4954603",
+    "decision": "纳入小鼠部分；排除该文线虫机制结果；标记 2011 年更正。"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "PubMed / PMC，经联网网页检索发现",
+    "query": "BubR1 overexpression healthy lifespan mice 2013 PubMed",
+    "result": "PMID 23242215",
+    "decision": "纳入高表达小鼠的寿命与年龄相关组织功能；保留阴性组织终点。"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "PubMed / PMC，经联网网页检索发现",
+    "query": "IGF1 receptor regulates lifespan resistance oxidative stress mice Holzenberger 2003 PubMed",
+    "result": "PMID 12483226",
+    "decision": "纳入；仅提取摘要；后续主动检索相反/条件依赖结果。"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "PubMed / PMC，经联网网页检索发现",
+    "query": "Igf1r longevity not replicated mice lifespan 2011 Bokov",
+    "result": "PMID 22132081；另发现背景依赖性研究 PMC4326867",
+    "decision": "纳入 PMID 22132081 摘要作为条件依赖证据；PMC4326867 本批未完成完整提取，不计正式证据。"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "PubMed / PMC，经联网网页检索发现",
+    "query": "Klotho suppresses aging mice overexpression extends lifespan Kurosu 2005 PubMed",
+    "result": "PMID 16123266",
+    "decision": "纳入独立转基因品系的鼠寿命证据；不把 KLB 与 KL 合并。"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "PubMed / PMC，经联网网页检索发现",
+    "query": "Sirt3 reverses aging associated degeneration hematopoietic stem cell 2013 PubMed",
+    "result": "PMID 23375372",
+    "decision": "纳入老龄鼠造血干细胞功能性敲除及恢复实验；不宣称整鼠延寿。"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "PubMed / PMC，经联网网页检索发现",
+    "query": "Foxo3 deficient mice hematopoietic stem cell aging oxidative stress Miyamoto 2007 PubMed",
+    "result": "检得 FoxO1/3/4 多基因删除、氧化 DNA 损伤等研究线索；未完成单独 FOXO3 与年龄特异结果核验",
+    "decision": "本批不纳入 FOXO3；这是未完成核验，不是断言没有合格研究。"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "Europe PMC 官方 REST（MED / PubMed 来源）",
+    "query": "EXT_ID:{PMID} AND SRC:MED；resultType=core；9 篇逐 PMID 精确查询",
+    "result": "9 篇题名、作者、年份、期刊、DOI、PMID 及可用摘要获取成功；检查 commentCorrectionList",
+    "decision": "元数据与结论核验分开记录；S6K1 存在更正；其余仅能称未见关联字段标记，不能称全面撤稿核查完成。"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "Europe PMC fullTextXML；PMC 官方 HTML",
+    "query": "PMCID 全文读取",
+    "result": "SIRT6 2021、TERT、BUB1B XML 正文可读；SIRT3/KL XML 返回 500 后从 PMC HTML 合法读取；S6K1 PMC 网页正文可读；部分网页访问触发 reCAPTCHA",
+    "decision": "不绕过访问控制。SIRT6 2012、IGF1R 两篇按实际已读摘要范围提取；未获取字段保持当前未获取。"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "Science 出版商更正入口与 Europe PMC 更正关联",
+    "query": "Ribosomal protein S6 kinase 1 2011 Erratum；Science. 2011 Oct 7;334(6052):39",
+    "result": "关联字段确认存在 Erratum；出版商请求受限；检索提示更正涉及线虫部分，但当前未成功取得出版商更正原文",
+    "decision": "仅纳入已直接阅读的小鼠功能段落，保留更正警示，不纳入线虫互作。"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "OpenAlex / Unpaywall 官方 API",
+    "query": "按 9 篇 DOI 精确查询开放获取状态",
+    "result": "实际请求结果另存 research/longevity-oa-checks.json；Unpaywall 因缺少联系邮箱请求失败，不伪造邮箱；未据此声称无合法全文。",
+    "decision": "本批不下载或转载 PDF；以实际已访问 PMC / Europe PMC 正文或 PubMed 摘要记录访问范围。"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "联网学术发现（原始研究/官方库优先）",
+    "query": "cGAS STING drives ageing inflammation neurodegeneration 2023 Nature Gulen",
+    "result": "纳入37532932；同时筛查原始图表。",
+    "inclusionExclusion": "纳入37532932；同时筛查原始图表。",
+    "accessScope": "搜索发现；后续逐篇核验范围见publications"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "联网学术发现（原始研究/官方库优先）",
+    "query": "ATG5 overexpression mice lifespan 2013 Pyo",
+    "result": "纳入23939249，全文核对。",
+    "inclusionExclusion": "纳入23939249，全文核对。",
+    "accessScope": "搜索发现；后续逐篇核验范围见publications"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "联网学术发现（原始研究/官方库优先）",
+    "query": "Beclin 1 Becn1 F121A extends lifespan mice 2018",
+    "result": "纳入29849149；作者更正同步保留。",
+    "inclusionExclusion": "纳入29849149；作者更正同步保留。",
+    "accessScope": "搜索发现；后续逐篇核验范围见publications"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "联网学术发现（原始研究/官方库优先）",
+    "query": "CD38 dictates age related NAD decline mitochondrial dysfunction 2016 Camacho Pereira",
+    "result": "纳入27304511；起初摘要，后以PMC全文结果选段核对KO和双KO。",
+    "inclusionExclusion": "纳入27304511；起初摘要，后以PMC全文结果选段核对KO和双KO。",
+    "accessScope": "搜索发现；后续逐篇核验范围见publications"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "联网学术发现（原始研究/官方库优先）",
+    "query": "Nlrp3 inflammasome age related functional decline Youm 2013 Cell Metabolism",
+    "result": "纳入24093676；摘要与图注。",
+    "inclusionExclusion": "纳入24093676；摘要与图注。",
+    "accessScope": "搜索发现；后续逐篇核验范围见publications"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "联网学术发现（原始研究/官方库优先）",
+    "query": "NF kappa B blockade skin aging p65 Rela 2007 Adler",
+    "result": "发现2007皮肤NF-κB阻断为家族/通路级，不能作为RELA特异核心；追踪2012Rela遗传研究。",
+    "inclusionExclusion": "发现2007皮肤NF-κB阻断为家族/通路级，不能作为RELA特异核心；追踪2012Rela遗传研究。",
+    "accessScope": "搜索发现；后续逐篇核验范围见publications"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "联网学术发现（原始研究/官方库优先）",
+    "query": "p53 mutant mice display early ageing associated phenotypes 2002 Tyner",
+    "result": "纳入11780111，特定突变边界。",
+    "inclusionExclusion": "纳入11780111，特定突变边界。",
+    "accessScope": "搜索发现；后续逐篇核验范围见publications"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "联网学术发现（原始研究/官方库优先）",
+    "query": "super p53 mice normal aging 2002 Garcia Cao",
+    "result": "纳入12426394，作为条件依赖证据。",
+    "inclusionExclusion": "纳入12426394，作为条件依赖证据。",
+    "accessScope": "搜索发现；后续逐篇核验范围见publications"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "联网学术发现（原始研究/官方库优先）",
+    "query": "RelA p65 haploinsufficiency accelerated aging Ercc1 mice 2012 NF-kappaB inhibition delays DNA damage induced senescence aging",
+    "result": "纳入22706308与19779484。",
+    "inclusionExclusion": "纳入22706308与19779484。",
+    "accessScope": "搜索发现；后续逐篇核验范围见publications"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "联网学术发现（原始研究/官方库优先）",
+    "query": "site:ncbi.nlm.nih.gov/gene STING1 Homo sapiens official symbol",
+    "result": "官方名STING1；随后NCBI Gene API核对。",
+    "inclusionExclusion": "官方名STING1；随后NCBI Gene API核对。",
+    "accessScope": "搜索发现；后续逐篇核验范围见publications"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "联网学术发现（原始研究/官方库优先）",
+    "query": "site:ncbi.nlm.nih.gov/gene CGAS Homo sapiens official symbol",
+    "result": "官方名CGAS；MB21D1为别名。",
+    "inclusionExclusion": "官方名CGAS；MB21D1为别名。",
+    "accessScope": "搜索发现；后续逐篇核验范围见publications"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "联网学术发现（原始研究/官方库优先）",
+    "query": "cGAS STING NLRP3 autophagy aging senescence 2025 2026 original study mice",
+    "result": "发现2026新原始反例42642519，纳入；2025综述仅线索不作功能核心。",
+    "inclusionExclusion": "发现2026新原始反例42642519，纳入；2025综述仅线索不作功能核心。",
+    "accessScope": "搜索发现；后续逐篇核验范围见publications"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "Europe PMC REST core + PubMed EFetch XML",
+    "query": "PMID/DOI精确批量查询：37532932,42642519,23939249,29849149,27304511,24093676,22706308,19779484,11780111,12426394",
+    "result": "10篇元数据及摘要匹配；PubMed更正关联字段检查留存于research/mechanism-sources/pubmed-verification.xml",
+    "inclusionExclusion": "均为原始哺乳动物功能研究；综述和预印本不计核心",
+    "accessScope": "元数据、摘要、关联更正字段"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "Europe PMC fullTextXML / PMC / 原始期刊页面",
+    "query": "逐篇PMCID全文获取及相关结果/图注定位",
+    "result": "37532932、42642519、23939249、29849149合法XML全文可读；22706308的PMC结果可读；其余若XML500或PMC验证码，按实际摘要/图注提取",
+    "inclusionExclusion": "未绕过付费墙/访问控制；未读剂量时长样本量不填推测",
+    "accessScope": "全文/摘要与图注，分篇记录"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "OpenAlex / Unpaywall",
+    "query": "10篇DOI分别精确OA查询",
+    "result": "OpenAlex均HTTP200，结果留存；Unpaywall未设置联系人email返回422，未以此断言无OA",
+    "inclusionExclusion": "OA状态辅助；实际原文读取范围优先",
+    "accessScope": "结构化OA元数据"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "PubMed Author Correction",
+    "query": "PMID29921925 / DOI10.1038/s41586-018-0270-4",
+    "result": "BECN1论文Fig.2c重复图更正；Source Data正确，更正已读并纳入局限",
+    "inclusionExclusion": "更正不是独立功能研究，不增加核心研究计数",
+    "accessScope": "更正摘要"
+  },
+  {
+    "date": "2026-10-19",
+    "source": "NCBI Gene esummary",
+    "query": "Homo sapiens Gene IDs 115004,340061,114548,9474,8678,952,5970,7157",
+    "result": "8个官方符号、名称、别名及人类身份核对；数据保留gene-identity.json",
+    "inclusionExclusion": "网站统一人类符号仅作索引；实际鼠实体另存evidence.actualEntity",
+    "accessScope": "官方结构化记录"
+  }
+]

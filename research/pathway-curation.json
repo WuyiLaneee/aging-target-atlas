@@ -1,0 +1,15 @@
+[
+  {"id":"pathway-nad","name":"NAD⁺ 代谢与 Sirtuin 调控","summary":"围绕烟酰胺腺嘌呤二核苷酸（NAD⁺）利用、去酰化与衰老功能的研究主题。各 Sirtuin 亚型、组织与终点分别解释。","symbols":["SIRT1","SIRT3","SIRT6","CD38","ATM"],"hallmarks":[3,6,7]},
+  {"id":"pathway-igf","name":"胰岛素 / IGF-1 营养感知","summary":"胰岛素样生长因子 1（IGF-1）及相关内分泌、能量稳态研究。共享主题不等于所有节点间存在直接调控。","symbols":["IGF1R","KL","SIRT6"],"hallmarks":[6,10]},
+  {"id":"pathway-mtor","name":"mTOR 营养感知与蛋白翻译","summary":"雷帕霉素机制靶蛋白（mTOR）相关营养感知和翻译调节研究。MTOR 是基因 / 蛋白，mTORC1 是复合物；两者分开记录。","symbols":["MTOR","RPS6KB1"],"hallmarks":[4,5,6]},
+  {"id":"pathway-autophagy","name":"宏自噬与自噬调控","summary":"ATG5 与 Beclin 1 相关的自噬遗传干预研究。自噬相关机制、细胞功能和整鼠寿命终点分别记录。","symbols":["ATG5","BECN1"],"hallmarks":[4,5,7]},
+  {"id":"pathway-cgas","name":"cGAS–STING 胞质 DNA 感知","summary":"环状 GMP–AMP 合酶（cGAS）与干扰素基因刺激蛋白（STING）相关炎症和衰老研究，保留核内 cGAS 功能及全身敲除的条件差异。","symbols":["CGAS","STING1","CRAT"],"hallmarks":[1,7,8,11]},
+  {"id":"pathway-sasp","name":"应激信号与衰老相关分泌表型","summary":"衰老相关分泌表型（SASP）及 p38、NF-κB 等相关调节主题。调节炎性分泌不等于逆转全部细胞衰老状态。","symbols":["MAPK14","RELA","STING1","CRAT"],"hallmarks":[8,10,11]},
+  {"id":"pathway-dna","name":"DNA 损伤应答与 p53 调控","summary":"DNA 损伤、ATM 和 p53 相关衰老研究。保留完全缺失、部分降低、特定突变及药理处理的不同背景。","symbols":["ATM","TP53","RELA"],"hallmarks":[1,8]},
+  {"id":"pathway-mitosis","name":"有丝分裂与染色体稳态","summary":"BubR1 检查点和 FOXM1 转录程序相关的分裂准确性、细胞衰老与年龄相关功能研究。","symbols":["BUB1B","FOXM1"],"hallmarks":[1,8]},
+  {"id":"pathway-chromatin","name":"染色质状态与衰老","summary":"SIRT6、核内 cGAS 和 FOXM1 相关的染色质研究主题。不同机制间的主题关联不表示已验证直接分子连接。","symbols":["SIRT6","CGAS","FOXM1"],"hallmarks":[1,3,8]},
+  {"id":"pathway-mito","name":"线粒体代谢与细胞功能维护","summary":"线粒体代谢、肉碱乙酰转移酶（CRAT）缺失及 SIRT3 相关年龄依赖功能研究。","symbols":["CRAT","SIRT3","CD38","SIRT1"],"hallmarks":[7,8,9]},
+  {"id":"pathway-telomere","name":"端粒维护与端粒酶干预","summary":"端粒酶逆转录酶（TERT）基因递送与成年、老年小鼠功能研究；催化活性、载体和动物背景限定解释范围。","symbols":["TERT"],"hallmarks":[2]},
+  {"id":"pathway-nlrp3","name":"NLRP3 炎性小体与慢性炎症","summary":"NLRP3 遗传干预及自然衰老中的炎症、代谢和功能结果。NLRP3 蛋白与包含多个成员的炎性小体复合物分开理解。","symbols":["NLRP3"],"hallmarks":[7,11]},
+  {"id":"pathway-hsc","name":"造血干细胞的年龄相关功能","summary":"老龄造血干细胞（HSC）的细胞库、集落形成与竞争性移植再建研究；细胞再生终点不等于整鼠延寿。","symbols":["SIRT3"],"hallmarks":[7,9]}
+]

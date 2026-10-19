@@ -1,0 +1,91 @@
+{
+  "doi": "10.1111/acel.14000",
+  "pmid": "37828898",
+  "date": "2026-10-19",
+  "publicationTypes": {
+    "pubType": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ]
+  },
+  "europePmcNotices": {},
+  "openalex": {
+    "status": 200,
+    "id": "https://openalex.org/W4387599119",
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1111/acel.14000",
+      "any_repository_has_fulltext": true
+    },
+    "best_oa_location": {
+      "id": "doi:10.1111/acel.14000",
+      "doi": "https://doi.org/10.1111/acel.14000",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1111/acel.14000",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S174672550",
+        "display_name": "Aging Cell",
+        "issn_l": "1474-9718",
+        "issn": [
+          "1474-9718",
+          "1474-9726",
+          "1474-9728"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "dongbi-b",
+          "doyens",
+          "jufo-2",
+          "ki-jl-2",
+          "medline",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Aging Cell",
+      "raw_type": "journal-article"
+    }
+  },
+  "unpaywall": {
+    "status": 422,
+    "result": {
+      "HTTP_status_code": 422,
+      "error": true,
+      "message": "Email address required in API call, see http://unpaywall.org/products/api"
+    }
+  },
+  "crossref": {
+    "status": 200,
+    "DOI": "10.1111/acel.14000",
+    "title": [
+      "Carnitine acetyltransferase deficiency mediates mitochondrial dysfunction‐induced cellular senescence in dermal fibroblasts"
+    ],
+    "relation": {},
+    "update-to": null,
+    "updated-by": null
+  }
+}

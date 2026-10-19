@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-10-19",
+  "counts": {
+    "targets": 21,
+    "coreGeneProteins": 21,
+    "complexes": 1,
+    "pathways": 13,
+    "evidence": 33,
+    "publications": 29,
+    "originalPublications": 28,
+    "experimentalRelations": 83,
+    "backgroundRelations": 36,
+    "taxonomy": 12,
+    "coveredCategories": 11
+  },
+  "coverage": "首批为目的性检索建立的核心样例库；完整建立 12 类导航，具体条目分布以实时统计为准。不是系统综述或完整抗衰靶点名录。",
+  "gaps": [
+    "微生物群失衡尚未完成核心靶点整理，不能据此断言无研究。",
+    "尚缺系统性的人体干预证据、皮肤原位研究、剂量时程完整比较与多种族队列。",
+    "部分论文仅依据摘要或图注；未获取的剂量、时长和样本量保持明确缺失。",
+    "未完成全部条目的外部同源 ID 映射与逐出版商 Crossmark 审计；更正状态按实际访问范围记录。",
+    "调控边采用保守收录，首版以干预–表型关系、少量原文核对过的跨靶点功能关系和主题映射为主，不能作为完整上下游网络。",
+    "检索包含 2025–2026 新研究线索与 2026 cGAS 相反结果，但未覆盖截至整理日期的全部新文献。"
+  ],
+  "reviewStatus": "Codex 联网整理并核对实际可访问原始内容；未经独立人工专家审核。结构校验不等于科学结论已被自动证明。",
+  "searchScope": "哺乳动物功能研究，目的性检索；无年份下限，按靶点扩展 aging / ageing / senescence / lifespan / healthspan。研究情境、物种和访问范围逐条记录。"
+}

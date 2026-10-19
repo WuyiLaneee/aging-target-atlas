@@ -1,0 +1,82 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 1
+  },
+  "response": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "prev_symbol": [
+          "CSPB1",
+          "CSBP1",
+          "CSBP2"
+        ],
+        "date_approved_reserved": "1995-01-24T00:00:00Z",
+        "entrez_id": "1432",
+        "ccds_id": [
+          "CCDS4815",
+          "CCDS4816",
+          "CCDS4817"
+        ],
+        "ensembl_gene_id": "ENSG00000112062",
+        "gene_group": [
+          "Mitogen-activated protein kinase 11-14 (p38) family"
+        ],
+        "ena": [
+          "L35263"
+        ],
+        "mgd_id": [
+          "MGI:1346865"
+        ],
+        "vega_id": "OTTHUMG00000159806",
+        "symbol": "MAPK14",
+        "locus_group": "protein-coding gene",
+        "gene_group_id": [
+          3764
+        ],
+        "rgd_id": [
+          "RGD:70496"
+        ],
+        "ucsc_id": "uc003olp.4",
+        "location": "6p21.31",
+        "uniprot_ids": [
+          "Q16539"
+        ],
+        "hgnc_id": "HGNC:6876",
+        "alias_symbol": [
+          "p38alpha",
+          "PRKM14",
+          "p38",
+          "Mxi2",
+          "PRKM15"
+        ],
+        "status": "Approved",
+        "iuphar": "HGNC:6876",
+        "omim_id": [
+          "600289"
+        ],
+        "uuid": "f349cb78-ee17-453c-b716-d83f086ead74",
+        "name": "mitogen-activated protein kinase 14",
+        "pubmed_id": [
+          7997261
+        ],
+        "refseq_accession": [
+          "NM_001315"
+        ],
+        "mane_select": [
+          "ENST00000229794.9",
+          "NM_139012.3"
+        ],
+        "agr": "HGNC:6876",
+        "date_modified": "2026-03-26T00:00:00Z",
+        "alias_name": [
+          "p38 MAP kinase"
+        ],
+        "locus_type": "gene with protein product"
+      }
+    ]
+  }
+}

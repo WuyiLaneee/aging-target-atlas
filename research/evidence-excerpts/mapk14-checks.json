@@ -1,0 +1,87 @@
+{
+  "doi": "10.3390/ph9020023",
+  "pmid": "27136566",
+  "date": "2026-10-19",
+  "publicationTypes": {
+    "pubType": [
+      "research-article",
+      "Journal Article"
+    ]
+  },
+  "europePmcNotices": {},
+  "openalex": {
+    "status": 200,
+    "id": "https://openalex.org/W2344200805",
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/1424-8247/9/2/23/pdf?version=1462341023",
+      "any_repository_has_fulltext": true
+    },
+    "best_oa_location": {
+      "id": "doi:10.3390/ph9020023",
+      "doi": "https://doi.org/10.3390/ph9020023",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/ph9020023",
+      "pdf_url": "https://www.mdpi.com/1424-8247/9/2/23/pdf?version=1462341023",
+      "source": {
+        "id": "https://openalex.org/S16322639",
+        "display_name": "Pharmaceuticals",
+        "issn_l": "1424-8247",
+        "issn": [
+          "1424-8247"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Pharmaceuticals",
+      "raw_type": "journal-article"
+    }
+  },
+  "unpaywall": {
+    "status": 422,
+    "result": {
+      "HTTP_status_code": 422,
+      "error": true,
+      "message": "Email address required in API call, see http://unpaywall.org/products/api"
+    }
+  },
+  "crossref": {
+    "status": 200,
+    "DOI": "10.3390/ph9020023",
+    "title": [
+      "Evaluating the Role of p38 MAPK in the Accelerated Cell Senescence of Werner Syndrome Fibroblasts"
+    ],
+    "relation": {
+      "has-review": [
+        {
+          "id-type": "doi",
+          "id": "10.3410/f.731249479.793537088",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "update-to": null,
+    "updated-by": null
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 1
+  },
+  "response": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "agr": "HGNC:3818",
+        "mane_select": [
+          "ENST00000359843.8",
+          "NM_021953.4"
+        ],
+        "refseq_accession": [
+          "NM_021953"
+        ],
+        "pubmed_id": [
+          9032290,
+          9441747
+        ],
+        "locus_type": "gene with protein product",
+        "alias_name": [
+          "M-phase phosphoprotein 2"
+        ],
+        "date_modified": "2023-01-20T00:00:00Z",
+        "uniprot_ids": [
+          "Q08050"
+        ],
+        "location": "12p13.33",
+        "rgd_id": [
+          "RGD:61807"
+        ],
+        "ucsc_id": "uc001qlf.4",
+        "alias_symbol": [
+          "HFH-11",
+          "trident",
+          "HNF-3",
+          "INS-1",
+          "MPP2",
+          "MPHOSPH2",
+          "TGT3"
+        ],
+        "hgnc_id": "HGNC:3818",
+        "status": "Approved",
+        "name": "forkhead box M1",
+        "uuid": "16c60314-ec7e-431d-92e5-08a4208e6b52",
+        "omim_id": [
+          "602341"
+        ],
+        "vega_id": "OTTHUMG00000168118",
+        "symbol": "FOXM1",
+        "gene_group_id": [
+          508,
+          2283
+        ],
+        "locus_group": "protein-coding gene",
+        "prev_symbol": [
+          "FKHL16"
+        ],
+        "entrez_id": "2305",
+        "date_approved_reserved": "1997-07-25T00:00:00Z",
+        "ccds_id": [
+          "CCDS76506",
+          "CCDS8515",
+          "CCDS8516",
+          "CCDS8517"
+        ],
+        "ensembl_gene_id": "ENSG00000111206",
+        "mgd_id": [
+          "MGI:1347487"
+        ],
+        "ena": [
+          "Y12773"
+        ],
+        "gene_group": [
+          "Forkhead boxes",
+          "FOXM1-MMB complex subunits"
+        ]
+      }
+    ]
+  }
+}

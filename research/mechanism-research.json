@@ -1,0 +1,1317 @@
+{
+  "publications": [
+    {
+      "id": "pub-37532932",
+      "title": "cGAS-STING drives ageing-related inflammation and neurodegeneration.",
+      "authors": [
+        "Gulen MF",
+        "Samson N",
+        "Keller A",
+        "Schwabenland M",
+        "Liu C",
+        "Glück S",
+        "Thacker VV",
+        "Favre L",
+        "Mangeat B",
+        "Kroese LJ",
+        "Krimpenfort P",
+        "Prinz M",
+        "Ablasser A"
+      ],
+      "year": 2023,
+      "journal": "Nature",
+      "doi": "10.1038/s41586-023-06373-1",
+      "pmid": "37532932",
+      "pmcid": "PMC10412454",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37532932/",
+      "accessScope": "全文（选择性阅读实验结果与相关图注）",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-10-19",
+      "correctionStatus": "已核对 PubMed 关联更正/撤稿字段；未见更正或撤稿关联，不代表全面排除。",
+      "metadataSources": [
+        "PubMed XML",
+        "Europe PMC core metadata"
+      ],
+      "claimVerificationNote": "仅核验本文件所提取的具体主张；非全文全部结论专家复核。"
+    },
+    {
+      "id": "pub-42642519",
+      "title": "cGAS-deficient mice display premature aging associated with derepression of LINE1 elements and inflammation.",
+      "authors": [
+        "Martinez JC",
+        "Morandini F",
+        "Rechsteiner C",
+        "Fitzgibbons L",
+        "Sieczkiewicz N",
+        "Liao X",
+        "He W",
+        "Bae SJ",
+        "Meadow ME",
+        "Hillpot E",
+        "Cutting J",
+        "Paige V",
+        "Zacher M",
+        "Biashad SA",
+        "Simon M",
+        "Meula-Zarzuela I",
+        "Cordero MD",
+        "Taylor MS",
+        "Sedivy JM",
+        "Seluanov A",
+        "Gorbunova V"
+      ],
+      "year": 2026,
+      "journal": "Nature aging",
+      "doi": "10.1038/s43587-026-01206-y",
+      "pmid": "42642519",
+      "pmcid": "PMC13577900",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42642519/",
+      "accessScope": "全文（选择性阅读实验结果与相关图注）",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-10-19",
+      "correctionStatus": "已核对 PubMed 关联字段；UpdateOf 指向2024预印本 PMID39416083，非撤稿或更正；未见撤稿关联。",
+      "metadataSources": [
+        "PubMed XML",
+        "Europe PMC core metadata"
+      ],
+      "claimVerificationNote": "仅核验本文件所提取的具体主张；非全文全部结论专家复核。"
+    },
+    {
+      "id": "pub-23939249",
+      "title": "Overexpression of Atg5 in mice activates autophagy and extends lifespan.",
+      "authors": [
+        "Pyo JO",
+        "Yoo SM",
+        "Ahn HH",
+        "Nah J",
+        "Hong SH",
+        "Kam TI",
+        "Jung S",
+        "Jung YK"
+      ],
+      "year": 2013,
+      "journal": "Nature communications",
+      "doi": "10.1038/ncomms3300",
+      "pmid": "23939249",
+      "pmcid": "PMC3753544",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23939249/",
+      "accessScope": "全文（选择性阅读实验结果与相关图注）",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-10-19",
+      "correctionStatus": "已核对 PubMed 关联更正/撤稿字段；未见更正或撤稿关联，不代表全面排除。",
+      "metadataSources": [
+        "PubMed XML",
+        "Europe PMC core metadata"
+      ],
+      "claimVerificationNote": "仅核验本文件所提取的具体主张；非全文全部结论专家复核。"
+    },
+    {
+      "id": "pub-29849149",
+      "title": "Disruption of the beclin 1-BCL2 autophagy regulatory complex promotes longevity in mice.",
+      "authors": [
+        "Fernández ÁF",
+        "Sebti S",
+        "Wei Y",
+        "Zou Z",
+        "Shi M",
+        "McMillan KL",
+        "He C",
+        "Ting T",
+        "Liu Y",
+        "Chiang WC",
+        "Marciano DK",
+        "Schiattarella GG",
+        "Bhagat G",
+        "Moe OW",
+        "Hu MC",
+        "Levine B"
+      ],
+      "year": 2018,
+      "journal": "Nature",
+      "doi": "10.1038/s41586-018-0162-7",
+      "pmid": "29849149",
+      "pmcid": "PMC5992097",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29849149/",
+      "accessScope": "全文（选择性阅读实验结果与相关图注）",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-10-19",
+      "correctionStatus": "存在作者更正 PMID 29921925，DOI 10.1038/s41586-018-0270-4；已读更正摘要：Fig.2a/2c曾误重复，原始Source Data正确，Fig.2c已在线更正；非撤稿。",
+      "metadataSources": [
+        "PubMed XML",
+        "Europe PMC core metadata"
+      ],
+      "claimVerificationNote": "仅核验本文件所提取的具体主张；非全文全部结论专家复核。"
+    },
+    {
+      "id": "pub-27304511",
+      "title": "CD38 Dictates Age-Related NAD Decline and Mitochondrial Dysfunction through an SIRT3-Dependent Mechanism.",
+      "authors": [
+        "Camacho-Pereira J",
+        "Tarragó MG",
+        "Chini CCS",
+        "Nin V",
+        "Escande C",
+        "Warner GM",
+        "Puranik AS",
+        "Schoon RA",
+        "Reid JM",
+        "Galina A",
+        "Chini EN"
+      ],
+      "year": 2016,
+      "journal": "Cell metabolism",
+      "doi": "10.1016/j.cmet.2016.05.006",
+      "pmid": "27304511",
+      "pmcid": "PMC4911708",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27304511/",
+      "accessScope": "全文（选择性阅读实验结果与相关图注）",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-10-19",
+      "correctionStatus": "已核对 PubMed 关联更正/撤稿字段；未见更正或撤稿关联，不代表全面排除。",
+      "metadataSources": [
+        "PubMed XML",
+        "Europe PMC core metadata"
+      ],
+      "claimVerificationNote": "仅核验本文件所提取的具体主张；非全文全部结论专家复核。"
+    },
+    {
+      "id": "pub-24093676",
+      "title": "Canonical Nlrp3 inflammasome links systemic low-grade inflammation to functional decline in aging.",
+      "authors": [
+        "Youm YH",
+        "Grant RW",
+        "McCabe LR",
+        "Albarado DC",
+        "Nguyen KY",
+        "Ravussin A",
+        "Pistell P",
+        "Newman S",
+        "Carter R",
+        "Laque A",
+        "Münzberg H",
+        "Rosen CJ",
+        "Ingram DK",
+        "Salbaum JM",
+        "Dixit VD"
+      ],
+      "year": 2013,
+      "journal": "Cell metabolism",
+      "doi": "10.1016/j.cmet.2013.09.010",
+      "pmid": "24093676",
+      "pmcid": "PMC4017327",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24093676/",
+      "accessScope": "摘要与图注",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-10-19",
+      "correctionStatus": "已核对 PubMed 关联更正/撤稿字段；未见更正或撤稿关联，不代表全面排除。",
+      "metadataSources": [
+        "PubMed XML",
+        "Europe PMC core metadata"
+      ],
+      "claimVerificationNote": "仅核验本文件所提取的具体主张；非全文全部结论专家复核。"
+    },
+    {
+      "id": "pub-22706308",
+      "title": "NF-κB inhibition delays DNA damage-induced senescence and aging in mice.",
+      "authors": [
+        "Tilstra JS",
+        "Robinson AR",
+        "Wang J",
+        "Gregg SQ",
+        "Clauson CL",
+        "Reay DP",
+        "Nasto LA",
+        "St Croix CM",
+        "Usas A",
+        "Vo N",
+        "Huard J",
+        "Clemens PR",
+        "Stolz DB",
+        "Guttridge DC",
+        "Watkins SC",
+        "Garinis GA",
+        "Wang Y",
+        "Niedernhofer LJ",
+        "Robbins PD"
+      ],
+      "year": 2012,
+      "journal": "The Journal of clinical investigation",
+      "doi": "10.1172/jci45785",
+      "pmid": "22706308",
+      "pmcid": "PMC3386805",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22706308/",
+      "accessScope": "全文（选择性阅读实验结果与相关图注）",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-10-19",
+      "correctionStatus": "已核对 PubMed 关联更正/撤稿字段；未见更正或撤稿关联，不代表全面排除。",
+      "metadataSources": [
+        "PubMed XML",
+        "Europe PMC core metadata"
+      ],
+      "claimVerificationNote": "仅核验本文件所提取的具体主张；非全文全部结论专家复核。"
+    },
+    {
+      "id": "pub-19779484",
+      "title": "RelA/p65 functions to maintain cellular senescence by regulating genomic stability and DNA repair.",
+      "authors": [
+        "Wang J",
+        "Jacob NK",
+        "Ladner KJ",
+        "Beg A",
+        "Perko JD",
+        "Tanner SM",
+        "Liyanarachchi S",
+        "Fishel R",
+        "Guttridge DC"
+      ],
+      "year": 2009,
+      "journal": "EMBO reports",
+      "doi": "10.1038/embor.2009.197",
+      "pmid": "19779484",
+      "pmcid": "PMC2775178",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19779484/",
+      "accessScope": "摘要",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-10-19",
+      "correctionStatus": "已核对 PubMed 关联更正/撤稿字段；未见更正或撤稿关联，不代表全面排除。",
+      "metadataSources": [
+        "PubMed XML",
+        "Europe PMC core metadata"
+      ],
+      "claimVerificationNote": "仅核验本文件所提取的具体主张；非全文全部结论专家复核。"
+    },
+    {
+      "id": "pub-11780111",
+      "title": "p53 mutant mice that display early ageing-associated phenotypes.",
+      "authors": [
+        "Tyner SD",
+        "Venkatachalam S",
+        "Choi J",
+        "Jones S",
+        "Ghebranious N",
+        "Igelmann H",
+        "Lu X",
+        "Soron G",
+        "Cooper B",
+        "Brayton C",
+        "Park SH",
+        "Thompson T",
+        "Karsenty G",
+        "Bradley A",
+        "Donehower LA"
+      ],
+      "year": 2002,
+      "journal": "Nature",
+      "doi": "10.1038/415045a",
+      "pmid": "11780111",
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11780111/",
+      "accessScope": "摘要",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-10-19",
+      "correctionStatus": "已核对 PubMed 关联更正/撤稿字段；未见更正或撤稿关联，不代表全面排除。",
+      "metadataSources": [
+        "PubMed XML",
+        "Europe PMC core metadata"
+      ],
+      "claimVerificationNote": "仅核验本文件所提取的具体主张；非全文全部结论专家复核。"
+    },
+    {
+      "id": "pub-12426394",
+      "title": "\"Super p53\" mice exhibit enhanced DNA damage response, are tumor resistant and age normally.",
+      "authors": [
+        "García-Cao I",
+        "García-Cao M",
+        "Martín-Caballero J",
+        "Criado LM",
+        "Klatt P",
+        "Flores JM",
+        "Weill JC",
+        "Blasco MA",
+        "Serrano M"
+      ],
+      "year": 2002,
+      "journal": "The EMBO journal",
+      "doi": "10.1093/emboj/cdf595",
+      "pmid": "12426394",
+      "pmcid": "PMC137187",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12426394/",
+      "accessScope": "摘要",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-10-19",
+      "correctionStatus": "已核对 PubMed 关联更正/撤稿字段；未见更正或撤稿关联，不代表全面排除。",
+      "metadataSources": [
+        "PubMed XML",
+        "Europe PMC core metadata"
+      ],
+      "claimVerificationNote": "仅核验本文件所提取的具体主张；非全文全部结论专家复核。"
+    }
+  ],
+  "records": [
+    {
+      "symbol": "CGAS",
+      "chineseName": "环GMP-AMP合成酶",
+      "entityType": "gene",
+      "aliases": [
+        "cGAS",
+        "MB21D1",
+        "C6orf150"
+      ],
+      "summary": "胞质DNA感知与核内染色质维持具有不同作用。小胶质细胞过度激活可导致衰老样脑损伤；全身缺失则可能加速衰老，不能把长期完全敲除等同于选择性抑制其催化活性。",
+      "hallmarks": [
+        1,
+        3,
+        7,
+        8,
+        10,
+        11
+      ],
+      "pathwayNames": [
+        "cGAS–STING DNA感知",
+        "异染色质与LINE1抑制"
+      ],
+      "skinClassification": "其他组织研究",
+      "skinSummary": "当前核心证据来自鼠脑、全身衰老及肺原代细胞；未据此认定人体皮肤抗衰。",
+      "externalIds": {
+        "NCBIGene": "115004"
+      },
+      "identitySource": "https://www.ncbi.nlm.nih.gov/gene/115004/",
+      "evidence": [
+        {
+          "id": "ev-CGAS-37532932",
+          "publicationId": "pub-37532932",
+          "claim": "小胶质细胞cGAS功能获得足以驱动年龄相关反应状态和神经退行表型。",
+          "evidenceType": [
+            "遗传功能获得",
+            "药理救援",
+            "共培养"
+          ],
+          "species": [
+            "Mus musculus"
+          ],
+          "actualEntity": "Cgas R241E（鼠；文内对应人CGAS R255E）",
+          "tissueCell": "小胶质细胞、海马、原代神经元共培养",
+          "model": "诱导性Tmem119-creERT2-CgasWT/R241E；另有自然老龄小胶质细胞",
+          "intervention": "诱导表达解除核小体抑制的cGAS突变；H-151救援及TNF中和",
+          "result": "小胶质细胞活化、神经元密度下降和空间学习受损；STING抑制改善，TNF中和改善共培养神经元存活。",
+          "endpoints": [
+            "Morris水迷宫",
+            "NeuN神经元密度",
+            "炎症基因",
+            "神经元存活"
+          ],
+          "conditions": "小胶质细胞/脑巨噬细胞为主的诱导表达；遗传模型采用年轻成年鼠模拟衰老相关机制。",
+          "limitations": "不是自然衰老全身CGAS敲除；共培养TNF救援不能外推全部机体衰老；不支持与STING直接物理结合。",
+          "supportStatus": "conditional",
+          "locator": "Fig.4b–k；Extended Data Fig.10e；Methods: Mice",
+          "accessScope": "全文（选择性阅读实验结果与相关图注）",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10412454/",
+          "phenotypes": [
+            "年龄相关认知功能下降",
+            "神经元损失"
+          ],
+          "dose": "不适用（遗传干预）",
+          "time": "他莫昔芬诱导后约2周组织分析；具体测试批次见原文",
+          "sampleSize": "水迷宫对照n=6，突变n=11；组织染色n=5/组"
+        },
+        {
+          "id": "ev-CGAS-42642519",
+          "publicationId": "pub-42642519",
+          "claim": "长期全身cGAS缺失可缩短鼠寿命并增加虚弱，提示核内保护作用。",
+          "evidenceType": [
+            "基因敲除",
+            "siRNA",
+            "回补救援",
+            "催化抑制对照"
+          ],
+          "species": [
+            "Mus musculus"
+          ],
+          "actualEntity": "Cgas全身KO；鼠原代细胞及MEFs",
+          "tissueCell": "肺、肝、胰、卵巢和原代肺细胞",
+          "model": "cGAS KO与WT自然老化比较",
+          "intervention": "全身基因缺失；细胞敲低；回补；与RU.521催化抑制作比较",
+          "result": "KO鼠虚弱增加，合并中位寿命2.01降至1.64年；正文指出性别分层寿命下降见雌鼠。细胞LINE1去抑制、异染色质改变，催化抑制未复制敲低的LINE1效应。",
+          "endpoints": [
+            "生存曲线",
+            "虚弱指数",
+            "LINE1表达",
+            "H3K9me3染色质",
+            "器官炎症/纤维化"
+          ],
+          "conditions": "全身长期蛋白缺失；核内染色质功能与胞质催化功能需分开。",
+          "limitations": "不能把KO不利等同于所有短期或选择性催化抑制均不利；合并与性别分层结果不同；未验证人体皮肤。",
+          "supportStatus": "conditional",
+          "locator": "Fig.1g–i；Results首节；Fig.4b,g；Discussion",
+          "accessScope": "全文（选择性阅读实验结果与相关图注）",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13577900/",
+          "phenotypes": [
+            "寿命缩短",
+            "虚弱加重",
+            "慢性炎症"
+          ],
+          "dose": "不适用（遗传干预）",
+          "time": "虚弱/多器官组织学18月龄；生存随访至终点",
+          "sampleSize": "合并生存WT n=99，KO n=76；虚弱WT n=68，KO n=24"
+        }
+      ]
+    },
+    {
+      "symbol": "STING1",
+      "chineseName": "干扰素反应刺激因子cGAMP相互作用蛋白1",
+      "entityType": "gene",
+      "aliases": [
+        "STING",
+        "TMEM173",
+        "MITA",
+        "ERIS",
+        "MPYS"
+      ],
+      "summary": "DNA感知信号衔接蛋白；在特定细胞衰老和老龄鼠模型中，抑制STING减弱炎性分泌并改善功能。减炎不等于清除衰老细胞或逆转全部衰老状态。",
+      "hallmarks": [
+        7,
+        8,
+        10,
+        11
+      ],
+      "pathwayNames": [
+        "cGAS–STING DNA感知"
+      ],
+      "skinClassification": "皮肤细胞衰老实验",
+      "skinSummary": "人BJ成纤维细胞诱导衰老后STING siRNA降低炎症转录；体外细胞结果，无人体皮肤组织逆龄或外用功效证据。",
+      "externalIds": {
+        "NCBIGene": "340061"
+      },
+      "identitySource": "https://www.ncbi.nlm.nih.gov/gene/340061/",
+      "evidence": [
+        {
+          "id": "ev-STING1-37532932-aged",
+          "publicationId": "pub-37532932",
+          "claim": "STING药理抑制及缺失支持其在自然老龄鼠炎症和功能下降中的作用。",
+          "evidenceType": [
+            "药理干预",
+            "基因敲除"
+          ],
+          "species": [
+            "Mus musculus"
+          ],
+          "actualEntity": "Sting1；H-151抑制STING",
+          "tissueCell": "脑、肾、肝、白色脂肪；小胶质细胞",
+          "model": "自然老龄C57BL/6J鼠与老龄Sting1缺失鼠",
+          "intervention": "腹腔H-151；Sting1−/−对照",
+          "result": "H-151改善握力、跑台表现和认知，降低炎症/部分肾损伤指标；遗传缺失支持部分炎症与脑组织学结果。",
+          "endpoints": [
+            "握力",
+            "跑台距离",
+            "Morris水迷宫",
+            "情境恐惧记忆",
+            "肌酐/尿素",
+            "IBA1/NeuN"
+          ],
+          "conditions": "自然老龄鼠；药理和KO分别支持的终点应按原图区分。",
+          "limitations": "未检测寿命延长；不能把全部药理行为终点宣称为KO重复；无化妆品外用研究。",
+          "supportStatus": "supports",
+          "locator": "Fig.1c–h、Fig.2a–c；Methods: Mice",
+          "accessScope": "全文（选择性阅读实验结果与相关图注）",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10412454/",
+          "phenotypes": [
+            "年龄相关体能下降",
+            "年龄相关认知功能下降",
+            "慢性炎症"
+          ],
+          "dose": "750 nmol/鼠，腹腔注射",
+          "time": "每周5天×8周，停药8周，再处理8周",
+          "sampleSize": "握力/跑台n=7；认知n=11；各组织终点另有n",
+          "interventionName": "H-151"
+        },
+        {
+          "id": "ev-STING1-37532932-BJ",
+          "publicationId": "pub-37532932",
+          "claim": "在已诱导衰老的人BJ成纤维细胞中，STING敲低减弱炎症转录。",
+          "evidenceType": [
+            "siRNA"
+          ],
+          "species": [
+            "Homo sapiens"
+          ],
+          "actualEntity": "STING1（原文si-STING）",
+          "tissueCell": "人BJ成纤维细胞，非癌细胞",
+          "model": "12 Gy辐射诱导的细胞衰老",
+          "intervention": "辐射后10天使用si-STING，72 h后比较si-NC",
+          "result": "促炎和干扰素刺激基因转录下降。",
+          "endpoints": [
+            "促炎基因mRNA",
+            "干扰素刺激基因mRNA"
+          ],
+          "conditions": "辐射已建立的细胞衰老环境；是细胞衰老模型而非急性UV存活实验。",
+          "limitations": "仅证明炎性表型调节；BJ体外结果不等于皮肤组织或人体外用效果；WI-38其他终点不可自动归给BJ。",
+          "supportStatus": "supports",
+          "locator": "Extended Data Fig.2f；Methods: Senescence induction and STING inhibitor treatments",
+          "accessScope": "全文（选择性阅读实验结果与相关图注）",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10412454/",
+          "phenotypes": [
+            "细胞衰老炎性分泌相关转录"
+          ],
+          "dose": "siRNA剂量当前未获取",
+          "time": "12 Gy后第10天敲低，72 h后检测",
+          "sampleSize": "n=3独立实验"
+        }
+      ]
+    },
+    {
+      "symbol": "NLRP3",
+      "chineseName": "NLR家族含pyrin结构域蛋白3",
+      "entityType": "gene",
+      "aliases": [
+        "NALP3",
+        "CIAS1",
+        "Cryopyrin"
+      ],
+      "summary": "NLRP3是炎性小体的传感组分，不能与整个复合物等同。自然老龄鼠遗传缺失研究支持其参与慢性无菌炎症和多器官功能下降。",
+      "hallmarks": [
+        10,
+        11
+      ],
+      "pathwayNames": [
+        "NLRP3炎性小体"
+      ],
+      "skinClassification": "其他组织研究",
+      "skinSummary": "本条核心为鼠脑、代谢、骨和胸腺等研究，未建立皮肤老化功效。",
+      "externalIds": {
+        "NCBIGene": "114548"
+      },
+      "identitySource": "https://www.ncbi.nlm.nih.gov/gene/114548/",
+      "evidence": [
+        {
+          "id": "ev-NLRP3-24093676",
+          "publicationId": "pub-24093676",
+          "claim": "Nlrp3缺失减弱自然老龄鼠炎症和若干年龄相关功能损失。",
+          "evidenceType": [
+            "基因敲除"
+          ],
+          "species": [
+            "Mus musculus"
+          ],
+          "actualEntity": "Nlrp3−/−；另用Asc、Casp11、Il1r缺失作机制比较",
+          "tissueCell": "脑、脂肪、胸腺、骨及巨噬细胞",
+          "model": "正常饲料自然衰老鼠；不同终点含18–24月龄群体",
+          "intervention": "Nlrp3遗传消融与年龄匹配WT比较",
+          "result": "改善糖耐量、减轻骨丢失和胸腺退化，改善认知与运动；IL-1信号仅解释部分表型。",
+          "endpoints": [
+            "糖耐量",
+            "骨指标",
+            "胸腺量/细胞",
+            "T迷宫",
+            "转棒",
+            "跑台",
+            "caspase-1加工"
+          ],
+          "conditions": "非经典caspase-11与IL-1受体敲除用于区分机制；不能把IL-1下降当所有获益的统一中介。",
+          "limitations": "未据此证明寿命延长或人类药效；仅阅读摘要与可获取图注，未补填未读方法。",
+          "supportStatus": "supports",
+          "locator": "PubMed Abstract；Fig.1、2、6、7图注",
+          "accessScope": "摘要与图注",
+          "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/24093676/",
+          "phenotypes": [
+            "年龄相关认知功能下降",
+            "年龄相关体能下降",
+            "骨丢失",
+            "胸腺退化",
+            "慢性炎症"
+          ],
+          "dose": "不适用（遗传干预）",
+          "time": "核心功能群体18–24月龄；分终点不同",
+          "sampleSize": "Fig.7：18月T迷宫n=8/组；24月T迷宫n=6–8/组"
+        }
+      ]
+    },
+    {
+      "symbol": "ATG5",
+      "chineseName": "自噬相关蛋白5",
+      "entityType": "gene",
+      "aliases": [
+        "APG5",
+        "APG5L"
+      ],
+      "summary": "参与自噬体形成。全身持续适度过表达Atg5延长鼠寿命，并改变代谢及体能；不能将所有提高ATG5表达的原料都视为等效干预。",
+      "hallmarks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "pathwayNames": [
+        "宏自噬与自噬体形成"
+      ],
+      "skinClassification": "其他组织研究",
+      "skinSummary": "主要是全身寿命、代谢及鼠胚胎成纤维细胞研究，无直接皮肤抗衰效能评价。",
+      "externalIds": {
+        "NCBIGene": "9474"
+      },
+      "identitySource": "https://www.ncbi.nlm.nih.gov/gene/9474/",
+      "evidence": [
+        {
+          "id": "ev-ATG5-23939249",
+          "publicationId": "pub-23939249",
+          "claim": "全身持续Atg5过表达可增加鼠寿命，并伴随自噬增强和年龄相关代谢/体能改变。",
+          "evidenceType": [
+            "转基因过表达",
+            "自噬通量检测",
+            "细胞药理阻断"
+          ],
+          "species": [
+            "Mus musculus"
+          ],
+          "actualEntity": "Atg5转基因鼠，主要line25并有其他独立转基因系",
+          "tissueCell": "全身；心、肝和原代鼠胚胎成纤维细胞",
+          "model": "WT同窝鼠与全身Atg5转基因自然老化比较",
+          "intervention": "CAG驱动Atg5持续过表达；细胞自噬抑制对照",
+          "result": "主要转基因系中位寿命约增加17%；两性均有延长，另见较瘦体型及更好悬挂表现。",
+          "endpoints": [
+            "生存曲线",
+            "LC3/p62及自噬通量",
+            "胰岛素敏感性",
+            "悬挂耐力"
+          ],
+          "conditions": "持续全身遗传干预；各细胞氧化应激结果只是机制补充。",
+          "limitations": "悬挂受体重等因素影响；不是老年开始给药；自噬抑制对照只在细胞损伤实验，不能宣称已用其阻断整鼠延寿。",
+          "supportStatus": "supports",
+          "locator": "Fig.1a–f；Fig.2；Fig.3m；Results与Methods: Mouse longevity study",
+          "accessScope": "全文（选择性阅读实验结果与相关图注）",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3753544/",
+          "phenotypes": [
+            "寿命延长",
+            "年龄相关代谢改变",
+            "体能表现"
+          ],
+          "dose": "不适用（遗传干预）",
+          "time": "全生命周期持续表达；生存随访至死亡",
+          "sampleSize": "line25合并生存WT n=65，Atg5 Tg n=70"
+        }
+      ]
+    },
+    {
+      "symbol": "BECN1",
+      "chineseName": "Beclin 1自噬相关蛋白",
+      "entityType": "gene",
+      "aliases": [
+        "Beclin-1",
+        "ATG6",
+        "VPS30"
+      ],
+      "summary": "自噬调控节点。鼠Becn1 F121A突变减弱与BCL2结合、增强基础自噬，伴随延寿及心肾病理减轻；物种位点需保留。",
+      "hallmarks": [
+        4,
+        5
+      ],
+      "pathwayNames": [
+        "Beclin 1–BCL2自噬调控"
+      ],
+      "skinClassification": "其他组织研究",
+      "skinSummary": "核心证据为鼠全身寿命、心肾病理及胚胎成纤维细胞；无人体外用皮肤抗衰证据。",
+      "externalIds": {
+        "NCBIGene": "8678"
+      },
+      "identitySource": "https://www.ncbi.nlm.nih.gov/gene/8678/",
+      "evidence": [
+        {
+          "id": "ev-BECN1-29849149",
+          "publicationId": "pub-29849149",
+          "claim": "破坏鼠Beclin 1–Bcl2抑制性相互作用的敲入突变增强自噬并改善寿命/部分老龄病理。",
+          "evidenceType": [
+            "基因敲入",
+            "共免疫沉淀",
+            "自噬通量检测",
+            "遗传救援"
+          ],
+          "species": [
+            "Mus musculus"
+          ],
+          "actualEntity": "Becn1 F121A/F121A；文内对应人BECN1 F123A，不能混写",
+          "tissueCell": "心、肾、骨骼肌、肝；原代胚胎成纤维细胞",
+          "model": "C57BL/6自然老龄敲入鼠；另有Klotho低表达早衰模型",
+          "intervention": "Becn1 F121A敲入，减少与Bcl2结合；与Klotho早衰模型杂交",
+          "result": "合并中位寿命26增至29个月；两性均延长，20月龄心肾纤维化等减轻；救援Klotho模型早死。",
+          "endpoints": [
+            "生存曲线",
+            "Beclin1–Bcl2共沉淀",
+            "LC3/p62自噬通量",
+            "心肾组织学"
+          ],
+          "conditions": "遗传突变特定于结合界面；自噬仍随年龄下降，属于延缓而非完全阻止。",
+          "limitations": "有2018作者更正 PMID29921925：Fig.2c误重复Fig.2a，原始数据正确且图已更正；不等于普通上调BECN1均延寿。",
+          "supportStatus": "supports",
+          "locator": "Main；Fig.1–4；Author Correction PMID29921925（摘要）",
+          "accessScope": "全文（选择性阅读实验结果与相关图注）",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5992097/",
+          "phenotypes": [
+            "寿命延长",
+            "心肾年龄相关病理减轻"
+          ],
+          "dose": "不适用（遗传干预）",
+          "time": "终生敲入；病理2月与20月龄比较；Klotho救援观察45周",
+          "sampleSize": "生存样本量当前未提取；未将组织学样本数替代整鼠寿命样本数"
+        }
+      ]
+    },
+    {
+      "symbol": "CD38",
+      "chineseName": "CD38分子（NAD水解酶）",
+      "entityType": "gene",
+      "aliases": [
+        "ADPRC1",
+        "cADPR1"
+      ],
+      "summary": "参与NAD代谢和免疫调节。在鼠自然老化研究中，CD38缺失维持NAD及线粒体功能，部分涉及SIRT3；不能将该结果等同于人类延寿或外用功效。",
+      "hallmarks": [
+        6,
+        7,
+        11
+      ],
+      "pathwayNames": [
+        "CD38–NAD代谢–SIRT3"
+      ],
+      "skinClassification": "其他组织研究",
+      "skinSummary": "核心证据为鼠非皮肤组织衰老；尚未核验皮肤老化功能研究。",
+      "externalIds": {
+        "NCBIGene": "952"
+      },
+      "identitySource": "https://www.ncbi.nlm.nih.gov/gene/952/",
+      "evidence": [
+        {
+          "id": "ev-CD38-27304511",
+          "publicationId": "pub-27304511",
+          "claim": "CD38功能研究支持其参与年龄相关NAD下降与线粒体功能障碍。",
+          "evidenceType": [
+            "基因敲除",
+            "酶活检测",
+            "机制依赖实验"
+          ],
+          "species": [
+            "Mus musculus"
+          ],
+          "actualEntity": "Cd38 KO与Cd38/Sirt3双KO；雄鼠",
+          "tissueCell": "多种鼠组织（核心为非皮肤）；肝与脂肪等",
+          "model": "自然老龄鼠NAD代谢与线粒体功能比较",
+          "intervention": "比较Cd38 KO与WT；建立Cd38/Sirt3双KO检验代谢及线粒体表型的SIRT3依赖",
+          "result": "CD38对于年龄相关NAD下降与线粒体功能障碍具有功能贡献，SIRT3至少部分介导；CD38亦参与体内NMN降解。",
+          "endpoints": [
+            "组织NAD",
+            "CD38/NADase活性",
+            "线粒体功能",
+            "SIRT3相关终点"
+          ],
+          "conditions": "只将鼠功能实验用于因果支持；人老年脂肪表达资料为相关性，未作为核心人功能证据。",
+          "limitations": "已补核全文结果选段；部分分组仍未完整提取；未证明寿命延长或CD38直接结合SIRT3。",
+          "supportStatus": "supports",
+          "locator": "Fig.2C–E；Fig.5C–E；Results: CD38 regulates metabolic state by a SIRT3-dependent mechanism；Experimental Procedures: Animal Studies",
+          "accessScope": "摘要与全文结果选段",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4911708/",
+          "phenotypes": [
+            "年龄相关NAD下降",
+            "线粒体功能障碍"
+          ],
+          "dose": "不适用（遗传干预）",
+          "time": "鼠年龄3–32月范围；双KO代谢与呼吸关键比较2岁",
+          "sampleSize": "Fig.2肝NAD质谱n=4/年龄组；Fig.5呼吸n=6"
+        }
+      ]
+    },
+    {
+      "symbol": "RELA",
+      "chineseName": "NF-κB转录因子p65亚基",
+      "entityType": "gene",
+      "aliases": [
+        "p65",
+        "NFKB3",
+        "RelA"
+      ],
+      "summary": "RELA编码p65亚基，不能与NF-κB家族或整个复合物混同。部分降低p65在DNA修复缺陷早衰模型中改善表型，但完全缺失可破坏基因组稳定性并使细胞提前逃逸衰老。",
+      "hallmarks": [
+        1,
+        8,
+        10,
+        11
+      ],
+      "pathwayNames": [
+        "NF-κB与DNA损伤反应"
+      ],
+      "skinClassification": "其他组织研究",
+      "skinSummary": "本条功能证据来自鼠早衰、多器官和成纤维细胞；未将NF-κB家族皮肤阻断论文算作RELA特异皮肤证据。",
+      "externalIds": {
+        "NCBIGene": "5970"
+      },
+      "identitySource": "https://www.ncbi.nlm.nih.gov/gene/5970/",
+      "evidence": [
+        {
+          "id": "ev-RELA-22706308",
+          "publicationId": "pub-22706308",
+          "claim": "降低一个p65等位基因可推迟DNA修复缺陷早衰鼠的症状和病理。",
+          "evidenceType": [
+            "遗传单倍剂量不足",
+            "细胞基因缺失",
+            "药理通路抑制"
+          ],
+          "species": [
+            "Mus musculus"
+          ],
+          "actualEntity": "Rela/p65+/−叠加Ercc1−/Δ；MEFs；8K-NBD作用于IKK复合物而非直接结合RELA",
+          "tissueCell": "肝、肾、骨、神经组织和原代胚胎成纤维细胞",
+          "model": "Ercc1DNA修复缺陷早衰模型；细胞氧化应激衰老",
+          "intervention": "降低Rela一个等位基因；另以IKK/NF-κB通路抑制肽验证",
+          "result": "早衰症状及组织病理延缓；肝细胞及应激MEF衰老降低。",
+          "endpoints": [
+            "症状出现时间/健康寿命评分",
+            "组织病理",
+            "SA-β-gal",
+            "γH2AX",
+            "p16表达"
+          ],
+          "conditions": "早衰及应激条件；不能将下游抑制剂描述为RELA特异直接结合药物。",
+          "limitations": "未证明自然老龄WT寿命延长；不能等同完全长期抑制NF-κB安全有效。",
+          "supportStatus": "conditional",
+          "locator": "Fig.2、Fig.3、Fig.5；Results: Inhibition of NF-κB reduces senescence in vitro and in vivo",
+          "accessScope": "全文（选择性阅读实验结果与相关图注）",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3386805/",
+          "phenotypes": [
+            "早衰症状延缓",
+            "应激细胞衰老减轻"
+          ],
+          "dose": "遗传干预不适用；肽剂量当前未提取",
+          "time": "按原文10–15周组织学及长期症状监测，细胞另计",
+          "sampleSize": "当前未获取",
+          "interventionName": "8K-NBD（IKK/NF-κB通路抑制肽；非RELA直接配体）"
+        },
+        {
+          "id": "ev-RELA-19779484",
+          "publicationId": "pub-19779484",
+          "claim": "完全缺失RelA可通过损害基因组稳定性使原代成纤维细胞更早逃逸衰老。",
+          "evidenceType": [
+            "基因敲除",
+            "细胞功能实验"
+          ],
+          "species": [
+            "Mus musculus",
+            "Homo sapiens"
+          ],
+          "actualEntity": "鼠RelA/p65−/−；缺乏NF-κB功能的人细胞（摘要未给出具体干预实体细节）",
+          "tissueCell": "原代成纤维细胞",
+          "model": "从衰老到永生化的细胞培养模型",
+          "intervention": "缺失RelA/p65，与WT原代成纤维细胞比较",
+          "result": "鼠细胞更快永生化，伴DNA修复缺陷、突变/缺失/染色体重排增加；人细胞NF-κB缺失条件有相似结果。",
+          "endpoints": [
+            "永生化时间",
+            "DNA修复",
+            "突变/染色体改变"
+          ],
+          "conditions": "维持抗肿瘤性细胞衰老与机体健康寿命不同；完全KO与早衰鼠Rela+/−不是同一干预。",
+          "limitations": "更少细胞衰老可源于异常逃逸，不是抗衰获益；人细胞干预细节未从摘要外补填。",
+          "supportStatus": "conditional",
+          "locator": "PubMed/Europe PMC Abstract",
+          "accessScope": "摘要",
+          "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/19779484/",
+          "phenotypes": [
+            "细胞衰老逃逸",
+            "基因组不稳定"
+          ],
+          "dose": "不适用（遗传干预）",
+          "time": "当前未获取",
+          "sampleSize": "当前未获取"
+        }
+      ]
+    },
+    {
+      "symbol": "TP53",
+      "chineseName": "肿瘤蛋白p53",
+      "entityType": "gene",
+      "aliases": [
+        "p53",
+        "P53",
+        "TRP53"
+      ],
+      "summary": "应激与细胞命运调节因子。突变导致的异常激活与保留生理调控的额外基因剂量可产生不同衰老结果；不应给予永久促衰/抗衰标签。",
+      "hallmarks": [
+        1,
+        8,
+        9
+      ],
+      "pathwayNames": [
+        "p53应激与衰老",
+        "DNA损伤应答"
+      ],
+      "skinClassification": "其他组织研究",
+      "skinSummary": "本次核心提取为整鼠衰老与肿瘤抵抗；未读取足够原始皮肤终点，不对皮肤疗效作结论。",
+      "externalIds": {
+        "NCBIGene": "7157"
+      },
+      "identitySource": "https://www.ncbi.nlm.nih.gov/gene/7157/",
+      "evidence": [
+        {
+          "id": "ev-TP53-11780111",
+          "publicationId": "pub-11780111",
+          "claim": "特定p53截短突变鼠表现寿命缩短及早发老龄表型。",
+          "evidenceType": [
+            "遗传突变"
+          ],
+          "species": [
+            "Mus musculus"
+          ],
+          "actualEntity": "Trp53+/m，前6外显子缺失可形成C端片段；另有温敏突变鼠",
+          "tissueCell": "整鼠，多器官与骨",
+          "model": "特定p53突变引起异常功能的早衰样模型",
+          "intervention": "构建异常激活样p53突变，与WT同窝比较",
+          "result": "肿瘤抵抗增强，但寿命缩短、骨质疏松、器官萎缩及应激耐受下降。",
+          "endpoints": [
+            "寿命",
+            "骨质疏松",
+            "器官萎缩",
+            "应激耐受",
+            "自发肿瘤"
+          ],
+          "conditions": "特定突变等位基因，不能推广为所有p53上调。",
+          "limitations": "本次依据摘要；没有把减少癌症当作寿命必然延长；未获取全基因组工程背景细节。",
+          "supportStatus": "conditional",
+          "locator": "PubMed/Europe PMC Abstract",
+          "accessScope": "摘要",
+          "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/11780111/",
+          "phenotypes": [
+            "寿命缩短",
+            "早发老龄样表型"
+          ],
+          "dose": "不适用（遗传干预）",
+          "time": "当前未获取",
+          "sampleSize": "当前未获取"
+        },
+        {
+          "id": "ev-TP53-12426394",
+          "publicationId": "pub-12426394",
+          "claim": "保留正常调控的额外p53基因拷贝可增强抑癌而未出现早衰。",
+          "evidenceType": [
+            "转基因增加基因剂量"
+          ],
+          "species": [
+            "Mus musculus"
+          ],
+          "actualEntity": "Trp53大型基因组转基因，叠加内源性两拷贝",
+          "tissueCell": "整鼠和DNA损伤响应细胞",
+          "model": "Super-p53鼠，保持生理基因调控",
+          "intervention": "在内源两拷贝上增加完整p53基因组转基因",
+          "result": "DNA损伤响应和肿瘤抵抗增强；无早衰迹象。",
+          "endpoints": [
+            "DNA损伤响应",
+            "肿瘤抵抗",
+            "早衰表型"
+          ],
+          "conditions": "完整基因组及正常调控；与截短异常激活突变不同。",
+          "limitations": "未发现早衰不等于已证明延寿；依据摘要，无人体临床或皮肤外用证据。",
+          "supportStatus": "conditional",
+          "locator": "PubMed/Europe PMC Abstract",
+          "accessScope": "摘要",
+          "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/12426394/",
+          "phenotypes": [
+            "未见早衰",
+            "肿瘤抵抗增强"
+          ],
+          "dose": "不适用（遗传干预）",
+          "time": "当前未获取",
+          "sampleSize": "当前未获取"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "sourceSymbol": "CGAS",
+      "relationType": "上游功能驱动",
+      "polarity": "positive",
+      "directness": "间接；H-151救援支持STING依赖，不代表物理结合",
+      "evidenceId": "ev-CGAS-37532932",
+      "evidenceLocator": "Fig.4b–k；Extended Data Fig.10e；Methods: Mice",
+      "conditions": "小胶质细胞Cgas R241E功能获得模型",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/37532932/",
+      "scope": "衰老功能实验关系",
+      "targetSymbol": "STING1"
+    },
+    {
+      "sourceSymbol": "CGAS",
+      "phenotype": "年龄相关认知功能下降",
+      "relationType": "促进",
+      "polarity": "positive",
+      "directness": "功能作用，细胞及动物",
+      "evidenceId": "ev-CGAS-37532932",
+      "evidenceLocator": "Fig.4b–k；Extended Data Fig.10e；Methods: Mice",
+      "conditions": "小胶质细胞功能获得",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/37532932/",
+      "scope": "衰老功能实验关系"
+    },
+    {
+      "sourceSymbol": "CGAS",
+      "phenotype": "寿命缩短",
+      "relationType": "缺失后增加",
+      "polarity": "negative",
+      "directness": "遗传干预与整鼠终点；非直接分子结合",
+      "evidenceId": "ev-CGAS-42642519",
+      "evidenceLocator": "Fig.1g–i；Results首节；Fig.4b,g；Discussion",
+      "conditions": "全身长期KO；寿命性别分层差异见原文",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42642519/",
+      "scope": "衰老功能实验关系"
+    },
+    {
+      "sourceSymbol": "STING1",
+      "phenotype": "年龄相关认知功能下降",
+      "relationType": "抑制后减轻",
+      "polarity": "positive",
+      "directness": "功能作用，药理/遗传分终点",
+      "evidenceId": "ev-STING1-37532932-aged",
+      "evidenceLocator": "Fig.1c–h、Fig.2a–c；Methods: Mice",
+      "conditions": "自然老龄鼠；腹腔H-151",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/37532932/",
+      "scope": "衰老功能实验关系"
+    },
+    {
+      "sourceSymbol": "STING1",
+      "phenotype": "细胞衰老炎性分泌相关转录",
+      "relationType": "敲低后降低",
+      "polarity": "positive",
+      "directness": "遗传功能调控",
+      "evidenceId": "ev-STING1-37532932-BJ",
+      "evidenceLocator": "Extended Data Fig.2f；Methods: Senescence induction and STING inhibitor treatments",
+      "conditions": "辐射后已衰老BJ细胞",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/37532932/",
+      "scope": "衰老功能实验关系"
+    },
+    {
+      "sourceSymbol": "NLRP3",
+      "phenotype": "慢性炎症",
+      "relationType": "缺失后降低",
+      "polarity": "positive",
+      "directness": "遗传功能调控；整个炎性小体不是单蛋白",
+      "evidenceId": "ev-NLRP3-24093676",
+      "evidenceLocator": "PubMed Abstract；Fig.1、2、6、7图注",
+      "conditions": "自然老龄鼠",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/24093676/",
+      "scope": "衰老功能实验关系"
+    },
+    {
+      "sourceSymbol": "ATG5",
+      "phenotype": "寿命延长",
+      "relationType": "过表达后增加",
+      "polarity": "positive",
+      "directness": "遗传功能作用",
+      "evidenceId": "ev-ATG5-23939249",
+      "evidenceLocator": "Fig.1a–f；Fig.2；Fig.3m；Results与Methods: Mouse longevity study",
+      "conditions": "终生全身持续转基因表达",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/23939249/",
+      "scope": "衰老功能实验关系"
+    },
+    {
+      "sourceSymbol": "BECN1",
+      "phenotype": "寿命延长",
+      "relationType": "特定位点敲入后增加",
+      "polarity": "positive",
+      "directness": "遗传功能作用",
+      "evidenceId": "ev-BECN1-29849149",
+      "evidenceLocator": "Main；Fig.1–4；Author Correction PMID29921925（摘要）",
+      "conditions": "F121A/F121A小鼠；不是通用表达增强",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/29849149/",
+      "scope": "衰老功能实验关系"
+    },
+    {
+      "sourceSymbol": "CD38",
+      "phenotype": "年龄相关NAD下降",
+      "relationType": "缺失后减轻",
+      "polarity": "positive",
+      "directness": "酶功能与遗传作用",
+      "evidenceId": "ev-CD38-27304511",
+      "evidenceLocator": "Fig.2C–E；Fig.5C–E；Results: CD38 regulates metabolic state by a SIRT3-dependent mechanism；Experimental Procedures: Animal Studies",
+      "conditions": "自然衰老鼠；SIRT3至少部分参与",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/27304511/",
+      "scope": "衰老功能实验关系"
+    },
+    {
+      "sourceSymbol": "RELA",
+      "phenotype": "早衰症状延缓",
+      "relationType": "单等位基因减少后改善",
+      "polarity": "negative",
+      "directness": "遗传功能作用",
+      "evidenceId": "ev-RELA-22706308",
+      "evidenceLocator": "Fig.2、Fig.3、Fig.5；Results: Inhibition of NF-κB reduces senescence in vitro and in vivo",
+      "conditions": "Ercc1−/Δ早衰鼠；Rela+/−",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/22706308/",
+      "scope": "衰老功能实验关系"
+    },
+    {
+      "sourceSymbol": "RELA",
+      "phenotype": "基因组不稳定",
+      "relationType": "完全缺失后增加",
+      "polarity": "negative",
+      "directness": "遗传功能作用",
+      "evidenceId": "ev-RELA-19779484",
+      "evidenceLocator": "PubMed/Europe PMC Abstract",
+      "conditions": "原代成纤维细胞；Rela−/−",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/19779484/",
+      "scope": "衰老功能实验关系"
+    },
+    {
+      "sourceSymbol": "TP53",
+      "phenotype": "早发老龄样表型",
+      "relationType": "特定突变后增加",
+      "polarity": "positive",
+      "directness": "遗传条件依赖",
+      "evidenceId": "ev-TP53-11780111",
+      "evidenceLocator": "PubMed/Europe PMC Abstract",
+      "conditions": "Trp53+/m；不代表全部TP53激活",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/11780111/",
+      "scope": "衰老功能实验关系"
+    }
+  ],
+  "searchLog": [
+    {
+      "date": "2026-10-19",
+      "source": "联网学术发现（原始研究/官方库优先）",
+      "query": "cGAS STING drives ageing inflammation neurodegeneration 2023 Nature Gulen",
+      "result": "纳入37532932；同时筛查原始图表。",
+      "inclusionExclusion": "纳入37532932；同时筛查原始图表。",
+      "accessScope": "搜索发现；后续逐篇核验范围见publications"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "联网学术发现（原始研究/官方库优先）",
+      "query": "ATG5 overexpression mice lifespan 2013 Pyo",
+      "result": "纳入23939249，全文核对。",
+      "inclusionExclusion": "纳入23939249，全文核对。",
+      "accessScope": "搜索发现；后续逐篇核验范围见publications"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "联网学术发现（原始研究/官方库优先）",
+      "query": "Beclin 1 Becn1 F121A extends lifespan mice 2018",
+      "result": "纳入29849149；作者更正同步保留。",
+      "inclusionExclusion": "纳入29849149；作者更正同步保留。",
+      "accessScope": "搜索发现；后续逐篇核验范围见publications"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "联网学术发现（原始研究/官方库优先）",
+      "query": "CD38 dictates age related NAD decline mitochondrial dysfunction 2016 Camacho Pereira",
+      "result": "纳入27304511；起初摘要，后以PMC全文结果选段核对KO和双KO。",
+      "inclusionExclusion": "纳入27304511；起初摘要，后以PMC全文结果选段核对KO和双KO。",
+      "accessScope": "搜索发现；后续逐篇核验范围见publications"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "联网学术发现（原始研究/官方库优先）",
+      "query": "Nlrp3 inflammasome age related functional decline Youm 2013 Cell Metabolism",
+      "result": "纳入24093676；摘要与图注。",
+      "inclusionExclusion": "纳入24093676；摘要与图注。",
+      "accessScope": "搜索发现；后续逐篇核验范围见publications"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "联网学术发现（原始研究/官方库优先）",
+      "query": "NF kappa B blockade skin aging p65 Rela 2007 Adler",
+      "result": "发现2007皮肤NF-κB阻断为家族/通路级，不能作为RELA特异核心；追踪2012Rela遗传研究。",
+      "inclusionExclusion": "发现2007皮肤NF-κB阻断为家族/通路级，不能作为RELA特异核心；追踪2012Rela遗传研究。",
+      "accessScope": "搜索发现；后续逐篇核验范围见publications"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "联网学术发现（原始研究/官方库优先）",
+      "query": "p53 mutant mice display early ageing associated phenotypes 2002 Tyner",
+      "result": "纳入11780111，特定突变边界。",
+      "inclusionExclusion": "纳入11780111，特定突变边界。",
+      "accessScope": "搜索发现；后续逐篇核验范围见publications"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "联网学术发现（原始研究/官方库优先）",
+      "query": "super p53 mice normal aging 2002 Garcia Cao",
+      "result": "纳入12426394，作为条件依赖证据。",
+      "inclusionExclusion": "纳入12426394，作为条件依赖证据。",
+      "accessScope": "搜索发现；后续逐篇核验范围见publications"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "联网学术发现（原始研究/官方库优先）",
+      "query": "RelA p65 haploinsufficiency accelerated aging Ercc1 mice 2012 NF-kappaB inhibition delays DNA damage induced senescence aging",
+      "result": "纳入22706308与19779484。",
+      "inclusionExclusion": "纳入22706308与19779484。",
+      "accessScope": "搜索发现；后续逐篇核验范围见publications"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "联网学术发现（原始研究/官方库优先）",
+      "query": "site:ncbi.nlm.nih.gov/gene STING1 Homo sapiens official symbol",
+      "result": "官方名STING1；随后NCBI Gene API核对。",
+      "inclusionExclusion": "官方名STING1；随后NCBI Gene API核对。",
+      "accessScope": "搜索发现；后续逐篇核验范围见publications"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "联网学术发现（原始研究/官方库优先）",
+      "query": "site:ncbi.nlm.nih.gov/gene CGAS Homo sapiens official symbol",
+      "result": "官方名CGAS；MB21D1为别名。",
+      "inclusionExclusion": "官方名CGAS；MB21D1为别名。",
+      "accessScope": "搜索发现；后续逐篇核验范围见publications"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "联网学术发现（原始研究/官方库优先）",
+      "query": "cGAS STING NLRP3 autophagy aging senescence 2025 2026 original study mice",
+      "result": "发现2026新原始反例42642519，纳入；2025综述仅线索不作功能核心。",
+      "inclusionExclusion": "发现2026新原始反例42642519，纳入；2025综述仅线索不作功能核心。",
+      "accessScope": "搜索发现；后续逐篇核验范围见publications"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "Europe PMC REST core + PubMed EFetch XML",
+      "query": "PMID/DOI精确批量查询：37532932,42642519,23939249,29849149,27304511,24093676,22706308,19779484,11780111,12426394",
+      "result": "10篇元数据及摘要匹配；PubMed更正关联字段检查留存于research/mechanism-sources/pubmed-verification.xml",
+      "inclusionExclusion": "均为原始哺乳动物功能研究；综述和预印本不计核心",
+      "accessScope": "元数据、摘要、关联更正字段"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "Europe PMC fullTextXML / PMC / 原始期刊页面",
+      "query": "逐篇PMCID全文获取及相关结果/图注定位",
+      "result": "37532932、42642519、23939249、29849149合法XML全文可读；22706308的PMC结果可读；其余若XML500或PMC验证码，按实际摘要/图注提取",
+      "inclusionExclusion": "未绕过付费墙/访问控制；未读剂量时长样本量不填推测",
+      "accessScope": "全文/摘要与图注，分篇记录"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "OpenAlex / Unpaywall",
+      "query": "10篇DOI分别精确OA查询",
+      "result": "OpenAlex均HTTP200，结果留存；Unpaywall未设置联系人email返回422，未以此断言无OA",
+      "inclusionExclusion": "OA状态辅助；实际原文读取范围优先",
+      "accessScope": "结构化OA元数据"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "PubMed Author Correction",
+      "query": "PMID29921925 / DOI10.1038/s41586-018-0270-4",
+      "result": "BECN1论文Fig.2c重复图更正；Source Data正确，更正已读并纳入局限",
+      "inclusionExclusion": "更正不是独立功能研究，不增加核心研究计数",
+      "accessScope": "更正摘要"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "NCBI Gene esummary",
+      "query": "Homo sapiens Gene IDs 115004,340061,114548,9474,8678,952,5970,7157",
+      "result": "8个官方符号、名称、别名及人类身份核对；数据保留gene-identity.json",
+      "inclusionExclusion": "网站统一人类符号仅作索引；实际鼠实体另存evidence.actualEntity",
+      "accessScope": "官方结构化记录"
+    }
+  ],
+  "coverageNote": "分机制目的性首批检索，含2026-08新研究；不是系统综述，也未声称全面覆盖截至2026-10的全部研究。"
+}
