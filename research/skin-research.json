@@ -304,7 +304,7 @@
       "identitySourceUrl": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:2342",
       "ncbiGeneUrl": "https://www.ncbi.nlm.nih.gov/gene/1384",
       "identityVerified": true,
-      "summary": "人真皮成纤维细胞中，CRAT缺失引起线粒体异常、细胞衰老及分泌表型；小鼠成纤维细胞条件敲除提供皮肤组织功能证据。尚无人体CRAT恢复干预试验。",
+      "summary": "人真皮成纤维细胞中，CRAT缺失引起线粒体异常、细胞衰老及分泌表型；小鼠成纤维细胞条件敲除提供皮肤组织功能证据。本批未核验人体CRAT恢复干预试验。",
       "hallmarks": [
         7,
         8,
