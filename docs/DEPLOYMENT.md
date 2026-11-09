@@ -4,6 +4,12 @@
 - [公开源码](https://github.com/WuyiLaneee/aging-target-atlas)
 - 发布分支：`main`；Pages 来源：`workflow`；HTTPS 已启用。
 
+## 1.3.0 通路图册（2026-11-09）
+
+- 应用与数据提交：`8a20aad282a829939001fdd81ec7f85068117535`。[GitHub Actions 42574723382](https://github.com/WuyiLaneee/aging-target-atlas/actions/runs/42574723382) 完成构建与发布。
+- 线上 `atlas.json` 与本地生产构建的 SHA-256 一致；版本 1.3.0，26 个通路图、77 个分支、178 条连线。
+- 正式站点通过 `scripts/pathway-diagram-smoke.js`：77 个分支均可绘制；靶点、Reactome 和论文入口、分支直达及 390px 布局通过。
+
 ## 1.2.0 正式网址复核（2026-11-09）
 
 - 应用与数据提交：`3d34e04db5bda51efec0c3171ad9f38cc419d945`。[GitHub Actions 42562930504](https://github.com/WuyiLaneee/aging-target-atlas/actions/runs/42562930504) 的构建与部署任务均通过。
