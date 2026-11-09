@@ -1,15 +1,18 @@
 # GitHub Pages 发布与线上复核
 
-2026-10-19，用户明确授权新建公开仓库并发布；已完成，无需用户再配置 Pages。
-
-- 网站：https://wuyilaneee.github.io/aging-target-atlas/
-- 公开源码：https://github.com/WuyiLaneee/aging-target-atlas
+- [正式网站](https://wuyilaneee.github.io/aging-target-atlas/)
+- [公开源码](https://github.com/WuyiLaneee/aging-target-atlas)
 - 发布分支：`main`；Pages 来源：`workflow`；HTTPS 已启用。
-- 实际发布的应用/数据提交：`e9e7f07bd5da6a01248604546c51c31fcb5ac7cd`。
-- 最后一次应用部署：[GitHub Actions 39231200884](https://github.com/WuyiLaneee/aging-target-atlas/actions/runs/39231200884)，build 与 deploy 均 **success**。
-- 数据版本1.1.0：24核心基因/蛋白、32原始研究、41证据记录（38条衰老功能证据、3条补充证据）、15通路/研究主题；保留12类完整导航，另设1个ECM扩展机制，1个辅助复合物不计核心。
+
+## 1.2.0 正式网址复核（2026-11-09）
+
+- 应用与数据提交：`3d34e04db5bda51efec0c3171ad9f38cc419d945`。[GitHub Actions 42562930504](https://github.com/WuyiLaneee/aging-target-atlas/actions/runs/42562930504) 的构建与部署任务均通过。
+- 正式站点返回版本 1.2.0，包含 33 个核心靶点、21 个通路与研究主题、53 篇原始研究及 70 条证据。线上 `atlas.json` 的 SHA-256 与本地生产构建一致。
+- 正式 HTTPS 地址通过 `scripts/research-smoke.js` 的 19 项检查，包括靶点、通路和论文检索、原文链接、实验定位、覆盖清单与 390px 布局。
 
 ## 1.1.0 ECM 正式网址复核
+
+[GitHub Actions 39231200884](https://github.com/WuyiLaneee/aging-target-atlas/actions/runs/39231200884) 发布提交 `e9e7f07bd5da6a01248604546c51c31fcb5ac7cd`。
 
 [ECM 机制专页](https://wuyilaneee.github.io/aging-target-atlas/#/mechanisms/mechanism-ecm)已上线。正式域名的数据HTTP200，版本1.1.0、24靶点、41证据、12个原始标志和1个扩展机制均与本地一致。
 
@@ -27,6 +30,6 @@
 
 ## 后续更新
 
-按README检索核验、维护稳定ID和版本、检查差异后提交到main。工作流会重新运行校验、11项必要测试、生产构建和Pages部署。网站日常使用无需登录或检索密钥；笔记仅存在当前浏览器，换设备前先导出备份。
+按 README 更新研究、稳定 ID 和版本，提交到 `main`。工作流执行数据校验、测试、生产构建和 Pages 部署。网站可直接浏览，收藏与笔记存储在当前浏览器，可导出备份。
 
 覆盖缺口与证据限制见 [DATA_COVERAGE](DATA_COVERAGE.md)；本版未经独立领域专家审核，不把结构/交互检查等同科学结论证明。
