@@ -62,7 +62,7 @@
           "interventionName": null,
           "dose": "遗传维持表达；不适用药物剂量",
           "time": "Fig.7g：野生型22月龄、转基因22–30月龄；Fig.8o含8周、18月、25月龄影像",
-          "sampleSize": "Fig.7g每组n=3；Fig.8o注明至少5次独立实验的代表图，不能据此推算每组动物数。"
+          "sampleSize": "Fig.7g每组n=3；Fig.8o为至少5次独立实验的代表图。"
         },
         {
           "id": "ev-col17a1-human-3d",
@@ -118,7 +118,7 @@
           "id": "ev-col17a1-compounds-wound",
           "studyContext": "nonaging_support",
           "publicationId": "pub-30944469",
-          "claim": "Apocynin、Y-27632分别提高细胞COL17A1表达，并在年轻小鼠促进创伤修复；不能由此认定其直接靶向COL17A1或逆转自然衰老。",
+          "claim": "Apocynin和Y-27632分别提高HaCaT细胞的COL17A1蛋白水平，并减少9–11周龄小鼠的未修复创伤面积。",
           "evidenceType": ["化合物处理", "蛋白表达读出", "小鼠创伤修复"],
           "species": ["Homo sapiens", "Mus musculus"],
           "actualEntity": "HaCaT中的人COL17A1蛋白读出；正常人表皮角质形成细胞；野生型小鼠创伤组织",
@@ -127,7 +127,7 @@
           "intervention": "Apocynin或Y-27632分别与载体对照比较。",
           "result": "两种处理提高HaCaT的COL17A1蛋白，部分克隆形成指标改善；小鼠未修复创伤面积减少。",
           "endpoints": ["COL17A1蛋白", "NHEK克隆形成", "未修复创伤面积"],
-          "conditions": "细胞与年轻小鼠创伤实验；不是老龄人体皮肤干预。",
+          "conditions": "体外细胞处理和9–11周龄小鼠尾部全层皮肤创伤实验。",
           "limitations": "表达变化为下游读出；已核对图注未提供COL17A1直接结合、或药物效应被COL17A1敲除阻断的证据。创伤修复不等于抗皱或自然衰老逆转。",
           "supportStatus": "条件依赖",
           "locator": "Extended Data Fig.9i–s",

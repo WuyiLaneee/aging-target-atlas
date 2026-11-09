@@ -1,0 +1,214 @@
+{
+  "publications": [
+    {
+      "id": "pub-18371339",
+      "title": "Foxo3a is essential for maintenance of the hematopoietic stem cell pool.",
+      "doi": "10.1016/j.stem.2007.02.001",
+      "pmid": "18371339",
+      "authors": [
+        "Miyamoto K",
+        "Araki KY",
+        "Naka K",
+        "Arai F",
+        "Takubo K",
+        "Yamazaki S",
+        "Matsuoka S",
+        "Miyamoto T",
+        "Ito K",
+        "Ohmura M",
+        "Chen C",
+        "Hosokawa K",
+        "Nakauchi H",
+        "Nakayama K",
+        "Nakayama KI",
+        "Harada M",
+        "Motoyama N",
+        "Suda T",
+        "Hirao A"
+      ],
+      "year": 2007,
+      "journal": "Cell Stem Cell",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18371339/",
+      "accessScope": "依据摘要",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-11-09",
+      "correctionStatus": "书目来源：PubMed"
+    },
+    {
+      "id": "pub-26738589",
+      "title": "Autophagy maintains stemness by preventing senescence.",
+      "doi": "10.1038/nature16187",
+      "pmid": "26738589",
+      "authors": [
+        "García-Prat L",
+        "Martínez-Vicente M",
+        "Perdiguero E",
+        "Ortet L",
+        "Rodríguez-Ubreva J",
+        "Rebollo E",
+        "Ruiz-Bonilla V",
+        "Gutarra S",
+        "Ballestar E",
+        "Serrano AL",
+        "Sandri M",
+        "Muñoz-Cánoves P"
+      ],
+      "year": 2016,
+      "journal": "Nature",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26738589/",
+      "accessScope": "全文（实验结果与图注）",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-11-09",
+      "correctionStatus": "书目来源：PubMed"
+    }
+  ],
+  "records": [
+    {
+      "symbol": "FOXO3",
+      "chineseName": "叉头框转录因子 O3",
+      "aliases": [
+        "FOXO3A",
+        "FKHRL1",
+        "Foxo3a"
+      ],
+      "hallmarks": [
+        9
+      ],
+      "externalIds": {
+        "HGNC": "3821",
+        "NCBI Gene": "2309"
+      },
+      "summary": "老龄 Foxo3a 全身缺失小鼠的造血干细胞频率低于同窝对照；缺失细胞的静息维持也受到影响。",
+      "skinClassification": "other_tissue",
+      "skinSummary": "本条原始研究的组织为小鼠骨髓。",
+      "orthologMapping": "靶点按人标准符号索引，实验基因与物种见研究记录。",
+      "evidence": [
+        {
+          "id": "ev-foxo3-aged-hsc",
+          "claim": "老龄 Foxo3a 缺失小鼠的骨髓造血干细胞频率下降。",
+          "tissueCell": "骨髓造血干细胞",
+          "actualEntity": "小鼠 Foxo3a（论文命名）",
+          "model": "自然老龄基因敲除小鼠",
+          "intervention": "靶向建立 Foxo3a−/− 小鼠，与同窝对照比较。",
+          "result": "老龄 Foxo3a−/− 小鼠的造血干细胞频率显著低于同窝对照。",
+          "endpoints": [
+            "骨髓造血干细胞频率"
+          ],
+          "conditions": "全身基因缺失；同窝对照。",
+          "locator": "PubMed 摘要末段",
+          "phenotypes": [
+            "造血干细胞库减少"
+          ],
+          "pathwayIds": [
+            "pathway-hsc"
+          ],
+          "limitations": "本条提取老龄小鼠的造血干细胞频率结果。",
+          "publicationId": "pub-18371339",
+          "species": [
+            "Mus musculus"
+          ],
+          "evidenceType": [
+            "遗传干预"
+          ],
+          "accessScope": "依据摘要",
+          "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/18371339/",
+          "supportStatus": "supports",
+          "studyContext": "aging_function"
+        }
+      ]
+    },
+    {
+      "symbol": "ATG7",
+      "chineseName": "自噬相关蛋白 7",
+      "aliases": [
+        "APG7",
+        "ATG7L"
+      ],
+      "hallmarks": [
+        4,
+        5,
+        8,
+        9
+      ],
+      "externalIds": {
+        "NCBI Gene": "10533"
+      },
+      "summary": "3 月龄小鼠的肌肉卫星细胞中诱导缺失 Atg7 后，早期细胞周期抑制因子转录升高，30 天时卫星细胞减少。",
+      "skinClassification": "other_tissue",
+      "skinSummary": "本条原始研究的组织为小鼠骨骼肌。",
+      "orthologMapping": "靶点按人标准符号索引，实验基因与物种见研究记录。",
+      "evidence": [
+        {
+          "id": "ev-atg7-satellite-ko",
+          "claim": "成年小鼠肌肉卫星细胞中诱导缺失 Atg7 后，卫星细胞数量减少并出现衰老相关转录变化。",
+          "tissueCell": "骨骼肌 Pax7⁺ 卫星细胞",
+          "actualEntity": "小鼠 Atg7",
+          "model": "3 月龄 Atg7 条件缺失小鼠",
+          "intervention": "对 Atg7ΔPax7ER 和 Atg7WT 对照给予他莫昔芬；分别在第 7 天和第 30 天检测。",
+          "result": "第 7 天，p16INK4a、p21CIP1 和 p15INK4b mRNA 升高；第 30 天，Pax7⁺ 卫星细胞数减少。",
+          "endpoints": [
+            "Pax7⁺ 细胞数",
+            "p16INK4a、p21CIP1、p15INK4b mRNA"
+          ],
+          "conditions": "成年期诱导，Pax7 谱系；分别检测转录和细胞数量。",
+          "locator": "Fig. 3b–c",
+          "phenotypes": [
+            "肌肉卫星细胞减少",
+            "细胞衰老相关转录升高"
+          ],
+          "pathwayIds": [
+            "pathway-autophagy",
+            "pathway-muscle-stem-cells"
+          ],
+          "time": "给药后第 7 天（转录）及第 30 天（计数）",
+          "sampleSize": "Fig. 3b–c：每组 3 只",
+          "limitations": "本条对应成年小鼠诱导缺失的图 3b–c。",
+          "publicationId": "pub-26738589",
+          "species": [
+            "Mus musculus"
+          ],
+          "evidenceType": [
+            "遗传干预"
+          ],
+          "accessScope": "全文（实验结果与图注）",
+          "sourceUrl": "https://www.nature.com/articles/nature16187",
+          "supportStatus": "supports",
+          "studyContext": "aging_function"
+        }
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "id": "pathway-muscle-stem-cells",
+      "name": "肌肉卫星细胞自噬与维持",
+      "summary": "成年小鼠肌肉卫星细胞的基础自噬、细胞数量和衰老相关读出。",
+      "taxonomyIds": [
+        "hallmark-05",
+        "hallmark-08",
+        "hallmark-09"
+      ],
+      "memberIds": [
+        "target-atg7"
+      ]
+    }
+  ],
+  "searchLog": [
+    {
+      "date": "2026-11-09",
+      "source": "PubMed；NCBI Gene",
+      "query": "Foxo3a is essential for maintenance of the hematopoietic stem cell pool / PMID 18371339",
+      "result": "核对书目与摘要，提取老龄 Foxo3a 单基因缺失的造血干细胞频率。",
+      "decision": "纳入造血干细胞主题。"
+    },
+    {
+      "date": "2026-11-09",
+      "source": "PubMed；Nature；作者原始发表版",
+      "query": "Autophagy maintains stemness by preventing senescence / PMID 26738589 / Atg7",
+      "result": "核对成年期诱导 Atg7 缺失（Fig. 3b–c，分时点、每组 3 只）。",
+      "decision": "关联宏自噬与肌肉卫星细胞主题。"
+    }
+  ]
+}

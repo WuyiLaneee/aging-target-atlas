@@ -10,6 +10,7 @@ export const publicationSchema = z.object({
   doi: z.string(),
   pmid: z.string(),
   url: z.url(),
+  fullTextUrl: z.url({ protocol: /^https?$/ }).optional(),
   accessScope: z.string(),
   metadataVerified: z.boolean(),
   claimVerified: z.boolean(),
@@ -20,6 +21,7 @@ export const publicationSchema = z.object({
 export const evidenceSchema = z.object({
   id: z.string(),
   targetId: z.string(),
+  pathwayIds: strs.default([]),
   publicationId: z.string(),
   claim: z.string(),
   evidenceType: strs,
@@ -143,6 +145,7 @@ export const atlasSchema = z.object({
       backgroundSourceIds: strs,
       relationIds: strs,
       mappingBasis: z.string(),
+      reference: z.object({ database: z.string(), id: z.string(), url: z.url() }).optional(),
     }),
   ),
   phenotypes: z.array(
@@ -163,6 +166,19 @@ export const atlasSchema = z.object({
   ),
   publications: z.array(publicationSchema),
   evidence: z.array(evidenceSchema),
+  themeStudies: z.array(z.object({
+    id: z.string(), pathwayId: z.string(), publicationId: z.string(),
+    subject: z.string(), claim: z.string(), species: strs, model: z.string(),
+    intervention: z.string(), result: z.string(), locator: z.string(),
+    evidenceType: z.string(),
+    studyContext: z.enum(["aging_function", "nonaging_support", "observational"]),
+  })).default([]),
+  coveragePlan: z.array(z.object({
+    taxonomyId: z.string(),
+    topics: z.array(z.object({
+      name: z.string(), pathwayIds: strs, candidateSymbols: strs,
+    })),
+  })).default([]),
   relations: z.array(relationSchema),
   sources: z.array(
     named.extend({ url: z.url(), role: z.string(), checkedDate: z.string() }),

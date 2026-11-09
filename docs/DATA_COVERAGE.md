@@ -1,101 +1,36 @@
-# 数据覆盖与缺口
+# 抗衰靶点与通路覆盖清单
 
-版本 1.1.0；整理日期 2026-10-19。
+数据版本 1.2.0 · 2026-11-09
 
-## 实际收录
+范围：人和其他哺乳动物的衰老研究。采用 Cell 2023 的 12 类衰老标志，并单列 ECM。核心分子靶点按原始功能实验收录；整体干预、观察关联和补充实验按研究主题分别列出。
 
-| 项目 | 数量 |
-|---|---:|
-| 核心具体基因 / 蛋白 | 24 |
-| 原始功能研究 | 32 |
-| 框架综述 | 1 |
-| 证据记录合计 | 41 |
-| 衰老功能实验记录 | 38 |
-| 非衰老或观察关联补充 | 3 |
-| 通路 / 研究主题 | 15 |
-| 辅助复合物（不计核心靶点） | 1 |
-| 衰老功能实验关系 | 101 |
-| 其中跨核心靶点功能关系 | 7 |
-| 机制背景 / 研究主题关系 | 41 |
-| 有直接皮肤衰老相关实验的条目 | 10 |
-| 已有条目的原始标志 / 完整导航 | 11 / 12 |
-| 扩展机制 | 1 |
+现已收录 **33 个核心靶点、21 个通路与研究主题、53 篇原始研究**；含 65 条靶点证据和 5 条主题证据。共有 12/12 类衰老标志具备研究记录。
 
-皮肤条目：CRAT、FOXM1、MAPK14、MTOR、SIRT1、ATM、STING1、CCN1、COL17A1、MMP1。每个条目内部仍包含不同模型，不能把其全部证据均当作皮肤特异。尤其 MAPK14 的 HCA2 核心片段未实核组织来源，皮肤映射依据另一篇真皮成纤维细胞研究；STING1 人皮肤细胞辐射诱导衰老与自然人体老化分开。
+每个主题的通路页以实验记录为单位列出模型、干预、结果和对应原始论文。补录候选按主题列出，同一靶点可已收录在其他主题下。
 
-核心符号：ATG5、ATM、BECN1、BUB1B、CCN1、CD38、CGAS、COL17A1、CRAT、FOXM1、IGF1R、KL、MAPK14、MMP1、MTOR、NLRP3、RELA、RPS6KB1、SIRT1、SIRT3、SIRT6、STING1、TERT、TP53。
-
-## 分类框架与条目进度分别报告
-
-Cell 2023 原始框架 12 类全部建立，ECM 作为扩展机制单列，不称第13项标志；已收录条目分布如下。一个靶点可归属多类，分类数量不能相加为总靶点数。
-
-| 分类 | 具体靶点数 | 状态 |
-|---|---:|---|
-| 1. 基因组不稳定性 | 6 | 部分整理 |
-| 2. 端粒耗损 | 1 | 部分整理 |
-| 3. 表观遗传改变 | 3 | 部分整理 |
-| 4. 蛋白质稳态丧失 | 2 | 部分整理 |
-| 5. 宏自噬受损 | 2 | 部分整理 |
-| 6. 营养感知失调 | 7 | 部分整理 |
-| 7. 线粒体功能障碍 | 8 | 部分整理 |
-| 8. 细胞衰老 | 11 | 部分整理 |
-| 9. 干细胞耗竭 | 3 | 部分整理 |
-| 10. 细胞间通讯改变 | 10 | 部分整理 |
-| 11. 慢性炎症 | 8 | 部分整理 |
-| 12. 微生物群失衡 | 0 | 尚未完成整理 |
-| 扩展机制 · 细胞外基质（ECM） | 5 | 部分整理 |
-
-目的性检索建立的核心研究库；保留 Cell 2023 的12类标志，另设细胞外基质（ECM）扩展机制，分别统计。条目分布以实时数据为准，非系统综述或完整抗衰靶点名录。
-
-## 访问范围
-
-- PMID 37828898：合法开放全文（Europe PMC XML，已核对相关 Results 与图注）；已查看Europe PMC出版类型及可获取Crossref关系；未见关联撤稿/更正标记。非穷尽性撤稿审查，部分Crossref请求超时。
-- PMID 30026603：合法开放全文（Europe PMC XML，已核对相关 Results 与图注）；已查看Europe PMC出版类型及可获取Crossref关系；未见关联撤稿/更正标记。非穷尽性撤稿审查，部分Crossref请求超时。
-- PMID 40133272：合法开放全文（Europe PMC XML，已核对相关 Results 与图注）；已查看Europe PMC出版类型及可获取Crossref关系；未见关联撤稿/更正标记。非穷尽性撤稿审查，部分Crossref请求超时。
-- PMID 21399611：PubMed元数据及PMC可检索原始全文片段（直接页面遇验证码，Europe PMC XML未提供）；已查看Europe PMC出版类型及可获取Crossref关系；未见关联撤稿/更正标记。非穷尽性撤稿审查，部分Crossref请求超时。
-- PMID 27136566：合法开放全文（Europe PMC XML，已核对相关 Results 与图注）；已查看Europe PMC出版类型及可获取Crossref关系；未见关联撤稿/更正标记。非穷尽性撤稿审查，部分Crossref请求超时。
-- PMID 31761958：合法开放全文（Europe PMC XML，已核对相关 Results 与图注）；已查看Europe PMC出版类型及可获取Crossref关系；未见关联撤稿/更正标记。非穷尽性撤稿审查，部分Crossref请求超时。
-- PMID 35163314：合法开放全文（Europe PMC XML，已核对相关 Results 与图注）；已查看Europe PMC出版类型及可获取Crossref关系；未见关联撤稿/更正标记。非穷尽性撤稿审查，部分Crossref请求超时。
-- PMID 29717979：合法开放全文（Europe PMC XML，已核对相关 Results 与图注）；已查看Europe PMC出版类型及可获取Crossref关系；未见关联撤稿/更正标记。非穷尽性撤稿审查，部分Crossref请求超时。
-- PMID 30726661：合法开放全文（Europe PMC XML，已核对相关 Results 与图注）；已查看Europe PMC出版类型及可获取Crossref关系；未见关联撤稿/更正标记。非穷尽性撤稿审查，部分Crossref请求超时。
-- PMID 22367546：依据摘要；已检查 Europe PMC 关联更正/撤稿字段；未见更正或撤稿标记。未实施全面 Crossmark 或逐出版商更正审计。
-- PMID 34050173：全文（相关结果与图注）；已检查 Europe PMC 关联更正/撤稿字段；未见更正或撤稿标记。未实施全面 Crossmark 或逐出版商更正审计。
-- PMID 22585399：全文（相关结果与图注）；已检查 Europe PMC 关联更正/撤稿字段；未见更正或撤稿标记。未实施全面 Crossmark 或逐出版商更正审计。
-- PMID 19797661：全文（相关结果与图注）；发现更正：Science. 2011 Oct 7;334(6052):39。更正全文出版商访问受限；本批仅提取小鼠寿命和年龄相关功能，不纳入线虫遗传互作结论。
-- PMID 12483226：依据摘要；已检查 Europe PMC 关联更正/撤稿字段；未见更正或撤稿标记。未实施全面 Crossmark 或逐出版商更正审计。
-- PMID 22132081：依据摘要；已检查 Europe PMC 关联更正/撤稿字段；未见更正或撤稿标记。未实施全面 Crossmark 或逐出版商更正审计。
-- PMID 16123266：全文（相关结果与图注）；已检查 Europe PMC 关联更正/撤稿字段；未见更正或撤稿标记。未实施全面 Crossmark 或逐出版商更正审计。
-- PMID 23375372：全文（相关结果与图注）；已检查 Europe PMC 关联更正/撤稿字段；未见更正或撤稿标记。未实施全面 Crossmark 或逐出版商更正审计。
-- PMID 23242215：全文（相关结果与图注）；已检查 Europe PMC 关联更正/撤稿字段；未见更正或撤稿标记。未实施全面 Crossmark 或逐出版商更正审计。
-- PMID 37532932：全文（选择性阅读实验结果与相关图注）；已核对 PubMed 关联更正/撤稿字段；未见更正或撤稿关联，不代表全面排除。
-- PMID 42642519：全文（选择性阅读实验结果与相关图注）；已核对 PubMed 关联字段；UpdateOf 指向2024预印本 PMID39416083，非撤稿或更正；未见撤稿关联。
-- PMID 23939249：全文（选择性阅读实验结果与相关图注）；已核对 PubMed 关联更正/撤稿字段；未见更正或撤稿关联，不代表全面排除。
-- PMID 29849149：全文（选择性阅读实验结果与相关图注）；存在作者更正 PMID 29921925，DOI 10.1038/s41586-018-0270-4；已读更正摘要：Fig.2a/2c曾误重复，原始Source Data正确，Fig.2c已在线更正；非撤稿。
-- PMID 27304511：全文（选择性阅读实验结果与相关图注）；已核对 PubMed 关联更正/撤稿字段；未见更正或撤稿关联，不代表全面排除。
-- PMID 24093676：摘要与图注；已核对 PubMed 关联更正/撤稿字段；未见更正或撤稿关联，不代表全面排除。
-- PMID 22706308：全文（选择性阅读实验结果与相关图注）；已核对 PubMed 关联更正/撤稿字段；未见更正或撤稿关联，不代表全面排除。
-- PMID 19779484：摘要；已核对 PubMed 关联更正/撤稿字段；未见更正或撤稿关联，不代表全面排除。
-- PMID 11780111：摘要；已核对 PubMed 关联更正/撤稿字段；未见更正或撤稿关联，不代表全面排除。
-- PMID 12426394：摘要；已核对 PubMed 关联更正/撤稿字段；未见更正或撤稿关联，不代表全面排除。
-- PMID 20526329：合法开放全文（Europe PMC XML，已核对Results、Methods及Figures 1–8图注）；确有勘误：DOI 10.1038/ncb1210-1249；初版Fig2a的BSA与CCN1组标签互换，出版商称HTML/PDF已于2010-11-12修正。已核对出版商勘误页和Crossref updated-by。当前结论同时依赖Fig2b–k及Figures1、3–8，不从初版Fig2a读取数值。未见已访问记录中有撤稿标记。
-- PMID 22566095：PubMed摘要及Europe PMC完整元数据；OpenAlex与Unpaywall发现密歇根大学Deep Blue作者版，但仓储访问403，未获取全文；已查看Europe PMC出版类型/关联更正字段及Crossref关系与更新字段，当前未见关联撤稿或更正标记；非穷尽性审查。
-- PMID 30944469：PubMed/Europe PMC摘要与Nature公开Extended Data图注；主体正文需订阅，未按全文核验处理；已核对Europe PMC comments/corrections及Crossref relation/update-to，并检索题名+correction/retraction。Europe PMC仅列两篇Comment in（PMID30980033、31211989）；Crossref未见更正或撤稿关系。Comment in为评论，不能当作更正。非穷尽性撤稿审计。
-- PMID 36914001：合法公开作者全文（PMC HTML，已核对 Results、Figures 1–3 图注及相关 Methods；Europe PMC fullTextXML 返回500）；已核对Europe PMC出版类型/更正字段及Crossref relation，未见关联撤稿或更正标记；不是穷尽性撤稿审查。原文部分数字/基因名称存在内部不一致，未将这些歧义值用于本条核心结论。
-
-## 已知缺口
-
-- 微生物群失衡尚未完成核心靶点整理，不能据此断言无研究。
-- 尚缺系统性的人体干预证据、皮肤原位研究、剂量时程完整比较与多种族队列。
-- 部分论文仅依据摘要或图注；未获取的剂量、时长和样本量保持明确缺失。
-- 未完成全部条目的外部同源 ID 映射与逐出版商 Crossmark 审计；更正状态按实际访问范围记录。
-- 调控边采用保守收录，首版以干预–表型关系、少量原文核对过的跨靶点功能关系和主题映射为主，不能作为完整上下游网络。
-- 检索包含 2025–2026 新研究线索与 2026 cGAS 相反结果，但未覆盖截至整理日期的全部新文献。
-
-## 下批可执行方向
-
-- 补核 FOXO3 的单基因、年龄特异性哺乳动物功能证据；不因仅检得家族删除研究就自动纳入。
-- 按微生物群失衡主题追溯哺乳动物靶点干预，区分菌群组成关联、宿主功能依赖与整体干预。
-- 优先扩充皮肤自然老化原位与完整对照的靶点依赖研究；继续分开光损伤、衰老与外用功效。
-- 完善上下游连线、更多反例、同源标识及更正来源；依据原文逐条入库，不能用计算网络补齐。
-
-本文件由 scripts/write-coverage.mjs 按正式数据生成；科学核验状态不由数量或结构检查自动升级。
+| 分类 | 覆盖主题 | 已收录的通路或主题（论文数） | 核心靶点 / 补录候选 |
+|---|---|---|---|
+| 基因组不稳定性 | DNA 损伤应答与修复 | [DNA 损伤应答与 p53 调控](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-dna)（6） | 已收录：[ATM](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-atm)、[TP53](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-tp53)；候选：ERCC1、XPA |
+| 基因组不稳定性 | 染色体分离 | [有丝分裂与染色体稳态](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-mitosis)（2） | 已收录：[BUB1B](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-bub1b)、[FOXM1](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-foxm1) |
+| 端粒耗损 | 端粒末端保护与长度维持 | [端粒维护与端粒酶干预](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-telomere)（5） | 已收录：[TERT](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-tert)、[TERF2](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-terf2)；候选：POT1、TERC |
+| 表观遗传改变 | 染色质与组蛋白调节 | [染色质状态与衰老](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-chromatin)（2） | 已收录：[FOXM1](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-foxm1)；候选：SIRT6、EZH2 |
+| 表观遗传改变 | DNA 甲基化 | [DNA 甲基化与羟甲基化](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-dna-methylation)（2） | 已收录：[TET2](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-tet2)；候选：DNMT1 |
+| 蛋白质稳态丧失 | 热休克反应与分子伴侣 | [热休克应答与蛋白质稳态](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-heat-shock-proteostasis)（1） | 已收录：[HSF1](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-hsf1)；候选：HSPA1A |
+| 蛋白质稳态丧失 | 泛素与蛋白酶体 | [泛素–蛋白酶体系统](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-proteasome)（2） | 已收录：[PSMB5](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-psmb5)；候选：PSMD11 |
+| 宏自噬受损 | 宏自噬启动与通量 | [宏自噬与自噬调控](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-autophagy)（3） | 已收录：[ATG5](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-atg5)、[BECN1](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-becn1)、[ATG7](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-atg7)；候选：ULK1 |
+| 宏自噬受损 | 选择性线粒体自噬 | [选择性线粒体自噬](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-mitophagy)（2） | 已收录：[PINK1](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-pink1)、[PRKN](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-prkn) |
+| 营养感知失调 | 胰岛素 / IGF–AKT–FOXO | [胰岛素 / IGF-1 营养感知](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-igf)（4） | 已收录：[IGF1R](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-igf1r)；候选：FOXO3、AKT1 |
+| 营养感知失调 | mTOR 与能量感知 | [mTOR 营养感知与蛋白翻译](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-mtor)（1） | 已收录：[RPS6KB1](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-rps6kb1)；候选：MTOR、PRKAA1 |
+| 线粒体功能障碍 | 线粒体代谢与氧化应激 | [线粒体代谢与细胞功能维护](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-mito)（3）；[NAD⁺ 代谢与 Sirtuin 调控](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-nad)（4）；[选择性线粒体自噬](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-mitophagy)（2） | 已收录：[SIRT3](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-sirt3)、[CD38](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-cd38)、[CRAT](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-crat)、[PINK1](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-pink1)、[PRKN](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-prkn)；候选：PPARGC1A |
+| 细胞衰老 | 细胞周期停滞 | [DNA 损伤应答与 p53 调控](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-dna)（6） | 已收录：[TP53](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-tp53)；候选：CDKN1A、CDKN2A |
+| 细胞衰老 | SASP 与衰老细胞信号 | [应激信号与衰老相关分泌表型](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-sasp)（5）；[cGAS–STING 胞质 DNA 感知](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-cgas)（2） | 已收录：[MAPK14](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-mapk14)、[RELA](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-rela)、[CGAS](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-cgas)、[STING1](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-sting1) |
+| 干细胞耗竭 | 造血干细胞维持 | [造血干细胞的年龄相关功能](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-hsc)（4） | 已收录：[SIRT3](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-sirt3)、[FOXO3](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-foxo3)；候选：HSF1 |
+| 干细胞耗竭 | 肌肉与表皮干细胞 | [肌肉卫星细胞自噬与维持](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-muscle-stem-cells)（1）；[基底膜黏附与表皮干细胞维护](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-basement-adhesion)（1） | 已收录：[ATG7](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-atg7)、[COL17A1](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-col17a1) |
+| 细胞间通讯改变 | 应激分泌及局部微环境 | [应激信号与衰老相关分泌表型](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-sasp)（5）；[ECM 胶原稳态与重塑](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-ecm-remodeling)（9） | 已收录：[CCN1](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-ccn1)、[RELA](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-rela)；候选：IL6、TGFB1 |
+| 细胞间通讯改变 | 内分泌营养信号 | [胰岛素 / IGF-1 营养感知](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-igf)（4） | 已收录：[KL](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-kl)；候选：IGF1R |
+| 慢性炎症 | 炎性小体 | [NLRP3 炎性小体与慢性炎症](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-nlrp3)（1） | 已收录：[NLRP3](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-nlrp3)；候选：CASP1、IL1B |
+| 慢性炎症 | 胞质 DNA 感知与炎症转录 | [cGAS–STING 胞质 DNA 感知](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-cgas)（2）；[应激信号与衰老相关分泌表型](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-sasp)（5） | 已收录：[CGAS](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-cgas)、[STING1](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-sting1)、[RELA](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-rela) |
+| 微生物群失衡 | 肠道菌群移植与宿主反应 | [肠道微生物群与宿主衰老](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-microbiota-host)（4） | 主题证据 |
+| 微生物群失衡 | 菌株、代谢物与宿主受体 | 主题待整理 | 候选：FFAR2、FFAR3、TLR4 |
+| 细胞外基质（ECM） | 胶原周转与基质重塑 | [ECM 胶原稳态与重塑](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-ecm-remodeling)（9） | 已收录：[MMP1](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-mmp1)、[MFAP4](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-mfap4)、[CCN1](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-ccn1)、[CRAT](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-crat)、[MTOR](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-mtor)；候选：COL1A1、PTK2 |
+| 细胞外基质（ECM） | 基底膜黏附与表皮干细胞 | [基底膜黏附与表皮干细胞维护](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-basement-adhesion)（1） | 已收录：[COL17A1](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-col17a1)；候选：ITGB4 |

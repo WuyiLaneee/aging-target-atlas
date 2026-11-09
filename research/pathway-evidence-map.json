@@ -1,0 +1,132 @@
+{
+  "ev-crat-hdf": [
+    "pathway-cgas",
+    "pathway-sasp",
+    "pathway-mito"
+  ],
+  "ev-crat-mouse": [
+    "pathway-ecm-remodeling",
+    "pathway-mito"
+  ],
+  "ev-foxm1-gene": [
+    "pathway-mitosis"
+  ],
+  "ev-foxm1-chromatin": [
+    "pathway-chromatin"
+  ],
+  "ev-mapk14-alpha": [
+    "pathway-sasp"
+  ],
+  "ev-mapk14-family-drug": [
+    "pathway-sasp"
+  ],
+  "ev-mtor-human-skin": [
+    "pathway-ecm-remodeling"
+  ],
+  "ev-sirt1-dependency": [
+    "pathway-nad"
+  ],
+  "ev-atm-knockdown": [
+    "pathway-dna"
+  ],
+  "ev-atm-inhib-progeria": [
+    "pathway-dna"
+  ],
+  "ev-atm-sirt6-mechanism": [
+    "pathway-dna",
+    "pathway-nad"
+  ],
+  "ev-sirt6-1": [
+    "pathway-igf"
+  ],
+  "ev-tert-1": [
+    "pathway-telomere"
+  ],
+  "ev-rps6kb1-1": [
+    "pathway-mtor"
+  ],
+  "ev-igf1r-1": [
+    "pathway-igf"
+  ],
+  "ev-igf1r-2": [
+    "pathway-igf"
+  ],
+  "ev-kl-1": [
+    "pathway-igf"
+  ],
+  "ev-sirt3-1": [
+    "pathway-hsc",
+    "pathway-mito",
+    "pathway-nad"
+  ],
+  "ev-sirt3-2": [
+    "pathway-hsc",
+    "pathway-mito"
+  ],
+  "ev-bub1b-1": [
+    "pathway-mitosis"
+  ],
+  "ev-CGAS-37532932": [
+    "pathway-cgas"
+  ],
+  "ev-CGAS-42642519": [
+    "pathway-chromatin"
+  ],
+  "ev-STING1-37532932-aged": [
+    "pathway-cgas"
+  ],
+  "ev-STING1-37532932-BJ": [
+    "pathway-cgas",
+    "pathway-sasp"
+  ],
+  "ev-NLRP3-24093676": [
+    "pathway-nlrp3"
+  ],
+  "ev-ATG5-23939249": [
+    "pathway-autophagy"
+  ],
+  "ev-BECN1-29849149": [
+    "pathway-autophagy"
+  ],
+  "ev-CD38-27304511": [
+    "pathway-nad",
+    "pathway-mito"
+  ],
+  "ev-RELA-22706308": [
+    "pathway-sasp",
+    "pathway-dna"
+  ],
+  "ev-RELA-19779484": [
+    "pathway-dna"
+  ],
+  "ev-TP53-11780111": [
+    "pathway-dna"
+  ],
+  "ev-TP53-12426394": [
+    "pathway-dna"
+  ],
+  "ev-ccn1-replicative-ecm": [
+    "pathway-ecm-remodeling"
+  ],
+  "ev-ccn1-bj-senescence": [
+    "pathway-ecm-remodeling"
+  ],
+  "ev-ccn1-wound-antifibrosis": [
+    "pathway-ecm-remodeling"
+  ],
+  "ev-col17a1-aged-maintenance": [
+    "pathway-basement-adhesion"
+  ],
+  "ev-col17a1-human-3d": [
+    "pathway-basement-adhesion"
+  ],
+  "ev-col17a1-human-age-association": [
+    "pathway-basement-adhesion"
+  ],
+  "ev-col17a1-compounds-wound": [
+    "pathway-basement-adhesion"
+  ],
+  "ev-mmp1-mouse-ecm": [
+    "pathway-ecm-remodeling"
+  ]
+}

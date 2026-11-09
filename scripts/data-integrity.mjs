@@ -14,6 +14,7 @@ export function validateIntegrity(input) {
     "interventions",
     "publications",
     "evidence",
+    "themeStudies",
     "relations",
     "sources",
   ];
@@ -110,6 +111,8 @@ export function validateIntegrity(input) {
   for (const e of a.evidence) {
     refs([e.targetId], targetIds, "证据靶点");
     refs([e.publicationId], pubIds, "证据文献");
+    refs(e.pathwayIds, pathIds, "证据通路");
+    for (const id of e.pathwayIds) assert(a.pathways.find((p) => p.id === id)?.memberIds.includes(e.targetId), `通路证据靶点不匹配 ${id}/${e.id}`);
     refs(e.phenotypeIds, phenotypeIds, "表型");
     refs(e.interventionIds, interventionIds, "干预");
     assert(
@@ -123,6 +126,19 @@ export function validateIntegrity(input) {
       `证据必要字段缺失 ${e.id}`,
     );
     assert(e.endpoints.length > 0, `无检测指标 ${e.id}`);
+  }
+  for (const s of a.themeStudies) {
+    refs([s.pathwayId], pathIds, "主题证据通路");
+    const pub = a.publications.find((p) => p.id === s.publicationId);
+    assert(pub?.type === "original" && pub.metadataVerified && pub.claimVerified, `主题证据缺少原始研究 ${s.id}`);
+    assert(Boolean(s.subject && s.model && s.intervention && s.result && s.locator && s.species.length), `主题证据必要字段缺失 ${s.id}`);
+  }
+  if (a.coveragePlan.length) {
+    assert(a.coveragePlan.length === a.taxonomy.length && new Set(a.coveragePlan.map((h) => h.taxonomyId)).size === a.taxonomy.length, "覆盖清单必须逐项对应机制");
+    for (const h of a.coveragePlan) {
+      refs([h.taxonomyId], taxonomyIds, "覆盖清单机制");
+      for (const topic of h.topics) refs(topic.pathwayIds, pathIds, "覆盖清单通路");
+    }
   }
   for (const p of a.pathways) {
     refs(p.memberIds, targetIds, "通路成员");
@@ -181,6 +197,7 @@ export function validateIntegrity(input) {
     complexes: a.complexes.length,
     pathways: a.pathways.length,
     evidence: a.evidence.length,
+    ...(a.manifest.counts.themeStudies !== undefined ? { themeStudies: a.themeStudies.length } : {}),
     agingFunctionEvidence: a.evidence.filter(
       (e) => e.studyContext === "aging_function",
     ).length,
@@ -203,7 +220,7 @@ export function validateIntegrity(input) {
     coveredCategories: a.taxonomy.filter(
       (h) =>
         h.kind === "hallmark" &&
-        a.targets.some((t) => t.taxonomyIds.includes(h.id)),
+        (a.targets.some((t) => t.taxonomyIds.includes(h.id)) || a.themeStudies.some((s) => a.pathways.some((p) => p.id === s.pathwayId && p.taxonomyIds.includes(h.id)))),
     ).length,
   };
   for (const [k, v] of Object.entries(counts))

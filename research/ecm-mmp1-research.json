@@ -31,7 +31,7 @@
       "identitySourceUrl": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:7155",
       "ncbiGeneUrl": "https://www.ncbi.nlm.nih.gov/gene/4312",
       "identityVerified": true,
-      "summary": "小鼠真皮成纤维细胞中诱导表达有催化活性的人MMP1，导致真皮胶原减少、碎裂与衰老相关组织表型，为MMP1参与ECM失衡提供遗传功能证据。尚不能据此认定抑制MMP1可延寿或改善人体外用抗衰功效。",
+      "summary": "小鼠真皮成纤维细胞中诱导表达有催化活性的人MMP1，导致真皮胶原减少、碎裂与衰老相关组织表型。",
       "hallmarks": [10, 11],
       "pathwayNames": ["真皮胶原降解与ECM稳态", "细胞—基质相互作用"],
       "skinClassification": "皮肤衰老实验",

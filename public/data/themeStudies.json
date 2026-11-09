@@ -1,0 +1,82 @@
+[
+  {
+    "id": "study-microbiota-parker-fmt",
+    "pathwayId": "pathway-microbiota-host",
+    "publicationId": "pub-35501923",
+    "subject": "不同月龄供体的粪菌移植（FMT）",
+    "claim": "供体年龄影响小鼠接受粪菌移植后的肠屏障与脑、视网膜炎症相关指标。",
+    "species": [
+      "小鼠（Mus musculus）"
+    ],
+    "model": "同一繁育群的雄性 C57BL/6J 小鼠，设 3、18 和 24 月龄供体及受体组。",
+    "intervention": "抗生素预处理后接触供体垫料及粪粒，再两次灌胃供体粪悬液；实验设置同龄及异龄移植，并设磷酸盐缓冲液和单用抗生素组。",
+    "result": "年轻受体接受 24 月龄供体菌群后，肠屏障通透性增加，脑皮质与胼胝体中 Iba-1 阳性小胶质细胞增多，视网膜炎症读数上升，视觉循环蛋白 RPE65 减少。高龄受体接受年轻供体菌群后，皮质和胼胝体 Iba-1 阳性细胞减少；Y 迷宫与新物体识别测验未显著改善。",
+    "locator": "发表版 Methods: Mice、Microbiota transfer；Fig. 1–2；Results 肠屏障和视网膜段落；补充 Fig. S5 对应的正文结果。",
+    "evidenceType": "双向异龄粪菌移植",
+    "studyContext": "aging_function"
+  },
+  {
+    "id": "study-microbiota-boehme-fmt",
+    "pathwayId": "pathway-microbiota-host",
+    "publicationId": "pub-37117767",
+    "subject": "年轻供体粪菌移植与老龄小鼠行为",
+    "claim": "老龄小鼠接受年轻供体菌群后，海马代谢与转录读数发生变化，新物体识别任务中的探索活动增加。",
+    "species": [
+      "小鼠（Mus musculus）"
+    ],
+    "model": "老龄受体 19–20 月龄；供体为 3–4 月龄年轻小鼠或 19–20 月龄老龄小鼠。",
+    "intervention": "比较老龄受体接受年轻供体或老龄供体菌群后的外周与脑免疫、海马分子读数和行为，并纳入年轻供体移植至年轻受体的参照组。",
+    "result": "年轻供体组的外周与脑免疫、海马代谢组与转录组部分读数向年轻组方向变化。老龄受体的新物体探索活动较接受老龄供体组增加（P=0.043）；新物体识别的长期记忆和 Y 迷宫自发交替均无显著组间差异。",
+    "locator": "PubMed 摘要；Nature Aging 期刊公开索引 Extended Data Fig. 5a、b 图注。",
+    "evidenceType": "老龄受体供体年龄对照粪菌移植",
+    "studyContext": "aging_function"
+  },
+  {
+    "id": "study-microbiota-diaz-akk",
+    "pathwayId": "pathway-microbiota-host",
+    "publicationId": "pub-34729669",
+    "subject": "嗜黏蛋白阿克曼菌（Akkermansia muciniphila）",
+    "claim": "老龄雌性 ICR-CD1 小鼠口服该菌 1 个月后，部分行为和腹腔白细胞指标改善；研究报告处理组寿命较长。",
+    "species": [
+      "小鼠（Mus musculus）"
+    ],
+    "model": "老龄雌性 ICR-CD1 小鼠，设同龄对照和成年对照。",
+    "intervention": "连续 1 个月每日口服菌悬液，每次 100 μL 磷酸盐缓冲液含 2 × 10⁸ 菌落形成单位（CFU）。",
+    "result": "与同龄对照相比，处理组运动协调和平衡等行为指标以及腹腔白细胞吞噬等功能指标改善，白细胞释放的 IL-2、IL-6 和 TNF-α 基础水平降低；摘要同时报告寿命较长。",
+    "locator": "PubMed 摘要：干预剂量、同龄对照、行为及免疫读数和寿命结果。",
+    "evidenceType": "特定菌种口服干预",
+    "studyContext": "aging_function"
+  },
+  {
+    "id": "study-microbiota-kang-amuc1409",
+    "pathwayId": "pathway-microbiota-host",
+    "publicationId": "pub-38582860",
+    "subject": "嗜黏蛋白阿克曼菌分泌蛋白 Amuc_1409",
+    "claim": "重组 Amuc_1409 增加老龄小鼠肠隐窝中干细胞标记阳性细胞与增殖细胞。",
+    "species": [
+      "小鼠（Mus musculus）"
+    ],
+    "model": "100 周龄雄性 C57BL/6 小鼠，以及独立的 25 月龄小鼠来源小肠类器官。",
+    "intervention": "体内比较重组 Amuc_1409 与溶媒，灌胃 15 周；老龄小肠类器官另设 4、8、16 nM 蛋白处理组。",
+    "result": "给药后每个小肠隐窝中 OLFM4 阳性细胞及 Ki67 阳性细胞数量增加；老龄来源类器官的出芽率和每个类器官的分叶数随浓度增加。",
+    "locator": "发表版 Results: Amuc_1409 restores number and function of ISCs during aging；Fig. 6a–j。",
+    "evidenceType": "微生物分泌蛋白给药及老龄组织来源类器官干预",
+    "studyContext": "aging_function"
+  },
+  {
+    "id": "study-dna-methylation-dnmt1-inhibitor-young-hspcs",
+    "pathwayId": "pathway-dna-methylation",
+    "publicationId": "pub-37884767",
+    "subject": "年轻小鼠造血干祖细胞的 DNMT1 抑制剂处理",
+    "claim": "GSK-3484862 处理年轻野生型小鼠的造血干祖细胞后，H3K9me3 标记异染色质的核质染色增强，集落形成减少。",
+    "species": [
+      "小鼠（Mus musculus）"
+    ],
+    "model": "年轻小鼠骨髓 LSK 细胞离体培养，比较野生型和 Tet2 敲除背景。",
+    "intervention": "以研究所用 DNMT1 抑制剂 GSK-3484862 处理 10 天；DMSO 为溶剂对照。",
+    "result": "野生型细胞处理后，H3K9me3 核质染色增强，集落形成减少，Ccl5、Cxcl10、Irf7、Oas3 和 Isg15 表达升高。",
+    "locator": "Results: DNA methylation loss is tied to heterochromatin dysfunction；Fig. 4H–J。",
+    "evidenceType": "年轻细胞离体药理干预",
+    "studyContext": "nonaging_support"
+  }
+]

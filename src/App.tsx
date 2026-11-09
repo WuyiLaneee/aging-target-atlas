@@ -5,7 +5,6 @@ import {
   Route,
   Routes,
   useLocation,
-  useNavigate,
   useParams,
   useSearchParams,
 } from "react-router-dom";
@@ -46,7 +45,6 @@ import {
   Radio,
   Timer,
   Workflow,
-  ScanLine,
 } from "lucide-react";
 import { config } from "./config";
 import glossary from "./glossary.json";
@@ -68,7 +66,9 @@ import {
   Tag,
   EvidenceCard,
   PubCard,
+  PaperLinks,
 } from "./components";
+import { AtlasSearchForm, SearchPage, CoveragePage, PathwayEvidenceTable, pathwayStudies } from "./ResearchViews";
 const Graph = lazy(() => import("./Graph"));
 const icons = [
   Dna,
@@ -88,6 +88,8 @@ const nav = [
   ["/", "研究总览", LayoutDashboard],
   ["/targets", "靶点目录", TargetIcon],
   ["/pathways", "通路目录", Workflow],
+  ["/search?type=publications", "文献索引", FileText],
+  ["/coverage", "覆盖清单", List],
   ["/mechanisms/mechanism-ecm", "ECM 机制", Layers],
   ["/graph", "交互图谱", Network],
   ["/compare", "靶点对比", GitCompareArrows],
@@ -97,9 +99,7 @@ const nav = [
 export default function App() {
   const { atlas: a, compare } = useAtlas();
   const loc = useLocation();
-  const navigate = useNavigate();
   const [mobile, setMobile] = useState(false);
-  const [search, setSearch] = useState("");
   const positions = useRef<Record<string, number>>({});
   const previous = useRef(loc.pathname + loc.search);
   useEffect(() => {
@@ -111,7 +111,7 @@ export default function App() {
     );
     setMobile(false);
   }, [loc.pathname, loc.search]);
-  const title =
+  const title = loc.pathname === "/search" ? "文献与检索" :
     nav.find(([path]) =>
       path === "/" ? loc.pathname === "/" : loc.pathname.startsWith(path),
     )?.[1] || "科研图谱";
@@ -193,22 +193,7 @@ export default function App() {
             <ChevronRight size={13} />
             <strong>{title}</strong>
           </div>
-          <form
-            className="top-search"
-            onSubmit={(e) => {
-              e.preventDefault();
-              navigate(`/targets?q=${encodeURIComponent(search)}`);
-            }}
-          >
-            <Search size={16} />
-            <input
-              aria-label="全站搜索"
-              placeholder="搜索靶点、通路或文献…"
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
-            />
-            <kbd>↵</kbd>
-          </form>
+          {loc.pathname !== "/" && loc.pathname !== "/search" && <AtlasSearchForm compact />}
           <Link className="help-link" to="/methods" aria-label="使用与数据说明">
             <CircleHelp size={19} />
           </Link>
@@ -217,6 +202,8 @@ export default function App() {
           <Suspense fallback={<div className="empty">正在载入图谱模块…</div>}>
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/search" element={<SearchPage />} />
+              <Route path="/coverage" element={<CoveragePage />} />
               <Route path="/targets" element={<Directory />} />
               <Route path="/targets/:id" element={<TargetDetail />} />
               <Route path="/pathways" element={<Pathways />} />
@@ -275,274 +262,48 @@ function PageHeader({
 }
 function Home() {
   const { atlas: a } = useAtlas();
-  const [q, setQ] = useState("");
-  const navigate = useNavigate();
-  const skin = a.targets.filter((t) => t.skinClassification === "skin_aging");
-  const featured = ["CRAT", "SIRT6", "CGAS"]
-    .map((s) => a.targets.find((t) => t.symbol === s))
-    .filter(Boolean) as Target[];
-  const covered = a.taxonomy.filter(
-    (h) =>
-      h.kind === "hallmark" &&
-      a.targets.some((t) => t.taxonomyIds.includes(h.id)),
-  ).length;
+  const hallmarks = a.taxonomy.filter((h) => h.kind === "hallmark");
   return (
-    <>
-      <section className="hero">
-        <div className="hero-content">
-          <div className="eyebrow">
-            <span className="dot" /> EVIDENCE-BASED AGING RESEARCH
-          </div>
-          <h1>
-            探索衰老机制，
-            <br />
-            <span>让每一次连接都有依据。</span>
-          </h1>
-          <p>
-            {config.name} · 从分子靶点到实验表型，
-            <br className="desktop-break" />
-            在具体物种与模型中理解关系、发现研究线索。
-          </p>
-          <div className="hero-actions">
-            <Link className="primary-btn" to="/targets">
-              开始探索靶点 <ArrowRight size={17} />
-            </Link>
-            <Link className="subtle-btn" to="/graph">
-              <Network size={17} />
-              进入交互图谱
-            </Link>
-          </div>
-          <div className="hero-meta">
-            <ShieldCheck size={14} />
-            原始功能研究 <span>·</span> 条件可追溯 <span>·</span> 无需登录
-          </div>
+    <div className="research-page home-v2">
+      <section className="home-search-hero">
+        <h1>抗衰靶点与通路图谱</h1>
+        <p>查找衰老机制、分子靶点和原始研究。</p>
+        <AtlasSearchForm />
+        <div className="home-quick-links">
+          <Link to="/targets">全部靶点 <ArrowRight size={14} /></Link>
+          <Link to="/pathways">通路目录 <ArrowRight size={14} /></Link>
+          <Link to="/search?type=publications">文献索引 <ArrowRight size={14} /></Link>
+          <Link to="/targets?skin=skin_aging">皮肤衰老 <ArrowRight size={14} /></Link>
         </div>
-        <div className="hero-art" aria-hidden="true">
-          <div className="orbital orbit-one" />
-          <div className="orbital orbit-two" />
-          <svg viewBox="0 0 440 330">
-            <g stroke="#94b9ac" strokeWidth="1" opacity=".55">
-              <path
-                d="M220 164 104 90 68 200 165 270 326 250 371 113 220 164 104 90 280 46 371 113M220 164 165 270M220 164 326 250M220 164 280 46M68 200 220 164"
-                fill="none"
-              />
-            </g>
-            {[
-              [104, 90, 9],
-              [68, 200, 7],
-              [165, 270, 10],
-              [326, 250, 8],
-              [371, 113, 11],
-              [280, 46, 6],
-            ].map(([x, y, r], i) => (
-              <g key={i}>
-                <circle cx={x} cy={y} r={r + 13} fill="#e3eee7" />
-                <circle
-                  cx={x}
-                  cy={y}
-                  r={r}
-                  fill={i % 2 ? "#8cae9e" : "#3b8b75"}
-                />
-              </g>
-            ))}
-            <circle cx="220" cy="164" r="66" fill="#f5f9f2" stroke="#bbd2c5" />
-            <circle cx="220" cy="164" r="55" fill="#fff" stroke="#d9e5da" />
-            <text
-              x="220"
-              y="164"
-              textAnchor="middle"
-              fill="#27654e"
-              fontSize="36"
-              fontFamily="Georgia,serif"
-            >
-              12
-            </text>
-            <text
-              x="220"
-              y="187"
-              textAnchor="middle"
-              fill="#7a9386"
-              fontSize="9"
-              letterSpacing="2"
-            >
-              HALLMARKS
-            </text>
-            <text x="95" y="55" fill="#789487" fontSize="10" letterSpacing="2">
-              CONTEXT
-            </text>
-            <text
-              x="294"
-              y="302"
-              fill="#789487"
-              fontSize="10"
-              letterSpacing="2"
-            >
-              CONNECTION
-            </text>
-          </svg>
-          <span className="art-caption">A FRAMEWORK FOR EXPLORATION</span>
-        </div>
+        <p className="home-counts">{a.targets.length} 个核心靶点 · {a.pathways.length} 个通路与研究主题 · {a.manifest.counts.originalPublications} 篇原始研究</p>
       </section>
-      <div className="stats-grid">
-        {[
-          [
-            a.targets.length,
-            "核心分子靶点",
-            "符合原始功能研究收录规则",
-            TargetIcon,
-          ],
-          [
-            a.evidence.length,
-            "可追溯证据记录",
-            "功能实验与补充证据分层",
-            FlaskConical,
-          ],
-          [
-            skin.length,
-            "直接皮肤衰老关联",
-            "与其他组织、损伤模型分开",
-            ScanLine,
-          ],
-          [`${covered} / 12`, "分类已有条目", "完整导航，逐步扩充证据", Layers],
-        ].map(([num, title, sub, Icon]) => {
-          const I = Icon as typeof TargetIcon;
-          return (
-            <div className="stat" key={String(title)}>
-              <span className="stat-icon">
-                <I size={19} />
-              </span>
-              <div className="stat-number">{String(num)}</div>
-              <b>{String(title)}</b>
-              <small>{String(sub)}</small>
-            </div>
-          );
-        })}
-      </div>
       <section className="home-section">
         <div className="section-heading">
-          <div>
-            <div className="eyebrow">THE HALLMARKS OF AGING</div>
-            <h2>从 12 类机制开始探索</h2>
-            <p>基于 Cell 2023 年框架；分类可交叉，不代表单一因果路径。</p>
-          </div>
-          <Link className="text-link" to="/methods">
-            框架与收录说明 <ArrowUpRight size={15} />
-          </Link>
+          <div><h2>从 12 类机制开始探索</h2><p>Cell 2023 衰老标志</p></div>
+          <Link className="text-link" to="/coverage">查看覆盖清单 <ArrowUpRight size={16} /></Link>
         </div>
-        <form
-          className="overview-search"
-          onSubmit={(e) => {
-            e.preventDefault();
-            navigate("/targets?q=" + encodeURIComponent(q));
-          }}
-        >
-          <Search size={19} />
-          <input
-            aria-label="探索搜索"
-            placeholder="输入基因符号、中文名称、别名、通路或文献题名"
-            value={q}
-            onChange={(e) => setQ(e.target.value)}
-          />
-          <button type="submit">
-            搜索图谱 <ArrowRight size={16} />
-          </button>
-        </form>
         <div className="taxonomy-grid">
-          {a.taxonomy
-            .filter((h) => h.kind === "hallmark")
-            .map((h, i) => {
-              const Icon = icons[i];
-              const n = a.targets.filter((t) =>
-                t.taxonomyIds.includes(h.id),
-              ).length;
-              return (
-                <Link
-                  key={h.id}
-                  className={`taxonomy-card ${n ? "" : "pending"}`}
-                  to={`/targets?mechanism=${h.id}`}
-                >
-                  <div className="taxonomy-top">
-                    <span className="taxonomy-icon" style={{ color: h.color }}>
-                      <Icon size={23} />
-                    </span>
-                    <span className="taxonomy-number">
-                      {String(h.number).padStart(2, "0")}
-                    </span>
-                  </div>
-                  <h3>{h.name}</h3>
-                  <small>{h.englishName}</small>
-                  <div className="taxonomy-foot">
-                    <span>{n ? `${n} 个核心靶点` : "尚未完成整理"}</span>
-                    <ArrowUpRight size={16} />
-                  </div>
-                </Link>
-              );
-            })}
+          {hallmarks.map((h, i) => {
+            const Icon = icons[i];
+            const targets = a.targets.filter((t) => t.taxonomyIds.includes(h.id)).length;
+            const theme = targets === 0 ? a.pathways.find((p) => p.taxonomyIds.includes(h.id) && a.themeStudies.some((e) => e.pathwayId === p.id)) : undefined;
+            return <Link key={h.id} className="taxonomy-card" to={theme ? `/pathways/${theme.id}` : `/targets?mechanism=${h.id}`}>
+              <span className="taxonomy-icon" style={{ color: h.color }}><Icon size={19} /></span>
+              <div><h3>{h.name}</h3><small>{theme ? `${a.themeStudies.filter((e) => e.pathwayId === theme.id).length} 条主题研究` : `${targets} 个核心靶点`}</small></div>
+              <ArrowUpRight size={16} />
+            </Link>;
+          })}
         </div>
       </section>
-      {a.taxonomy
-        .filter((h) => h.kind === "extension")
-        .map((h) => (
-          <section className="extension-banner" key={h.id}>
-            <div className="extension-icon">
-              <Layers size={28} />
-            </div>
-            <div>
-              <div className="eyebrow">EXTENDED MECHANISM · 扩展机制</div>
-              <h2>{h.name}</h2>
-              <p>{h.description}</p>
-              <small>
-                {a.targets.filter((t) => t.taxonomyIds.includes(h.id)).length}{" "}
-                个关联核心靶点 · 保留原12类框架，单独扩展
-              </small>
-            </div>
-            <Link className="outline-btn" to={`/mechanisms/${h.id}`}>
-              探索 ECM 机制 <ArrowRight size={15} />
-            </Link>
-          </section>
-        ))}
-      <section className="skin-banner">
-        <div className="skin-emblem">
-          <Leaf size={29} />
-        </div>
-        <div>
-          <div className="eyebrow">SKIN RESEARCH FOCUS</div>
-          <h3>聚焦皮肤衰老与研发关联</h3>
-          <p>
-            定位皮肤细胞、组织与动物证据。实验室读出与化妆品外用功效分开解读。
-          </p>
-        </div>
-        <Link className="outline-btn" to="/targets?skin=skin_aging">
-          浏览皮肤关联 <ArrowRight size={16} />
-        </Link>
-      </section>
-      <section className="home-section">
-        <div className="section-heading">
-          <div>
-            <div className="eyebrow">CURATED STARTING POINTS</div>
-            <h2>从这些研究条目出发</h2>
-          </div>
-          <Link className="text-link" to="/targets">
-            查看全部靶点 <ArrowRight size={15} />
-          </Link>
-        </div>
-        <div className="target-grid">
-          {featured.map((t) => (
-            <TargetCard key={t.id} target={t} />
-          ))}
-        </div>
-      </section>
-      <div className="home-note">
-        <BookOpen size={19} />
-        <p>
-          <b>这是一份持续整理的科研图谱。</b> 数据核验由 Codex
-          完成，不等于人工专家审核。尚未整理的分类不代表该领域没有研究。
-          <Link to="/methods">查看数据覆盖与局限 →</Link>
-        </p>
-      </div>
-    </>
+      {a.taxonomy.filter((h) => h.kind === "extension").map((h) => <section className="extension-banner" key={h.id}>
+        <div className="extension-icon"><Layers size={25} /></div>
+        <div><h2>{h.name}</h2><p>胶原周转、基底膜黏附与细胞—基质反馈。</p></div>
+        <Link className="outline-btn" to={`/mechanisms/${h.id}`}>探索 ECM 机制 <ArrowRight size={15} /></Link>
+      </section>)}
+    </div>
   );
 }
+
 function Directory() {
   const { atlas: a } = useAtlas();
   const [params, setParams] = useSearchParams();
@@ -594,7 +355,9 @@ function Directory() {
   const filtered = a.targets
     .filter(filter)
     .sort((x, y) =>
-      params.get("sort") === "year"
+      params.get("sort") !== "year" && q && (normalize(x.symbol) === normalize(q)) !== (normalize(y.symbol) === normalize(q))
+        ? Number(normalize(y.symbol) === normalize(q)) - Number(normalize(x.symbol) === normalize(q))
+        : params.get("sort") === "year"
         ? Math.max(
             ...y.evidenceIds.map(
               (id) =>
@@ -897,6 +660,14 @@ function TargetDetail() {
   const { atlas: a, personal, setPersonal, toast } = useAtlas();
   const t = a.targets.find((t) => t.id === id);
   const [note, setNote] = useState("");
+  const [showGraph, setShowGraph] = useState(false);
+  const [params] = useSearchParams();
+  const requestedEvidence = params.get("evidence");
+  useEffect(() => {
+    if (!requestedEvidence) return;
+    const timer = window.setTimeout(() => document.getElementById(requestedEvidence)?.scrollIntoView({ block: "start" }), 100);
+    return () => window.clearTimeout(timer);
+  }, [id, requestedEvidence]);
   useEffect(() => setNote(id ? personal.notes[id] || "" : ""), [id]);
   if (!t)
     return (
@@ -909,6 +680,8 @@ function TargetDetail() {
   const pubs = a.publications.filter((p) =>
     es.some((e) => e.publicationId === p.id),
   );
+  const preferred = es.find((e) => e.studyContext === "aging_function");
+  const representative = pubs.find((p) => p.id === preferred?.publicationId);
   const interventions = a.interventions.filter((i) =>
     es.some((e) => e.interventionIds.includes(i.id)),
   );
@@ -933,7 +706,7 @@ function TargetDetail() {
           <h1>
             {t.symbol} <span>{t.name}</span>
           </h1>
-          <p>{t.summary}</p>
+          <p>{preferred?.claim || t.summary}</p>
           <div className="tags">
             {t.taxonomyIds.map((id) => (
               <Link key={id} to={`/targets?mechanism=${id}`}>
@@ -945,52 +718,52 @@ function TargetDetail() {
         </div>
         <TargetActions t={t} />
       </div>
-      <div className="detail-tabs">
-        <a
-          href="#basic"
-          onClick={(e) => {
-            e.preventDefault();
-            document
-              .getElementById("basic")
-              ?.scrollIntoView({ behavior: "smooth" });
-          }}
-        >
-          基本介绍
-        </a>
-        <button
-          onClick={() =>
-            document
-              .getElementById("network")
-              ?.scrollIntoView({ behavior: "smooth" })
-          }
-        >
-          关系网络
-        </button>
-        <button
-          onClick={() =>
-            document
-              .getElementById("evidence")
-              ?.scrollIntoView({ behavior: "smooth" })
-          }
-        >
-          实验依据 <b>{es.length}</b>
-        </button>
-        <button
-          onClick={() =>
-            document
-              .getElementById("references")
-              ?.scrollIntoView({ behavior: "smooth" })
-          }
-        >
-          文献与笔记
-        </button>
-        <div className="tab-spacer" />
-        <button onClick={() => exportData(a, [t], "json", t.symbol)}>
-          <Download size={14} />
-          JSON
-        </button>
-        <button onClick={() => exportData(a, [t], "csv", t.symbol)}>CSV</button>
-      </div>
+      {representative && preferred && <section className="research-feature">
+        <div>
+          <span className="row-label">代表研究 · {preferred.species.join(" / ")}</span>
+          <h2>{preferred.model}</h2>
+          <p>{preferred.result}</p>
+          <a className="representative-title" href={representative.url} target="_blank" rel="noreferrer">{representative.title} <ExternalLink size={15} /></a>
+          <PaperLinks p={representative} />
+        </div>
+        <div className="actions">
+          <button className="outline-btn" onClick={() => document.getElementById("references")?.scrollIntoView()}>查看全部论文（{pubs.length}）</button>
+        </div>
+      </section>}
+      <nav className="detail-quick-nav" aria-label="靶点内容">
+        <button className="small-btn" onClick={() => document.getElementById("evidence")?.scrollIntoView()}>实验记录（{es.length}）</button>
+        {t.pathwayIds.map((id) => {
+          const p = a.pathways.find((p) => p.id === id);
+          return p && <Link className="small-btn" key={p.id} to={`/pathways/${p.id}`}>{p.name}</Link>;
+        })}
+      </nav>
+      <section id="evidence" className="detail-section">
+        <div className="section-heading">
+          <div>
+            <div className="eyebrow">EXPERIMENTAL EVIDENCE</div>
+            <h2>实验依据与条件依赖</h2>
+          </div>
+        </div>
+        {es.map((e) => (
+          <EvidenceCard key={e.id} e={e} />
+        ))}
+      </section>
+      <section id="references" className="detail-section">
+        <div className="section-heading">
+          <h2>相关原始文献</h2>
+          <button
+            className="outline-btn"
+            onClick={() => ris(pubs, a, t.symbol)}
+          >
+            <Download size={14} />
+            导出 RIS
+          </button>
+        </div>
+        {pubs.map((p) => (
+          <PubCard p={p} key={p.id} />
+        ))}
+      </section>
+      <details className="research-disclosure"><summary>靶点身份与研究背景</summary>
       <div className="detail-columns">
         <section className="paper-section" id="basic">
           <h2>基本介绍与身份</h2>
@@ -1055,22 +828,6 @@ function TargetDetail() {
                 ))}
             </p>
           </details>
-          <h3>研究支持了什么</h3>
-          {es.map((e) => (
-            <p key={e.id}>
-              <a
-                href={`#${e.id}`}
-                onClick={(ev) => {
-                  ev.preventDefault();
-                  document.getElementById(e.id)?.scrollIntoView();
-                }}
-                className="inline-eid"
-              >
-                {e.id}
-              </a>
-              {e.claim}
-            </p>
-          ))}
         </section>
         <section className="paper-section skin-section">
           <div className="eyebrow">
@@ -1079,10 +836,7 @@ function TargetDetail() {
           </div>
           <h2>皮肤关联</h2>
           <Tag tone="green">{skinLabels[t.skinClassification]}</Tag>
-          <p>{t.skinSummary}</p>
-          <div className="boundary-note">
-            人体、动物和细胞证据分别解释。原料或药物的实验关联，不自动证明化妆品外用抗衰功效。
-          </div>
+          <p>{es.filter((e) => /皮肤|真皮|表皮/.test(e.tissueCell)).map((e) => e.tissueCell).filter((cell, i, all) => all.indexOf(cell) === i).join("；") || "实验组织见各研究记录。"}</p>
           <h3>参与通路 / 研究主题</h3>
           {t.pathwayIds.map((id) => {
             const p = a.pathways.find((p) => p.id === id);
@@ -1095,35 +849,20 @@ function TargetDetail() {
           })}
         </section>
       </div>
-      <section id="network" className="detail-section">
-        <div className="section-heading">
-          <div>
-            <div className="eyebrow">LOCAL RELATIONSHIP NETWORK</div>
-            <h2>局部关系图</h2>
-          </div>
-          <Link className="text-link" to={`/graph?root=${t.id}`}>
-            在完整工作区打开 <ArrowUpRight size={14} />
-          </Link>
+      </details>
+      <details className="research-disclosure" onToggle={(e) => setShowGraph(e.currentTarget.open)}>
+        <summary>局部关系图</summary>
+        {showGraph && <Suspense fallback={<p>正在载入图谱…</p>}><Graph targetId={t.id} compact /></Suspense>}
+        <Link className="text-link" to={`/graph?root=${t.id}`}>在图谱中打开 <ArrowUpRight size={14} /></Link>
+      </details>
+      <details className="research-disclosure">
+        <summary>下载靶点数据</summary>
+        <div className="actions">
+          <button className="small-btn" onClick={() => exportData(a, [t], "json", t.symbol)}>JSON</button>
+          <button className="small-btn" onClick={() => exportData(a, [t], "csv", t.symbol)}>CSV</button>
         </div>
-        <Graph targetId={t.id} compact />
-      </section>
-      <section id="evidence" className="detail-section">
-        <div className="section-heading">
-          <div>
-            <div className="eyebrow">EXPERIMENTAL EVIDENCE</div>
-            <h2>实验依据与条件依赖</h2>
-            <p>
-              按原始实验描述干预与终点，不为靶点赋予永久固定的“抗衰 /
-              促衰”属性。
-            </p>
-          </div>
-        </div>
-        {es.map((e) => (
-          <EvidenceCard key={e.id} e={e} />
-        ))}
-      </section>
-      <section className="detail-section">
-        <h2>相关干预物</h2>
+      </details>
+      <details className="research-disclosure"><summary>相关干预物</summary>
         {interventions.length ? (
           <div className="intervention-grid">
             {interventions.map((i) => (
@@ -1150,25 +889,10 @@ function TargetDetail() {
           </div>
         ) : (
           <div className="boundary-note">
-            该条目尚未整理经核验的可干预分子或原料。遗传干预依据请见上表。
+            本条目记录遗传干预，见实验记录。
           </div>
         )}
-      </section>
-      <section id="references" className="detail-section">
-        <div className="section-heading">
-          <h2>相关原始文献</h2>
-          <button
-            className="outline-btn"
-            onClick={() => ris(pubs, a, t.symbol)}
-          >
-            <Download size={14} />
-            导出 RIS
-          </button>
-        </div>
-        {pubs.map((p) => (
-          <PubCard p={p} key={p.id} />
-        ))}
-      </section>
+      </details>
       <section className="paper-section notes-editor">
         <h2>我的研究笔记</h2>
         <p>保存在当前浏览器，可导出备份。不会混入公共科研数据导出。</p>
@@ -1275,7 +999,7 @@ function Pathways() {
         />
       </div>
       <div className="pathway-grid">
-        {entries.map((p, i) => (
+        {entries.map((p) => (
           <article className="pathway-card" key={p.id}>
             <div className="section-line">
               <span className="taxonomy-icon">
@@ -1295,7 +1019,7 @@ function Pathways() {
               </button>
             </div>
             <small className="eyebrow">
-              PATHWAY {String(i + 1).padStart(2, "0")}
+              {p.reference ? `标准通路 · ${p.reference.database}` : "研究主题"}
             </small>
             <Link to={`/pathways/${p.id}`}>
               <h2>
@@ -1312,7 +1036,7 @@ function Pathways() {
               ))}
             </div>
             <div className="pathway-card-foot">
-              {p.memberIds.length} 个已收录靶点 · <Tag>研究主题 / 机制背景</Tag>
+              {p.memberIds.length > 0 && <>{p.memberIds.length} 个靶点 · </>}{pathwayStudies(a, p.id).length} 条关联研究
             </div>
           </article>
         ))}
@@ -1326,15 +1050,12 @@ function PathwayDetail() {
   const { atlas: a, personal, toggleFavorite, setPersonal, toast } = useAtlas();
   const p = a.pathways.find((p) => p.id === id);
   const [note, setNote] = useState("");
+  const [showGraph, setShowGraph] = useState(false);
   useEffect(() => setNote(id ? personal.notes[id] || "" : ""), [id]);
   if (!p) return <Empty title="通路尚未整理" />;
   const targets = a.targets.filter((t) => p.memberIds.includes(t.id));
-  const es = a.evidence.filter((e) =>
-    targets.some((t) => t.evidenceIds.includes(e.id)),
-  );
-  const pubs = a.publications.filter((p) =>
-    es.some((e) => e.publicationId === p.id),
-  );
+  const studies = pathwayStudies(a, p.id);
+  const pubs = a.publications.filter((pub) => studies.some((e) => e.publicationId === pub.id));
   const overlaps = a.pathways.filter(
     (other) =>
       other.id !== p.id &&
@@ -1347,7 +1068,7 @@ function PathwayDetail() {
         返回通路目录
       </Link>
       <PageHeader
-        eyebrow="PATHWAY / RESEARCH THEME"
+        eyebrow={p.reference ? `标准通路 · ${p.reference.database}` : "研究主题"}
         title={p.name}
         description={p.summary}
       >
@@ -1357,30 +1078,37 @@ function PathwayDetail() {
         </button>
         <button
           className="outline-btn"
-          onClick={() => exportData(a, targets, "json", p.name)}
+          onClick={() => download(JSON.stringify({ metadata: exportMeta(a, p.name), pathway: p, studies, publications: pubs }, null, 2), "aging-atlas-pathway-evidence.json")}
         >
           <Download size={15} />
           导出相关数据
         </button>
       </PageHeader>
-      <div className="boundary-note">
-        {p.mappingBasis}{" "}
-        共享成员不等于存在直接调控。数据库背景关系不计入衰老实验因果边。
-      </div>
+      {p.reference && <a className="text-link" href={p.reference.url} target="_blank" rel="noreferrer">{p.reference.database} · {p.reference.id} <ExternalLink size={14} /></a>}
       <div className="tags roomy">
         {p.taxonomyIds.map((id) => (
           <Tag key={id}>{a.taxonomy.find((h) => h.id === id)?.name}</Tag>
         ))}
       </div>
-      <Graph targetId={p.id} />
       <section className="detail-section">
-        <h2>已收录成员</h2>
+        <div className="section-heading">
+          <div><h2>研究证据</h2><p>{studies.length} 条记录 · {pubs.length} 篇原始论文</p></div>
+          {pubs.length > 0 && <button className="outline-btn" onClick={() => ris(pubs, a, p.name)}>导出 RIS</button>}
+        </div>
+        <PathwayEvidenceTable pathwayId={p.id} />
+      </section>
+      <details className="research-disclosure" onToggle={(e) => setShowGraph(e.currentTarget.open)}>
+        <summary>查看关系图谱</summary>
+        {showGraph && <Suspense fallback={<p>正在载入图谱…</p>}><Graph targetId={p.id} /></Suspense>}
+      </details>
+      {targets.length > 0 && <section className="detail-section">
+        <h2>已收录靶点</h2>
         <div className="target-grid">
           {targets.map((t) => (
             <TargetCard key={t.id} target={t} />
           ))}
         </div>
-      </section>
+      </section>}
       <section className="paper-section">
         <h2>通路交叉与共享节点</h2>
         {overlaps.length ? (
@@ -1412,17 +1140,10 @@ function PathwayDetail() {
           ) : null;
         })}
       </section>
-      <section className="detail-section">
-        <div className="section-heading">
-          <h2>相关原始研究</h2>
-          <button className="small-btn" onClick={() => ris(pubs, a, p.name)}>
-            导出 RIS
-          </button>
-        </div>
-        {pubs.map((p) => (
-          <PubCard p={p} key={p.id} />
-        ))}
-      </section>
+      {pubs.length > 0 && <details className="research-disclosure">
+        <summary>论文列表（{pubs.length}）</summary>
+        {pubs.map((pub) => <PubCard p={pub} key={pub.id} />)}
+      </details>}
       <section className="paper-section notes-editor">
         <h2>通路研究笔记</h2>
         <p>保存在当前浏览器，可导出备份。</p>
@@ -2033,10 +1754,7 @@ function MechanismDetail() {
           <div>
             <div className="eyebrow">RELATED TARGETS</div>
             <h2>关联靶点与实际证据</h2>
-            <p>
-              新收录的 ECM
-              功能研究与既有靶点的胶原读出分别保留；分类归属本身不代表直接调控。
-            </p>
+
           </div>
         </div>
         <div className="target-grid">
@@ -2053,9 +1771,7 @@ function MechanismDetail() {
             <ArrowUpRight size={14} />
           </Link>
         ))}
-        <p>
-          主题归属为背景关系。原文未完成的整合素、黏着斑激酶（FAK）及基质硬度因果连线不自动补出。
-        </p>
+
       </section>
       <section className="detail-section">
         <div className="section-heading">
@@ -2080,187 +1796,23 @@ function MechanismDetail() {
 function Methods() {
   const { atlas: a } = useAtlas();
   return (
-    <>
-      <PageHeader
-        eyebrow="METHODS & DATA PROVENANCE"
-        title="方法与数据说明"
-        description="明确收录依据、模型边界与整理进度，让图谱中的每一项主张可追溯。"
-      />
-      <div className="method-summary">
-        <div>
-          <ShieldCheck size={25} />
-          <h3>基于原始功能研究</h3>
-          <p>{a.manifest.reviewStatus}</p>
-        </div>
-        <div>
-          <FileText size={25} />
-          <h3>独立版本，公开来源</h3>
-          <p>
-            数据 {a.manifest.version} · 整理日期 {a.manifest.updated}
-            。文献存在性与结论核对状态分别记录。
-          </p>
-        </div>
-        <div>
-          <FlaskConical size={25} />
-          <h3>实验条件决定解释</h3>
-          <p>
-            细胞衰老、组织功能、健康寿命与机体寿命分别表述。动物或细胞结果不直接外推人体功效。
-          </p>
-        </div>
-      </div>
+    <div className="research-page">
+      <PageHeader eyebrow="研究目录" title="方法与数据" description={`数据 ${a.manifest.version} · 整理日期 ${a.manifest.updated}`} />
       <section className="paper-section prose">
-        <h2>框架与收录规则</h2>
-        <p>
-          分类起点为 López-Otín 等 2023 年发表于 Cell 的{" "}
-          <a
-            href="https://pubmed.ncbi.nlm.nih.gov/36599349/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Hallmarks of aging: An expanding universe
-          </a>
-          。这是一套可扩展的工作框架，不表示截至当前唯一、最终或穷尽性的分类；标签本身不等于特定因果作用。
-        </p>
-        <p>
-          网站另设细胞外基质（ECM）扩展机制，与原12项分开统计；ECM
-          不被表述为该论文的第13项衰老标志。
-          <Link to="/mechanisms/mechanism-ecm">进入 ECM 机制 →</Link>
-        </p>
-        <p>
-          正式核心条目至少有一篇已核验的原始功能研究，包含对靶点的遗传干预，或机制匹配且有依据的药理干预，同时具有明确的衰老情境与相应结果。仅表达差异、组学富集、相关性、网络药理学、分子对接及非衰老模型中的间接保护指标，均不足以单独满足入库标准。
-        </p>
-        <p>
-          综述和数据库用于框架与追溯；具体主张由原始研究支持。药理干预不自动证明特异性；靶点依赖不等于直接结合；磷酸化变化按原文位点和读出解释。缺失的剂量、时长、样本量明确记为“当前未获取”“原文未报告”或“不适用”。
-        </p>
-        <h3>常用缩写与细胞模型</h3>
-        <p>
-          {Object.entries(glossary).map(([term, meaning]) => (
-            <span key={term}>
-              <b>{term}</b>（{meaning}）；{" "}
-            </span>
-          ))}
-        </p>
-        <h3>图谱阅读</h3>
-        <p>
-          实线为衰老功能实验关系，虚线为通路机制背景。→ 表示有依据的调控方向，⊣
-          表示抑制；无方向的关联或归属不画因果箭头。靶点到表型的连线说明具体干预下的观测，不能解释成该分子恒定的作用方向。背景归属含明确标注的编辑主题映射，不自动证明通路成员的生化调控。
-        </p>
-        <p>
-          二层扩展可能连接不同论文、物种或模型，只称“跨研究关联路径”。不由 A→B
-          与 B→C
-          推定已验证完整信号顺序。图中节点大小和文献数量不代表效果或证据强度；颜色仅辅助阅读。
-        </p>
-        <h3>皮肤与化妆品解释边界</h3>
-        <p>
-          直接皮肤衰老实验、皮肤相关损伤、其他组织研究和尚未评估分开标注。急性紫外损伤不自动视为自然老化；体外胶原读出、动物给药或口服/注射结果均不自动证明化妆品外用抗衰功效。
-        </p>
+        <h2>收录范围</h2>
+        <p>网站以 <a href="https://doi.org/10.1016/j.cell.2022.11.001" target="_blank" rel="noreferrer">Cell 2023 的 12 类衰老标志</a> 为分类框架，并单列 <Link to="/mechanisms/mechanism-ecm">细胞外基质（ECM）</Link>。<Link to="/coverage">覆盖清单</Link>列出各类研究主题、已收录的靶点和后续候选。</p>
+        <p>核心靶点收录人和其他哺乳动物的原始功能实验。研究主题可同时收录靶点干预、整体干预和观察关联。证据记录按模型、处理、终点和论文定位整理。</p>
+        <p>通路目录并列展示 Reactome 标准通路和文献研究主题。关系图用实线表示实验关系、虚线表示机制背景或主题归属；各实验关系附原始证据。</p>
       </section>
-      <section className="paper-section">
-        <h2>真实收录与覆盖缺口</h2>
-        <p>{a.manifest.coverage}</p>
-        <p>{a.manifest.searchScope}</p>
-        <div className="coverage-table">
-          <table>
-            <thead>
-              <tr>
-                <th>分类</th>
-                <th>已入库核心靶点</th>
-                <th>整理状态</th>
-              </tr>
-            </thead>
-            <tbody>
-              {a.taxonomy.map((h) => {
-                const n = a.targets.filter((t) =>
-                  t.taxonomyIds.includes(h.id),
-                ).length;
-                return (
-                  <tr key={h.id}>
-                    <td>
-                      <Link to={`/targets?mechanism=${h.id}`}>
-                        {h.kind === "extension"
-                          ? "扩展机制 · "
-                          : `${h.number}. `}
-                        {h.name}
-                      </Link>
-                    </td>
-                    <td>{n}</td>
-                    <td>{n ? "部分覆盖，继续扩充" : "尚未完成整理"}</td>
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
-        </div>
-        <h3>已知缺口</h3>
-        <ul>
-          {a.manifest.gaps.map((g) => (
-            <li key={g}>{g}</li>
-          ))}
-        </ul>
-        <p>
-          结构校验检查唯一
-          ID、引用和语义约束，不能自动核实科学正确性，也不等同专家审核。
-        </p>
-      </section>
-      <section className="paper-section">
-        <h2>数据来源与使用</h2>
-        {a.sources.map((s) => (
-          <div key={s.id} className="source-row">
-            <a href={s.url} target="_blank" rel="noreferrer">
-              {s.name}
-              <ExternalLink size={13} />
-            </a>
-            <p>{s.role}</p>
-            <small>访问核对 {s.checkedDate}</small>
-          </div>
-        ))}
-        <p>
-          站点保存原创中文概述、必要结构化事实和出处链接，不转载论文图表或全文。数据库有独立使用条款，扩充时须逐一检查。
-        </p>
+      <section className="paper-section prose">
+        <h2>数据下载</h2>
+        <p>公共数据包括文献、实验记录、实体和关系。个人收藏与笔记存储在当前浏览器，可在“收藏与笔记”导出备份。</p>
         <div className="actions">
-          <a
-            className="outline-btn"
-            href={`${import.meta.env.BASE_URL}data/search-log.json`}
-            download
-          >
-            下载检索记录 JSON
-          </a>
-          <a
-            className="outline-btn"
-            href={`${import.meta.env.BASE_URL}data/atlas.json`}
-            download
-          >
-            下载完整公共数据库 JSON
-          </a>
-          <a
-            className="outline-btn"
-            href={`${import.meta.env.BASE_URL}data/atlas.schema.json`}
-            download
-          >
-            下载 JSON Schema
-          </a>
+          <a className="outline-btn" href={`${import.meta.env.BASE_URL}data/atlas.json`} download>下载公共数据 JSON</a>
+          <a className="outline-btn" href={`${import.meta.env.BASE_URL}data/atlas.schema.json`} download>数据结构</a>
+          <a className="outline-btn" href={`${import.meta.env.BASE_URL}data/search-log.json`} download>检索记录</a>
         </div>
       </section>
-      <section className="paper-section prose">
-        <h2>使用与更新</h2>
-        <p>
-          目录支持中文、英文、标准符号、别名、通路和文献题名搜索；组合筛选在同一条证据记录内匹配物种、模型和检测条件，避免把不同实验的条件拼接。详情页和通路页支持直接链接与刷新。
-        </p>
-        <p>
-          个人收藏和笔记仅存在当前浏览器。清理浏览器、换电脑或隐私模式结束可能使其不可用，请在“收藏与笔记”中导出
-          JSON 备份。导入先预览，默认保留当前同 ID
-          笔记，并合并收藏；数据更新后未找到的旧 ID 仍可见。
-        </p>
-        <p>
-          公共 CSV 使用 UTF-8 BOM 并转义引号、换行和公式前缀；JSON
-          保留证据、关系条件和来源；RIS 可导入文献管理器。PNG
-          导出将标题、图例、条件、版本和来源真实合成到图片中。
-        </p>
-        <p>
-          更新由用户按需发起：检索 → 核验 → 合并稳定 ID → 记录变更 → 数据检查 →
-          构建发布。首版没有自动定时检索、后台审核或运行时大模型接口。
-        </p>
-      </section>
-    </>
+    </div>
   );
 }

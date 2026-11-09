@@ -25,7 +25,7 @@ test("ECM扩展保留原12项框架与已有稳定ID", () => {
   );
   const ecm = a.taxonomy.find((h) => h.id === "mechanism-ecm");
   assert.equal(ecm.kind, "extension");
-  assert.match(ecm.scopeNote, /不是.*第13/);
+  assert.match(ecm.scopeNote, /扩展主题/);
   assert.ok(ecm.evidenceIds.length > 0);
   for (const symbol of [
     "CRAT",

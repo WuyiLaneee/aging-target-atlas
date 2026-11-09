@@ -1,22 +1,39 @@
 import fs from "node:fs";
 const a = JSON.parse(fs.readFileSync("public/data/atlas.json", "utf8"));
 const c = a.manifest.counts;
-const skin = a.targets.filter((t) => t.skinClassification === "skin_aging");
-const body = `# 数据覆盖与缺口\n\n版本 ${a.manifest.version}；整理日期 ${a.manifest.updated}。\n\n## 实际收录\n\n| 项目 | 数量 |\n|---|---:|\n| 核心具体基因 / 蛋白 | ${c.coreGeneProteins} |\n| 原始功能研究 | ${c.originalPublications} |\n| 框架综述 | ${a.publications.filter((p) => p.type === "review").length} |\n| 证据记录合计 | ${c.evidence} |\n| 衰老功能实验记录 | ${c.agingFunctionEvidence} |\n| 非衰老或观察关联补充 | ${c.supplementaryEvidence} |\n| 通路 / 研究主题 | ${c.pathways} |\n| 辅助复合物（不计核心靶点） | ${c.complexes} |\n| 衰老功能实验关系 | ${c.experimentalRelations} |\n| 其中跨核心靶点功能关系 | ${a.relations.filter((r) => r.scope === "aging_experiment" && a.targets.some((t) => t.id === r.sourceId) && a.targets.some((t) => t.id === r.targetId)).length} |\n| 机制背景 / 研究主题关系 | ${c.backgroundRelations} |\n| 有直接皮肤衰老相关实验的条目 | ${skin.length} |\n| 已有条目的原始标志 / 完整导航 | ${c.coveredCategories} / ${c.hallmarks} |\n| 扩展机制 | ${c.extensionMechanisms} |\n\n皮肤条目：${skin.map((t) => t.symbol).join("、")}。每个条目内部仍包含不同模型，不能把其全部证据均当作皮肤特异。尤其 MAPK14 的 HCA2 核心片段未实核组织来源，皮肤映射依据另一篇真皮成纤维细胞研究；STING1 人皮肤细胞辐射诱导衰老与自然人体老化分开。\n\n核心符号：${a.targets
-  .map((t) => t.symbol)
-  .sort()
-  .join(
-    "、",
-  )}。\n\n## 分类框架与条目进度分别报告\n\nCell 2023 原始框架 12 类全部建立，ECM 作为扩展机制单列，不称第13项标志；已收录条目分布如下。一个靶点可归属多类，分类数量不能相加为总靶点数。\n\n| 分类 | 具体靶点数 | 状态 |\n|---|---:|---|\n${a.taxonomy
-  .map((h) => {
-    const n = a.targets.filter((t) => t.taxonomyIds.includes(h.id)).length;
-    return `| ${h.kind === "extension" ? "扩展机制 · " : h.number + ". "}${h.name} | ${n} | ${n ? "部分整理" : "尚未完成整理"} |`;
-  })
-  .join("\n")}\n\n${a.manifest.coverage}\n\n## 访问范围\n\n${a.publications
-  .filter((p) => p.type === "original")
-  .map((p) => `- PMID ${p.pmid}：${p.accessScope}；${p.correctionStatus}`)
-  .join(
-    "\n",
-  )}\n\n## 已知缺口\n\n${a.manifest.gaps.map((g) => "- " + g).join("\n")}\n\n## 下批可执行方向\n\n- 补核 FOXO3 的单基因、年龄特异性哺乳动物功能证据；不因仅检得家族删除研究就自动纳入。\n- 按微生物群失衡主题追溯哺乳动物靶点干预，区分菌群组成关联、宿主功能依赖与整体干预。\n- 优先扩充皮肤自然老化原位与完整对照的靶点依赖研究；继续分开光损伤、衰老与外用功效。\n- 完善上下游连线、更多反例、同源标识及更正来源；依据原文逐条入库，不能用计算网络补齐。\n\n本文件由 scripts/write-coverage.mjs 按正式数据生成；科学核验状态不由数量或结构检查自动升级。\n`;
-fs.writeFileSync("docs/DATA_COVERAGE.md", body);
-console.log("已按正式数据更新 DATA_COVERAGE.md");
+const url = "https://wuyilaneee.github.io/aging-target-atlas/#";
+const out = [
+  "# 抗衰靶点与通路覆盖清单",
+  "",
+  `数据版本 ${a.manifest.version} · ${a.manifest.updated}`,
+  "",
+  "范围：人和其他哺乳动物的衰老研究。采用 Cell 2023 的 12 类衰老标志，并单列 ECM。核心分子靶点按原始功能实验收录；整体干预、观察关联和补充实验按研究主题分别列出。",
+  "",
+  `现已收录 **${c.targets} 个核心靶点、${c.pathways} 个通路与研究主题、${c.originalPublications} 篇原始研究**；含 ${c.evidence} 条靶点证据和 ${c.themeStudies} 条主题证据。共有 ${c.coveredCategories}/${c.hallmarks} 类衰老标志具备研究记录。`,
+  "",
+  "每个主题的通路页以实验记录为单位列出模型、干预、结果和对应原始论文。补录候选按主题列出，同一靶点可已收录在其他主题下。",
+  "",
+  "| 分类 | 覆盖主题 | 已收录的通路或主题（论文数） | 核心靶点 / 补录候选 |",
+  "|---|---|---|---|",
+];
+for (const section of a.coveragePlan) {
+  const h = a.taxonomy.find((x) => x.id === section.taxonomyId);
+  for (const topic of section.topics) {
+    const paths = topic.pathwayIds.map((id) => a.pathways.find((p) => p.id === id));
+    const linked = paths.map((p) => {
+      const ids = new Set([
+        ...a.evidence.filter((e) => e.pathwayIds.includes(p.id)),
+        ...a.themeStudies.filter((e) => e.pathwayId === p.id),
+      ].map((e) => e.publicationId));
+      return `[${p.name}](${url}/pathways/${p.id})（${ids.size}）`;
+    });
+    const targets = topic.candidateSymbols.map((s) => {
+      const t = a.targets.find((t) => t.symbol === s && t.taxonomyIds.includes(h.id) && paths.some((p) => a.evidence.some((e) => e.targetId === t.id && e.pathwayIds.includes(p.id))));
+      return t ? {s, label: `[${s}](${url}/targets/${t.id})`} : {s};
+    });
+    const core = targets.filter((x) => x.label).map((x) => x.label);
+    const pending = targets.filter((x) => !x.label).map((x) => x.s);
+    out.push(`| ${h.name} | ${topic.name} | ${linked.join("；") || "主题待整理"} | ${[core.length && "已收录：" + core.join("、"), pending.length && "候选：" + pending.join("、")].filter(Boolean).join("；") || "主题证据"} |`);
+  }
+}
+fs.writeFileSync("docs/DATA_COVERAGE.md", out.join("\n") + "\n");

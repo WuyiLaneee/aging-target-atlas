@@ -1,0 +1,117 @@
+{
+  "publications": [
+    {
+      "id": "pub-15661736",
+      "title": "Overexpression of proteasome beta5 assembled subunit increases the amount of proteasome and confers ameliorated response to oxidative stress and higher survival rates",
+      "authors": ["Chondrogianni N", "Tzavelas C", "Pemberton AJ", "Nezis IP", "Rivett AJ", "Gonos ES"],
+      "year": 2005,
+      "journal": "Journal of Biological Chemistry",
+      "doi": "10.1074/jbc.M413007200",
+      "pmid": "15661736",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15661736/",
+      "publisherUrl": "https://doi.org/10.1074/jbc.M413007200",
+      "accessScope": "期刊发表版公开副本：核对原代 IMR90 实验结果。",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-11-09",
+      "correctionStatus": "PubMed XML 未列更正或撤稿关联记录。"
+    },
+    {
+      "id": "pub-17522352",
+      "title": "Age-associated decrease in proteasome content and activities in human dermal fibroblasts: restoration of normal level of proteasome subunits reduces aging markers in fibroblasts from elderly persons",
+      "authors": ["Jung Sun Hwang", "Jae Sung Hwang", "Ihseop Chang", "Sujong Kim"],
+      "year": 2007,
+      "journal": "The Journals of Gerontology: Series A",
+      "doi": "10.1093/gerona/62.5.490",
+      "pmid": "17522352",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17522352/",
+      "publisherUrl": "https://academic.oup.com/biomedgerontology/article/62/5/490/541087",
+      "accessScope": "期刊发表版公开副本：核对转导方法、实验结果及 Fig. 6–8。",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-11-09",
+      "correctionStatus": "PubMed XML 未列更正或撤稿关联记录。"
+    }
+  ],
+  "records": [
+    {
+      "symbol": "PSMB5",
+      "chineseName": "20S 蛋白酶体 β5 亚基",
+      "entityType": "gene",
+      "aliases": ["MB1", "X"],
+      "summary": "PSMB5 编码常规 20S 蛋白酶体的催化亚基 β5，参与胰凝乳蛋白酶样底物切割。稳定过表达 PSMB5 增加了人原代肺成纤维细胞进入复制性衰老前的群体倍增次数；在老年供者真皮成纤维细胞中，PSMB5 转导提高蛋白酶体活性，并降低衰老标志物。",
+      "hallmarks": [4, 8],
+      "pathwayNames": ["泛素–蛋白酶体系统"],
+      "skinClassification": "皮肤老化直接证据",
+      "skinSummary": "在 60、67 和 72 岁供者的培养真皮成纤维细胞中，与空载体组相比，PSMB5 转导使 SA-β-gal 阳性细胞比例从 26±3% 降至 7±2%（均值±SEM），p21 蛋白水平也下降。",
+      "externalIds": {"NCBIGene": "5693", "HGNC": "HGNC:9542"},
+      "identitySource": "https://www.ncbi.nlm.nih.gov/gene/5693",
+      "orthologMapping": "两项细胞干预实验均使用人 PSMB5。",
+      "evidence": [
+        {
+          "id": "ev-psmb5-chondrogianni-2005",
+          "publicationId": "pub-15661736",
+          "pathwayIds": ["pathway-proteasome"],
+          "claim": "PSMB5 稳定过表达增加人原代肺成纤维细胞进入复制性衰老前的群体倍增次数。",
+          "evidenceType": ["原代细胞遗传干预"],
+          "species": ["Homo sapiens"],
+          "actualEntity": "人 PSMB5（蛋白酶体催化 β5 亚基）",
+          "tissueCell": "人原代肺成纤维细胞 IMR90",
+          "model": "培养扩增至复制性衰老的 IMR90 稳定转染克隆",
+          "intervention": "稳定转染编码蛋白酶体 β5 的构建体，与对照细胞比较。",
+          "result": "β5 过表达克隆达到复制性衰老前的群体倍增数比对照平均多约 4–5 次。",
+          "endpoints": ["达到复制性衰老前的群体倍增数"],
+          "conditions": "持续培养可扩增的 IMR90 稳定转染克隆直至复制性衰老。",
+          "limitations": "终点来自培养的肺来源原代成纤维细胞克隆。",
+          "supportStatus": "supports",
+          "locator": "Results：Overexpression of the β5 Catalytic Subunit Delays Senescence in Human Primary IMR90 Fibroblasts，pp. 11845–11846",
+          "accessScope": "全文（原代 IMR90 实验结果）",
+          "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15661736/",
+          "phenotypes": ["复制性衰老"],
+          "dose": "—",
+          "time": "连续培养至复制性衰老，以群体倍增数计。",
+          "sampleSize": "—"
+        },
+        {
+          "id": "ev-psmb5-hwang-2007-dermis",
+          "publicationId": "pub-17522352",
+          "pathwayIds": ["pathway-proteasome"],
+          "claim": "PSMB5 转导提高老年供者真皮成纤维细胞的蛋白酶体活性，并降低 SA-β-gal 阳性比例及 p21 蛋白。",
+          "evidenceType": ["人供者原代皮肤细胞遗传干预"],
+          "species": ["Homo sapiens"],
+          "actualEntity": "人 PSMB5（蛋白酶体催化 β5 亚基）",
+          "tissueCell": "60、67 和 72 岁供者的原代真皮成纤维细胞",
+          "model": "老年供者真皮成纤维细胞离体培养",
+          "intervention": "单独转导 lenti-PSMB5，与空慢病毒载体组比较。",
+          "result": "PSMB5 转导组的胰凝乳蛋白酶样活性升高，氧化蛋白和泛素化蛋白水平降低。SA-β-gal 阳性比例为 7±2%，空载体组为 26±3%（均值±SEM）；p21 蛋白水平下降。",
+          "endpoints": ["蛋白酶体胰凝乳蛋白酶样活性", "氧化蛋白与泛素化蛋白水平", "SA-β-gal 阳性细胞比例", "p21 蛋白水平"],
+          "conditions": "分析老年供者真皮成纤维细胞的 PSMB5 单基因转导组；研究另设 PSMB6 转导组。",
+          "limitations": "衰老终点在供者来源的离体真皮成纤维细胞中测定。",
+          "supportStatus": "supports",
+          "locator": "Methods：Overexpression of Proteasome Subunits in Dermal Fibroblasts；Fig. 6A–B（表达与活性）、Fig. 7A–B（蛋白积累）、Fig. 8A–B（衰老标志物）",
+          "accessScope": "全文（相关方法、结果与图注）",
+          "sourceUrl": "https://academic.oup.com/biomedgerontology/article/62/5/490/541087",
+          "phenotypes": ["细胞衰老", "蛋白质稳态受损"],
+          "dose": "慢病毒感染复数（MOI）20，polybrene 6 μg/mL；嘌呤霉素筛选浓度 1 μg/mL。",
+          "time": "感染培养 20 小时后补加培养液，嘌呤霉素筛选 4 天。",
+          "sampleSize": "3 名供者（60、67、72 岁）。"
+        }
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "id": "pathway-proteasome",
+      "name": "泛素–蛋白酶体系统",
+      "summary": "26S 蛋白酶体由 20S 催化核心和 19S 调节颗粒组成，可识别并降解泛素标记底物。PSMB5 是常规 20S 核心的 β5 催化亚基；人原代成纤维细胞研究测定了 PSMB5 转导后的蛋白酶体活性、蛋白积累和细胞衰老终点。",
+      "taxonomyIds": ["hallmark-04", "hallmark-08"],
+      "memberIds": ["target-psmb5"],
+      "hallmarks": [4, 8],
+      "symbols": ["PSMB5"],
+      "sourceUrl": "https://reactome.org/content/detail/R-HSA-9907900",
+      "backgroundSourceIds": ["pub-15661736", "pub-17522352"]
+    }
+  ],
+  "relations": [],
+  "searchLog": []
+}

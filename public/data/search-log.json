@@ -1,6 +1,6 @@
 [
   {
-    "date": "2026-10-19",
+    "date": "2026-11-09",
     "source": "PubMed / 官方开发文档",
     "query": "Hallmarks of aging expanding universe；Reactome R-HSA-165718；Vite static deploy；GitHub Actions Pages；Cytoscape.js",
     "result": "框架摘要核对 12 项；Reactome 人类反应及复合物成员；Vite/GitHub/Router/Cytoscape 官方文档。近期综述 PMID 42765942、41690118 用作前沿检索线索，不作核心验证。",
@@ -485,5 +485,114 @@
     ],
     "accessScope": "PMC作者全文HTML已获取并核对相关Results/Fig1–3/Methods；Europe PMC全文XML500，直接PubMed页面不完整，书目依Europe PMC MED core与Crossref交叉核验。",
     "notes": "原始响应在research/raw/ecm/（已被.gitignore忽略）。OpenAlex判为bronze OA、无独立PDF直链；Unpaywall请求已执行但无配置邮箱返回422，不虚构其OA判定。未下载PDF。HGNC官方响应确认MMP1/HGNC:7155/NCBI Gene4312与旧符号CLG。2015 PMID25724359未凭题名纳入本条。"
+  },
+  {
+    "date": "2026-11-09",
+    "source": "PubMed、Europe PMC（MED）、原始出版页面、UCL Discovery",
+    "query": "Parker young aged mice fecal microbiota retina brain; Boehme young microbiota selective age-associated behavioral deficits; naturally aged Akkermansia muciniphila mice oral lifespan; Amuc_1409 natural aging",
+    "result": "纳入 PMID 35501923、37117767、34729669 和 38582860。",
+    "decision": "均含自然老龄小鼠供体或受体及具体干预；按菌群、菌种或菌源蛋白归入研究主题。"
+  },
+  {
+    "date": "2026-11-09",
+    "source": "Europe PMC fullTextXML、OpenAlex、Unpaywall、期刊与 UCL Discovery",
+    "query": "按 DOI 检查四篇文章的开放获取状态；按 PMCID 尝试读取 35501923、38582860 全文。",
+    "result": "OpenAlex 标记 Parker 与 Kang 为 gold OA；Europe PMC XML 请求返回 500，改从 UCL 仓储和期刊发表版 PDF 核对。Boehme 与 Díaz-Del Cerro 在 OpenAlex 标为 closed；Unpaywall 请求超时。",
+    "decision": "Boehme 使用摘要与期刊已索引图注；Díaz-Del Cerro 使用摘要；其余两篇记录已阅读的合法公开全文。"
+  },
+  {
+    "date": "2026-11-09",
+    "source": "PubMed、PMC、Scientific Reports、NCBI Gene、OpenAlex",
+    "query": "PMC2631323 与人皮肤 MMP-1 相关原始研究；MFAP4 human skin xenograft UVB collagen；PMID 22355679；NCBI Gene 4239",
+    "results": [
+      {
+        "pmid": "22355679",
+        "decision": "纳入",
+        "reason": "人皮肤移植物中直接提高人 MFAP4 表达并观察重复 UVB 后真皮弹性纤维与 I 型胶原；独立培养细胞 siRNA 实验提供机制补充。"
+      }
+    ],
+    "accessScope": "PubMed、期刊书目、OpenAlex 和 PMC 对照；核对相关正文、图注、方法及 NCBI Gene 的人类身份。",
+    "notes": "光老化移植组织和体外细胞按不同实验记录。"
+  },
+  {
+    "date": "2026-11-09",
+    "source": "Europe PMC MED core、PubMed、PMC",
+    "query": "EXT_ID:19116368 OR EXT_ID:23601157 OR EXT_ID:25201474；对应 PMC 原始论文正文与图注关键词",
+    "results": [
+      {
+        "pmid": "19116368",
+        "decision": "纳入",
+        "reason": "自然年龄分组的人皮肤观察、离体皮肤纯化人蛋白处理、三维胶原基质处理。"
+      },
+      {
+        "pmid": "23601157",
+        "decision": "纳入",
+        "reason": "持续活化型 MMP-1 在人皮肤外植体和人真皮成纤维细胞三维胶原培养中的独立实验。"
+      },
+      {
+        "pmid": "25201474",
+        "decision": "纳入",
+        "reason": "显性负性 c-Jun 对机械力扰动后 MMP1 表达的体外机制证据。"
+      },
+      {
+        "pmid": "36914001",
+        "decision": "已收录",
+        "reason": "现有转基因小鼠证据保留，未重复录入。"
+      }
+    ],
+    "accessScope": "Europe PMC 书目记录与 PMC 公开正文和图注交叉核对。",
+    "notes": "OpenAlex、Crossref、Unpaywall 和 Europe PMC XML 的本轮独立请求超时；未下载 PDF。"
+  },
+  {
+    "date": "2026-11-09",
+    "source": "PubMed；NCBI Gene",
+    "query": "Foxo3a is essential for maintenance of the hematopoietic stem cell pool / PMID 18371339",
+    "result": "核对书目与摘要，提取老龄 Foxo3a 单基因缺失的造血干细胞频率。",
+    "decision": "纳入造血干细胞主题。"
+  },
+  {
+    "date": "2026-11-09",
+    "source": "PubMed；Nature；作者原始发表版",
+    "query": "Autophagy maintains stemness by preventing senescence / PMID 26738589 / Atg7",
+    "result": "核对成年期诱导 Atg7 缺失（Fig. 3b–c，分时点、每组 3 只）。",
+    "decision": "关联宏自噬与肌肉卫星细胞主题。"
+  },
+  {
+    "date": "2026-11-09",
+    "source": "PubMed、PMC、Blood、Nature Aging、NCBI Gene、OpenAlex",
+    "query": "Tet2 conditional knockout / heterozygous aging clonal hematopoiesis mouse；Tet2 heterochromatin 5hmC aged HSPC；Dnmt1 loss-of-function age-dependent hematopoiesis",
+    "results": [
+      {
+        "pmid": "36379023",
+        "decision": "核心功能证据",
+        "reason": "诱导型 Tet2 杂合缺失和同样标记的野生型小鼠，在随龄进程中进行克隆追踪。"
+      },
+      {
+        "pmid": "37884767",
+        "decision": "核心功能证据与主题补充",
+        "reason": "直接 Tet2 缺失结合年龄分组，测定竞争重建和异染色质分布；其中年轻细胞 DNMT1 抑制实验单列为主题机制证据。"
+      },
+      {
+        "pmcid": "PMC12919197",
+        "decision": "候选",
+        "reason": "可核对版本标注为预印本，未作为核心功能依据。"
+      }
+    ],
+    "accessScope": "两篇论文均为公开 PMC 全文，逐条核对原始正文及图注；OpenAlex 网页记录核对开放全文来源。未下载 PDF。",
+    "notes": "本轮 OpenAlex API、Unpaywall、Crossref 和 Europe PMC API 请求因连接中断或超时，书目与公开全文以 PubMed、PMC 和出版商页面交叉核对。"
+  },
+  {
+    "date": "2026-11-09",
+    "source": "PubMed；期刊发表版与公开索引；NCBI Gene；ENCODE",
+    "query": "Parkin knockout exercise-induced mitophagy aged mouse skeletal muscle；PINK1 knockout natural aging 24 months renal aging；PINK1 65018；PRKN 5071",
+    "result": "核对 PMID 37183600 和 29812989；核对标准基因符号与编号。",
+    "decision": "纳入两项自然老龄小鼠研究；按年龄、组织及实验终点拆分；PINK1 体外共定位作为机制补充。"
+  },
+  {
+    "date": "2026-11-09",
+    "source": "PubMed；公开期刊索引；Europe PMC、OpenAlex 和 Unpaywall 请求",
+    "query": "DOI 10.1111/acel.13865、10.1152/ajpendo.00391.2017",
+    "result": "PINK1 研究核对期刊发表版全文。PRKN 出版商直连返回 403，核对期刊发表版公开索引中的摘要、方法和结果片段。Europe PMC、OpenAlex 与 Unpaywall API 本次请求未成功。",
+    "decision": "保留对应来源和实际核对范围。"
   }
 ]

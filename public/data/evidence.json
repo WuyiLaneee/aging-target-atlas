@@ -2,6 +2,11 @@
   {
     "id": "ev-crat-hdf",
     "targetId": "target-crat",
+    "pathwayIds": [
+      "pathway-cgas",
+      "pathway-sasp",
+      "pathway-mito"
+    ],
     "publicationId": "pub-37828898",
     "claim": "CRAT下调促进人真皮成纤维细胞衰老和SASP。",
     "evidenceType": [
@@ -44,6 +49,10 @@
   {
     "id": "ev-crat-mouse",
     "targetId": "target-crat",
+    "pathwayIds": [
+      "pathway-ecm-remodeling",
+      "pathway-mito"
+    ],
     "publicationId": "pub-37828898",
     "claim": "成纤维细胞CRAT条件敲除产生小鼠皮肤衰老相关表型。",
     "evidenceType": [
@@ -82,6 +91,9 @@
   {
     "id": "ev-foxm1-gene",
     "targetId": "target-foxm1",
+    "pathwayIds": [
+      "pathway-mitosis"
+    ],
     "publicationId": "pub-30026603",
     "claim": "FOXM1敲低加重年轻细胞衰老，而恢复FOXM1改善老年与HGPS成纤维细胞的衰老表型。",
     "evidenceType": [
@@ -124,6 +136,9 @@
   {
     "id": "ev-foxm1-chromatin",
     "targetId": "target-foxm1",
+    "pathwayIds": [
+      "pathway-chromatin"
+    ],
     "publicationId": "pub-40133272",
     "claim": "FOXM1外源表达部分恢复老年HDF染色质可及性，并抑制AP-1成员转录。",
     "evidenceType": [
@@ -162,6 +177,9 @@
   {
     "id": "ev-mapk14-alpha",
     "targetId": "target-mapk14",
+    "pathwayIds": [
+      "pathway-sasp"
+    ],
     "publicationId": "pub-21399611",
     "claim": "p38α敲低降低辐射诱导衰老HCA2细胞的IL-6分泌。",
     "evidenceType": [
@@ -196,6 +214,9 @@
   {
     "id": "ev-mapk14-family-drug",
     "targetId": "target-mapk14",
+    "pathwayIds": [
+      "pathway-sasp"
+    ],
     "publicationId": "pub-27136566",
     "claim": "p38家族药理抑制延长部分WS和正常原代成纤维细胞的复制能力。",
     "evidenceType": [
@@ -232,6 +253,9 @@
   {
     "id": "ev-mtor-human-skin",
     "targetId": "target-mtor",
+    "pathwayIds": [
+      "pathway-ecm-remodeling"
+    ],
     "publicationId": "pub-31761958",
     "claim": "外用雷帕霉素在探索性人体皮肤研究中降低p16INK4A并增加VII型胶原蛋白。",
     "evidenceType": [
@@ -272,6 +296,9 @@
   {
     "id": "ev-sirt1-dependency",
     "targetId": "target-sirt1",
+    "pathwayIds": [
+      "pathway-nad"
+    ],
     "publicationId": "pub-35163314",
     "claim": "SIRT1敲低削弱高良姜素对H2O2诱导HS68衰老标志的改善。",
     "evidenceType": [
@@ -310,6 +337,9 @@
   {
     "id": "ev-atm-knockdown",
     "targetId": "target-atm",
+    "pathwayIds": [
+      "pathway-dna"
+    ],
     "publicationId": "pub-29717979",
     "claim": "正常人皮肤成纤维细胞中ATM敲低促进细胞衰老。",
     "evidenceType": [
@@ -351,6 +381,9 @@
   {
     "id": "ev-atm-inhib-progeria",
     "targetId": "target-atm",
+    "pathwayIds": [
+      "pathway-dna"
+    ],
     "publicationId": "pub-30726661",
     "claim": "已衰老HGPS/WS皮肤成纤维细胞中，ATM药理抑制改善部分衰老相关指标。",
     "evidenceType": [
@@ -393,6 +426,10 @@
   {
     "id": "ev-atm-sirt6-mechanism",
     "targetId": "target-atm",
+    "pathwayIds": [
+      "pathway-dna",
+      "pathway-nad"
+    ],
     "publicationId": "pub-29717979",
     "claim": "ATM可直接磷酸化SIRT6 Ser112并维持其稳定性；SIRT6补回改善ATM缺失的代谢异常，小鼠Sirt6转基因延长Atm缺失背景下的寿命。",
     "evidenceType": [
@@ -438,6 +475,9 @@
   {
     "id": "ev-sirt6-1",
     "targetId": "target-sirt6",
+    "pathwayIds": [
+      "pathway-igf"
+    ],
     "publicationId": "pub-22367546",
     "claim": "Sirt6 过表达在该研究中延长雄鼠寿命，雌鼠未显示相同结果。",
     "evidenceType": [
@@ -475,6 +515,7 @@
   {
     "id": "ev-sirt6-2",
     "targetId": "target-sirt6",
+    "pathwayIds": [],
     "publicationId": "pub-34050173",
     "claim": "在 C57BL/6JOlaHsd 背景中，SIRT6 过表达可延长两性寿命并减少老年衰弱。",
     "evidenceType": [
@@ -515,6 +556,9 @@
   {
     "id": "ev-tert-1",
     "targetId": "target-tert",
+    "pathwayIds": [
+      "pathway-telomere"
+    ],
     "publicationId": "pub-22585399",
     "claim": "向成年或老年小鼠递送有催化活性的 mTERT 可延长该队列中位寿命并改善部分年龄相关功能。",
     "evidenceType": [
@@ -557,6 +601,9 @@
   {
     "id": "ev-rps6kb1-1",
     "targetId": "target-rps6kb1",
+    "pathwayIds": [
+      "pathway-mtor"
+    ],
     "publicationId": "pub-19797661",
     "claim": "Rps6kb1 缺失延长雌性小鼠寿命并减轻部分年龄相关功能下降。",
     "evidenceType": [
@@ -598,6 +645,9 @@
   {
     "id": "ev-igf1r-1",
     "targetId": "target-igf1r",
+    "pathwayIds": [
+      "pathway-igf"
+    ],
     "publicationId": "pub-12483226",
     "claim": "该小鼠队列中 Igf1r 杂合缺失与雌性寿命延长相关，雄性效应未显著。",
     "evidenceType": [
@@ -633,6 +683,9 @@
   {
     "id": "ev-igf1r-2",
     "targetId": "target-igf1r",
+    "pathwayIds": [
+      "pathway-igf"
+    ],
     "publicationId": "pub-22132081",
     "claim": "在 C57Bl/6 背景的后续研究中，Igf1r 杂合缺失未复制大幅寿命延长或全面延迟老年病理。",
     "evidenceType": [
@@ -673,6 +726,9 @@
   {
     "id": "ev-kl-1",
     "targetId": "target-kl",
+    "pathwayIds": [
+      "pathway-igf"
+    ],
     "publicationId": "pub-16123266",
     "claim": "两个独立 Klotho 转基因品系在该实验背景中寿命较长，但繁殖后代数较少。",
     "evidenceType": [
@@ -711,6 +767,11 @@
   {
     "id": "ev-sirt3-1",
     "targetId": "target-sirt3",
+    "pathwayIds": [
+      "pathway-hsc",
+      "pathway-mito",
+      "pathway-nad"
+    ],
     "publicationId": "pub-23375372",
     "claim": "Sirt3 缺失在老龄条件下损害造血干细胞库及其再生功能。",
     "evidenceType": [
@@ -747,6 +808,10 @@
   {
     "id": "ev-sirt3-2",
     "targetId": "target-sirt3",
+    "pathwayIds": [
+      "pathway-hsc",
+      "pathway-mito"
+    ],
     "publicationId": "pub-23375372",
     "claim": "在老龄造血细胞中恢复 SIRT3 表达可改善再生功能。",
     "evidenceType": [
@@ -785,6 +850,9 @@
   {
     "id": "ev-bub1b-1",
     "targetId": "target-bub1b",
+    "pathwayIds": [
+      "pathway-mitosis"
+    ],
     "publicationId": "pub-23242215",
     "claim": "持续高表达 BubR1 可延长该小鼠队列寿命并减轻部分组织年龄相关衰退。",
     "evidenceType": [
@@ -825,6 +893,9 @@
   {
     "id": "ev-CGAS-37532932",
     "targetId": "target-cgas",
+    "pathwayIds": [
+      "pathway-cgas"
+    ],
     "publicationId": "pub-37532932",
     "claim": "小胶质细胞cGAS功能获得足以驱动年龄相关反应状态和神经退行表型。",
     "evidenceType": [
@@ -865,6 +936,9 @@
   {
     "id": "ev-CGAS-42642519",
     "targetId": "target-cgas",
+    "pathwayIds": [
+      "pathway-chromatin"
+    ],
     "publicationId": "pub-42642519",
     "claim": "长期全身cGAS缺失可缩短鼠寿命并增加虚弱，提示核内保护作用。",
     "evidenceType": [
@@ -908,6 +982,9 @@
   {
     "id": "ev-STING1-37532932-aged",
     "targetId": "target-sting1",
+    "pathwayIds": [
+      "pathway-cgas"
+    ],
     "publicationId": "pub-37532932",
     "claim": "STING药理抑制及缺失支持其在自然老龄鼠炎症和功能下降中的作用。",
     "evidenceType": [
@@ -952,6 +1029,10 @@
   {
     "id": "ev-STING1-37532932-BJ",
     "targetId": "target-sting1",
+    "pathwayIds": [
+      "pathway-cgas",
+      "pathway-sasp"
+    ],
     "publicationId": "pub-37532932",
     "claim": "在已诱导衰老的人BJ成纤维细胞中，STING敲低减弱炎症转录。",
     "evidenceType": [
@@ -987,6 +1068,9 @@
   {
     "id": "ev-NLRP3-24093676",
     "targetId": "target-nlrp3",
+    "pathwayIds": [
+      "pathway-nlrp3"
+    ],
     "publicationId": "pub-24093676",
     "claim": "Nlrp3缺失减弱自然老龄鼠炎症和若干年龄相关功能损失。",
     "evidenceType": [
@@ -1031,6 +1115,9 @@
   {
     "id": "ev-ATG5-23939249",
     "targetId": "target-atg5",
+    "pathwayIds": [
+      "pathway-autophagy"
+    ],
     "publicationId": "pub-23939249",
     "claim": "全身持续Atg5过表达可增加鼠寿命，并伴随自噬增强和年龄相关代谢/体能改变。",
     "evidenceType": [
@@ -1072,6 +1159,9 @@
   {
     "id": "ev-BECN1-29849149",
     "targetId": "target-becn1",
+    "pathwayIds": [
+      "pathway-autophagy"
+    ],
     "publicationId": "pub-29849149",
     "claim": "破坏鼠Beclin 1–Bcl2抑制性相互作用的敲入突变增强自噬并改善寿命/部分老龄病理。",
     "evidenceType": [
@@ -1113,6 +1203,10 @@
   {
     "id": "ev-CD38-27304511",
     "targetId": "target-cd38",
+    "pathwayIds": [
+      "pathway-nad",
+      "pathway-mito"
+    ],
     "publicationId": "pub-27304511",
     "claim": "CD38功能研究支持其参与年龄相关NAD下降与线粒体功能障碍。",
     "evidenceType": [
@@ -1153,6 +1247,10 @@
   {
     "id": "ev-RELA-22706308",
     "targetId": "target-rela",
+    "pathwayIds": [
+      "pathway-sasp",
+      "pathway-dna"
+    ],
     "publicationId": "pub-22706308",
     "claim": "降低一个p65等位基因可推迟DNA修复缺陷早衰鼠的症状和病理。",
     "evidenceType": [
@@ -1196,6 +1294,9 @@
   {
     "id": "ev-RELA-19779484",
     "targetId": "target-rela",
+    "pathwayIds": [
+      "pathway-dna"
+    ],
     "publicationId": "pub-19779484",
     "claim": "完全缺失RelA可通过损害基因组稳定性使原代成纤维细胞更早逃逸衰老。",
     "evidenceType": [
@@ -1235,6 +1336,9 @@
   {
     "id": "ev-TP53-11780111",
     "targetId": "target-tp53",
+    "pathwayIds": [
+      "pathway-dna"
+    ],
     "publicationId": "pub-11780111",
     "claim": "特定p53截短突变鼠表现寿命缩短及早发老龄表型。",
     "evidenceType": [
@@ -1274,6 +1378,9 @@
   {
     "id": "ev-TP53-12426394",
     "targetId": "target-tp53",
+    "pathwayIds": [
+      "pathway-dna"
+    ],
     "publicationId": "pub-12426394",
     "claim": "保留正常调控的额外p53基因拷贝可增强抑癌而未出现早衰。",
     "evidenceType": [
@@ -1311,6 +1418,9 @@
   {
     "id": "ev-ccn1-replicative-ecm",
     "targetId": "target-ccn1",
+    "pathwayIds": [
+      "pathway-ecm-remodeling"
+    ],
     "publicationId": "pub-22566095",
     "claim": "复制性衰老人真皮成纤维细胞中，CCN1敲低部分改善胶原合成/降解失衡与胶原纤维破坏。",
     "evidenceType": [
@@ -1322,7 +1432,7 @@
     "actualEntity": "人CCN1/CYR61",
     "tissueCell": "原代人皮肤真皮成纤维细胞；胶原晶格培养",
     "model": "复制性细胞衰老及其胶原ECM稳态异常",
-    "intervention": "在复制性衰老成纤维细胞中敲低升高的CCN1；摘要未注明所用具体敲低试剂。",
+    "intervention": "在复制性衰老的原代人真皮成纤维细胞中敲低CCN1。",
     "result": "复制性衰老细胞中CCN1升高、I型前胶原降低且MMP1升高。CCN1敲低使I型前胶原及MMP1表达部分恢复；原子力显微镜观察表明胶原纤维碎裂和排列紊乱大幅减轻。",
     "endpoints": [
       "I型前胶原表达",
@@ -1333,7 +1443,7 @@
     "conditions": "复制性衰老的人真皮成纤维细胞体外体系；功能干预与ECM终点相匹配。",
     "limitations": "本条目前仅核对摘要。不能据胶原稳态改善推断细胞周期停滞、SA-β-gal或细胞衰老被逆转；未核验人体CCN1敲低抗皱或自然皮肤老化逆转试验。",
     "supportStatus": "支持",
-    "locator": "PubMed Abstract：CCN1 knockdown、type I procollagen/MMP-1及AFM相关结果；全文图号当前未获取。",
+    "locator": "摘要：CCN1敲低、I型前胶原和MMP1表达、原子力显微镜观察。",
     "accessScope": "PubMed摘要，全文仓储403未获取",
     "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/22566095/",
     "studyContext": "aging_function",
@@ -1350,6 +1460,9 @@
   {
     "id": "ev-ccn1-bj-senescence",
     "targetId": "target-ccn1",
+    "pathwayIds": [
+      "pathway-ecm-remodeling"
+    ],
     "publicationId": "pub-20526329",
     "claim": "外源CCN1通过整合素α6β1/HSPG相关信号诱导人BJ成纤维细胞稳定衰老，伴SASP及ECM降解表型。",
     "evidenceType": [
@@ -1395,6 +1508,9 @@
   {
     "id": "ev-ccn1-wound-antifibrosis",
     "targetId": "target-ccn1",
+    "pathwayIds": [
+      "pathway-ecm-remodeling"
+    ],
     "publicationId": "pub-20526329",
     "claim": "小鼠创面修复中CCN1依赖的肌成纤维细胞衰老限制过度胶原沉积；促衰老在此条件下有抗纤维化作用。",
     "evidenceType": [
@@ -1436,6 +1552,9 @@
   {
     "id": "ev-col17a1-aged-maintenance",
     "targetId": "target-col17a1",
+    "pathwayIds": [
+      "pathway-basement-adhesion"
+    ],
     "publicationId": "pub-30944469",
     "claim": "维持COL17A1表达可减轻自然老龄小鼠的基底细胞微脱层与色素紊乱。",
     "evidenceType": [
@@ -1470,11 +1589,14 @@
     "interventionIds": [],
     "dose": "遗传维持表达；不适用药物剂量",
     "time": "Fig.7g：野生型22月龄、转基因22–30月龄；Fig.8o含8周、18月、25月龄影像",
-    "sampleSize": "Fig.7g每组n=3；Fig.8o注明至少5次独立实验的代表图，不能据此推算每组动物数。"
+    "sampleSize": "Fig.7g每组n=3；Fig.8o为至少5次独立实验的代表图。"
   },
   {
     "id": "ev-col17a1-human-3d",
     "targetId": "target-col17a1",
+    "pathwayIds": [
+      "pathway-basement-adhesion"
+    ],
     "publicationId": "pub-30944469",
     "claim": "COL17A1敲低影响人角质形成细胞在三维表皮中的基底层竞争保留。",
     "evidenceType": [
@@ -1514,6 +1636,9 @@
   {
     "id": "ev-col17a1-human-age-association",
     "targetId": "target-col17a1",
+    "pathwayIds": [
+      "pathway-basement-adhesion"
+    ],
     "publicationId": "pub-30944469",
     "claim": "老年人面部表皮COL17A1染色较年轻组降低。",
     "evidenceType": [
@@ -1550,8 +1675,11 @@
   {
     "id": "ev-col17a1-compounds-wound",
     "targetId": "target-col17a1",
+    "pathwayIds": [
+      "pathway-basement-adhesion"
+    ],
     "publicationId": "pub-30944469",
-    "claim": "Apocynin、Y-27632分别提高细胞COL17A1表达，并在年轻小鼠促进创伤修复；不能由此认定其直接靶向COL17A1或逆转自然衰老。",
+    "claim": "Apocynin和Y-27632分别提高HaCaT细胞的COL17A1蛋白水平，并减少9–11周龄小鼠的未修复创伤面积。",
     "evidenceType": [
       "化合物处理",
       "蛋白表达读出",
@@ -1571,7 +1699,7 @@
       "NHEK克隆形成",
       "未修复创伤面积"
     ],
-    "conditions": "细胞与年轻小鼠创伤实验；不是老龄人体皮肤干预。",
+    "conditions": "体外细胞处理和9–11周龄小鼠尾部全层皮肤创伤实验。",
     "limitations": "表达变化为下游读出；已核对图注未提供COL17A1直接结合、或药物效应被COL17A1敲除阻断的证据。创伤修复不等于抗皱或自然衰老逆转。",
     "supportStatus": "条件依赖",
     "locator": "Extended Data Fig.9i–s",
@@ -1591,6 +1719,9 @@
   {
     "id": "ev-mmp1-mouse-ecm",
     "targetId": "target-mmp1",
+    "pathwayIds": [
+      "pathway-ecm-remodeling"
+    ],
     "publicationId": "pub-36914001",
     "claim": "成纤维细胞选择性表达有催化活性的人MMP1，促进小鼠真皮胶原破坏和皮肤衰老相关组织表型。",
     "evidenceType": [
@@ -1634,5 +1765,994 @@
     "dose": "已获取：他莫昔芬饲料400 mg/kg chow；为饲料含量，不是按体重给药剂量",
     "time": "已获取：主体Results及Fig1b为1月龄开始诱导1个月，6月龄取材；另有图注时间表述不一致，未视为独立处理组",
     "sampleSize": "已获取：Fig2厚度、Masson胶原、原位酶谱、AFM各每组n=5；Fig3形态每组n=6，细胞因子ELISA每组n=4；不将所有终点合并为同一n"
+  },
+  {
+    "id": "ev-mmp1-19116368-aged-dermis",
+    "targetId": "target-mmp1",
+    "pathwayIds": [
+      "pathway-ecm-remodeling"
+    ],
+    "publicationId": "pub-19116368",
+    "claim": "80 岁以上人皮肤的真皮成纤维细胞 MMP1 mRNA 高于 21–30 岁组，老年组真皮 MMP-1 免疫染色更强。",
+    "evidenceType": [
+      "人皮肤横断面观察",
+      "激光捕获显微切割",
+      "定量 RT-PCR",
+      "免疫荧光",
+      "胶原原位酶谱"
+    ],
+    "species": [
+      "人（Homo sapiens）"
+    ],
+    "actualEntity": "内源人 MMP1 转录本和 MMP-1 蛋白",
+    "tissueCell": "人臀部避光皮肤真皮；激光捕获的真皮成纤维细胞",
+    "model": "自然年龄分组的人皮肤活检比较",
+    "intervention": "按年龄比较 21–30 岁和 80 岁以上供者的皮肤活检。",
+    "result": "老年组真皮成纤维细胞 MMP1 mRNA 约为年轻组的 8 倍（P<0.01），真皮 MMP-1 免疫染色定量约为年轻组的 2 倍（P<0.02）；原位酶谱显示上层真皮 I 型胶原底物降解更强。",
+    "endpoints": [
+      "成纤维细胞 MMP1 mRNA",
+      "真皮 MMP-1 免疫染色",
+      "I 型胶原底物原位降解"
+    ],
+    "conditions": "用激光捕获取得成纤维细胞并测定转录本；用 FITC 标记 I 型胶原作为原位酶谱底物。",
+    "limitations": "年龄组横断面比较；胶原原位酶谱读数对应切片的胶原降解活性。",
+    "supportStatus": "支持",
+    "locator": "Results: Collagen-Degrading MMP-1 Is Elevated in the Dermis of Aged Human Skin in Vivo；Fig. 2A–C",
+    "accessScope": "PMC 公开正文及 Fig. 2 图注",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2631323/",
+    "studyContext": "observational",
+    "phenotypeIds": [],
+    "interventionIds": [],
+    "dose": "年龄分组观察",
+    "time": "活检时 21–30 岁或 80 岁以上",
+    "sampleSize": "Fig. 2A n=6；Fig. 2B n=4；Fig. 2C 为 3 次实验的代表图像。"
+  },
+  {
+    "id": "ev-mmp1-19116368-purified-enzyme-explant",
+    "targetId": "target-mmp1",
+    "pathwayIds": [
+      "pathway-ecm-remodeling"
+    ],
+    "publicationId": "pub-19116368",
+    "claim": "纯化人 MMP-1 处理年轻人皮肤外植体后，真皮胶原原纤维碎裂，成纤维细胞趋于圆缩。",
+    "evidenceType": [
+      "人皮肤器官培养",
+      "纯化人蛋白干预",
+      "组织学",
+      "扫描电子显微镜"
+    ],
+    "species": [
+      "人（Homo sapiens）"
+    ],
+    "actualEntity": "外源纯化、活化的人 MMP-1 蛋白",
+    "tissueCell": "年轻供者避光皮肤外植体；真皮胶原原纤维和成纤维细胞",
+    "model": "年轻人皮肤器官培养，老年皮肤作形态参照",
+    "intervention": "在培养中加入纯化人 MMP-1，与溶剂处理的年轻人皮肤比较。",
+    "result": "MMP-1 处理组培养液出现特征性胶原裂解片段；扫描电镜显示胶原原纤维碎裂，H&E 切片中成纤维细胞铺展减少、形态偏圆，呈现与老年皮肤参照相似的形态变化。",
+    "endpoints": [
+      "培养液胶原裂解片段",
+      "真皮胶原原纤维形态（扫描电镜）",
+      "真皮成纤维细胞形态（H&E）"
+    ],
+    "conditions": "采用 21–30 岁供者的 2 mm 皮肤活检；每孔培养液 500 μL，CaCl₂ 终浓度 1.4 mmol/L。",
+    "limitations": "Fig. 5 以形态图像比较胶原和细胞结构。",
+    "supportStatus": "支持",
+    "locator": "Results: Exposure of Normal Human Skin to MMP-1 ex Vivo Generates Collagen Fragmentation that Resembles Aged Human Skin；Fig. 5；Supplementary Fig. 3（正文描述的裂解片段）；Methods: Human Skin Organ Culture",
+    "accessScope": "PMC 公开正文及 Fig. 5 图注",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2631323/",
+    "studyContext": "aging_function",
+    "phenotypeIds": [
+      "phenotype-2373163f4b00"
+    ],
+    "interventionIds": [],
+    "dose": "活化的人 MMP-1，150 ng/mL",
+    "time": "处理 24 小时",
+    "sampleSize": "—"
+  },
+  {
+    "id": "ev-mmp1-19116368-fragmented-collagen",
+    "targetId": "target-mmp1",
+    "pathwayIds": [
+      "pathway-ecm-remodeling"
+    ],
+    "publicationId": "pub-19116368",
+    "claim": "在外源 MMP-1 预先部分降解的三维胶原基质中，人真皮成纤维细胞铺展减少，内源 MMP1 表达上升。",
+    "evidenceType": [
+      "三维胶原体外实验",
+      "胶原基质酶处理",
+      "定量 RT-PCR",
+      "免疫染色及 ELISA"
+    ],
+    "species": [
+      "人（Homo sapiens）"
+    ],
+    "actualEntity": "用于预处理胶原的外源 MMP-1；人真皮成纤维细胞内源 MMP1",
+    "tissueCell": "培养的人真皮成纤维细胞",
+    "model": "完整胶原与经 MMP-1 部分降解的三维胶原基质",
+    "intervention": "用外源 MMP-1 部分降解胶原后培养人真皮成纤维细胞；对照为完整胶原基质。",
+    "result": "部分降解组细胞铺展减少；MMP1 mRNA、胞内 MMP-1 和分泌 MMP-1 分别约为完整胶原组的 8、2 和 3 倍。",
+    "endpoints": [
+      "细胞铺展",
+      "MMP1 mRNA",
+      "胞内 MMP-1",
+      "分泌 MMP-1"
+    ],
+    "conditions": "鼠尾 I 型胶原 1 mg/mL；外源酶处理后灭活并洗涤胶原，再接种低于 9 代的成人原代真皮成纤维细胞，每孔 5×10⁴ 个。",
+    "limitations": "三维胶原模型测量细胞对基质碎裂的应答。",
+    "supportStatus": "支持",
+    "locator": "Results: MMP-1 Is Elevated in Fibroblasts Cultured in Fragmented Collagen Lattices；Figs. 6A、7A–C；Methods: Three-Dimensional Collagen Lattice Fibroblast Cell Culture",
+    "accessScope": "PMC 公开正文及 Figs. 6–7 图注",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2631323/",
+    "studyContext": "nonaging_support",
+    "phenotypeIds": [],
+    "interventionIds": [],
+    "dose": "纯化人 MMP-1 50 ng/孔，用于胶原基质预处理",
+    "time": "基质酶处理 16 小时；接种后细胞培养 72 小时",
+    "sampleSize": "Fig. 6A n=5；Fig. 7A n=4、Fig. 7B n=3、Fig. 7C 分泌定量 n=4。"
+  },
+  {
+    "id": "ev-mmp1-23601157-human-skin-explant",
+    "targetId": "target-mmp1",
+    "pathwayIds": [
+      "pathway-ecm-remodeling"
+    ],
+    "publicationId": "pub-23601157",
+    "claim": "年轻人皮肤外植体表达持续活化型 MMP-1 V94G 后，真皮胶原原纤维出现断裂与排列紊乱。",
+    "evidenceType": [
+      "人皮肤器官培养",
+      "腺病毒介导表达",
+      "透射电子显微镜"
+    ],
+    "species": [
+      "人（Homo sapiens）"
+    ],
+    "actualEntity": "持续活化型人 MMP-1 V94G",
+    "tissueCell": "人臀部避光皮肤外植体与真皮胶原原纤维",
+    "model": "21–30 岁供者皮肤离体器官培养；80 岁以上供者皮肤作为自然老化形态参照",
+    "intervention": "以腺病毒在年轻皮肤外植体表达 MMP-1 V94G；空腺病毒为离体对照。",
+    "result": "与空腺病毒组相比，MMP-1 V94G 组出现胶原原纤维断裂和排列紊乱，透射电镜形态与老年真皮参照组相似。",
+    "endpoints": [
+      "真皮胶原原纤维断裂",
+      "真皮胶原原纤维排列（透射电镜）"
+    ],
+    "conditions": "采用健康非吸烟者臀部避光皮肤；年龄参照与离体病毒干预分属不同实验组。",
+    "limitations": "组织终点为代表性透射电镜形态。",
+    "supportStatus": "支持",
+    "locator": "Results: Expression of MMP-1 V94G causes collagen fibril fragmentation in human skin in organ culture；Fig. 2A–D",
+    "accessScope": "PMC 公开正文及 Fig. 2 图注",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3738263/",
+    "studyContext": "aging_function",
+    "phenotypeIds": [
+      "phenotype-2373163f4b00"
+    ],
+    "interventionIds": [],
+    "dose": "腺病毒介导表达 MMP-1 V94G",
+    "time": "器官培养 4 天",
+    "sampleSize": "Fig. 2 图像代表 3 名年轻和 3 名老年供者。"
+  },
+  {
+    "id": "ev-mmp1-23601157-fibroblast-lattice",
+    "targetId": "target-mmp1",
+    "pathwayIds": [
+      "pathway-ecm-remodeling"
+    ],
+    "publicationId": "pub-23601157",
+    "claim": "三维胶原培养中，MMP-1 V94G 表达增加胶原降解产物并降低细胞铺展；MMP1 siRNA 减少胶原降解产物。",
+    "evidenceType": [
+      "人真皮成纤维细胞三维培养",
+      "腺病毒介导表达",
+      "siRNA 敲低",
+      "MMP 抑制剂处理"
+    ],
+    "species": [
+      "人（Homo sapiens）"
+    ],
+    "actualEntity": "持续活化型人 MMP-1 V94G；MMP1 siRNA；MMP 抑制剂 MMI270",
+    "tissueCell": "成人原代真皮成纤维细胞，培养于鼠尾来源 I 型胶原中",
+    "model": "三维 I 型胶原基质中的人真皮成纤维细胞",
+    "intervention": "表达 MMP-1 V94G 或空腺病毒对照；用 MMP1 siRNA 或 MMP 抑制剂 MMI270 干预。",
+    "result": "MMP-1 V94G 提高培养液羟脯氨酸并使胶原基质变薄，细胞铺展和 F-actin 减少；MMP1 siRNA 与 MMI270 均降低羟脯氨酸，MMI270 恢复细胞铺展。MMP-1 V94G 组另见 TβRII、CCN2 和 I 型前胶原降低。",
+    "endpoints": [
+      "培养液羟脯氨酸（HPLC）",
+      "三维胶原基质形态",
+      "成纤维细胞铺展及 F-actin",
+      "TβRII、CCN2 和 I 型前胶原表达"
+    ],
+    "conditions": "鼠尾 I 型胶原 2 mg/mL；MMP1 siRNA 敲低和 MMI270 处理分别与对应对照比较。",
+    "limitations": "胶原降解终点同时采用 MMP1 siRNA 和 MMP 抑制剂；细胞铺展的恢复来自 MMI270 实验。",
+    "supportStatus": "支持",
+    "locator": "Results: MMP-1 V94G causes fragmentation of collagen lattices and alters fibroblast morphology and function；Figs. 3–5、Supplementary Fig. 4",
+    "accessScope": "PMC 公开正文及 Figs. 3–5 和补充图注",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3738263/",
+    "studyContext": "aging_function",
+    "phenotypeIds": [],
+    "interventionIds": [],
+    "dose": "MMI270 33 nM；I 型胶原 2 mg/mL",
+    "time": "三维培养 3 天",
+    "sampleSize": "Figs. 3–5 各图所示定量 n=3 或图像代表 3 次独立实验。"
+  },
+  {
+    "id": "ev-mmp1-25201474-dominant-negative-jun",
+    "targetId": "target-mmp1",
+    "pathwayIds": [
+      "pathway-ecm-remodeling"
+    ],
+    "publicationId": "pub-25201474",
+    "claim": "显性负性 c-Jun 减弱人真皮成纤维细胞在 Latrunculin A 处理后出现的 MMP1 转录和蛋白上升。",
+    "evidenceType": [
+      "人真皮成纤维细胞体外实验",
+      "显性负性构建体",
+      "肌动蛋白扰动",
+      "定量 RT-PCR",
+      "蛋白印迹"
+    ],
+    "species": [
+      "人（Homo sapiens）"
+    ],
+    "actualEntity": "显性负性 c-Jun 构建体；内源人 MMP1 转录本及 MMP-1 蛋白",
+    "tissueCell": "正常成人真皮成纤维细胞",
+    "model": "Latrunculin A 降低细胞铺展和机械力的体外模型",
+    "intervention": "先转染显性负性 c-Jun 或对照构建体，再以 Latrunculin A 处理。",
+    "result": "相较于 Latrunculin A 处理对照，显性负性 c-Jun 组的 MMP1 mRNA 和 MMP-1 蛋白诱导幅度降低。",
+    "endpoints": [
+      "MMP1 mRNA",
+      "MMP-1 蛋白"
+    ],
+    "conditions": "Latrunculin A 诱导肌动蛋白骨架改变；另以 EMSA 测定 MMP1 启动子 AP-1 序列的蛋白结合。",
+    "limitations": "Fig. 3E–F 的直接终点为 MMP1 表达。",
+    "supportStatus": "支持",
+    "locator": "Results: Reduced cellular spreading/mechanical force up-regulates MMP-1 expression through c-Jun/AP-1；Fig. 3C–F，干预定量为 E–F",
+    "accessScope": "PMC 公开正文及 Fig. 3 图注",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4326925/",
+    "studyContext": "nonaging_support",
+    "phenotypeIds": [],
+    "interventionIds": [],
+    "dose": "Latrunculin A 30 nM",
+    "time": "Latrunculin A 处理 24 小时",
+    "sampleSize": "Fig. 3E–F n=3。"
+  },
+  {
+    "id": "ev-terf2-smogorzewska-2002",
+    "targetId": "target-terf2",
+    "pathwayIds": [
+      "pathway-telomere"
+    ],
+    "publicationId": "pub-12169636",
+    "claim": "显性负性 TRF2 引起人原代成纤维细胞端粒去保护和衰老样增殖停滞。",
+    "evidenceType": [
+      "原代细胞遗传干预"
+    ],
+    "species": [
+      "人（Homo sapiens）"
+    ],
+    "actualEntity": "人 TRF2ΔBΔM（TERF2 显性负性蛋白）",
+    "tissueCell": "人胚肺成纤维细胞 IMR90、WI-38",
+    "model": "增殖期人成纤维细胞端粒去保护模型；高传代 IMR90 作为复制性衰老参照",
+    "intervention": "逆转录病毒表达 TRF2ΔBΔM，与空载体及野生型 TRF2 组比较。",
+    "result": "表达 TRF2ΔBΔM 后，细胞增殖和 S 期比例下降，出现扁平、增大的细胞及 SA-β-gal 染色增强。",
+    "endpoints": [
+      "增殖曲线",
+      "BrdU 掺入和 S 期细胞比例",
+      "SA-β-gal 染色",
+      "细胞形态"
+    ],
+    "conditions": "TRF2ΔBΔM 使端粒末端去保护；该实验采用急性端粒失功能模型。",
+    "limitations": "实验细胞为肺来源成纤维细胞。",
+    "supportStatus": "支持",
+    "locator": "Results；Fig. 1；Fig. 2A–E（细胞增殖、BrdU、形态及 SA-β-gal）",
+    "accessScope": "全文（相关结果与图注）",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC126171/",
+    "studyContext": "aging_function",
+    "phenotypeIds": [
+      "phenotype-39ccf81464b0",
+      "phenotype-753b75aac2af"
+    ],
+    "interventionIds": [],
+    "dose": "—",
+    "time": "IMR90：感染后第 5、10、15 天测 BrdU，第 16 天测 SA-β-gal。",
+    "sampleSize": "Fig. 2B：4–5 次实验。"
+  },
+  {
+    "id": "ev-terf2-munoz-2005",
+    "targetId": "target-terf2",
+    "pathwayIds": [
+      "pathway-telomere"
+    ],
+    "publicationId": "pub-16142233",
+    "claim": "K5 驱动 Terf2 过表达的小鼠出现端粒缩短及皮肤退变。",
+    "evidenceType": [
+      "小鼠遗传功能研究"
+    ],
+    "species": [
+      "小鼠（Mus musculus）"
+    ],
+    "actualEntity": "小鼠 Terf2（TRF2 蛋白）",
+    "tissueCell": "小鼠皮肤、表皮角质形成细胞",
+    "model": "皮肤过表达 Terf2 的 K5TRF2 转基因小鼠及来源角质形成细胞",
+    "intervention": "K5 驱动 Terf2 过表达，与对照小鼠比较；另在 Xpf 遗传背景下检验端粒损失。",
+    "result": "光照下，转基因小鼠出现皮肤提前退变、色素沉着及皮肤肿瘤增多。角质形成细胞对紫外线和 DNA 交联剂更敏感；皮肤细胞端粒缩短，端粒 G 链突出端减少。该模型的端粒损失依赖 XPF。",
+    "endpoints": [
+      "皮肤退变与色素沉着",
+      "皮肤肿瘤",
+      "角质形成细胞紫外线敏感性",
+      "端粒长度",
+      "端粒 G 链突出端"
+    ],
+    "conditions": "K5 驱动的皮肤过表达模型；紫外线敏感性在来源角质形成细胞中评估。",
+    "limitations": "小鼠皮肤遗传模型及其来源角质形成细胞。",
+    "supportStatus": "条件依赖",
+    "locator": "摘要；期刊图题 Fig. 2（皮肤病变）、Fig. 4（UVB 与 MMC 敏感性）、Fig. 5（紫外线诱导的皮肤肿瘤）、Fig. 6（端粒缩短）、Fig. 8（XPF 依赖的端粒缩短及 DNA 损伤）",
+    "accessScope": "依据摘要及期刊公开图题",
+    "sourceUrl": "https://www.nature.com/articles/ng1633",
+    "studyContext": "aging_function",
+    "phenotypeIds": [
+      "phenotype-0ad1fdaab4a5",
+      "phenotype-d6a898df0186"
+    ],
+    "interventionIds": [],
+    "dose": "—",
+    "time": "—",
+    "sampleSize": "—"
+  },
+  {
+    "id": "ev-terf2-stout-2009",
+    "targetId": "target-terf2",
+    "pathwayIds": [
+      "pathway-telomere"
+    ],
+    "publicationId": "pub-19259387",
+    "claim": "Trp53 缺失改善 K5TRF2 小鼠表皮干细胞功能，但未恢复端粒长度。",
+    "evidenceType": [
+      "小鼠遗传功能研究",
+      "遗传救援"
+    ],
+    "species": [
+      "小鼠（Mus musculus）"
+    ],
+    "actualEntity": "小鼠 Terf2 过表达；小鼠 Trp53 缺失",
+    "tissueCell": "小鼠表皮、表皮干细胞",
+    "model": "K5TRF2 转基因小鼠与 Trp53 缺失小鼠交配所得复合模型",
+    "intervention": "对照比较 K5TRF2、Trp53 缺失、复合基因型及野生型，分析表皮干细胞功能、端粒长度和皮肤病变。",
+    "result": "Trp53 缺失改善 K5TRF2 表皮干细胞的动员和离体克隆形成。新生小鼠表皮 Q-FISH 显示端粒仍短。在慢性低剂量紫外线实验中，复合基因型小鼠最早于第 8 周出现乳头瘤，单独 Trp53 缺失组为第 25 周；复合基因型组的皮肤癌前及肿瘤病变更多。",
+    "endpoints": [
+      "TPA 处理后毛囊标记滞留细胞数",
+      "离体克隆数量与大小",
+      "新生皮肤端粒 Q-FISH",
+      "紫外线处理后皮肤乳头瘤和组织病变"
+    ],
+    "conditions": "端粒长度测定取自新生小鼠皮肤；皮肤肿瘤终点取自独立的慢性低剂量紫外线实验。",
+    "limitations": "遗传救援实验采用 K5TRF2 转基因表皮模型。",
+    "supportStatus": "条件依赖",
+    "locator": "Fig. 6A–D（动员、克隆形成）、Fig. 6E–F 与 Fig. S7C（新生表皮 Q-FISH）、Fig. 7A–B（皮肤肿瘤及组织病变）",
+    "accessScope": "全文（相关结果与图注）",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2650195/",
+    "studyContext": "aging_function",
+    "phenotypeIds": [
+      "phenotype-0ad1fdaab4a5",
+      "phenotype-32b5a70d7ca3"
+    ],
+    "interventionIds": [],
+    "dose": "—",
+    "time": "紫外线实验随访至开始处理后 40 周。",
+    "sampleSize": "Fig. 6E：每种基因型 50 个细胞核、至少 650 个端粒信号。"
+  },
+  {
+    "id": "ev-terf2-sengupta-2025-tert",
+    "targetId": "target-terf2",
+    "pathwayIds": [
+      "pathway-telomere"
+    ],
+    "publicationId": "pub-41026782",
+    "claim": "非端粒 TRF2 在多种人肿瘤细胞中占据 TERT 启动子并抑制 TERT 转录。",
+    "evidenceType": [
+      "细胞遗传干预",
+      "遗传回补",
+      "染色质免疫沉淀"
+    ],
+    "species": [
+      "人（Homo sapiens）"
+    ],
+    "actualEntity": "人 TERF2（TRF2 蛋白）、TERF2 R17H 变体及 TERT 启动子",
+    "tissueCell": "人纤维肉瘤 HT1080、结肠癌 HCT116 和乳腺癌 MDA-MB-231 细胞",
+    "model": "不同端粒长度的人肿瘤细胞；野生型或 R17H TRF2 的诱导表达细胞",
+    "intervention": "缩短或延长端粒后比较 TERT 启动子的 TRF2 占位；在 HT1080 中沉默内源 TRF2 后回补野生型或 R17H，并在三种细胞中比较诱导表达。",
+    "result": "较短端粒的细胞在 TERT 启动子处有更高的 TRF2 占位和 H3K27me3 水平，TERT 转录较低。TRF2 沉默使 TERT 上调，野生型 TRF2 回补使其下调；R17H 变体的启动子占位低于野生型。",
+    "endpoints": [
+      "端粒长度",
+      "TERT mRNA",
+      "TERT 启动子 TRF2、REST、EZH2 占位及 H3K27me3 水平"
+    ],
+    "conditions": "转录抑制实验比较人肿瘤细胞中的内源 TRF2 沉默及野生型或 R17H 表达。",
+    "limitations": "细胞模型的终点为端粒长度、启动子染色质和 TERT 转录。",
+    "supportStatus": "支持",
+    "locator": "Fig. 2A–D（端粒长度、占位及表达）；Fig. 9A–F 和 Fig. 9—figure supplement 1A–B（沉默、回补及 R17H）",
+    "accessScope": "全文（相关结果与图注）",
+    "sourceUrl": "https://elifesciences.org/articles/104045",
+    "studyContext": "nonaging_support",
+    "phenotypeIds": [],
+    "interventionIds": [],
+    "dose": "—",
+    "time": "—",
+    "sampleSize": "Fig. 9：每个实验 3 个独立生物学重复。"
+  },
+  {
+    "id": "ev-hsf1-kruta-2021-aging",
+    "targetId": "target-hsf1",
+    "pathwayIds": [
+      "pathway-heat-shock-proteostasis"
+    ],
+    "publicationId": "pub-34388375",
+    "claim": "Hsf1 条件敲除使中年小鼠造血干细胞蛋白质合成升高，并削弱长期竞争性造血重建。",
+    "evidenceType": [
+      "小鼠遗传功能研究",
+      "竞争性造血移植"
+    ],
+    "species": [
+      "小鼠（Mus musculus）"
+    ],
+    "actualEntity": "小鼠 Hsf1；Hsf1 flox/flox; Mx1-Cre+",
+    "tissueCell": "小鼠骨髓造血干细胞",
+    "model": "年轻和中年小鼠的 Hsf1 条件敲除及对照；同系标记竞争性骨髓移植",
+    "intervention": "比较 Hsf1 条件敲除及 flox/flox 对照的造血干细胞 OPP 掺入；将各组供体骨髓与同量竞争细胞混合后移植。",
+    "result": "中年缺失组造血干细胞的 OPP 掺入升高，且供体细胞的长期竞争性造血重建下降。年轻供体的初次及二次移植重建在两种基因型间相近。",
+    "endpoints": [
+      "OPP 掺入测定蛋白质合成",
+      "供体来源多谱系造血重建"
+    ],
+    "conditions": "蛋白质合成测定：3 月龄及 11–12 月龄；移植：2–3 月龄及 10–12 月龄供体。",
+    "limitations": "中年供体实验以竞争性骨髓移植后 24 周造血重建为功能终点。",
+    "supportStatus": "条件依赖",
+    "locator": "Fig. 7C–R；STAR Methods: Bone marrow transplantation",
+    "accessScope": "全文（相关结果与图注）",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8571035/",
+    "studyContext": "aging_function",
+    "phenotypeIds": [
+      "phenotype-ae3a7e9de79c",
+      "phenotype-a70d494ad413"
+    ],
+    "interventionIds": [],
+    "dose": "竞争性移植：每只受体 5×10⁵ 供体骨髓细胞与 5×10⁵ 竞争骨髓细胞。",
+    "time": "移植后随访 24 周。",
+    "sampleSize": "OPP：每种基因型与年龄 3–8 只；中年移植：每条件 2–4 只供体、10–18 只受体。"
+  },
+  {
+    "id": "ev-hsf1-kruta-2021-culture",
+    "targetId": "target-hsf1",
+    "pathwayIds": [
+      "pathway-heat-shock-proteostasis"
+    ],
+    "publicationId": "pub-34388375",
+    "claim": "17-AAG 改善年轻小鼠造血干细胞体外培养后的长期重建；该改善在 Hsf1 缺失细胞中消失。",
+    "evidenceType": [
+      "离体药理干预",
+      "遗传依赖性检验",
+      "竞争性造血移植"
+    ],
+    "species": [
+      "小鼠（Mus musculus）"
+    ],
+    "actualEntity": "小鼠 Hsf1；17-AAG 为 Hsp90 抑制剂",
+    "tissueCell": "小鼠骨髓造血干细胞",
+    "model": "年轻小鼠造血干细胞体外培养应激，培养后进行初次和二次竞争性移植",
+    "intervention": "分离 2–3 月龄供体造血干细胞，培养时加入 17-AAG 或 DMSO；平行比较 Hsf1 缺失组。",
+    "result": "17-AAG 组 31/37 只二次受体实现长期多谱系重建，DMSO 组为 11/32 只。Hsf1 缺失细胞的重建未因 17-AAG 改善。17-AAG 还降低蛋白质降解报告物 UbG76V-GFP 的积累。",
+    "endpoints": [
+      "二次受体长期多谱系重建",
+      "蛋白质合成",
+      "UbG76V-GFP 报告物积累"
+    ],
+    "conditions": "年轻供体离体培养；17-AAG 加入细胞培养液。",
+    "limitations": "药理实验的应激来源为 10 天离体培养。",
+    "supportStatus": "条件依赖",
+    "locator": "Fig. 5、Fig. S5（移植及遗传依赖性）；Fig. 6E–F、Fig. S6D–G（蛋白质稳态）；STAR Methods",
+    "accessScope": "全文（相关结果与图注）",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8571035/",
+    "studyContext": "nonaging_support",
+    "phenotypeIds": [
+      "phenotype-62d21eca8f8f"
+    ],
+    "interventionIds": [
+      "intervention-48253354ae38"
+    ],
+    "dose": "17-AAG 5 nM。",
+    "time": "离体培养 10 天。",
+    "sampleSize": "二次受体：17-AAG 组 37 只，DMSO 组 32 只。"
+  },
+  {
+    "id": "ev-mfap4-22355679-skin-xenograft",
+    "targetId": "target-mfap4",
+    "pathwayIds": [
+      "pathway-ecm-remodeling"
+    ],
+    "publicationId": "pub-22355679",
+    "claim": "提高人皮肤移植物中的 MFAP4 表达，减轻重复 UVB 照射后的弹性纤维和 I 型胶原损失。",
+    "evidenceType": [
+      "人皮肤异种移植",
+      "慢病毒介导过表达",
+      "组织化学及免疫组织化学",
+      "蛋白印迹"
+    ],
+    "species": [
+      "人（Homo sapiens）",
+      "小鼠（Mus musculus）"
+    ],
+    "actualEntity": "移植物中慢病毒介导表达的全长人 MFAP4",
+    "tissueCell": "移植至 SCID 小鼠背部的全层人腹部或乳房皮肤",
+    "model": "SCID 小鼠承载的人皮肤移植物重复 UVB 光老化模型",
+    "intervention": "人皮肤移植物内给予编码全长人 MFAP4 的慢病毒；采用编码报告基因的慢病毒作照射匹配对照，并设置报告基因未照射参照。",
+    "result": "8 周重复 UVB 后，MFAP4 过表达组保留较多 Luna 染色弹性纤维和 I 型胶原免疫染色；4 周照射终点的蛋白印迹亦显示过表达组 I 型胶原丰度高于报告基因组。",
+    "endpoints": [
+      "真皮弹性纤维（Luna 染色）",
+      "I 型胶原（免疫组织化学、蛋白印迹）"
+    ],
+    "conditions": "皮肤移植愈合后启动重复 UVB 照射；移植物内慢病毒给药两次，间隔一周。",
+    "limitations": "实验组织为 SCID 小鼠承载的人皮肤移植物；4 周和 8 周终点采用不同检测方法。",
+    "supportStatus": "支持",
+    "locator": "Results: MFAP-4 is essential to elastic fiber assembly / MFAP-4 over-expression prevents UVB-induced collagen degradation as well as elastin deterioration；Figs. 3A–B、4A、7A–B；Methods: UVB exposure",
+    "accessScope": "PMC 及期刊公开正文、图注和方法",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3240987/",
+    "studyContext": "aging_function",
+    "phenotypeIds": [
+      "phenotype-668dd3b81ce4",
+      "phenotype-1a122cb165f2"
+    ],
+    "interventionIds": [
+      "intervention-4197ae0abcee"
+    ],
+    "dose": "UVB 由 40 递增至 60 mJ/cm²，每周 5 次；8 周累计约 2.2 J/cm²。",
+    "time": "4 周照射后蛋白印迹；8 周照射后组织染色。",
+    "sampleSize": "—"
+  },
+  {
+    "id": "ev-mfap4-22355679-fibroblast-mmp1",
+    "targetId": "target-mfap4",
+    "pathwayIds": [
+      "pathway-ecm-remodeling"
+    ],
+    "publicationId": "pub-22355679",
+    "claim": "敲低正常人真皮成纤维细胞 MFAP4，增加 MMP1 转录与分泌的活性型 MMP-1。",
+    "evidenceType": [
+      "人真皮成纤维细胞体外实验",
+      "siRNA 敲低",
+      "定量 RT-PCR",
+      "蛋白印迹"
+    ],
+    "species": [
+      "人（Homo sapiens）"
+    ],
+    "actualEntity": "内源人 MFAP4；内源人 MMP1 转录本和分泌的活性型 MMP-1",
+    "tissueCell": "正常人真皮成纤维细胞及培养上清",
+    "model": "无胎牛血清条件下的成纤维细胞体外培养",
+    "intervention": "使用 MFAP4 特异性 siRNA，与非特异序列 siRNA 比较；另设非特异 siRNA 加人重组 MFAP-4 组。",
+    "result": "MFAP4 siRNA 组 MMP1 mRNA 及培养上清活性型 MMP-1 增加。",
+    "endpoints": [
+      "MMP1 mRNA",
+      "上清活性型 MMP-1 蛋白条带"
+    ],
+    "conditions": "无胎牛血清培养 8 天，测定成纤维细胞转录本和上清 MMP-1。",
+    "limitations": "体外终点为转录和分泌蛋白，模型与移植皮肤重复 UVB 实验分别实施。",
+    "supportStatus": "支持",
+    "locator": "Results: MFAP-4 over-expression prevents UVB-induced collagen degradation as well as elastin deterioration；Fig. 7C–D",
+    "accessScope": "PMC 及期刊公开正文和 Fig. 7 图注",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3240987/",
+    "studyContext": "nonaging_support",
+    "phenotypeIds": [
+      "phenotype-038531a964c6"
+    ],
+    "interventionIds": [],
+    "dose": "MFAP4 特异性 siRNA",
+    "time": "培养 8 天",
+    "sampleSize": "—"
+  },
+  {
+    "id": "ev-foxo3-aged-hsc",
+    "targetId": "target-foxo3",
+    "pathwayIds": [
+      "pathway-hsc"
+    ],
+    "publicationId": "pub-18371339",
+    "claim": "老龄 Foxo3a 缺失小鼠的骨髓造血干细胞频率下降。",
+    "evidenceType": [
+      "遗传干预"
+    ],
+    "species": [
+      "小鼠（Mus musculus）"
+    ],
+    "actualEntity": "小鼠 Foxo3a（论文命名）",
+    "tissueCell": "骨髓造血干细胞",
+    "model": "自然老龄基因敲除小鼠",
+    "intervention": "靶向建立 Foxo3a−/− 小鼠，与同窝对照比较。",
+    "result": "老龄 Foxo3a−/− 小鼠的造血干细胞频率显著低于同窝对照。",
+    "endpoints": [
+      "骨髓造血干细胞频率"
+    ],
+    "conditions": "全身基因缺失；同窝对照。",
+    "limitations": "本条提取老龄小鼠的造血干细胞频率结果。",
+    "supportStatus": "支持",
+    "locator": "PubMed 摘要末段",
+    "accessScope": "依据摘要",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/18371339/",
+    "studyContext": "aging_function",
+    "phenotypeIds": [
+      "phenotype-9fd28311790f"
+    ],
+    "interventionIds": [],
+    "dose": "当前未获取",
+    "time": "当前未获取",
+    "sampleSize": "当前未获取"
+  },
+  {
+    "id": "ev-atg7-satellite-ko",
+    "targetId": "target-atg7",
+    "pathwayIds": [
+      "pathway-autophagy",
+      "pathway-muscle-stem-cells"
+    ],
+    "publicationId": "pub-26738589",
+    "claim": "成年小鼠肌肉卫星细胞中诱导缺失 Atg7 后，卫星细胞数量减少并出现衰老相关转录变化。",
+    "evidenceType": [
+      "遗传干预"
+    ],
+    "species": [
+      "小鼠（Mus musculus）"
+    ],
+    "actualEntity": "小鼠 Atg7",
+    "tissueCell": "骨骼肌 Pax7⁺ 卫星细胞",
+    "model": "3 月龄 Atg7 条件缺失小鼠",
+    "intervention": "对 Atg7ΔPax7ER 和 Atg7WT 对照给予他莫昔芬；分别在第 7 天和第 30 天检测。",
+    "result": "第 7 天，p16INK4a、p21CIP1 和 p15INK4b mRNA 升高；第 30 天，Pax7⁺ 卫星细胞数减少。",
+    "endpoints": [
+      "Pax7⁺ 细胞数",
+      "p16INK4a、p21CIP1、p15INK4b mRNA"
+    ],
+    "conditions": "成年期诱导，Pax7 谱系；分别检测转录和细胞数量。",
+    "limitations": "本条对应成年小鼠诱导缺失的图 3b–c。",
+    "supportStatus": "支持",
+    "locator": "Fig. 3b–c",
+    "accessScope": "全文（实验结果与图注）",
+    "sourceUrl": "https://www.nature.com/articles/nature16187",
+    "studyContext": "aging_function",
+    "phenotypeIds": [
+      "phenotype-c3fa95b0152c",
+      "phenotype-feeadfea976d"
+    ],
+    "interventionIds": [],
+    "dose": "当前未获取",
+    "time": "给药后第 7 天（转录）及第 30 天（计数）",
+    "sampleSize": "Fig. 3b–c：每组 3 只"
+  },
+  {
+    "id": "ev-psmb5-chondrogianni-2005",
+    "targetId": "target-psmb5",
+    "pathwayIds": [
+      "pathway-proteasome"
+    ],
+    "publicationId": "pub-15661736",
+    "claim": "PSMB5 稳定过表达增加人原代肺成纤维细胞进入复制性衰老前的群体倍增次数。",
+    "evidenceType": [
+      "原代细胞遗传干预"
+    ],
+    "species": [
+      "人（Homo sapiens）"
+    ],
+    "actualEntity": "人 PSMB5（蛋白酶体催化 β5 亚基）",
+    "tissueCell": "人原代肺成纤维细胞 IMR90",
+    "model": "培养扩增至复制性衰老的 IMR90 稳定转染克隆",
+    "intervention": "稳定转染编码蛋白酶体 β5 的构建体，与对照细胞比较。",
+    "result": "β5 过表达克隆达到复制性衰老前的群体倍增数比对照平均多约 4–5 次。",
+    "endpoints": [
+      "达到复制性衰老前的群体倍增数"
+    ],
+    "conditions": "持续培养可扩增的 IMR90 稳定转染克隆直至复制性衰老。",
+    "limitations": "终点来自培养的肺来源原代成纤维细胞克隆。",
+    "supportStatus": "支持",
+    "locator": "Results：Overexpression of the β5 Catalytic Subunit Delays Senescence in Human Primary IMR90 Fibroblasts，pp. 11845–11846",
+    "accessScope": "全文（原代 IMR90 实验结果）",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15661736/",
+    "studyContext": "aging_function",
+    "phenotypeIds": [
+      "phenotype-aaf6b79138ad"
+    ],
+    "interventionIds": [],
+    "dose": "—",
+    "time": "连续培养至复制性衰老，以群体倍增数计。",
+    "sampleSize": "—"
+  },
+  {
+    "id": "ev-psmb5-hwang-2007-dermis",
+    "targetId": "target-psmb5",
+    "pathwayIds": [
+      "pathway-proteasome"
+    ],
+    "publicationId": "pub-17522352",
+    "claim": "PSMB5 转导提高老年供者真皮成纤维细胞的蛋白酶体活性，并降低 SA-β-gal 阳性比例及 p21 蛋白。",
+    "evidenceType": [
+      "人供者原代皮肤细胞遗传干预"
+    ],
+    "species": [
+      "人（Homo sapiens）"
+    ],
+    "actualEntity": "人 PSMB5（蛋白酶体催化 β5 亚基）",
+    "tissueCell": "60、67 和 72 岁供者的原代真皮成纤维细胞",
+    "model": "老年供者真皮成纤维细胞离体培养",
+    "intervention": "单独转导 lenti-PSMB5，与空慢病毒载体组比较。",
+    "result": "PSMB5 转导组的胰凝乳蛋白酶样活性升高，氧化蛋白和泛素化蛋白水平降低。SA-β-gal 阳性比例为 7±2%，空载体组为 26±3%（均值±SEM）；p21 蛋白水平下降。",
+    "endpoints": [
+      "蛋白酶体胰凝乳蛋白酶样活性",
+      "氧化蛋白与泛素化蛋白水平",
+      "SA-β-gal 阳性细胞比例",
+      "p21 蛋白水平"
+    ],
+    "conditions": "分析老年供者真皮成纤维细胞的 PSMB5 单基因转导组；研究另设 PSMB6 转导组。",
+    "limitations": "衰老终点在供者来源的离体真皮成纤维细胞中测定。",
+    "supportStatus": "支持",
+    "locator": "Methods：Overexpression of Proteasome Subunits in Dermal Fibroblasts；Fig. 6A–B（表达与活性）、Fig. 7A–B（蛋白积累）、Fig. 8A–B（衰老标志物）",
+    "accessScope": "全文（相关方法、结果与图注）",
+    "sourceUrl": "https://academic.oup.com/biomedgerontology/article/62/5/490/541087",
+    "studyContext": "aging_function",
+    "phenotypeIds": [
+      "phenotype-39ccf81464b0",
+      "phenotype-1e3ac1ec75bc"
+    ],
+    "interventionIds": [],
+    "dose": "慢病毒感染复数（MOI）20，polybrene 6 μg/mL；嘌呤霉素筛选浓度 1 μg/mL。",
+    "time": "感染培养 20 小时后补加培养液，嘌呤霉素筛选 4 天。",
+    "sampleSize": "3 名供者（60、67、72 岁）。"
+  },
+  {
+    "id": "ev-tet2-36379023-mosaic-aging",
+    "targetId": "target-tet2",
+    "pathwayIds": [
+      "pathway-dna-methylation",
+      "pathway-hsc"
+    ],
+    "publicationId": "pub-36379023",
+    "claim": "小鼠造血细胞中诱导 Tet2 杂合缺失后，标记克隆在 12 个月随龄追踪中较标记野生型细胞扩张更多。",
+    "evidenceType": [
+      "诱导性条件遗传缺失",
+      "造血嵌合纵向追踪",
+      "流式细胞术"
+    ],
+    "species": [
+      "小鼠（Mus musculus）"
+    ],
+    "actualEntity": "诱导生成的内源小鼠 Tet2 杂合缺失（Tet2+/−）ZsGreen 阳性造血细胞",
+    "tissueCell": "小鼠外周血 CD45+ 细胞及各造血谱系；骨髓造血干祖细胞",
+    "model": "他莫昔芬诱导 HSC-SCL-Cre-ERT 的三转基因造血嵌合小鼠；诱导后随生理月龄增长追踪。",
+    "intervention": "1–2 月龄时单次给予他莫昔芬，分别生成带 ZsGreen 标记的 Tet2+/− 或 Tet2 野生型造血细胞群。",
+    "result": "Tet2+/− 标记细胞在外周血中的比例较标记野生型细胞增加更多；扩张见于 T、B、髓系和红细胞谱系，骨髓多个造血祖细胞群和长期造血干细胞的标记比例升高。老年终点的总血细胞计数在两组间无显著差异。",
+    "endpoints": [
+      "外周血标记细胞比例与扩张率",
+      "外周血谱系分布",
+      "骨髓造血干祖细胞的标记比例",
+      "血细胞计数"
+    ],
+    "conditions": "诱导后的初始标记造血细胞比例约为 10%；以同样标记的野生型造血细胞作对照。",
+    "limitations": "读数为小鼠造血谱系内标记细胞比例与计数。",
+    "supportStatus": "支持",
+    "locator": "Results: Increased Tet2+/− clonal expansion rates associate with high BM IL-1 levels on aging；Fig. 2A–F、Supplemental Fig. 2A–B。",
+    "accessScope": "全文（相关结果与图注）",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10651783/",
+    "studyContext": "aging_function",
+    "phenotypeIds": [
+      "phenotype-5cf952a8d8a9"
+    ],
+    "interventionIds": [
+      "intervention-2ca47ee073f8"
+    ],
+    "dose": "单次腹腔注射他莫昔芬；初始标记细胞比例约 10%。",
+    "time": "1–2 月龄诱导，随后追踪 12 个月。",
+    "sampleSize": "Fig. 2F 扩张率分析：野生型 6 只，Tet2+/− 7 只。"
+  },
+  {
+    "id": "ev-tet2-37884767-aging-competition",
+    "targetId": "target-tet2",
+    "pathwayIds": [
+      "pathway-dna-methylation",
+      "pathway-hsc"
+    ],
+    "publicationId": "pub-37884767",
+    "claim": "老龄供体的 Tet2 缺失造血干祖细胞在竞争移植中的扩张优势高于年轻供体组。",
+    "evidenceType": [
+      "遗传敲除",
+      "年龄分层竞争移植",
+      "谱系追踪流式细胞术"
+    ],
+    "species": [
+      "小鼠（Mus musculus）"
+    ],
+    "actualEntity": "小鼠 Tet2 敲除的造血干祖细胞",
+    "tissueCell": "小鼠骨髓造血干祖细胞及移植后外周血谱系细胞",
+    "model": "年轻（6–8 周龄）或老龄（18–24 月龄）小鼠供体细胞的骨髓竞争移植。",
+    "intervention": "将同龄野生型和 Tet2 敲除造血干祖细胞按 9:1 混合，移植到受致死剂量照射的 CD45.1 受体；用 CD45 同种型区分后代。",
+    "result": "年轻和老龄两组的 Tet2 缺失细胞均呈竞争优势；老龄混合组的优势更强，淋巴和髓系后代均显示老龄 Tet2 缺失供体的重建优势。",
+    "endpoints": [
+      "外周血 Tet2 缺失供体来源细胞比例",
+      "淋巴及髓系后代重建"
+    ],
+    "conditions": "每组同时移植同一年龄层的野生型和 Tet2 缺失细胞；移植后每两周测定外周血。",
+    "limitations": "供体年龄效应来自造血移植竞争实验。",
+    "supportStatus": "支持",
+    "locator": "Results: Tet2 depletion counteracts functional decline in aged HSPCs；Fig. 1E、G–H，Extended Data Fig. 1H。",
+    "accessScope": "全文（相关结果与图注）",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11209854/",
+    "studyContext": "aging_function",
+    "phenotypeIds": [
+      "phenotype-5cf952a8d8a9",
+      "phenotype-0eb10b555a9f"
+    ],
+    "interventionIds": [],
+    "dose": "野生型与 Tet2 敲除细胞的起始比例为 9:1。",
+    "time": "按供体年龄分层；移植后每两周测定。",
+    "sampleSize": "Fig. 1G 供体 3 只；Fig. 1G–H 每组受体 9 只。"
+  },
+  {
+    "id": "ev-tet2-37884767-heterochromatin",
+    "targetId": "target-tet2",
+    "pathwayIds": [
+      "pathway-dna-methylation",
+      "pathway-hsc"
+    ],
+    "publicationId": "pub-37884767",
+    "claim": "老龄野生型小鼠造血干祖细胞的 H3K9me3 标记异染色质从核周偏向核质；老龄 Tet2 敲除组保留核周定位。",
+    "evidenceType": [
+      "遗传敲除",
+      "年龄分组",
+      "异染色质免疫荧光",
+      "DNA 羟甲基化测序"
+    ],
+    "species": [
+      "小鼠（Mus musculus）"
+    ],
+    "actualEntity": "内源小鼠 Tet2；H3K9me3 标记的异染色质和 5-羟甲基胞嘧啶（5hmC）",
+    "tissueCell": "小鼠骨髓 LSK 造血干祖细胞",
+    "model": "年轻（6–8 周龄）和老龄（18–24 月龄）野生型及 Tet2 敲除小鼠的骨髓细胞比较。",
+    "intervention": "比较 Tet2 敲除和野生型小鼠的年龄分组；用免疫荧光测定亚核定位，用 CMS-IP-seq 测定 5hmC 分布。",
+    "result": "与年轻野生型组相比，老龄野生型组在 H3K9me3 标记区域的 5hmC 富集增强，异染色质定位偏向核质。Tet2 敲除组的 5hmC 年龄差异较弱，老龄组保留核周定位。整体 5mC 随龄下降见于野生型和 Tet2 敲除组。",
+    "endpoints": [
+      "H3K9me3 标记异染色质亚核定位",
+      "异染色质 5hmC 富集",
+      "DNA 甲基化分布"
+    ],
+    "conditions": "按 LSK 标志分选骨髓细胞；在同一年龄层比较 Tet2 敲除与野生型。",
+    "limitations": "异染色质亚核定位和整体甲基化为不同检测终点。",
+    "supportStatus": "支持",
+    "locator": "Results: Tet2 depletion prevents heterochromatin relocalization；Figs. 3D–I、4A–C，Extended Data Fig. 5A–B。",
+    "accessScope": "全文（相关结果与图注）",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11209854/",
+    "studyContext": "aging_function",
+    "phenotypeIds": [
+      "phenotype-d263ffc19089"
+    ],
+    "interventionIds": [],
+    "dose": "遗传敲除。",
+    "time": "年轻组 6–8 周龄，老龄组 18–24 月龄。",
+    "sampleSize": "Fig. 3D：2 个生物学重复；Fig. 3F–G：取自 5 只供体鼠的 48–53 个细胞。"
+  },
+  {
+    "id": "ev-pink1-aged-kidney",
+    "targetId": "target-pink1",
+    "pathwayIds": [
+      "pathway-mitophagy"
+    ],
+    "publicationId": "pub-37183600",
+    "claim": "24 月龄雄性小鼠中，Pink1 缺失加重肾小管损伤及间质纤维化。",
+    "evidenceType": [
+      "全身基因敲除",
+      "自然老龄动物对照"
+    ],
+    "species": [
+      "小鼠（Mus musculus）"
+    ],
+    "actualEntity": "小鼠 Pink1",
+    "tissueCell": "肾组织，重点为肾小管、间质及肾皮质线粒体",
+    "model": "雄性 C57BL/6 小鼠；4 与 24 月龄，各设野生型和 Pink1 敲除组。",
+    "intervention": "Pink1 全身敲除；在两个年龄分别比较敲除鼠和同龄野生型鼠。",
+    "result": "24 月龄敲除组肾小管损伤评分及肾间质胶原染色面积增加，尿白蛋白/肌酐比和血肌酐升高；肾皮质线粒体体积增大、嵴结构受损。两组 24 月龄小鼠的肾小球硬化评分无显著差异。",
+    "endpoints": [
+      "肾小管损伤评分",
+      "Masson 胶原阳性面积",
+      "尿白蛋白/肌酐比",
+      "血肌酐",
+      "肾皮质线粒体透射电镜",
+      "肾小球硬化评分"
+    ],
+    "conditions": "比较 4 与 24 月龄的雄性小鼠；肾组织终点包含病理评分、肾功能指标与线粒体超微结构。",
+    "limitations": "体内以全身敲除和肾组织终点评估；LC3B 与 TOM20 共定位在单独的 HKC-8 细胞实验测量。",
+    "supportStatus": "支持",
+    "locator": "Results §2.1、§2.7；Fig. 1a–e、Fig. 5h–i、Fig. S1 对应的正文；Methods §4.1。",
+    "accessScope": "全文（期刊发表版）",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10352563/",
+    "studyContext": "aging_function",
+    "phenotypeIds": [
+      "phenotype-7d3bb8171df8",
+      "phenotype-4aadd3298fa4",
+      "phenotype-5e1b7cc421fa"
+    ],
+    "interventionIds": [],
+    "dose": "遗传敲除",
+    "time": "4 月龄或 24 月龄取材",
+    "sampleSize": "动物研究 4 组，每组 5 只（Methods §4.1）"
+  },
+  {
+    "id": "ev-pink1-hkc8-lc3-tom20",
+    "targetId": "target-pink1",
+    "pathwayIds": [
+      "pathway-mitophagy"
+    ],
+    "publicationId": "pub-37183600",
+    "claim": "过氧化氢处理的人肾近端小管上皮细胞中，PINK1 敲低降低 LC3B 与线粒体标记 TOM20 的共定位。",
+    "evidenceType": [
+      "siRNA 敲低",
+      "免疫荧光共定位"
+    ],
+    "species": [
+      "人（Homo sapiens）"
+    ],
+    "actualEntity": "人 PINK1",
+    "tissueCell": "人肾近端小管上皮细胞系 HKC-8",
+    "model": "过氧化氢诱导的 HKC-8 氧化应激模型。",
+    "intervention": "siPINK1 与对照 siRNA；两组分别设有或无过氧化氢处理。",
+    "result": "过氧化氢处理后，对照组 LC3B 与 TOM20 共定位增加；相同处理下，PINK1 敲低组的相对共定位面积较低。",
+    "endpoints": [
+      "LC3B 与 TOM20 相对共定位面积"
+    ],
+    "conditions": "过氧化氢 200 μM 处理 2 小时，换液后继续培养并在 48 小时取样。",
+    "limitations": "固定细胞的免疫荧光共定位测量。",
+    "supportStatus": "支持",
+    "locator": "Results §2.7；Fig. 5c–d；Methods §4.2。",
+    "accessScope": "全文（期刊发表版）",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10352563/",
+    "studyContext": "nonaging_support",
+    "phenotypeIds": [
+      "phenotype-813ebdacb485"
+    ],
+    "interventionIds": [],
+    "dose": "过氧化氢 200 μM",
+    "time": "过氧化氢 2 小时；换液后 48 小时取样",
+    "sampleSize": "当前未获取"
+  },
+  {
+    "id": "ev-prkn-aged-muscle-exercise-flux",
+    "targetId": "target-prkn",
+    "pathwayIds": [
+      "pathway-mitophagy"
+    ],
+    "publicationId": "pub-29812989",
+    "claim": "老龄 Parkin 敲除小鼠骨骼肌分离线粒体的活性氧生成读数较高；运动相关自噬读数随年龄和基因型而异。",
+    "evidenceType": [
+      "基因敲除",
+      "自然老龄动物对照",
+      "阻断自噬体转运估计通量"
+    ],
+    "species": [
+      "小鼠（Mus musculus）"
+    ],
+    "actualEntity": "小鼠 Prkn（B6;129S4-Park2tm1Shn/J）",
+    "tissueCell": "小鼠骨骼肌及分离的线粒体组分",
+    "model": "C57BL/6 野生型及 B6;129S4-Park2tm1Shn/J 敲除小鼠；年轻组最低 3 月龄，老龄组最低 18 月龄。",
+    "intervention": "比较 Parkin 敲除和野生型、静息与单次耐力运动。秋水仙碱与载体组用于估计线粒体相关自噬标记的通量。",
+    "result": "老龄敲除组的线粒体活性氧生成读数较高，股四头肌质量较老龄野生型未进一步下降。单次耐力运动提高年轻野生型组的线粒体相关自噬读数，年轻敲除组未出现相同增幅；老龄野生型动物的基础线粒体相关 LC3-II 通量读数较高，运动后未进一步升高。",
+    "endpoints": [
+      "分离线粒体活性氧生成读数",
+      "按胫骨长度校正的股四头肌质量",
+      "线粒体组分脂化 LC3（LC3-II）通量读数",
+      "运动后线粒体相关自噬标记"
+    ],
+    "conditions": "单次耐力运动；按年龄和基因型比较。秋水仙碱用于阻断自噬体向溶酶体转运。",
+    "limitations": "通量以秋水仙碱阻断前后线粒体组分的自噬标记估计；基因型效应和年龄效应在各自比较组中报告。",
+    "supportStatus": "条件依赖",
+    "locator": "摘要；Materials and Methods: Mice、Exercise protocol and blood lactate；Table 1、Fig. 1D 与讨论；Results 中线粒体相关自噬标记及通量段落。",
+    "accessScope": "期刊发表版公开索引正文及 PubMed 摘要",
+    "sourceUrl": "https://journals.physiology.org/doi/epdf/10.1152/ajpendo.00391.2017",
+    "studyContext": "aging_function",
+    "phenotypeIds": [
+      "phenotype-16663d75598c",
+      "phenotype-2a85e6c4c0ff"
+    ],
+    "interventionIds": [],
+    "dose": "秋水仙碱 0.4 mg/kg/日，腹腔注射",
+    "time": "运动取材前每日注射 1 次，连续 2 天；单次运动",
+    "sampleSize": "当前未获取"
   }
 ]

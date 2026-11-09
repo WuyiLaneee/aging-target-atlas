@@ -1226,7 +1226,7 @@
       "ev-ccn1-replicative-ecm"
     ],
     "backgroundSourceIds": [],
-    "context": "复制性细胞衰老及其胶原ECM稳态异常；干预：在复制性衰老成纤维细胞中敲低升高的CCN1；摘要未注明所用具体敲低试剂。；结果：复制性衰老细胞中CCN1升高、I型前胶原降低且MMP1升高。CCN1敲低使I型前胶原及MMP1表达部分恢复；原子力显微镜观察表明胶原纤维碎裂和排列紊乱大幅减轻。；复制性衰老的人真皮成纤维细胞体外体系；功能干预与ECM终点相匹配。",
+    "context": "复制性细胞衰老及其胶原ECM稳态异常；干预：在复制性衰老的原代人真皮成纤维细胞中敲低CCN1。；结果：复制性衰老细胞中CCN1升高、I型前胶原降低且MMP1升高。CCN1敲低使I型前胶原及MMP1表达部分恢复；原子力显微镜观察表明胶原纤维碎裂和排列紊乱大幅减轻。；复制性衰老的人真皮成纤维细胞体外体系；功能干预与ECM终点相匹配。",
     "scope": "aging_experiment",
     "label": "干预后表型（见条件）",
     "direction": "undirected"
@@ -1242,7 +1242,7 @@
       "ev-ccn1-replicative-ecm"
     ],
     "backgroundSourceIds": [],
-    "context": "复制性细胞衰老及其胶原ECM稳态异常；干预：在复制性衰老成纤维细胞中敲低升高的CCN1；摘要未注明所用具体敲低试剂。；结果：复制性衰老细胞中CCN1升高、I型前胶原降低且MMP1升高。CCN1敲低使I型前胶原及MMP1表达部分恢复；原子力显微镜观察表明胶原纤维碎裂和排列紊乱大幅减轻。；复制性衰老的人真皮成纤维细胞体外体系；功能干预与ECM终点相匹配。",
+    "context": "复制性细胞衰老及其胶原ECM稳态异常；干预：在复制性衰老的原代人真皮成纤维细胞中敲低CCN1。；结果：复制性衰老细胞中CCN1升高、I型前胶原降低且MMP1升高。CCN1敲低使I型前胶原及MMP1表达部分恢复；原子力显微镜观察表明胶原纤维碎裂和排列紊乱大幅减轻。；复制性衰老的人真皮成纤维细胞体外体系；功能干预与ECM终点相匹配。",
     "scope": "aging_experiment",
     "label": "干预后表型（见条件）",
     "direction": "undirected"
@@ -1258,7 +1258,7 @@
       "ev-ccn1-replicative-ecm"
     ],
     "backgroundSourceIds": [],
-    "context": "复制性细胞衰老及其胶原ECM稳态异常；干预：在复制性衰老成纤维细胞中敲低升高的CCN1；摘要未注明所用具体敲低试剂。；结果：复制性衰老细胞中CCN1升高、I型前胶原降低且MMP1升高。CCN1敲低使I型前胶原及MMP1表达部分恢复；原子力显微镜观察表明胶原纤维碎裂和排列紊乱大幅减轻。；复制性衰老的人真皮成纤维细胞体外体系；功能干预与ECM终点相匹配。",
+    "context": "复制性细胞衰老及其胶原ECM稳态异常；干预：在复制性衰老的原代人真皮成纤维细胞中敲低CCN1。；结果：复制性衰老细胞中CCN1升高、I型前胶原降低且MMP1升高。CCN1敲低使I型前胶原及MMP1表达部分恢复；原子力显微镜观察表明胶原纤维碎裂和排列紊乱大幅减轻。；复制性衰老的人真皮成纤维细胞体外体系；功能干预与ECM终点相匹配。",
     "scope": "aging_experiment",
     "label": "干预后表型（见条件）",
     "direction": "undirected"
@@ -1504,12 +1504,476 @@
     "direction": "undirected"
   },
   {
+    "id": "rel-ev-mmp1-19116368-purified-enzyme-explant-phenotype-2373163f4b00",
+    "sourceId": "target-mmp1",
+    "targetId": "phenotype-2373163f4b00",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-mmp1-19116368-purified-enzyme-explant"
+    ],
+    "backgroundSourceIds": [],
+    "context": "年轻人皮肤器官培养，老年皮肤作形态参照；干预：在培养中加入纯化人 MMP-1，与溶剂处理的年轻人皮肤比较。；结果：MMP-1 处理组培养液出现特征性胶原裂解片段；扫描电镜显示胶原原纤维碎裂，H&E 切片中成纤维细胞铺展减少、形态偏圆，呈现与老年皮肤参照相似的形态变化。；采用 21–30 岁供者的 2 mm 皮肤活检；每孔培养液 500 μL，CaCl₂ 终浓度 1.4 mmol/L。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-mmp1-23601157-human-skin-explant-phenotype-2373163f4b00",
+    "sourceId": "target-mmp1",
+    "targetId": "phenotype-2373163f4b00",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-mmp1-23601157-human-skin-explant"
+    ],
+    "backgroundSourceIds": [],
+    "context": "21–30 岁供者皮肤离体器官培养；80 岁以上供者皮肤作为自然老化形态参照；干预：以腺病毒在年轻皮肤外植体表达 MMP-1 V94G；空腺病毒为离体对照。；结果：与空腺病毒组相比，MMP-1 V94G 组出现胶原原纤维断裂和排列紊乱，透射电镜形态与老年真皮参照组相似。；采用健康非吸烟者臀部避光皮肤；年龄参照与离体病毒干预分属不同实验组。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-terf2-smogorzewska-2002-phenotype-39ccf81464b0",
+    "sourceId": "target-terf2",
+    "targetId": "phenotype-39ccf81464b0",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-terf2-smogorzewska-2002"
+    ],
+    "backgroundSourceIds": [],
+    "context": "增殖期人成纤维细胞端粒去保护模型；高传代 IMR90 作为复制性衰老参照；干预：逆转录病毒表达 TRF2ΔBΔM，与空载体及野生型 TRF2 组比较。；结果：表达 TRF2ΔBΔM 后，细胞增殖和 S 期比例下降，出现扁平、增大的细胞及 SA-β-gal 染色增强。；TRF2ΔBΔM 使端粒末端去保护；该实验采用急性端粒失功能模型。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-terf2-smogorzewska-2002-phenotype-753b75aac2af",
+    "sourceId": "target-terf2",
+    "targetId": "phenotype-753b75aac2af",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-terf2-smogorzewska-2002"
+    ],
+    "backgroundSourceIds": [],
+    "context": "增殖期人成纤维细胞端粒去保护模型；高传代 IMR90 作为复制性衰老参照；干预：逆转录病毒表达 TRF2ΔBΔM，与空载体及野生型 TRF2 组比较。；结果：表达 TRF2ΔBΔM 后，细胞增殖和 S 期比例下降，出现扁平、增大的细胞及 SA-β-gal 染色增强。；TRF2ΔBΔM 使端粒末端去保护；该实验采用急性端粒失功能模型。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-terf2-munoz-2005-phenotype-0ad1fdaab4a5",
+    "sourceId": "target-terf2",
+    "targetId": "phenotype-0ad1fdaab4a5",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-terf2-munoz-2005"
+    ],
+    "backgroundSourceIds": [],
+    "context": "皮肤过表达 Terf2 的 K5TRF2 转基因小鼠及来源角质形成细胞；干预：K5 驱动 Terf2 过表达，与对照小鼠比较；另在 Xpf 遗传背景下检验端粒损失。；结果：光照下，转基因小鼠出现皮肤提前退变、色素沉着及皮肤肿瘤增多。角质形成细胞对紫外线和 DNA 交联剂更敏感；皮肤细胞端粒缩短，端粒 G 链突出端减少。该模型的端粒损失依赖 XPF。；K5 驱动的皮肤过表达模型；紫外线敏感性在来源角质形成细胞中评估。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-terf2-munoz-2005-phenotype-d6a898df0186",
+    "sourceId": "target-terf2",
+    "targetId": "phenotype-d6a898df0186",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-terf2-munoz-2005"
+    ],
+    "backgroundSourceIds": [],
+    "context": "皮肤过表达 Terf2 的 K5TRF2 转基因小鼠及来源角质形成细胞；干预：K5 驱动 Terf2 过表达，与对照小鼠比较；另在 Xpf 遗传背景下检验端粒损失。；结果：光照下，转基因小鼠出现皮肤提前退变、色素沉着及皮肤肿瘤增多。角质形成细胞对紫外线和 DNA 交联剂更敏感；皮肤细胞端粒缩短，端粒 G 链突出端减少。该模型的端粒损失依赖 XPF。；K5 驱动的皮肤过表达模型；紫外线敏感性在来源角质形成细胞中评估。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-terf2-stout-2009-phenotype-0ad1fdaab4a5",
+    "sourceId": "target-terf2",
+    "targetId": "phenotype-0ad1fdaab4a5",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-terf2-stout-2009"
+    ],
+    "backgroundSourceIds": [],
+    "context": "K5TRF2 转基因小鼠与 Trp53 缺失小鼠交配所得复合模型；干预：对照比较 K5TRF2、Trp53 缺失、复合基因型及野生型，分析表皮干细胞功能、端粒长度和皮肤病变。；结果：Trp53 缺失改善 K5TRF2 表皮干细胞的动员和离体克隆形成。新生小鼠表皮 Q-FISH 显示端粒仍短。在慢性低剂量紫外线实验中，复合基因型小鼠最早于第 8 周出现乳头瘤，单独 Trp53 缺失组为第 25 周；复合基因型组的皮肤癌前及肿瘤病变更多。；端粒长度测定取自新生小鼠皮肤；皮肤肿瘤终点取自独立的慢性低剂量紫外线实验。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-terf2-stout-2009-phenotype-32b5a70d7ca3",
+    "sourceId": "target-terf2",
+    "targetId": "phenotype-32b5a70d7ca3",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-terf2-stout-2009"
+    ],
+    "backgroundSourceIds": [],
+    "context": "K5TRF2 转基因小鼠与 Trp53 缺失小鼠交配所得复合模型；干预：对照比较 K5TRF2、Trp53 缺失、复合基因型及野生型，分析表皮干细胞功能、端粒长度和皮肤病变。；结果：Trp53 缺失改善 K5TRF2 表皮干细胞的动员和离体克隆形成。新生小鼠表皮 Q-FISH 显示端粒仍短。在慢性低剂量紫外线实验中，复合基因型小鼠最早于第 8 周出现乳头瘤，单独 Trp53 缺失组为第 25 周；复合基因型组的皮肤癌前及肿瘤病变更多。；端粒长度测定取自新生小鼠皮肤；皮肤肿瘤终点取自独立的慢性低剂量紫外线实验。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-hsf1-kruta-2021-aging-phenotype-ae3a7e9de79c",
+    "sourceId": "target-hsf1",
+    "targetId": "phenotype-ae3a7e9de79c",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-hsf1-kruta-2021-aging"
+    ],
+    "backgroundSourceIds": [],
+    "context": "年轻和中年小鼠的 Hsf1 条件敲除及对照；同系标记竞争性骨髓移植；干预：比较 Hsf1 条件敲除及 flox/flox 对照的造血干细胞 OPP 掺入；将各组供体骨髓与同量竞争细胞混合后移植。；结果：中年缺失组造血干细胞的 OPP 掺入升高，且供体细胞的长期竞争性造血重建下降。年轻供体的初次及二次移植重建在两种基因型间相近。；蛋白质合成测定：3 月龄及 11–12 月龄；移植：2–3 月龄及 10–12 月龄供体。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-hsf1-kruta-2021-aging-phenotype-a70d494ad413",
+    "sourceId": "target-hsf1",
+    "targetId": "phenotype-a70d494ad413",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-hsf1-kruta-2021-aging"
+    ],
+    "backgroundSourceIds": [],
+    "context": "年轻和中年小鼠的 Hsf1 条件敲除及对照；同系标记竞争性骨髓移植；干预：比较 Hsf1 条件敲除及 flox/flox 对照的造血干细胞 OPP 掺入；将各组供体骨髓与同量竞争细胞混合后移植。；结果：中年缺失组造血干细胞的 OPP 掺入升高，且供体细胞的长期竞争性造血重建下降。年轻供体的初次及二次移植重建在两种基因型间相近。；蛋白质合成测定：3 月龄及 11–12 月龄；移植：2–3 月龄及 10–12 月龄供体。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-mfap4-22355679-skin-xenograft-phenotype-668dd3b81ce4",
+    "sourceId": "target-mfap4",
+    "targetId": "phenotype-668dd3b81ce4",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-mfap4-22355679-skin-xenograft"
+    ],
+    "backgroundSourceIds": [],
+    "context": "SCID 小鼠承载的人皮肤移植物重复 UVB 光老化模型；干预：人皮肤移植物内给予编码全长人 MFAP4 的慢病毒；采用编码报告基因的慢病毒作照射匹配对照，并设置报告基因未照射参照。；结果：8 周重复 UVB 后，MFAP4 过表达组保留较多 Luna 染色弹性纤维和 I 型胶原免疫染色；4 周照射终点的蛋白印迹亦显示过表达组 I 型胶原丰度高于报告基因组。；皮肤移植愈合后启动重复 UVB 照射；移植物内慢病毒给药两次，间隔一周。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-mfap4-22355679-skin-xenograft-phenotype-1a122cb165f2",
+    "sourceId": "target-mfap4",
+    "targetId": "phenotype-1a122cb165f2",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-mfap4-22355679-skin-xenograft"
+    ],
+    "backgroundSourceIds": [],
+    "context": "SCID 小鼠承载的人皮肤移植物重复 UVB 光老化模型；干预：人皮肤移植物内给予编码全长人 MFAP4 的慢病毒；采用编码报告基因的慢病毒作照射匹配对照，并设置报告基因未照射参照。；结果：8 周重复 UVB 后，MFAP4 过表达组保留较多 Luna 染色弹性纤维和 I 型胶原免疫染色；4 周照射终点的蛋白印迹亦显示过表达组 I 型胶原丰度高于报告基因组。；皮肤移植愈合后启动重复 UVB 照射；移植物内慢病毒给药两次，间隔一周。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-mfap4-22355679-skin-xenograft-intervention-4197ae0abcee",
+    "sourceId": "intervention-4197ae0abcee",
+    "targetId": "target-mfap4",
+    "relationType": "indirect",
+    "polarity": "unknown",
+    "directness": "实验处理与该条目功能主张的关联；药理关联不自动证明直接结合或特异性。",
+    "evidenceIds": [
+      "ev-mfap4-22355679-skin-xenograft"
+    ],
+    "backgroundSourceIds": [],
+    "context": "人皮肤移植物内给予编码全长人 MFAP4 的慢病毒；采用编码报告基因的慢病毒作照射匹配对照，并设置报告基因未照射参照。；SCID 小鼠承载的人皮肤移植物重复 UVB 光老化模型；实验组织为 SCID 小鼠承载的人皮肤移植物；4 周和 8 周终点采用不同检测方法。",
+    "scope": "aging_experiment",
+    "label": "药理 / 处理关联",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-foxo3-aged-hsc-phenotype-9fd28311790f",
+    "sourceId": "target-foxo3",
+    "targetId": "phenotype-9fd28311790f",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-foxo3-aged-hsc"
+    ],
+    "backgroundSourceIds": [],
+    "context": "自然老龄基因敲除小鼠；干预：靶向建立 Foxo3a−/− 小鼠，与同窝对照比较。；结果：老龄 Foxo3a−/− 小鼠的造血干细胞频率显著低于同窝对照。；全身基因缺失；同窝对照。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-atg7-satellite-ko-phenotype-c3fa95b0152c",
+    "sourceId": "target-atg7",
+    "targetId": "phenotype-c3fa95b0152c",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-atg7-satellite-ko"
+    ],
+    "backgroundSourceIds": [],
+    "context": "3 月龄 Atg7 条件缺失小鼠；干预：对 Atg7ΔPax7ER 和 Atg7WT 对照给予他莫昔芬；分别在第 7 天和第 30 天检测。；结果：第 7 天，p16INK4a、p21CIP1 和 p15INK4b mRNA 升高；第 30 天，Pax7⁺ 卫星细胞数减少。；成年期诱导，Pax7 谱系；分别检测转录和细胞数量。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-atg7-satellite-ko-phenotype-feeadfea976d",
+    "sourceId": "target-atg7",
+    "targetId": "phenotype-feeadfea976d",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-atg7-satellite-ko"
+    ],
+    "backgroundSourceIds": [],
+    "context": "3 月龄 Atg7 条件缺失小鼠；干预：对 Atg7ΔPax7ER 和 Atg7WT 对照给予他莫昔芬；分别在第 7 天和第 30 天检测。；结果：第 7 天，p16INK4a、p21CIP1 和 p15INK4b mRNA 升高；第 30 天，Pax7⁺ 卫星细胞数减少。；成年期诱导，Pax7 谱系；分别检测转录和细胞数量。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-psmb5-chondrogianni-2005-phenotype-aaf6b79138ad",
+    "sourceId": "target-psmb5",
+    "targetId": "phenotype-aaf6b79138ad",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-psmb5-chondrogianni-2005"
+    ],
+    "backgroundSourceIds": [],
+    "context": "培养扩增至复制性衰老的 IMR90 稳定转染克隆；干预：稳定转染编码蛋白酶体 β5 的构建体，与对照细胞比较。；结果：β5 过表达克隆达到复制性衰老前的群体倍增数比对照平均多约 4–5 次。；持续培养可扩增的 IMR90 稳定转染克隆直至复制性衰老。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-psmb5-hwang-2007-dermis-phenotype-39ccf81464b0",
+    "sourceId": "target-psmb5",
+    "targetId": "phenotype-39ccf81464b0",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-psmb5-hwang-2007-dermis"
+    ],
+    "backgroundSourceIds": [],
+    "context": "老年供者真皮成纤维细胞离体培养；干预：单独转导 lenti-PSMB5，与空慢病毒载体组比较。；结果：PSMB5 转导组的胰凝乳蛋白酶样活性升高，氧化蛋白和泛素化蛋白水平降低。SA-β-gal 阳性比例为 7±2%，空载体组为 26±3%（均值±SEM）；p21 蛋白水平下降。；分析老年供者真皮成纤维细胞的 PSMB5 单基因转导组；研究另设 PSMB6 转导组。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-psmb5-hwang-2007-dermis-phenotype-1e3ac1ec75bc",
+    "sourceId": "target-psmb5",
+    "targetId": "phenotype-1e3ac1ec75bc",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-psmb5-hwang-2007-dermis"
+    ],
+    "backgroundSourceIds": [],
+    "context": "老年供者真皮成纤维细胞离体培养；干预：单独转导 lenti-PSMB5，与空慢病毒载体组比较。；结果：PSMB5 转导组的胰凝乳蛋白酶样活性升高，氧化蛋白和泛素化蛋白水平降低。SA-β-gal 阳性比例为 7±2%，空载体组为 26±3%（均值±SEM）；p21 蛋白水平下降。；分析老年供者真皮成纤维细胞的 PSMB5 单基因转导组；研究另设 PSMB6 转导组。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-tet2-36379023-mosaic-aging-phenotype-5cf952a8d8a9",
+    "sourceId": "target-tet2",
+    "targetId": "phenotype-5cf952a8d8a9",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-tet2-36379023-mosaic-aging"
+    ],
+    "backgroundSourceIds": [],
+    "context": "他莫昔芬诱导 HSC-SCL-Cre-ERT 的三转基因造血嵌合小鼠；诱导后随生理月龄增长追踪。；干预：1–2 月龄时单次给予他莫昔芬，分别生成带 ZsGreen 标记的 Tet2+/− 或 Tet2 野生型造血细胞群。；结果：Tet2+/− 标记细胞在外周血中的比例较标记野生型细胞增加更多；扩张见于 T、B、髓系和红细胞谱系，骨髓多个造血祖细胞群和长期造血干细胞的标记比例升高。老年终点的总血细胞计数在两组间无显著差异。；诱导后的初始标记造血细胞比例约为 10%；以同样标记的野生型造血细胞作对照。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-tet2-36379023-mosaic-aging-intervention-2ca47ee073f8",
+    "sourceId": "intervention-2ca47ee073f8",
+    "targetId": "target-tet2",
+    "relationType": "indirect",
+    "polarity": "unknown",
+    "directness": "实验处理与该条目功能主张的关联；药理关联不自动证明直接结合或特异性。",
+    "evidenceIds": [
+      "ev-tet2-36379023-mosaic-aging"
+    ],
+    "backgroundSourceIds": [],
+    "context": "1–2 月龄时单次给予他莫昔芬，分别生成带 ZsGreen 标记的 Tet2+/− 或 Tet2 野生型造血细胞群。；他莫昔芬诱导 HSC-SCL-Cre-ERT 的三转基因造血嵌合小鼠；诱导后随生理月龄增长追踪。；读数为小鼠造血谱系内标记细胞比例与计数。",
+    "scope": "aging_experiment",
+    "label": "药理 / 处理关联",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-tet2-37884767-aging-competition-phenotype-5cf952a8d8a9",
+    "sourceId": "target-tet2",
+    "targetId": "phenotype-5cf952a8d8a9",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-tet2-37884767-aging-competition"
+    ],
+    "backgroundSourceIds": [],
+    "context": "年轻（6–8 周龄）或老龄（18–24 月龄）小鼠供体细胞的骨髓竞争移植。；干预：将同龄野生型和 Tet2 敲除造血干祖细胞按 9:1 混合，移植到受致死剂量照射的 CD45.1 受体；用 CD45 同种型区分后代。；结果：年轻和老龄两组的 Tet2 缺失细胞均呈竞争优势；老龄混合组的优势更强，淋巴和髓系后代均显示老龄 Tet2 缺失供体的重建优势。；每组同时移植同一年龄层的野生型和 Tet2 缺失细胞；移植后每两周测定外周血。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-tet2-37884767-aging-competition-phenotype-0eb10b555a9f",
+    "sourceId": "target-tet2",
+    "targetId": "phenotype-0eb10b555a9f",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-tet2-37884767-aging-competition"
+    ],
+    "backgroundSourceIds": [],
+    "context": "年轻（6–8 周龄）或老龄（18–24 月龄）小鼠供体细胞的骨髓竞争移植。；干预：将同龄野生型和 Tet2 敲除造血干祖细胞按 9:1 混合，移植到受致死剂量照射的 CD45.1 受体；用 CD45 同种型区分后代。；结果：年轻和老龄两组的 Tet2 缺失细胞均呈竞争优势；老龄混合组的优势更强，淋巴和髓系后代均显示老龄 Tet2 缺失供体的重建优势。；每组同时移植同一年龄层的野生型和 Tet2 缺失细胞；移植后每两周测定外周血。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-tet2-37884767-heterochromatin-phenotype-d263ffc19089",
+    "sourceId": "target-tet2",
+    "targetId": "phenotype-d263ffc19089",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-tet2-37884767-heterochromatin"
+    ],
+    "backgroundSourceIds": [],
+    "context": "年轻（6–8 周龄）和老龄（18–24 月龄）野生型及 Tet2 敲除小鼠的骨髓细胞比较。；干预：比较 Tet2 敲除和野生型小鼠的年龄分组；用免疫荧光测定亚核定位，用 CMS-IP-seq 测定 5hmC 分布。；结果：与年轻野生型组相比，老龄野生型组在 H3K9me3 标记区域的 5hmC 富集增强，异染色质定位偏向核质。Tet2 敲除组的 5hmC 年龄差异较弱，老龄组保留核周定位。整体 5mC 随龄下降见于野生型和 Tet2 敲除组。；按 LSK 标志分选骨髓细胞；在同一年龄层比较 Tet2 敲除与野生型。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-pink1-aged-kidney-phenotype-7d3bb8171df8",
+    "sourceId": "target-pink1",
+    "targetId": "phenotype-7d3bb8171df8",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-pink1-aged-kidney"
+    ],
+    "backgroundSourceIds": [],
+    "context": "雄性 C57BL/6 小鼠；4 与 24 月龄，各设野生型和 Pink1 敲除组。；干预：Pink1 全身敲除；在两个年龄分别比较敲除鼠和同龄野生型鼠。；结果：24 月龄敲除组肾小管损伤评分及肾间质胶原染色面积增加，尿白蛋白/肌酐比和血肌酐升高；肾皮质线粒体体积增大、嵴结构受损。两组 24 月龄小鼠的肾小球硬化评分无显著差异。；比较 4 与 24 月龄的雄性小鼠；肾组织终点包含病理评分、肾功能指标与线粒体超微结构。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-pink1-aged-kidney-phenotype-4aadd3298fa4",
+    "sourceId": "target-pink1",
+    "targetId": "phenotype-4aadd3298fa4",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-pink1-aged-kidney"
+    ],
+    "backgroundSourceIds": [],
+    "context": "雄性 C57BL/6 小鼠；4 与 24 月龄，各设野生型和 Pink1 敲除组。；干预：Pink1 全身敲除；在两个年龄分别比较敲除鼠和同龄野生型鼠。；结果：24 月龄敲除组肾小管损伤评分及肾间质胶原染色面积增加，尿白蛋白/肌酐比和血肌酐升高；肾皮质线粒体体积增大、嵴结构受损。两组 24 月龄小鼠的肾小球硬化评分无显著差异。；比较 4 与 24 月龄的雄性小鼠；肾组织终点包含病理评分、肾功能指标与线粒体超微结构。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-pink1-aged-kidney-phenotype-5e1b7cc421fa",
+    "sourceId": "target-pink1",
+    "targetId": "phenotype-5e1b7cc421fa",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-pink1-aged-kidney"
+    ],
+    "backgroundSourceIds": [],
+    "context": "雄性 C57BL/6 小鼠；4 与 24 月龄，各设野生型和 Pink1 敲除组。；干预：Pink1 全身敲除；在两个年龄分别比较敲除鼠和同龄野生型鼠。；结果：24 月龄敲除组肾小管损伤评分及肾间质胶原染色面积增加，尿白蛋白/肌酐比和血肌酐升高；肾皮质线粒体体积增大、嵴结构受损。两组 24 月龄小鼠的肾小球硬化评分无显著差异。；比较 4 与 24 月龄的雄性小鼠；肾组织终点包含病理评分、肾功能指标与线粒体超微结构。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-prkn-aged-muscle-exercise-flux-phenotype-16663d75598c",
+    "sourceId": "target-prkn",
+    "targetId": "phenotype-16663d75598c",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-prkn-aged-muscle-exercise-flux"
+    ],
+    "backgroundSourceIds": [],
+    "context": "C57BL/6 野生型及 B6;129S4-Park2tm1Shn/J 敲除小鼠；年轻组最低 3 月龄，老龄组最低 18 月龄。；干预：比较 Parkin 敲除和野生型、静息与单次耐力运动。秋水仙碱与载体组用于估计线粒体相关自噬标记的通量。；结果：老龄敲除组的线粒体活性氧生成读数较高，股四头肌质量较老龄野生型未进一步下降。单次耐力运动提高年轻野生型组的线粒体相关自噬读数，年轻敲除组未出现相同增幅；老龄野生型动物的基础线粒体相关 LC3-II 通量读数较高，运动后未进一步升高。；单次耐力运动；按年龄和基因型比较。秋水仙碱用于阻断自噬体向溶酶体转运。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-ev-prkn-aged-muscle-exercise-flux-phenotype-2a85e6c4c0ff",
+    "sourceId": "target-prkn",
+    "targetId": "phenotype-2a85e6c4c0ff",
+    "relationType": "associated_with",
+    "polarity": "unknown",
+    "directness": "特定干预与实验表型的功能关联；不宣称恒定分子活性方向或直接物理作用。",
+    "evidenceIds": [
+      "ev-prkn-aged-muscle-exercise-flux"
+    ],
+    "backgroundSourceIds": [],
+    "context": "C57BL/6 野生型及 B6;129S4-Park2tm1Shn/J 敲除小鼠；年轻组最低 3 月龄，老龄组最低 18 月龄。；干预：比较 Parkin 敲除和野生型、静息与单次耐力运动。秋水仙碱与载体组用于估计线粒体相关自噬标记的通量。；结果：老龄敲除组的线粒体活性氧生成读数较高，股四头肌质量较老龄野生型未进一步下降。单次耐力运动提高年轻野生型组的线粒体相关自噬读数，年轻敲除组未出现相同增幅；老龄野生型动物的基础线粒体相关 LC3-II 通量读数较高，运动后未进一步升高。；单次耐力运动；按年龄和基因型比较。秋水仙碱用于阻断自噬体向溶酶体转运。",
+    "scope": "aging_experiment",
+    "label": "干预后表型（见条件）",
+    "direction": "undirected"
+  },
+  {
     "id": "rel-member-target-sirt1-pathway-nad",
     "sourceId": "target-sirt1",
     "targetId": "pathway-nad",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-35163314"
@@ -1525,7 +1989,7 @@
     "targetId": "pathway-nad",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-29717979",
@@ -1542,7 +2006,7 @@
     "targetId": "pathway-nad",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-22367546",
@@ -1559,7 +2023,7 @@
     "targetId": "pathway-nad",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-23375372"
@@ -1575,7 +2039,7 @@
     "targetId": "pathway-nad",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-27304511"
@@ -1591,7 +2055,7 @@
     "targetId": "pathway-igf",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-22367546",
@@ -1608,7 +2072,7 @@
     "targetId": "pathway-igf",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-12483226",
@@ -1625,7 +2089,7 @@
     "targetId": "pathway-igf",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-16123266"
@@ -1641,7 +2105,7 @@
     "targetId": "pathway-mtor",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-31761958"
@@ -1657,7 +2121,7 @@
     "targetId": "pathway-mtor",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-19797661"
@@ -1673,7 +2137,7 @@
     "targetId": "pathway-autophagy",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-23939249"
@@ -1689,10 +2153,26 @@
     "targetId": "pathway-autophagy",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-29849149"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-atg7-pathway-autophagy",
+    "sourceId": "target-atg7",
+    "targetId": "pathway-autophagy",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "研究主题归属",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-26738589"
     ],
     "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
     "scope": "pathway_background",
@@ -1705,7 +2185,7 @@
     "targetId": "pathway-cgas",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-37828898"
@@ -1721,7 +2201,7 @@
     "targetId": "pathway-cgas",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-37532932",
@@ -1738,7 +2218,7 @@
     "targetId": "pathway-cgas",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-37532932"
@@ -1754,7 +2234,7 @@
     "targetId": "pathway-sasp",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-37828898"
@@ -1770,7 +2250,7 @@
     "targetId": "pathway-sasp",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-21399611",
@@ -1787,7 +2267,7 @@
     "targetId": "pathway-sasp",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-37532932"
@@ -1803,7 +2283,7 @@
     "targetId": "pathway-sasp",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-22706308",
@@ -1820,7 +2300,7 @@
     "targetId": "pathway-dna",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-29717979",
@@ -1837,7 +2317,7 @@
     "targetId": "pathway-dna",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-22706308",
@@ -1854,7 +2334,7 @@
     "targetId": "pathway-dna",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-11780111",
@@ -1871,7 +2351,7 @@
     "targetId": "pathway-mitosis",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-30026603",
@@ -1888,7 +2368,7 @@
     "targetId": "pathway-mitosis",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-23242215"
@@ -1904,7 +2384,7 @@
     "targetId": "pathway-chromatin",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-30026603",
@@ -1921,7 +2401,7 @@
     "targetId": "pathway-chromatin",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-22367546",
@@ -1938,7 +2418,7 @@
     "targetId": "pathway-chromatin",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-37532932",
@@ -1955,7 +2435,7 @@
     "targetId": "pathway-mito",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-37828898"
@@ -1971,7 +2451,7 @@
     "targetId": "pathway-mito",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-35163314"
@@ -1987,7 +2467,7 @@
     "targetId": "pathway-mito",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-23375372"
@@ -2003,7 +2483,7 @@
     "targetId": "pathway-mito",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-27304511"
@@ -2019,10 +2499,29 @@
     "targetId": "pathway-telomere",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-22585399"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-terf2-pathway-telomere",
+    "sourceId": "target-terf2",
+    "targetId": "pathway-telomere",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "研究主题归属",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-12169636",
+      "source-pub-16142233",
+      "source-pub-19259387",
+      "source-pub-41026782"
     ],
     "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
     "scope": "pathway_background",
@@ -2035,7 +2534,7 @@
     "targetId": "pathway-nlrp3",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-24093676"
@@ -2051,10 +2550,43 @@
     "targetId": "pathway-hsc",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-23375372"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-foxo3-pathway-hsc",
+    "sourceId": "target-foxo3",
+    "targetId": "pathway-hsc",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "研究主题归属",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-18371339"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-tet2-pathway-hsc",
+    "sourceId": "target-tet2",
+    "targetId": "pathway-hsc",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "研究主题归属",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-36379023",
+      "source-pub-37884767"
     ],
     "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
     "scope": "pathway_background",
@@ -2067,7 +2599,7 @@
     "targetId": "pathway-ecm-remodeling",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-37828898"
@@ -2083,7 +2615,7 @@
     "targetId": "pathway-ecm-remodeling",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-31761958"
@@ -2099,7 +2631,7 @@
     "targetId": "pathway-ecm-remodeling",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-22566095",
@@ -2116,10 +2648,29 @@
     "targetId": "pathway-ecm-remodeling",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
-      "source-pub-36914001"
+      "source-pub-36914001",
+      "source-pub-19116368",
+      "source-pub-23601157",
+      "source-pub-25201474"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-mfap4-pathway-ecm-remodeling",
+    "sourceId": "target-mfap4",
+    "targetId": "pathway-ecm-remodeling",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "研究主题归属",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-22355679"
     ],
     "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
     "scope": "pathway_background",
@@ -2132,10 +2683,108 @@
     "targetId": "pathway-basement-adhesion",
     "relationType": "member_of",
     "polarity": "not_applicable",
-    "directness": "编辑研究主题映射，不代表已验证因果调控。",
+    "directness": "研究主题归属",
     "evidenceIds": [],
     "backgroundSourceIds": [
       "source-pub-30944469"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-hsf1-pathway-heat-shock-proteostasis",
+    "sourceId": "target-hsf1",
+    "targetId": "pathway-heat-shock-proteostasis",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "研究主题归属",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-34388375"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-atg7-pathway-muscle-stem-cells",
+    "sourceId": "target-atg7",
+    "targetId": "pathway-muscle-stem-cells",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "研究主题归属",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-26738589"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-psmb5-pathway-proteasome",
+    "sourceId": "target-psmb5",
+    "targetId": "pathway-proteasome",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "研究主题归属",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-15661736",
+      "source-pub-17522352"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-tet2-pathway-dna-methylation",
+    "sourceId": "target-tet2",
+    "targetId": "pathway-dna-methylation",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "研究主题归属",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-36379023",
+      "source-pub-37884767"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-pink1-pathway-mitophagy",
+    "sourceId": "target-pink1",
+    "targetId": "pathway-mitophagy",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "研究主题归属",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-37183600"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
+    "id": "rel-member-target-prkn-pathway-mitophagy",
+    "sourceId": "target-prkn",
+    "targetId": "pathway-mitophagy",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "研究主题归属",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-29812989"
     ],
     "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
     "scope": "pathway_background",

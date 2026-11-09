@@ -1,0 +1,159 @@
+{
+  "publications": [
+    {
+      "id": "pub-35501923",
+      "title": "Fecal microbiota transfer between young and aged mice reverses hallmarks of the aging gut, eye, and brain.",
+      "authors": ["Parker A", "Romano S", "Ansorge R", "Aboelnour A", "Le Gall G", "Savva GM", "Pontifex MG", "Telatin A", "Baker D", "Jones E", "Vauzour D", "Rudder S", "Blackshaw LA", "Jeffery G", "Carding SR"],
+      "year": 2022,
+      "journal": "Microbiome",
+      "doi": "10.1186/s40168-022-01243-w",
+      "pmid": "35501923",
+      "pmcid": "PMC9063061",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35501923/",
+      "fullTextUrl": "https://discovery.ucl.ac.uk/10150438/1/s40168-022-01243-w.pdf",
+      "accessScope": "全文：UCL 机构仓储的期刊发表版；核对摘要、方法、实验设计和结果。",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-11-09",
+      "correctionStatus": "Europe PMC 的 MED 更正/撤稿关联字段无记录。"
+    },
+    {
+      "id": "pub-37117767",
+      "title": "Microbiota from young mice counteracts selective age-associated behavioral deficits.",
+      "authors": ["Boehme M", "Guzzetta KE", "Bastiaanssen TFS", "van de Wouw M", "Moloney GM", "Gual-Grau A", "Spichak S", "Olavarría-Ramírez L", "Fitzgerald P", "Morillas E", "Ritz NL", "Jaggar M", "Cowan CSM", "Crispie F", "Donoso F", "Halitzki E", "Neto MC", "Sichetti M", "Golubeva AV", "Fitzgerald RS", "Claesson MJ", "Cotter PD", "O’Leary OF", "Dinan TG", "Cryan JF"],
+      "year": 2021,
+      "journal": "Nature Aging",
+      "doi": "10.1038/s43587-021-00093-9",
+      "pmid": "37117767",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37117767/",
+      "publisherUrl": "https://www.nature.com/articles/s43587-021-00093-9",
+      "fullTextUrl": null,
+      "accessScope": "PubMed / Europe PMC 摘要及 Nature Aging 期刊公开索引的 Extended Data Fig. 5 图注。",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-11-09",
+      "correctionStatus": "Europe PMC 的 MED 关联字段仅列评论 PMID 37117768。"
+    },
+    {
+      "id": "pub-34729669",
+      "title": "Daily ingestion of Akkermansia mucciniphila for one month promotes healthy aging and increases lifespan in old female mice.",
+      "authors": ["Díaz-Del Cerro E", "Lambea M", "Félix J", "Salazar N", "Gueimonde M", "De la Fuente M"],
+      "year": 2022,
+      "journal": "Biogerontology",
+      "doi": "10.1007/s10522-021-09943-w",
+      "pmid": "34729669",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34729669/",
+      "publisherUrl": "https://doi.org/10.1007/s10522-021-09943-w",
+      "fullTextUrl": null,
+      "accessScope": "PubMed / Europe PMC 摘要。",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-11-09",
+      "correctionStatus": "Europe PMC 的 MED 更正/撤稿关联字段无记录。"
+    },
+    {
+      "id": "pub-38582860",
+      "title": "The secreted protein Amuc_1409 from Akkermansia muciniphila improves gut health through intestinal stem cell regulation.",
+      "authors": ["Kang EJ", "Kim JH", "Kim YE", "Lee H", "Jung KB", "Chang DH", "Lee Y", "Park S", "Lee EY", "Lee EJ", "Kang HB", "Rhyoo MY", "Seo S", "Park S", "Huh Y", "Go J", "Choi JH", "Choi YK", "Lee IB", "Choi DH", "Seo YJ", "Noh JR", "Kim KS", "Hwang JH", "Jeong JS", "Kwon HJ", "Yoo HM", "Son MY", "Kim YG", "Lee DH", "Kim TY", "Kwon HJ", "Kim MH", "Kim BC", "Kim YH", "Kang D", "Lee CH"],
+      "year": 2024,
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-024-47275-8",
+      "pmid": "38582860",
+      "pmcid": "PMC10998920",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38582860/",
+      "fullTextUrl": "https://www.nature.com/articles/s41467-024-47275-8.pdf",
+      "accessScope": "全文：Nature Communications 期刊发表版 PDF；核对自然衰老结果及 Fig. 6。",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-11-09",
+      "correctionStatus": "Europe PMC 的 MED 更正/撤稿关联字段无记录。"
+    }
+  ],
+  "targets": [],
+  "evidence": [],
+  "pathways": [
+    {
+      "id": "pathway-microbiota-host",
+      "name": "肠道微生物群与宿主衰老",
+      "summary": "围绕供体年龄、菌体与微生物分泌产物的干预研究。实验终点涵盖肠屏障、脑与视网膜炎症指标、行为、寿命和肠隐窝细胞增殖。",
+      "taxonomyIds": ["hallmark-12"],
+      "memberIds": [],
+      "hallmarks": [12],
+      "symbols": []
+    }
+  ],
+  "themeStudies": [
+    {
+      "id": "study-microbiota-parker-fmt",
+      "pathwayId": "pathway-microbiota-host",
+      "publicationId": "pub-35501923",
+      "subject": "不同月龄供体的粪菌移植（FMT）",
+      "claim": "供体年龄影响小鼠接受粪菌移植后的肠屏障与脑、视网膜炎症相关指标。",
+      "species": ["Mus musculus"],
+      "model": "同一繁育群的雄性 C57BL/6J 小鼠，设 3、18 和 24 月龄供体及受体组。",
+      "intervention": "抗生素预处理后接触供体垫料及粪粒，再两次灌胃供体粪悬液；实验设置同龄及异龄移植，并设磷酸盐缓冲液和单用抗生素组。",
+      "result": "年轻受体接受 24 月龄供体菌群后，肠屏障通透性增加，脑皮质与胼胝体中 Iba-1 阳性小胶质细胞增多，视网膜炎症读数上升，视觉循环蛋白 RPE65 减少。高龄受体接受年轻供体菌群后，皮质和胼胝体 Iba-1 阳性细胞减少；Y 迷宫与新物体识别测验未显著改善。",
+      "locator": "发表版 Methods: Mice、Microbiota transfer；Fig. 1–2；Results 肠屏障和视网膜段落；补充 Fig. S5 对应的正文结果。",
+      "evidenceType": "双向异龄粪菌移植",
+      "studyContext": "aging_function"
+    },
+    {
+      "id": "study-microbiota-boehme-fmt",
+      "pathwayId": "pathway-microbiota-host",
+      "publicationId": "pub-37117767",
+      "subject": "年轻供体粪菌移植与老龄小鼠行为",
+      "claim": "老龄小鼠接受年轻供体菌群后，海马代谢与转录读数发生变化，新物体识别任务中的探索活动增加。",
+      "species": ["Mus musculus"],
+      "model": "老龄受体 19–20 月龄；供体为 3–4 月龄年轻小鼠或 19–20 月龄老龄小鼠。",
+      "intervention": "比较老龄受体接受年轻供体或老龄供体菌群后的外周与脑免疫、海马分子读数和行为，并纳入年轻供体移植至年轻受体的参照组。",
+      "result": "年轻供体组的外周与脑免疫、海马代谢组与转录组部分读数向年轻组方向变化。老龄受体的新物体探索活动较接受老龄供体组增加（P=0.043）；新物体识别的长期记忆和 Y 迷宫自发交替均无显著组间差异。",
+      "locator": "PubMed 摘要；Nature Aging 期刊公开索引 Extended Data Fig. 5a、b 图注。",
+      "evidenceType": "老龄受体供体年龄对照粪菌移植",
+      "studyContext": "aging_function"
+    },
+    {
+      "id": "study-microbiota-diaz-akk",
+      "pathwayId": "pathway-microbiota-host",
+      "publicationId": "pub-34729669",
+      "subject": "嗜黏蛋白阿克曼菌（Akkermansia muciniphila）",
+      "claim": "老龄雌性 ICR-CD1 小鼠口服该菌 1 个月后，部分行为和腹腔白细胞指标改善；研究报告处理组寿命较长。",
+      "species": ["Mus musculus"],
+      "model": "老龄雌性 ICR-CD1 小鼠，设同龄对照和成年对照。",
+      "intervention": "连续 1 个月每日口服菌悬液，每次 100 μL 磷酸盐缓冲液含 2 × 10⁸ 菌落形成单位（CFU）。",
+      "result": "与同龄对照相比，处理组运动协调和平衡等行为指标以及腹腔白细胞吞噬等功能指标改善，白细胞释放的 IL-2、IL-6 和 TNF-α 基础水平降低；摘要同时报告寿命较长。",
+      "locator": "PubMed 摘要：干预剂量、同龄对照、行为及免疫读数和寿命结果。",
+      "evidenceType": "特定菌种口服干预",
+      "studyContext": "aging_function"
+    },
+    {
+      "id": "study-microbiota-kang-amuc1409",
+      "pathwayId": "pathway-microbiota-host",
+      "publicationId": "pub-38582860",
+      "subject": "嗜黏蛋白阿克曼菌分泌蛋白 Amuc_1409",
+      "claim": "重组 Amuc_1409 增加老龄小鼠肠隐窝中干细胞标记阳性细胞与增殖细胞。",
+      "species": ["Mus musculus"],
+      "model": "100 周龄雄性 C57BL/6 小鼠，以及独立的 25 月龄小鼠来源小肠类器官。",
+      "intervention": "体内比较重组 Amuc_1409 与溶媒，灌胃 15 周；老龄小肠类器官另设 4、8、16 nM 蛋白处理组。",
+      "result": "给药后每个小肠隐窝中 OLFM4 阳性细胞及 Ki67 阳性细胞数量增加；老龄来源类器官的出芽率和每个类器官的分叶数随浓度增加。",
+      "locator": "发表版 Results: Amuc_1409 restores number and function of ISCs during aging；Fig. 6a–j。",
+      "evidenceType": "微生物分泌蛋白给药及老龄组织来源类器官干预",
+      "studyContext": "aging_function"
+    }
+  ],
+  "searchLog": [
+    {
+      "date": "2026-11-09",
+      "source": "PubMed、Europe PMC（MED）、原始出版页面、UCL Discovery",
+      "query": "Parker young aged mice fecal microbiota retina brain; Boehme young microbiota selective age-associated behavioral deficits; naturally aged Akkermansia muciniphila mice oral lifespan; Amuc_1409 natural aging",
+      "result": "纳入 PMID 35501923、37117767、34729669 和 38582860。",
+      "decision": "均含自然老龄小鼠供体或受体及具体干预；按菌群、菌种或菌源蛋白归入研究主题。"
+    },
+    {
+      "date": "2026-11-09",
+      "source": "Europe PMC fullTextXML、OpenAlex、Unpaywall、期刊与 UCL Discovery",
+      "query": "按 DOI 检查四篇文章的开放获取状态；按 PMCID 尝试读取 35501923、38582860 全文。",
+      "result": "OpenAlex 标记 Parker 与 Kang 为 gold OA；Europe PMC XML 请求返回 500，改从 UCL 仓储和期刊发表版 PDF 核对。Boehme 与 Díaz-Del Cerro 在 OpenAlex 标为 closed；Unpaywall 请求超时。",
+      "decision": "Boehme 使用摘要与期刊已索引图注；Díaz-Del Cerro 使用摘要；其余两篇记录已阅读的合法公开全文。"
+    }
+  ]
+}

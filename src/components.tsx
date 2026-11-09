@@ -32,7 +32,7 @@ export function Empty({
       <div className="empty-mark">∅</div>
       <h3>{title}</h3>
       <p>
-        {children || "请调整筛选条件。当前收录范围不能代表该领域的全部研究。"}
+        {children || "试试其他搜索词或筛选条件。"}
       </p>
     </div>
   );
@@ -84,7 +84,7 @@ export function TargetCard({ target: t }: { target: Target }) {
         <ArrowUpRight size={19} />
       </Link>
       <h3>{t.name}</h3>
-      <p className="clamp3">{t.summary}</p>
+      <p className="clamp3">{es.find((e) => e.studyContext === "aging_function")?.claim || t.summary}</p>
       <div className="tags">
         {t.taxonomyIds.slice(0, 2).map((id) => (
           <Tag key={id}>{a.taxonomy.find((h) => h.id === id)?.name}</Tag>
@@ -100,54 +100,35 @@ export function TargetCard({ target: t }: { target: Target }) {
     </article>
   );
 }
+export function PaperLinks({ p }: { p: Publication }) {
+  return (
+    <div className="paper-links">
+      {p.pmid && <a href={`https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/`} target="_blank" rel="noreferrer">PubMed <ExternalLink size={12} /></a>}
+      {p.doi && <a href={`https://doi.org/${p.doi}`} target="_blank" rel="noreferrer">DOI <ExternalLink size={12} /></a>}
+      {p.fullTextUrl && <a className="open-fulltext" href={p.fullTextUrl} target="_blank" rel="noreferrer">开放全文 <ExternalLink size={12} /></a>}
+    </div>
+  );
+}
 export function PubCard({ p }: { p: Publication }) {
   const { personal, toggleFavorite, toast } = useAtlas();
   return (
     <article className="pub-card">
       <div className="eyebrow">
-        {p.journal} <span>· {p.year}</span>
+        {p.journal} <span>· {p.year} · {p.type === "review" ? "框架综述" : "原始研究"}</span>
       </div>
       <a href={p.url} target="_blank" rel="noreferrer" className="pub-title">
         {p.title}
         <ExternalLink size={14} />
       </a>
-      <p>{p.authors.join(", ")}</p>
-      <div className="tags">
-        <Tag>{p.accessScope}</Tag>
-        <Tag>{p.metadataVerified ? "元数据已核实" : "元数据待核实"}</Tag>
-        <Tag>{p.claimVerified ? "已核对提取结论" : "仅框架 / 背景"}</Tag>
-      </div>
-      <p className="mono">
-        {p.doi && (
-          <>
-            DOI:{" "}
-            <a
-              href={`https://doi.org/${p.doi}`}
-              target="_blank"
-              rel="noreferrer"
-            >
-              {p.doi}
-            </a>
-            　
-          </>
-        )}
-        {p.pmid && (
-          <>
-            PMID:{" "}
-            <a
-              href={`https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/`}
-              target="_blank"
-              rel="noreferrer"
-            >
-              {p.pmid}
-            </a>
-          </>
-        )}
-      </p>
+      <p>{p.authors.slice(0, 4).join(", ")}{p.authors.length > 4 ? " 等" : ""}</p>
+      <PaperLinks p={p} />
       <div className="pub-foot">
-        <small>
-          核验：{p.checkedDate} · {p.correctionStatus}
-        </small>
+        <details className="citation-detail">
+          <summary>引文信息</summary>
+          <p>{p.authors.join(", ")}</p>
+          <p className="mono">{[p.pmid && `PMID: ${p.pmid}`, p.doi && `DOI: ${p.doi}`].filter(Boolean).join(" · ")}</p>
+          {(/勘误|更正 PMID|作者更正|更正：/.test(p.correctionStatus)) && <p>{p.correctionStatus.split("；未见")[0]}</p>}
+        </details>
         <div className="actions">
           <button
             className="small-btn"
@@ -192,7 +173,6 @@ export function EvidenceCard({ e }: { e: Evidence }) {
         {e.evidenceType.map((x) => (
           <Tag key={x}>{x}</Tag>
         ))}
-        <Tag>{e.accessScope}</Tag>
         {e.studyContext !== "aging_function" && (
           <Tag>
             {e.studyContext === "observational"
@@ -201,16 +181,16 @@ export function EvidenceCard({ e }: { e: Evidence }) {
           </Tag>
         )}
       </div>
+      <p className="evidence-result">{e.model} · {e.species.join(" / ")}</p>
+      <p className="evidence-result">{e.result}</p>
+      <details className="citation-detail evidence-more"><summary>实验条件与检测指标</summary>
       <dl className="evidence-grid">
         {[
           ["实际实验实体", e.actualEntity],
           ["物种 / 组织细胞", `${e.species.join(" / ")} · ${e.tissueCell}`],
-          ["研究模型", e.model],
           ["干预方法", e.intervention],
-          ["实际结果", e.result],
           ["关键检测指标", e.endpoints.join("；")],
           ["适用条件", e.conditions],
-          ["局限与外推边界", e.limitations],
           ["剂量 / 时长 / 样本量", `${e.dose} / ${e.time} / ${e.sampleSize}`],
         ].map(([k, v]) => (
           <div key={k}>
@@ -219,6 +199,7 @@ export function EvidenceCard({ e }: { e: Evidence }) {
           </div>
         ))}
       </dl>
+      </details>
       <div className="source-note">
         <b>原文定位：</b>
         {e.locator}
@@ -227,6 +208,7 @@ export function EvidenceCard({ e }: { e: Evidence }) {
           {p.title} ↗
         </a>{" "}
         · {p.year}
+        <PaperLinks p={p} />
       </div>
     </article>
   );

@@ -9,6 +9,7 @@ import { config } from "./config";
 document.title = config.name;
 import "./style.css";
 import "./readability.css";
+import "./research.css";
 class Boundary extends Component<{ children: ReactNode }, { error: string }> {
   state = { error: "" };
   static getDerivedStateFromError(e: Error) {
@@ -19,7 +20,7 @@ class Boundary extends Component<{ children: ReactNode }, { error: string }> {
       <div className="startup">
         <h1>页面遇到错误</h1>
         <p>
-          这属于程序显示错误，不代表没有科学证据。刷新前请保留未保存的笔记。
+          请刷新页面后重试。
         </p>
         <pre>{this.state.error}</pre>
         <button onClick={() => location.reload()}>重新加载</button>

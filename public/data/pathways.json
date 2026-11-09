@@ -18,9 +18,6 @@
     "backgroundSourceIds": [
       "source-pub-35163314",
       "source-pub-29717979",
-      "source-pub-30726661",
-      "source-pub-22367546",
-      "source-pub-34050173",
       "source-pub-23375372",
       "source-pub-27304511"
     ],
@@ -31,7 +28,7 @@
       "rel-member-target-sirt3-pathway-nad",
       "rel-member-target-cd38-pathway-nad"
     ],
-    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+    "mappingBasis": "依据原始研究归纳的研究主题。"
   },
   {
     "id": "pathway-igf",
@@ -48,7 +45,6 @@
     ],
     "backgroundSourceIds": [
       "source-pub-22367546",
-      "source-pub-34050173",
       "source-pub-12483226",
       "source-pub-22132081",
       "source-pub-16123266"
@@ -58,7 +54,7 @@
       "rel-member-target-igf1r-pathway-igf",
       "rel-member-target-kl-pathway-igf"
     ],
-    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+    "mappingBasis": "依据原始研究归纳的研究主题。"
   },
   {
     "id": "pathway-mtor",
@@ -74,14 +70,18 @@
       "hallmark-06"
     ],
     "backgroundSourceIds": [
-      "source-pub-31761958",
       "source-pub-19797661"
     ],
     "relationIds": [
       "rel-member-target-mtor-pathway-mtor",
       "rel-member-target-rps6kb1-pathway-mtor"
     ],
-    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+    "mappingBasis": "按 Reactome 人类通路索引，展示本站已收录的衰老相关实验。",
+    "reference": {
+      "database": "Reactome",
+      "id": "R-HSA-165159",
+      "url": "https://reactome.org/content/detail/R-HSA-165159"
+    }
   },
   {
     "id": "pathway-autophagy",
@@ -89,7 +89,8 @@
     "summary": "ATG5 与 Beclin 1 相关的自噬遗传干预研究。自噬相关机制、细胞功能和整鼠寿命终点分别记录。",
     "memberIds": [
       "target-atg5",
-      "target-becn1"
+      "target-becn1",
+      "target-atg7"
     ],
     "taxonomyIds": [
       "hallmark-04",
@@ -98,13 +99,20 @@
     ],
     "backgroundSourceIds": [
       "source-pub-23939249",
-      "source-pub-29849149"
+      "source-pub-29849149",
+      "source-pub-26738589"
     ],
     "relationIds": [
       "rel-member-target-atg5-pathway-autophagy",
-      "rel-member-target-becn1-pathway-autophagy"
+      "rel-member-target-becn1-pathway-autophagy",
+      "rel-member-target-atg7-pathway-autophagy"
     ],
-    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+    "mappingBasis": "按 Reactome 人类通路索引，展示本站已收录的衰老相关实验。",
+    "reference": {
+      "database": "Reactome",
+      "id": "R-HSA-1632852",
+      "url": "https://reactome.org/content/detail/R-HSA-1632852"
+    }
   },
   {
     "id": "pathway-cgas",
@@ -123,15 +131,14 @@
     ],
     "backgroundSourceIds": [
       "source-pub-37828898",
-      "source-pub-37532932",
-      "source-pub-42642519"
+      "source-pub-37532932"
     ],
     "relationIds": [
       "rel-member-target-crat-pathway-cgas",
       "rel-member-target-cgas-pathway-cgas",
       "rel-member-target-sting1-pathway-cgas"
     ],
-    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+    "mappingBasis": "依据原始研究归纳的研究主题。"
   },
   {
     "id": "pathway-sasp",
@@ -153,8 +160,7 @@
       "source-pub-21399611",
       "source-pub-27136566",
       "source-pub-37532932",
-      "source-pub-22706308",
-      "source-pub-19779484"
+      "source-pub-22706308"
     ],
     "relationIds": [
       "rel-member-target-crat-pathway-sasp",
@@ -162,7 +168,7 @@
       "rel-member-target-sting1-pathway-sasp",
       "rel-member-target-rela-pathway-sasp"
     ],
-    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+    "mappingBasis": "依据原始研究归纳的研究主题。"
   },
   {
     "id": "pathway-dna",
@@ -190,7 +196,7 @@
       "rel-member-target-rela-pathway-dna",
       "rel-member-target-tp53-pathway-dna"
     ],
-    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+    "mappingBasis": "依据原始研究归纳的研究主题。"
   },
   {
     "id": "pathway-mitosis",
@@ -206,14 +212,13 @@
     ],
     "backgroundSourceIds": [
       "source-pub-30026603",
-      "source-pub-40133272",
       "source-pub-23242215"
     ],
     "relationIds": [
       "rel-member-target-foxm1-pathway-mitosis",
       "rel-member-target-bub1b-pathway-mitosis"
     ],
-    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+    "mappingBasis": "依据原始研究归纳的研究主题。"
   },
   {
     "id": "pathway-chromatin",
@@ -230,11 +235,7 @@
       "hallmark-08"
     ],
     "backgroundSourceIds": [
-      "source-pub-30026603",
       "source-pub-40133272",
-      "source-pub-22367546",
-      "source-pub-34050173",
-      "source-pub-37532932",
       "source-pub-42642519"
     ],
     "relationIds": [
@@ -242,7 +243,7 @@
       "rel-member-target-sirt6-pathway-chromatin",
       "rel-member-target-cgas-pathway-chromatin"
     ],
-    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+    "mappingBasis": "依据原始研究归纳的研究主题。"
   },
   {
     "id": "pathway-mito",
@@ -261,7 +262,6 @@
     ],
     "backgroundSourceIds": [
       "source-pub-37828898",
-      "source-pub-35163314",
       "source-pub-23375372",
       "source-pub-27304511"
     ],
@@ -271,25 +271,31 @@
       "rel-member-target-sirt3-pathway-mito",
       "rel-member-target-cd38-pathway-mito"
     ],
-    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+    "mappingBasis": "依据原始研究归纳的研究主题。"
   },
   {
     "id": "pathway-telomere",
     "name": "端粒维护与端粒酶干预",
-    "summary": "端粒酶逆转录酶（TERT）基因递送与成年、老年小鼠功能研究；催化活性、载体和动物背景限定解释范围。",
+    "summary": "端粒末端保护、长度维持与端粒酶干预相关的研究。",
     "memberIds": [
-      "target-tert"
+      "target-tert",
+      "target-terf2"
     ],
     "taxonomyIds": [
       "hallmark-02"
     ],
     "backgroundSourceIds": [
-      "source-pub-22585399"
+      "source-pub-22585399",
+      "source-pub-12169636",
+      "source-pub-16142233",
+      "source-pub-19259387",
+      "source-pub-41026782"
     ],
     "relationIds": [
-      "rel-member-target-tert-pathway-telomere"
+      "rel-member-target-tert-pathway-telomere",
+      "rel-member-target-terf2-pathway-telomere"
     ],
-    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+    "mappingBasis": "依据原始研究归纳的研究主题。"
   },
   {
     "id": "pathway-nlrp3",
@@ -308,26 +314,33 @@
     "relationIds": [
       "rel-member-target-nlrp3-pathway-nlrp3"
     ],
-    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+    "mappingBasis": "依据原始研究归纳的研究主题。"
   },
   {
     "id": "pathway-hsc",
     "name": "造血干细胞的年龄相关功能",
     "summary": "老龄造血干细胞（HSC）的细胞库、集落形成与竞争性移植再建研究；细胞再生终点不等于整鼠延寿。",
     "memberIds": [
-      "target-sirt3"
+      "target-sirt3",
+      "target-foxo3",
+      "target-tet2"
     ],
     "taxonomyIds": [
       "hallmark-07",
       "hallmark-09"
     ],
     "backgroundSourceIds": [
-      "source-pub-23375372"
+      "source-pub-23375372",
+      "source-pub-18371339",
+      "source-pub-36379023",
+      "source-pub-37884767"
     ],
     "relationIds": [
-      "rel-member-target-sirt3-pathway-hsc"
+      "rel-member-target-sirt3-pathway-hsc",
+      "rel-member-target-foxo3-pathway-hsc",
+      "rel-member-target-tet2-pathway-hsc"
     ],
-    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+    "mappingBasis": "依据原始研究归纳的研究主题。"
   },
   {
     "id": "pathway-ecm-remodeling",
@@ -337,7 +350,8 @@
       "target-crat",
       "target-mtor",
       "target-ccn1",
-      "target-mmp1"
+      "target-mmp1",
+      "target-mfap4"
     ],
     "taxonomyIds": [
       "hallmark-08",
@@ -349,15 +363,20 @@
       "source-pub-31761958",
       "source-pub-22566095",
       "source-pub-20526329",
-      "source-pub-36914001"
+      "source-pub-36914001",
+      "source-pub-19116368",
+      "source-pub-23601157",
+      "source-pub-25201474",
+      "source-pub-22355679"
     ],
     "relationIds": [
       "rel-member-target-crat-pathway-ecm-remodeling",
       "rel-member-target-mtor-pathway-ecm-remodeling",
       "rel-member-target-ccn1-pathway-ecm-remodeling",
-      "rel-member-target-mmp1-pathway-ecm-remodeling"
+      "rel-member-target-mmp1-pathway-ecm-remodeling",
+      "rel-member-target-mfap4-pathway-ecm-remodeling"
     ],
-    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+    "mappingBasis": "依据原始研究归纳的研究主题。"
   },
   {
     "id": "pathway-basement-adhesion",
@@ -376,6 +395,123 @@
     "relationIds": [
       "rel-member-target-col17a1-pathway-basement-adhesion"
     ],
-    "mappingBasis": "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。"
+    "mappingBasis": "依据原始研究归纳的研究主题。"
+  },
+  {
+    "id": "pathway-microbiota-host",
+    "name": "肠道微生物群与宿主衰老",
+    "summary": "围绕供体年龄、菌体与微生物分泌产物的干预研究。实验终点涵盖肠屏障、脑与视网膜炎症指标、行为、寿命和肠隐窝细胞增殖。",
+    "memberIds": [],
+    "taxonomyIds": [
+      "hallmark-12"
+    ],
+    "backgroundSourceIds": [
+      "source-pub-35501923",
+      "source-pub-37117767",
+      "source-pub-34729669",
+      "source-pub-38582860"
+    ],
+    "relationIds": [],
+    "mappingBasis": "依据原始研究归纳的研究主题。"
+  },
+  {
+    "id": "pathway-heat-shock-proteostasis",
+    "name": "热休克应答与蛋白质稳态",
+    "summary": "HSF1 调控热休克应答的转录程序。小鼠造血干细胞的 Hsf1 遗传干预研究测定蛋白质合成与竞争性造血重建；离体培养实验还测定蛋白质降解报告物的积累。",
+    "memberIds": [
+      "target-hsf1"
+    ],
+    "taxonomyIds": [
+      "hallmark-04",
+      "hallmark-09"
+    ],
+    "backgroundSourceIds": [
+      "source-pub-34388375"
+    ],
+    "relationIds": [
+      "rel-member-target-hsf1-pathway-heat-shock-proteostasis"
+    ],
+    "mappingBasis": "依据原始研究归纳的研究主题。"
+  },
+  {
+    "id": "pathway-muscle-stem-cells",
+    "name": "肌肉卫星细胞自噬与维持",
+    "summary": "成年小鼠肌肉卫星细胞的基础自噬、细胞数量和衰老相关读出。",
+    "memberIds": [
+      "target-atg7"
+    ],
+    "taxonomyIds": [
+      "hallmark-05",
+      "hallmark-08",
+      "hallmark-09"
+    ],
+    "backgroundSourceIds": [
+      "source-pub-26738589"
+    ],
+    "relationIds": [
+      "rel-member-target-atg7-pathway-muscle-stem-cells"
+    ],
+    "mappingBasis": "依据原始研究归纳的研究主题。"
+  },
+  {
+    "id": "pathway-proteasome",
+    "name": "泛素–蛋白酶体系统",
+    "summary": "26S 蛋白酶体由 20S 催化核心和 19S 调节颗粒组成，可识别并降解泛素标记底物。PSMB5 是常规 20S 核心的 β5 催化亚基；人原代成纤维细胞研究测定了 PSMB5 转导后的蛋白酶体活性、蛋白积累和细胞衰老终点。",
+    "memberIds": [
+      "target-psmb5"
+    ],
+    "taxonomyIds": [
+      "hallmark-04",
+      "hallmark-08"
+    ],
+    "backgroundSourceIds": [
+      "source-pub-15661736",
+      "source-pub-17522352"
+    ],
+    "relationIds": [
+      "rel-member-target-psmb5-pathway-proteasome"
+    ],
+    "mappingBasis": "依据原始研究归纳的研究主题。"
+  },
+  {
+    "id": "pathway-dna-methylation",
+    "name": "DNA 甲基化与羟甲基化",
+    "summary": "围绕 5-甲基胞嘧啶及其氧化产物 5-羟甲基胞嘧啶的调节，收录造血干祖细胞异染色质空间分布、造血重建和年龄相关克隆扩张的实验。",
+    "memberIds": [
+      "target-tet2"
+    ],
+    "taxonomyIds": [
+      "hallmark-03"
+    ],
+    "backgroundSourceIds": [
+      "source-pub-36379023",
+      "source-pub-37884767"
+    ],
+    "relationIds": [
+      "rel-member-target-tet2-pathway-dna-methylation"
+    ],
+    "mappingBasis": "依据原始研究归纳的研究主题。"
+  },
+  {
+    "id": "pathway-mitophagy",
+    "name": "选择性线粒体自噬",
+    "summary": "线粒体自噬是通过自噬系统选择性清除线粒体的过程。收录的 PINK1 研究涉及自然老龄肾组织损伤和细胞自噬标记共定位；PRKN 研究比较了不同年龄骨骼肌的运动相关自噬读数。",
+    "memberIds": [
+      "target-pink1",
+      "target-prkn"
+    ],
+    "taxonomyIds": [
+      "hallmark-05",
+      "hallmark-07"
+    ],
+    "backgroundSourceIds": [
+      "source-pub-37183600",
+      "source-pub-29812989"
+    ],
+    "relationIds": [
+      "rel-member-target-pink1-pathway-mitophagy",
+      "rel-member-target-prkn-pathway-mitophagy"
+    ],
+    "mappingBasis": "依据原始研究归纳的研究主题。"
   }
 ]

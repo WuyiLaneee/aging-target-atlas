@@ -102,5 +102,44 @@
       "ev-mmp1-mouse-ecm"
     ],
     "route": "Col1a2启动子/增强子驱动Cre-ERT2，诱导CAG-LSL-hMMP1表达；对照为同性别同龄同窝、含一个或不含转基因的小鼠，均按实验方案给予他莫昔芬。"
+  },
+  {
+    "id": "intervention-48253354ae38",
+    "name": "17-AAG（tanespimycin）",
+    "category": "Hsp90 抑制剂",
+    "identity": "身份以关联原始论文中的名称和处理为依据；未核实的 CAS / 外部化学 ID 不填写。",
+    "targetIds": [
+      "target-hsf1"
+    ],
+    "evidenceIds": [
+      "ev-hsf1-kruta-2021-culture"
+    ],
+    "route": "分离 2–3 月龄供体造血干细胞，培养时加入 17-AAG 或 DMSO；平行比较 Hsf1 缺失组。"
+  },
+  {
+    "id": "intervention-4197ae0abcee",
+    "name": "慢病毒介导人 MFAP4 过表达",
+    "category": "遗传工具",
+    "identity": "身份以关联原始论文中的名称和处理为依据；未核实的 CAS / 外部化学 ID 不填写。",
+    "targetIds": [
+      "target-mfap4"
+    ],
+    "evidenceIds": [
+      "ev-mfap4-22355679-skin-xenograft"
+    ],
+    "route": "人皮肤移植物内给予编码全长人 MFAP4 的慢病毒；采用编码报告基因的慢病毒作照射匹配对照，并设置报告基因未照射参照。"
+  },
+  {
+    "id": "intervention-2ca47ee073f8",
+    "name": "诱导性 Tet2 杂合缺失",
+    "category": "遗传工具",
+    "identity": "身份以关联原始论文中的名称和处理为依据；未核实的 CAS / 外部化学 ID 不填写。",
+    "targetIds": [
+      "target-tet2"
+    ],
+    "evidenceIds": [
+      "ev-tet2-36379023-mosaic-aging"
+    ],
+    "route": "1–2 月龄时单次给予他莫昔芬，分别生成带 ZsGreen 标记的 Tet2+/− 或 Tet2 野生型造血细胞群。"
   }
 ]

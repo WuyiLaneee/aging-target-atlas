@@ -95,7 +95,7 @@
         "胶原合成与MMP介导的ECM重塑"
       ],
       "skinClassification": "皮肤衰老实验",
-      "skinSummary": "有人真皮成纤维细胞复制性衰老的胶原功能证据；BJ细胞促衰老和小鼠创面抗纤维化属于另一条件，不代表人体抗皱或自然老化逆转。",
+      "skinSummary": "研究涉及原代人真皮成纤维细胞的复制性衰老与胶原稳态、BJ成纤维细胞的应激性衰老，以及小鼠创伤修复中的纤维化。",
       "evidence": [
         {
           "supportStatus": "支持",
@@ -112,7 +112,7 @@
           "actualEntity": "人CCN1/CYR61",
           "tissueCell": "原代人皮肤真皮成纤维细胞；胶原晶格培养",
           "model": "复制性细胞衰老及其胶原ECM稳态异常",
-          "intervention": "在复制性衰老成纤维细胞中敲低升高的CCN1；摘要未注明所用具体敲低试剂。",
+          "intervention": "在复制性衰老的原代人真皮成纤维细胞中敲低CCN1。",
           "result": "复制性衰老细胞中CCN1升高、I型前胶原降低且MMP1升高。CCN1敲低使I型前胶原及MMP1表达部分恢复；原子力显微镜观察表明胶原纤维碎裂和排列紊乱大幅减轻。",
           "endpoints": [
             "I型前胶原表达",
@@ -122,7 +122,7 @@
           ],
           "conditions": "复制性衰老的人真皮成纤维细胞体外体系；功能干预与ECM终点相匹配。",
           "limitations": "本条目前仅核对摘要。不能据胶原稳态改善推断细胞周期停滞、SA-β-gal或细胞衰老被逆转；未核验人体CCN1敲低抗皱或自然皮肤老化逆转试验。",
-          "locator": "PubMed Abstract：CCN1 knockdown、type I procollagen/MMP-1及AFM相关结果；全文图号当前未获取。",
+          "locator": "摘要：CCN1敲低、I型前胶原和MMP1表达、原子力显微镜观察。",
           "accessScope": "PubMed摘要，全文仓储403未获取",
           "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/22566095/",
           "phenotypes": [

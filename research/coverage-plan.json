@@ -1,0 +1,329 @@
+[
+  {
+    "taxonomyId": "hallmark-01",
+    "topics": [
+      {
+        "name": "DNA 损伤应答与修复",
+        "pathwayIds": [
+          "pathway-dna"
+        ],
+        "candidateSymbols": [
+          "ATM",
+          "TP53",
+          "ERCC1",
+          "XPA"
+        ]
+      },
+      {
+        "name": "染色体分离",
+        "pathwayIds": [
+          "pathway-mitosis"
+        ],
+        "candidateSymbols": [
+          "BUB1B",
+          "FOXM1"
+        ]
+      }
+    ]
+  },
+  {
+    "taxonomyId": "hallmark-02",
+    "topics": [
+      {
+        "name": "端粒末端保护与长度维持",
+        "pathwayIds": [
+          "pathway-telomere"
+        ],
+        "candidateSymbols": [
+          "TERT",
+          "TERF2",
+          "POT1",
+          "TERC"
+        ]
+      }
+    ]
+  },
+  {
+    "taxonomyId": "hallmark-03",
+    "topics": [
+      {
+        "name": "染色质与组蛋白调节",
+        "pathwayIds": [
+          "pathway-chromatin"
+        ],
+        "candidateSymbols": [
+          "SIRT6",
+          "FOXM1",
+          "EZH2"
+        ]
+      },
+      {
+        "name": "DNA 甲基化",
+        "pathwayIds": ["pathway-dna-methylation"],
+        "candidateSymbols": [
+          "DNMT1",
+          "TET2"
+        ]
+      }
+    ]
+  },
+  {
+    "taxonomyId": "hallmark-04",
+    "topics": [
+      {
+        "name": "热休克反应与分子伴侣",
+        "pathwayIds": [
+          "pathway-heat-shock-proteostasis"
+        ],
+        "candidateSymbols": [
+          "HSF1",
+          "HSPA1A"
+        ]
+      },
+      {
+        "name": "泛素与蛋白酶体",
+        "pathwayIds": ["pathway-proteasome"],
+        "candidateSymbols": [
+          "PSMB5",
+          "PSMD11"
+        ]
+      }
+    ]
+  },
+  {
+    "taxonomyId": "hallmark-05",
+    "topics": [
+      {
+        "name": "宏自噬启动与通量",
+        "pathwayIds": [
+          "pathway-autophagy"
+        ],
+        "candidateSymbols": [
+          "ATG5",
+          "BECN1",
+          "ATG7",
+          "ULK1"
+        ]
+      },
+      {
+        "name": "选择性线粒体自噬",
+        "pathwayIds": ["pathway-mitophagy"],
+        "candidateSymbols": [
+          "PINK1",
+          "PRKN"
+        ]
+      }
+    ]
+  },
+  {
+    "taxonomyId": "hallmark-06",
+    "topics": [
+      {
+        "name": "胰岛素 / IGF–AKT–FOXO",
+        "pathwayIds": [
+          "pathway-igf"
+        ],
+        "candidateSymbols": [
+          "IGF1R",
+          "FOXO3",
+          "AKT1"
+        ]
+      },
+      {
+        "name": "mTOR 与能量感知",
+        "pathwayIds": [
+          "pathway-mtor"
+        ],
+        "candidateSymbols": [
+          "MTOR",
+          "RPS6KB1",
+          "PRKAA1"
+        ]
+      }
+    ]
+  },
+  {
+    "taxonomyId": "hallmark-07",
+    "topics": [
+      {
+        "name": "线粒体代谢与氧化应激",
+        "pathwayIds": [
+          "pathway-mito",
+          "pathway-nad",
+          "pathway-mitophagy"
+        ],
+        "candidateSymbols": [
+          "SIRT3",
+          "CD38",
+          "CRAT",
+          "PINK1",
+          "PRKN",
+          "PPARGC1A"
+        ]
+      }
+    ]
+  },
+  {
+    "taxonomyId": "hallmark-08",
+    "topics": [
+      {
+        "name": "细胞周期停滞",
+        "pathwayIds": [
+          "pathway-dna"
+        ],
+        "candidateSymbols": [
+          "TP53",
+          "CDKN1A",
+          "CDKN2A"
+        ]
+      },
+      {
+        "name": "SASP 与衰老细胞信号",
+        "pathwayIds": [
+          "pathway-sasp",
+          "pathway-cgas"
+        ],
+        "candidateSymbols": [
+          "MAPK14",
+          "RELA",
+          "CGAS",
+          "STING1"
+        ]
+      }
+    ]
+  },
+  {
+    "taxonomyId": "hallmark-09",
+    "topics": [
+      {
+        "name": "造血干细胞维持",
+        "pathwayIds": [
+          "pathway-hsc"
+        ],
+        "candidateSymbols": [
+          "SIRT3",
+          "FOXO3",
+          "HSF1"
+        ]
+      },
+      {
+        "name": "肌肉与表皮干细胞",
+        "pathwayIds": [
+          "pathway-muscle-stem-cells",
+          "pathway-basement-adhesion"
+        ],
+        "candidateSymbols": [
+          "ATG7",
+          "COL17A1"
+        ]
+      }
+    ]
+  },
+  {
+    "taxonomyId": "hallmark-10",
+    "topics": [
+      {
+        "name": "应激分泌及局部微环境",
+        "pathwayIds": [
+          "pathway-sasp",
+          "pathway-ecm-remodeling"
+        ],
+        "candidateSymbols": [
+          "CCN1",
+          "RELA",
+          "IL6",
+          "TGFB1"
+        ]
+      },
+      {
+        "name": "内分泌营养信号",
+        "pathwayIds": [
+          "pathway-igf"
+        ],
+        "candidateSymbols": [
+          "IGF1R",
+          "KL"
+        ]
+      }
+    ]
+  },
+  {
+    "taxonomyId": "hallmark-11",
+    "topics": [
+      {
+        "name": "炎性小体",
+        "pathwayIds": [
+          "pathway-nlrp3"
+        ],
+        "candidateSymbols": [
+          "NLRP3",
+          "CASP1",
+          "IL1B"
+        ]
+      },
+      {
+        "name": "胞质 DNA 感知与炎症转录",
+        "pathwayIds": [
+          "pathway-cgas",
+          "pathway-sasp"
+        ],
+        "candidateSymbols": [
+          "CGAS",
+          "STING1",
+          "RELA"
+        ]
+      }
+    ]
+  },
+  {
+    "taxonomyId": "hallmark-12",
+    "topics": [
+      {
+        "name": "肠道菌群移植与宿主反应",
+        "pathwayIds": [
+          "pathway-microbiota-host"
+        ],
+        "candidateSymbols": []
+      },
+      {
+        "name": "菌株、代谢物与宿主受体",
+        "pathwayIds": [],
+        "candidateSymbols": [
+          "FFAR2",
+          "FFAR3",
+          "TLR4"
+        ]
+      }
+    ]
+  },
+  {
+    "taxonomyId": "mechanism-ecm",
+    "topics": [
+      {
+        "name": "胶原周转与基质重塑",
+        "pathwayIds": [
+          "pathway-ecm-remodeling"
+        ],
+        "candidateSymbols": [
+          "MMP1",
+          "MFAP4",
+          "CCN1",
+          "CRAT",
+          "MTOR",
+          "COL1A1",
+          "PTK2"
+        ]
+      },
+      {
+        "name": "基底膜黏附与表皮干细胞",
+        "pathwayIds": [
+          "pathway-basement-adhesion"
+        ],
+        "candidateSymbols": [
+          "COL17A1",
+          "ITGB4"
+        ]
+      }
+    ]
+  }
+]

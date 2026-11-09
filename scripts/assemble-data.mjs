@@ -2,8 +2,9 @@ import fs from "node:fs";
 import crypto from "node:crypto";
 import { z } from "zod";
 import { atlasSchema } from "../src/schema.ts";
-const date = "2026-10-19";
-const version = "1.1.0";
+const date = "2026-11-09";
+const baseDate = "2026-10-19";
+const version = "1.2.0";
 const read = (p) =>
   JSON.parse(fs.readFileSync(p, "utf8").replace(/^\uFEFF/, ""));
 const batches = [
@@ -14,6 +15,9 @@ const batches = [
   "ecm-col17",
   "ecm-mmp1",
 ].map((x) => read(`research/${x}-research.json`));
+const expansion = ["microbiome", "maintenance", "skin", "cellular", "proteasome", "methylation", "mitophagy"].map((x) => read(`research/coverage-${x}.json`));
+const originalPathLinks = read("research/pathway-evidence-map.json");
+const fullTextLinks = read("research/full-text-links.json");
 const unique = (arr) => [...new Set(arr)];
 const idFor = (prefix, name) =>
   `${prefix}-${crypto.createHash("sha256").update(name.normalize("NFKC")).digest("hex").slice(0, 12)}`;
@@ -22,7 +26,7 @@ const source = (id, name, url, role) => ({
   name,
   url,
   role,
-  checkedDate: date,
+  checkedDate: baseDate,
 });
 const a = {
   taxonomy: [],
@@ -32,6 +36,8 @@ const a = {
   interventions: [],
   publications: [],
   evidence: [],
+  themeStudies: [],
+  coveragePlan: read("research/coverage-plan.json"),
   relations: [],
   complexes: [],
   sources: [],
@@ -178,7 +184,7 @@ const status = (s) =>
     conditional: "条件依赖",
   })[s] || s;
 const pubMap = new Map();
-for (const b of batches)
+for (const b of [...batches, ...expansion])
   for (const p of b.publications) {
     const old = pubMap.get(p.id);
     if (old && old.doi?.toLowerCase() !== p.doi?.toLowerCase())
@@ -191,7 +197,7 @@ for (const b of batches)
       pmid: p.pmid || "",
       authors: Array.isArray(p.authors) ? p.authors : [String(p.authors)],
       correctionStatus: p.correctionStatus || "当前未完成更正 / 撤稿核查",
-      checkedDate: date,
+      checkedDate: p.checkedDate || (expansion.includes(b) ? date : baseDate),
     });
   }
 pubMap.set("pub-36599349", {
@@ -212,7 +218,7 @@ pubMap.set("pub-36599349", {
   accessScope: "依据摘要（分类框架）",
   metadataVerified: true,
   claimVerified: false,
-  checkedDate: date,
+  checkedDate: baseDate,
   correctionStatus: "本批核对框架和书目，未实施完整更正审计",
   type: "review",
 });
@@ -225,6 +231,7 @@ a.publications = [...pubMap.values()].map((p) => ({
   doi: p.doi,
   pmid: p.pmid,
   url: p.url,
+  fullTextUrl: p.fullTextUrl || fullTextLinks[p.pmid] || undefined,
   accessScope: p.accessScope,
   metadataVerified: p.metadataVerified,
   claimVerified: p.claimVerified,
@@ -243,9 +250,21 @@ for (const p of a.publications)
         : "框架综述；不作核心功能验证。",
     ),
   );
-const allRecords = batches.flatMap((b) => b.records);
+const allRecords = [...batches, ...expansion].flatMap((b) => b.records || b.targets || []);
 if (unique(allRecords.map((r) => r.symbol)).length !== allRecords.length)
   throw Error("靶点重复，需人工合并后再组装。");
+for (const b of expansion) {
+  for (const e of b.evidence || []) {
+    const record = allRecords.find((r) => "target-" + r.symbol.toLowerCase() === e.targetId || r.symbol === e.targetSymbol);
+    if (!record) throw Error(`扩充证据缺少靶点 ${e.id}`);
+    record.evidence.push(e);
+  }
+  for (const e of b.themeStudies || []) a.themeStudies.push({ ...e, species: unique(e.species.map(species)) });
+  for (const r of b.records || b.targets || []) {
+    if (!r.evidence.every((e) => e.pathwayIds?.length)) throw Error(`扩充靶点证据缺少通路 ${r.symbol}`);
+  }
+  for (const e of b.evidence || []) if (!e.pathwayIds?.length) throw Error(`扩充证据缺少通路 ${e.id}`);
+}
 for (const r of allRecords) {
   const id = "target-" + r.symbol.toLowerCase();
   const externalIds = Array.isArray(r.externalIds)
@@ -257,7 +276,7 @@ for (const r of allRecords) {
           ? r.identitySourceUrl ||
             `https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/${value}`
           : r.ncbiGeneUrl || `https://www.ncbi.nlm.nih.gov/gene/${value}`,
-        checkedDate: date,
+        checkedDate: expansion.some((b) => (b.records || b.targets || []).includes(r)) ? date : baseDate,
       }));
   const target = {
     id,
@@ -275,7 +294,7 @@ for (const r of allRecords) {
     summary: r.summary,
     taxonomyIds: unique([
       ...(r.hallmarks || []).map(taxonomyId),
-      ...(ecmSymbols.includes(r.symbol) ? [ecm.id] : []),
+      ...(ecmSymbols.includes(r.symbol) || r.evidence.some((e) => e.pathwayIds?.includes("pathway-ecm-remodeling")) ? [ecm.id] : []),
     ]),
     pathwayIds: [],
     skinClassification: skin(r),
@@ -347,6 +366,7 @@ for (const r of allRecords) {
     const ev = {
       id: eid,
       targetId: id,
+      pathwayIds: unique(e.pathwayIds || originalPathLinks[eid] || []),
       publicationId: e.publicationId,
       claim: e.claim,
       evidenceType: e.evidenceType,
@@ -408,24 +428,31 @@ for (const r of allRecords) {
       });
   }
 }
-const pathways = read("research/pathway-curation.json");
+const pathways = [...read("research/pathway-curation.json"), ...expansion.flatMap((b) => b.pathways || [])];
+const reactomeReferences = {
+  "pathway-mtor": "R-HSA-165159",
+  "pathway-autophagy": "R-HSA-1632852",
+};
 for (const p of pathways) {
-  const members = a.targets.filter((t) => p.symbols.includes(t.symbol));
+  const members = a.targets.filter((t) =>
+    (p.symbols || []).includes(t.symbol) || (p.memberIds || []).includes(t.id) ||
+    a.evidence.some((e) => e.targetId === t.id && e.pathwayIds.includes(p.id)),
+  );
   const sourceIds = unique(
-    a.evidence
-      .filter((e) => members.some((t) => t.id === e.targetId))
+    [...a.evidence.filter((e) => e.pathwayIds.includes(p.id)), ...a.themeStudies.filter((e) => e.pathwayId === p.id)]
       .map((e) => "source-" + e.publicationId),
   );
+  const refId = reactomeReferences[p.id];
   a.pathways.push({
     id: p.id,
     name: p.name,
-    summary: p.summary,
+    summary: p.id === "pathway-telomere" ? "端粒末端保护、长度维持与端粒酶干预相关的研究。" : p.summary,
     memberIds: members.map((t) => t.id),
-    taxonomyIds: [...p.hallmarks.map(taxonomyId), ...(p.mechanismIds || [])],
+    taxonomyIds: p.taxonomyIds || [...(p.hallmarks || []).map(taxonomyId), ...(p.mechanismIds || [])],
     backgroundSourceIds: sourceIds,
     relationIds: [],
-    mappingBasis:
-      "整理者依据入库原始研究建立的研究主题映射；不宣称这是完整数据库通路或全部成员。分子调控边须另外核对。",
+    mappingBasis: refId ? "按 Reactome 人类通路索引，展示本站已收录的衰老相关实验。" : "依据原始研究归纳的研究主题。",
+    reference: refId ? { database: "Reactome", id: refId, url: `https://reactome.org/content/detail/${refId}` } : undefined,
   });
   for (const t of members) {
     t.pathwayIds.push(p.id);
@@ -435,7 +462,7 @@ for (const p of pathways) {
       targetId: p.id,
       relationType: "member_of",
       polarity: "not_applicable",
-      directness: "编辑研究主题映射，不代表已验证因果调控。",
+      directness: "研究主题归属",
       evidenceIds: [],
       backgroundSourceIds: unique(
         a.evidence
@@ -543,6 +570,7 @@ ecmEntry.evidenceIds = a.evidence
   .filter(
     (e) =>
       existingEvidenceIds.includes(e.id) ||
+      e.pathwayIds.some((id) => ["pathway-ecm-remodeling", "pathway-basement-adhesion"].includes(id)) ||
       a.targets.some(
         (t) =>
           ["CCN1", "COL17A1", "MMP1"].includes(t.symbol) && t.id === e.targetId,
@@ -574,6 +602,7 @@ a.manifest = {
     complexes: a.complexes.length,
     pathways: a.pathways.length,
     evidence: a.evidence.length,
+    themeStudies: a.themeStudies.length,
     agingFunctionEvidence: a.evidence.filter(
       (e) => e.studyContext === "aging_function",
     ).length,
@@ -596,13 +625,13 @@ a.manifest = {
     coveredCategories: a.taxonomy.filter(
       (h) =>
         h.kind === "hallmark" &&
-        a.targets.some((t) => t.taxonomyIds.includes(h.id)),
+        (a.targets.some((t) => t.taxonomyIds.includes(h.id)) || a.themeStudies.some((s) => a.pathways.some((p) => p.id === s.pathwayId && p.taxonomyIds.includes(h.id)))),
     ).length,
   },
   coverage:
-    "目的性检索建立的核心研究库；保留 Cell 2023 的12类标志，另设细胞外基质（ECM）扩展机制，分别统计。条目分布以实时数据为准，非系统综述或完整抗衰靶点名录。",
+    "按 Cell 2023 的 12 类衰老标志组织研究，并单列细胞外基质（ECM）。覆盖清单列出各类研究主题、已收录靶点与补录候选。",
   gaps: [
-    "微生物群失衡尚未完成核心靶点整理，不能据此断言无研究。",
+    "微生物群失衡：本版收录哺乳动物菌群干预与宿主表型研究；菌株、代谢物与宿主受体为后续主题。",
     "尚缺系统性的人体干预证据、皮肤原位研究、剂量时程完整比较与多种族队列。",
     "部分论文仅依据摘要或图注；未获取的剂量、时长和样本量保持明确缺失。",
     "未完成全部条目的外部同源 ID 映射与逐出版商 Crossmark 审计；更正状态按实际访问范围记录。",
@@ -640,7 +669,7 @@ const log = [
       "框架摘要核对 12 项；Reactome 人类反应及复合物成员；Vite/GitHub/Router/Cytoscape 官方文档。近期综述 PMID 42765942、41690118 用作前沿检索线索，不作核心验证。",
     decision: "框架和数据库背景分开保存；不把综述作为靶点功能证据。",
   },
-  ...batches.flatMap((b) => b.searchLog),
+  ...[...batches, ...expansion].flatMap((b) => b.searchLog || []),
 ];
 fs.writeFileSync(
   "public/data/search-log.json",
@@ -654,6 +683,8 @@ for (const key of [
   "interventions",
   "publications",
   "evidence",
+  "themeStudies",
+  "coveragePlan",
   "relations",
   "complexes",
   "manifest",

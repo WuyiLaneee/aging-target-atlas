@@ -1,0 +1,179 @@
+{
+  "publications": [
+    {
+      "id": "pub-37183600",
+      "title": "PTEN-induced kinase 1 is associated with renal aging, via the cGAS-STING pathway",
+      "authors": ["Ha MH", "Kim MS", "An HJ", "Sung MJ", "Lee YH", "Yang DH", "Jung SH", "Baek J", "Choi Y", "Taylor DM", "Zhang Y", "Lee SY", "Jeong HY"],
+      "year": 2023,
+      "journal": "Aging Cell",
+      "doi": "10.1111/acel.13865",
+      "pmid": "37183600",
+      "pmcid": "PMC10352563",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37183600/",
+      "fullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10352563/",
+      "accessScope": "全文（期刊发表版正文、图注和方法）",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-11-09",
+      "correctionStatus": "—"
+    },
+    {
+      "id": "pub-29812989",
+      "title": "Parkin is required for exercise-induced mitophagy in muscle: impact of aging",
+      "authors": ["Chen CCW", "Erlich AT", "Crilly MJ", "Hood DA"],
+      "year": 2018,
+      "journal": "American Journal of Physiology-Endocrinology and Metabolism",
+      "doi": "10.1152/ajpendo.00391.2017",
+      "pmid": "29812989",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29812989/",
+      "fullTextUrl": "https://journals.physiology.org/doi/epdf/10.1152/ajpendo.00391.2017",
+      "accessScope": "期刊发表版公开索引正文（摘要、动物方法、结果及图注片段）",
+      "metadataVerified": true,
+      "claimVerified": true,
+      "checkedDate": "2026-11-09",
+      "correctionStatus": "—"
+    }
+  ],
+  "targets": [
+    {
+      "symbol": "PINK1",
+      "chineseName": "PTEN 诱导激酶 1",
+      "englishName": "PTEN induced kinase 1",
+      "entityType": "gene",
+      "aliases": ["PARK6", "BRPK"],
+      "summary": "PINK1 编码参与线粒体质量控制的丝氨酸／苏氨酸激酶。24 月龄小鼠中，Pink1 缺失伴随较重的肾小管损伤、肾间质纤维化及线粒体嵴结构异常。",
+      "hallmarks": [5, 7],
+      "pathwayNames": ["选择性线粒体自噬"],
+      "skinClassification": "other_tissue",
+      "skinSummary": "研究对象为小鼠肾脏与人肾近端小管上皮细胞。",
+      "externalIds": {"HGNC": "HGNC:14581", "NCBIGene": "65018"},
+      "identitySourceUrl": "https://www.ncbi.nlm.nih.gov/gene/65018",
+      "ncbiGeneUrl": "https://www.ncbi.nlm.nih.gov/gene/65018",
+      "identityVerified": true,
+      "orthologMapping": "实验动物为小鼠 Pink1；HKC-8 为人肾近端小管上皮细胞，靶基因为 PINK1。",
+      "evidence": [
+        {
+          "id": "ev-pink1-aged-kidney",
+          "pathwayIds": ["pathway-mitophagy"],
+          "publicationId": "pub-37183600",
+          "claim": "24 月龄雄性小鼠中，Pink1 缺失加重肾小管损伤及间质纤维化。",
+          "evidenceType": ["全身基因敲除", "自然老龄动物对照"],
+          "species": ["Mus musculus"],
+          "actualEntity": "小鼠 Pink1",
+          "tissueCell": "肾组织，重点为肾小管、间质及肾皮质线粒体",
+          "model": "雄性 C57BL/6 小鼠；4 与 24 月龄，各设野生型和 Pink1 敲除组。",
+          "intervention": "Pink1 全身敲除；在两个年龄分别比较敲除鼠和同龄野生型鼠。",
+          "result": "24 月龄敲除组肾小管损伤评分及肾间质胶原染色面积增加，尿白蛋白/肌酐比和血肌酐升高；肾皮质线粒体体积增大、嵴结构受损。两组 24 月龄小鼠的肾小球硬化评分无显著差异。",
+          "endpoints": ["肾小管损伤评分", "Masson 胶原阳性面积", "尿白蛋白/肌酐比", "血肌酐", "肾皮质线粒体透射电镜", "肾小球硬化评分"],
+          "conditions": "比较 4 与 24 月龄的雄性小鼠；肾组织终点包含病理评分、肾功能指标与线粒体超微结构。",
+          "limitations": "体内以全身敲除和肾组织终点评估；LC3B 与 TOM20 共定位在单独的 HKC-8 细胞实验测量。",
+          "supportStatus": "支持",
+          "locator": "Results §2.1、§2.7；Fig. 1a–e、Fig. 5h–i、Fig. S1 对应的正文；Methods §4.1。",
+          "accessScope": "全文（期刊发表版）",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10352563/",
+          "phenotypes": ["老龄肾小管损伤", "肾间质纤维化", "肾组织线粒体嵴异常"],
+          "dose": "遗传敲除",
+          "time": "4 月龄或 24 月龄取材",
+          "sampleSize": "动物研究 4 组，每组 5 只（Methods §4.1）",
+          "studyContext": "aging_function"
+        },
+        {
+          "id": "ev-pink1-hkc8-lc3-tom20",
+          "pathwayIds": ["pathway-mitophagy"],
+          "publicationId": "pub-37183600",
+          "claim": "过氧化氢处理的人肾近端小管上皮细胞中，PINK1 敲低降低 LC3B 与线粒体标记 TOM20 的共定位。",
+          "evidenceType": ["siRNA 敲低", "免疫荧光共定位"],
+          "species": ["Homo sapiens"],
+          "actualEntity": "人 PINK1",
+          "tissueCell": "人肾近端小管上皮细胞系 HKC-8",
+          "model": "过氧化氢诱导的 HKC-8 氧化应激模型。",
+          "intervention": "siPINK1 与对照 siRNA；两组分别设有或无过氧化氢处理。",
+          "result": "过氧化氢处理后，对照组 LC3B 与 TOM20 共定位增加；相同处理下，PINK1 敲低组的相对共定位面积较低。",
+          "endpoints": ["LC3B 与 TOM20 相对共定位面积"],
+          "conditions": "过氧化氢 200 μM 处理 2 小时，换液后继续培养并在 48 小时取样。",
+          "limitations": "固定细胞的免疫荧光共定位测量。",
+          "supportStatus": "支持",
+          "locator": "Results §2.7；Fig. 5c–d；Methods §4.2。",
+          "accessScope": "全文（期刊发表版）",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10352563/",
+          "phenotypes": ["自噬标记与线粒体共定位"],
+          "dose": "过氧化氢 200 μM",
+          "time": "过氧化氢 2 小时；换液后 48 小时取样",
+          "studyContext": "nonaging_support"
+        }
+      ]
+    },
+    {
+      "symbol": "PRKN",
+      "chineseName": "Parkin 泛素连接酶",
+      "englishName": "parkin RBR E3 ubiquitin protein ligase",
+      "entityType": "gene",
+      "aliases": ["Parkin", "PARK2"],
+      "summary": "PRKN 编码 Parkin E3 泛素连接酶。老龄敲除鼠骨骼肌分离线粒体的活性氧生成读数较高。单次耐力运动后，年轻野生型小鼠的线粒体相关自噬读数升高，年轻敲除组和老龄动物的运动响应较弱。",
+      "hallmarks": [5, 7],
+      "pathwayNames": ["选择性线粒体自噬"],
+      "skinClassification": "other_tissue",
+      "skinSummary": "研究对象为不同年龄小鼠骨骼肌。",
+      "externalIds": {"HGNC": "HGNC:8607", "NCBIGene": "5071"},
+      "identitySourceUrl": "https://www.encodeproject.org/genes/5071/",
+      "ncbiGeneUrl": "https://www.ncbi.nlm.nih.gov/gene/5071",
+      "identityVerified": true,
+      "orthologMapping": "实验动物为 Prkn 缺失小鼠；原文沿用 Park2 或 Parkin。",
+      "evidence": [
+        {
+          "id": "ev-prkn-aged-muscle-exercise-flux",
+          "pathwayIds": ["pathway-mitophagy"],
+          "publicationId": "pub-29812989",
+          "claim": "老龄 Parkin 敲除小鼠骨骼肌分离线粒体的活性氧生成读数较高；运动相关自噬读数随年龄和基因型而异。",
+          "evidenceType": ["基因敲除", "自然老龄动物对照", "阻断自噬体转运估计通量"],
+          "species": ["Mus musculus"],
+          "actualEntity": "小鼠 Prkn（B6;129S4-Park2tm1Shn/J）",
+          "tissueCell": "小鼠骨骼肌及分离的线粒体组分",
+          "model": "C57BL/6 野生型及 B6;129S4-Park2tm1Shn/J 敲除小鼠；年轻组最低 3 月龄，老龄组最低 18 月龄。",
+          "intervention": "比较 Parkin 敲除和野生型、静息与单次耐力运动。秋水仙碱与载体组用于估计线粒体相关自噬标记的通量。",
+          "result": "老龄敲除组的线粒体活性氧生成读数较高，股四头肌质量较老龄野生型未进一步下降。单次耐力运动提高年轻野生型组的线粒体相关自噬读数，年轻敲除组未出现相同增幅；老龄野生型动物的基础线粒体相关 LC3-II 通量读数较高，运动后未进一步升高。",
+          "endpoints": ["分离线粒体活性氧生成读数", "按胫骨长度校正的股四头肌质量", "线粒体组分脂化 LC3（LC3-II）通量读数", "运动后线粒体相关自噬标记"],
+          "conditions": "单次耐力运动；按年龄和基因型比较。秋水仙碱用于阻断自噬体向溶酶体转运。",
+          "limitations": "通量以秋水仙碱阻断前后线粒体组分的自噬标记估计；基因型效应和年龄效应在各自比较组中报告。",
+          "supportStatus": "条件依赖",
+          "locator": "摘要；Materials and Methods: Mice、Exercise protocol and blood lactate；Table 1、Fig. 1D 与讨论；Results 中线粒体相关自噬标记及通量段落。",
+          "accessScope": "期刊发表版公开索引正文及 PubMed 摘要",
+          "sourceUrl": "https://journals.physiology.org/doi/epdf/10.1152/ajpendo.00391.2017",
+          "phenotypes": ["老龄肌肉线粒体活性氧生成", "老龄肌肉运动相关线粒体自噬响应"],
+          "dose": "秋水仙碱 0.4 mg/kg/日，腹腔注射",
+          "time": "运动取材前每日注射 1 次，连续 2 天；单次运动",
+          "studyContext": "aging_function"
+        }
+      ]
+    }
+  ],
+  "evidence": [],
+  "pathways": [
+    {
+      "id": "pathway-mitophagy",
+      "name": "选择性线粒体自噬",
+      "summary": "线粒体自噬是通过自噬系统选择性清除线粒体的过程。收录的 PINK1 研究涉及自然老龄肾组织损伤和细胞自噬标记共定位；PRKN 研究比较了不同年龄骨骼肌的运动相关自噬读数。",
+      "taxonomyIds": ["hallmark-05", "hallmark-07"],
+      "memberIds": ["target-pink1", "target-prkn"],
+      "hallmarks": [5, 7],
+      "symbols": ["PINK1", "PRKN"]
+    }
+  ],
+  "themeStudies": [],
+  "searchLog": [
+    {
+      "date": "2026-11-09",
+      "source": "PubMed；期刊发表版与公开索引；NCBI Gene；ENCODE",
+      "query": "Parkin knockout exercise-induced mitophagy aged mouse skeletal muscle；PINK1 knockout natural aging 24 months renal aging；PINK1 65018；PRKN 5071",
+      "result": "核对 PMID 37183600 和 29812989；核对标准基因符号与编号。",
+      "decision": "纳入两项自然老龄小鼠研究；按年龄、组织及实验终点拆分；PINK1 体外共定位作为机制补充。"
+    },
+    {
+      "date": "2026-11-09",
+      "source": "PubMed；公开期刊索引；Europe PMC、OpenAlex 和 Unpaywall 请求",
+      "query": "DOI 10.1111/acel.13865、10.1152/ajpendo.00391.2017",
+      "result": "PINK1 研究核对期刊发表版全文。PRKN 出版商直连返回 403，核对期刊发表版公开索引中的摘要、方法和结果片段。Europe PMC、OpenAlex 与 Unpaywall API 本次请求未成功。",
+      "decision": "保留对应来源和实际核对范围。"
+    }
+  ]
+}

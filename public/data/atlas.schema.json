@@ -317,6 +317,27 @@
           },
           "mappingBasis": {
             "type": "string"
+          },
+          "reference": {
+            "type": "object",
+            "properties": {
+              "database": {
+                "type": "string"
+              },
+              "id": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "required": [
+              "database",
+              "id",
+              "url"
+            ],
+            "additionalProperties": false
           }
         },
         "required": [
@@ -448,6 +469,10 @@
             "type": "string",
             "format": "uri"
           },
+          "fullTextUrl": {
+            "type": "string",
+            "format": "uri"
+          },
           "accessScope": {
             "type": "string"
           },
@@ -496,6 +521,13 @@
           },
           "targetId": {
             "type": "string"
+          },
+          "pathwayIds": {
+            "default": [],
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           },
           "publicationId": {
             "type": "string"
@@ -589,6 +621,7 @@
         "required": [
           "id",
           "targetId",
+          "pathwayIds",
           "publicationId",
           "claim",
           "evidenceType",
@@ -611,6 +644,120 @@
           "dose",
           "time",
           "sampleSize"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "themeStudies": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "pathwayId": {
+            "type": "string"
+          },
+          "publicationId": {
+            "type": "string"
+          },
+          "subject": {
+            "type": "string"
+          },
+          "claim": {
+            "type": "string"
+          },
+          "species": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "model": {
+            "type": "string"
+          },
+          "intervention": {
+            "type": "string"
+          },
+          "result": {
+            "type": "string"
+          },
+          "locator": {
+            "type": "string"
+          },
+          "evidenceType": {
+            "type": "string"
+          },
+          "studyContext": {
+            "type": "string",
+            "enum": [
+              "aging_function",
+              "nonaging_support",
+              "observational"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "pathwayId",
+          "publicationId",
+          "subject",
+          "claim",
+          "species",
+          "model",
+          "intervention",
+          "result",
+          "locator",
+          "evidenceType",
+          "studyContext"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "coveragePlan": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "taxonomyId": {
+            "type": "string"
+          },
+          "topics": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "pathwayIds": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "candidateSymbols": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "name",
+                "pathwayIds",
+                "candidateSymbols"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "taxonomyId",
+          "topics"
         ],
         "additionalProperties": false
       }
@@ -793,6 +940,8 @@
     "interventions",
     "publications",
     "evidence",
+    "themeStudies",
+    "coveragePlan",
     "relations",
     "sources",
     "manifest"

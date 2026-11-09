@@ -804,7 +804,7 @@
       "pathway-ecm-remodeling"
     ],
     "skinClassification": "skin_aging",
-    "skinSummary": "有人真皮成纤维细胞复制性衰老的胶原功能证据；BJ细胞促衰老和小鼠创面抗纤维化属于另一条件，不代表人体抗皱或自然老化逆转。",
+    "skinSummary": "研究涉及原代人真皮成纤维细胞的复制性衰老与胶原稳态、BJ成纤维细胞的应激性衰老，以及小鼠创伤修复中的纤维化。",
     "evidenceIds": [
       "ev-ccn1-replicative-ecm",
       "ev-ccn1-bj-senescence",
@@ -883,7 +883,7 @@
     ],
     "members": [],
     "orthologMapping": "按标准符号汇总对应研究主题；原始物种及实际实验实体见每条证据。未完成全库同源数据库逐一映射，不把鼠基因名改写为人实验。",
-    "summary": "小鼠真皮成纤维细胞中诱导表达有催化活性的人MMP1，导致真皮胶原减少、碎裂与衰老相关组织表型，为MMP1参与ECM失衡提供遗传功能证据。尚不能据此认定抑制MMP1可延寿或改善人体外用抗衰功效。",
+    "summary": "小鼠真皮成纤维细胞中诱导表达有催化活性的人MMP1，导致真皮胶原减少、碎裂与衰老相关组织表型。",
     "taxonomyIds": [
       "hallmark-10",
       "hallmark-11",
@@ -895,7 +895,375 @@
     "skinClassification": "skin_aging",
     "skinSummary": "人MMP1转基因表达的小鼠真皮ECM功能实验；人青年/老年皮肤图像只作形态背景比较，未构成人体干预证据。",
     "evidenceIds": [
-      "ev-mmp1-mouse-ecm"
+      "ev-mmp1-mouse-ecm",
+      "ev-mmp1-19116368-aged-dermis",
+      "ev-mmp1-19116368-purified-enzyme-explant",
+      "ev-mmp1-19116368-fragmented-collagen",
+      "ev-mmp1-23601157-human-skin-explant",
+      "ev-mmp1-23601157-fibroblast-lattice",
+      "ev-mmp1-25201474-dominant-negative-jun"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-terf2",
+    "name": "端粒重复序列结合因子 2",
+    "symbol": "TERF2",
+    "entityType": "gene_protein",
+    "aliases": [
+      "TRF2",
+      "TRBF2"
+    ],
+    "externalIds": [
+      {
+        "database": "NCBI Gene",
+        "id": "7014",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/7014",
+        "checkedDate": "2026-11-09"
+      },
+      {
+        "database": "HGNC",
+        "id": "HGNC:11729",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:11729",
+        "checkedDate": "2026-11-09"
+      }
+    ],
+    "members": [],
+    "orthologMapping": "人 TERF2 与小鼠 Terf2 为对应基因；两物种文献均以 TRF2 指称蛋白。",
+    "summary": "TERF2 编码端粒保护复合物成员 TRF2。显性负性 TRF2 在人肺成纤维细胞中引起端粒去保护和衰老样增殖停滞；在 K5 驱动的小鼠表皮模型中，Terf2 过表达引起端粒缩短和表皮干细胞功能障碍。",
+    "taxonomyIds": [
+      "hallmark-02",
+      "hallmark-08",
+      "hallmark-09"
+    ],
+    "pathwayIds": [
+      "pathway-telomere"
+    ],
+    "skinClassification": "skin_aging",
+    "skinSummary": "K5 驱动 Terf2 过表达的小鼠在光照条件下出现皮肤退变和色素沉着；表皮干细胞动员与克隆形成能力下降。Trp53 缺失改善这两项功能，端粒仍短。",
+    "evidenceIds": [
+      "ev-terf2-smogorzewska-2002",
+      "ev-terf2-munoz-2005",
+      "ev-terf2-stout-2009",
+      "ev-terf2-sengupta-2025-tert"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-hsf1",
+    "name": "热休克转录因子 1",
+    "symbol": "HSF1",
+    "entityType": "gene_protein",
+    "aliases": [
+      "HSF",
+      "HSTF1"
+    ],
+    "externalIds": [
+      {
+        "database": "NCBI Gene",
+        "id": "3297",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/3297",
+        "checkedDate": "2026-11-09"
+      },
+      {
+        "database": "HGNC",
+        "id": "HGNC:5224",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:5224",
+        "checkedDate": "2026-11-09"
+      }
+    ],
+    "members": [],
+    "orthologMapping": "人 HSF1 与小鼠 Hsf1 为对应基因；功能干预在小鼠 Hsf1 实施。",
+    "summary": "HSF1 调控细胞应激下的热休克转录程序。中年小鼠的 Hsf1 条件敲除使造血干细胞蛋白质合成升高，并降低长期竞争性造血重建能力。",
+    "taxonomyIds": [
+      "hallmark-04",
+      "hallmark-09"
+    ],
+    "pathwayIds": [
+      "pathway-heat-shock-proteostasis"
+    ],
+    "skinClassification": "other_tissue",
+    "skinSummary": "本组证据来自小鼠骨髓造血干细胞。",
+    "evidenceIds": [
+      "ev-hsf1-kruta-2021-aging",
+      "ev-hsf1-kruta-2021-culture"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-mfap4",
+    "name": "微原纤维相关蛋白 4",
+    "symbol": "MFAP4",
+    "entityType": "gene_protein",
+    "aliases": [
+      "MFAP-4"
+    ],
+    "externalIds": [
+      {
+        "database": "HGNC",
+        "id": "HGNC:7035",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:7035",
+        "checkedDate": "2026-11-09"
+      },
+      {
+        "database": "NCBI Gene",
+        "id": "4239",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/4239/",
+        "checkedDate": "2026-11-09"
+      }
+    ],
+    "members": [],
+    "orthologMapping": "功能干预使用人皮肤和人源 MFAP4；SCID 小鼠是人皮肤移植物的宿主。",
+    "summary": "在 SCID 小鼠承载的人皮肤移植物中，提高人 MFAP4 表达可减轻重复 UVB 照射后的真皮弹性纤维及 I 型胶原损失。培养的人真皮成纤维细胞敲低 MFAP4 后，MMP1 转录和分泌的活性型 MMP-1 增加。",
+    "taxonomyIds": [
+      "mechanism-ecm"
+    ],
+    "pathwayIds": [
+      "pathway-ecm-remodeling"
+    ],
+    "skinClassification": "skin_aging",
+    "skinSummary": "人皮肤移植物光老化实验：连续重复 UVB 照射中，MFAP4 过表达组真皮弹性纤维和 I 型胶原保留较多。",
+    "evidenceIds": [
+      "ev-mfap4-22355679-skin-xenograft",
+      "ev-mfap4-22355679-fibroblast-mmp1"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-foxo3",
+    "name": "叉头框转录因子 O3",
+    "symbol": "FOXO3",
+    "entityType": "gene_protein",
+    "aliases": [
+      "FOXO3A",
+      "FKHRL1",
+      "Foxo3a"
+    ],
+    "externalIds": [
+      {
+        "database": "HGNC",
+        "id": "3821",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/3821",
+        "checkedDate": "2026-11-09"
+      },
+      {
+        "database": "NCBI Gene",
+        "id": "2309",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/2309",
+        "checkedDate": "2026-11-09"
+      }
+    ],
+    "members": [],
+    "orthologMapping": "靶点按人标准符号索引，实验基因与物种见研究记录。",
+    "summary": "老龄 Foxo3a 全身缺失小鼠的造血干细胞频率低于同窝对照；缺失细胞的静息维持也受到影响。",
+    "taxonomyIds": [
+      "hallmark-09"
+    ],
+    "pathwayIds": [
+      "pathway-hsc"
+    ],
+    "skinClassification": "other_tissue",
+    "skinSummary": "本条原始研究的组织为小鼠骨髓。",
+    "evidenceIds": [
+      "ev-foxo3-aged-hsc"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-atg7",
+    "name": "自噬相关蛋白 7",
+    "symbol": "ATG7",
+    "entityType": "gene_protein",
+    "aliases": [
+      "APG7",
+      "ATG7L"
+    ],
+    "externalIds": [
+      {
+        "database": "NCBI Gene",
+        "id": "10533",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/10533",
+        "checkedDate": "2026-11-09"
+      }
+    ],
+    "members": [],
+    "orthologMapping": "靶点按人标准符号索引，实验基因与物种见研究记录。",
+    "summary": "3 月龄小鼠的肌肉卫星细胞中诱导缺失 Atg7 后，早期细胞周期抑制因子转录升高，30 天时卫星细胞减少。",
+    "taxonomyIds": [
+      "hallmark-04",
+      "hallmark-05",
+      "hallmark-08",
+      "hallmark-09"
+    ],
+    "pathwayIds": [
+      "pathway-autophagy",
+      "pathway-muscle-stem-cells"
+    ],
+    "skinClassification": "other_tissue",
+    "skinSummary": "本条原始研究的组织为小鼠骨骼肌。",
+    "evidenceIds": [
+      "ev-atg7-satellite-ko"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-psmb5",
+    "name": "20S 蛋白酶体 β5 亚基",
+    "symbol": "PSMB5",
+    "entityType": "gene_protein",
+    "aliases": [
+      "MB1",
+      "X"
+    ],
+    "externalIds": [
+      {
+        "database": "NCBI Gene",
+        "id": "5693",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/5693",
+        "checkedDate": "2026-11-09"
+      },
+      {
+        "database": "HGNC",
+        "id": "HGNC:9542",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:9542",
+        "checkedDate": "2026-11-09"
+      }
+    ],
+    "members": [],
+    "orthologMapping": "两项细胞干预实验均使用人 PSMB5。",
+    "summary": "PSMB5 编码常规 20S 蛋白酶体的催化亚基 β5，参与胰凝乳蛋白酶样底物切割。稳定过表达 PSMB5 增加了人原代肺成纤维细胞进入复制性衰老前的群体倍增次数；在老年供者真皮成纤维细胞中，PSMB5 转导提高蛋白酶体活性，并降低衰老标志物。",
+    "taxonomyIds": [
+      "hallmark-04",
+      "hallmark-08"
+    ],
+    "pathwayIds": [
+      "pathway-proteasome"
+    ],
+    "skinClassification": "skin_aging",
+    "skinSummary": "在 60、67 和 72 岁供者的培养真皮成纤维细胞中，与空载体组相比，PSMB5 转导使 SA-β-gal 阳性细胞比例从 26±3% 降至 7±2%（均值±SEM），p21 蛋白水平也下降。",
+    "evidenceIds": [
+      "ev-psmb5-chondrogianni-2005",
+      "ev-psmb5-hwang-2007-dermis"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-tet2",
+    "name": "甲基胞嘧啶双加氧酶 2",
+    "symbol": "TET2",
+    "entityType": "gene_protein",
+    "aliases": [],
+    "externalIds": [
+      {
+        "database": "HGNC",
+        "id": "HGNC:25941",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:25941",
+        "checkedDate": "2026-11-09"
+      },
+      {
+        "database": "NCBI Gene",
+        "id": "54790",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/54790",
+        "checkedDate": "2026-11-09"
+      }
+    ],
+    "members": [],
+    "orthologMapping": "靶点按人 TET2 标准符号索引；功能实验操作的是小鼠 Tet2。",
+    "summary": "TET2 参与 DNA 5-甲基胞嘧啶氧化。在随龄追踪的小鼠造血嵌合模型中，Tet2 杂合缺失细胞较同样标记的野生型细胞扩张更多；在独立的竞争移植实验中，老龄 Tet2 缺失供体细胞的竞争优势大于年轻 Tet2 缺失供体细胞。",
+    "taxonomyIds": [
+      "hallmark-03"
+    ],
+    "pathwayIds": [
+      "pathway-hsc",
+      "pathway-dna-methylation"
+    ],
+    "skinClassification": "other_tissue",
+    "skinSummary": "收录实验来自小鼠骨髓造血干祖细胞及其外周血后代。",
+    "evidenceIds": [
+      "ev-tet2-36379023-mosaic-aging",
+      "ev-tet2-37884767-aging-competition",
+      "ev-tet2-37884767-heterochromatin"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-pink1",
+    "name": "PTEN 诱导激酶 1",
+    "symbol": "PINK1",
+    "entityType": "gene_protein",
+    "aliases": [
+      "PARK6",
+      "BRPK"
+    ],
+    "externalIds": [
+      {
+        "database": "HGNC",
+        "id": "HGNC:14581",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/65018",
+        "checkedDate": "2026-11-09"
+      },
+      {
+        "database": "NCBI Gene",
+        "id": "65018",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/65018",
+        "checkedDate": "2026-11-09"
+      }
+    ],
+    "members": [],
+    "orthologMapping": "实验动物为小鼠 Pink1；HKC-8 为人肾近端小管上皮细胞，靶基因为 PINK1。",
+    "summary": "PINK1 编码参与线粒体质量控制的丝氨酸／苏氨酸激酶。24 月龄小鼠中，Pink1 缺失伴随较重的肾小管损伤、肾间质纤维化及线粒体嵴结构异常。",
+    "taxonomyIds": [
+      "hallmark-05",
+      "hallmark-07"
+    ],
+    "pathwayIds": [
+      "pathway-mitophagy"
+    ],
+    "skinClassification": "other_tissue",
+    "skinSummary": "研究对象为小鼠肾脏与人肾近端小管上皮细胞。",
+    "evidenceIds": [
+      "ev-pink1-aged-kidney",
+      "ev-pink1-hkc8-lc3-tom20"
+    ],
+    "status": "core"
+  },
+  {
+    "id": "target-prkn",
+    "name": "Parkin 泛素连接酶",
+    "symbol": "PRKN",
+    "entityType": "gene_protein",
+    "aliases": [
+      "Parkin",
+      "PARK2"
+    ],
+    "externalIds": [
+      {
+        "database": "HGNC",
+        "id": "HGNC:8607",
+        "url": "https://www.encodeproject.org/genes/5071/",
+        "checkedDate": "2026-11-09"
+      },
+      {
+        "database": "NCBI Gene",
+        "id": "5071",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/5071",
+        "checkedDate": "2026-11-09"
+      }
+    ],
+    "members": [],
+    "orthologMapping": "实验动物为 Prkn 缺失小鼠；原文沿用 Park2 或 Parkin。",
+    "summary": "PRKN 编码 Parkin E3 泛素连接酶。老龄敲除鼠骨骼肌分离线粒体的活性氧生成读数较高。单次耐力运动后，年轻野生型小鼠的线粒体相关自噬读数升高，年轻敲除组和老龄动物的运动响应较弱。",
+    "taxonomyIds": [
+      "hallmark-05",
+      "hallmark-07"
+    ],
+    "pathwayIds": [
+      "pathway-mitophagy"
+    ],
+    "skinClassification": "other_tissue",
+    "skinSummary": "研究对象为不同年龄小鼠骨骼肌。",
+    "evidenceIds": [
+      "ev-prkn-aged-muscle-exercise-flux"
     ],
     "status": "core"
   }
