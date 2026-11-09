@@ -513,5 +513,109 @@
       "rel-member-target-prkn-pathway-mitophagy"
     ],
     "mappingBasis": "依据原始研究归纳的研究主题。"
+  },
+  {
+    "id": "pathway-nrf2",
+    "name": "KEAP1–NRF2 抗氧化应答",
+    "summary": "静息状态下的 NRF2 周转、氧化应激后的转录应答，以及人真皮成纤维细胞的相关实验。",
+    "memberIds": [
+      "target-sirt1"
+    ],
+    "taxonomyIds": [
+      "hallmark-04",
+      "hallmark-07"
+    ],
+    "backgroundSourceIds": [
+      "source-pub-35163314"
+    ],
+    "relationIds": [
+      "rel-member-target-sirt1-pathway-nrf2"
+    ],
+    "mappingBasis": "按 Reactome 人类通路索引，展示本站已收录的衰老相关实验。",
+    "reference": {
+      "database": "Reactome",
+      "id": "R-HSA-9755511",
+      "url": "https://reactome.org/content/detail/R-HSA-9755511"
+    }
+  },
+  {
+    "id": "pathway-tgfb-smad",
+    "name": "TGF-β–SMAD 信号与胶原",
+    "summary": "TGF-β 受体激活 SMAD 的反应顺序及人真皮成纤维细胞的胶原读出。",
+    "memberIds": [],
+    "taxonomyIds": [
+      "hallmark-10",
+      "mechanism-ecm"
+    ],
+    "backgroundSourceIds": [
+      "source-pub-34890367"
+    ],
+    "relationIds": [],
+    "mappingBasis": "按 Reactome 人类通路索引，展示本站已收录的衰老相关实验。",
+    "reference": {
+      "database": "Reactome",
+      "id": "R-HSA-170834",
+      "url": "https://reactome.org/content/detail/R-HSA-170834"
+    }
+  },
+  {
+    "id": "pathway-wnt",
+    "name": "WNT–β-catenin 信号与肠干细胞",
+    "summary": "经典 WNT 的 β-catenin 转录应答，以及菌源蛋白在肠道细胞和类器官中的研究。",
+    "memberIds": [],
+    "taxonomyIds": [
+      "hallmark-09",
+      "hallmark-10",
+      "hallmark-12"
+    ],
+    "backgroundSourceIds": [
+      "source-pub-38582860"
+    ],
+    "relationIds": [],
+    "mappingBasis": "按 Reactome 人类通路索引，展示本站已收录的衰老相关实验。",
+    "reference": {
+      "database": "Reactome",
+      "id": "R-HSA-201681",
+      "url": "https://reactome.org/content/detail/R-HSA-201681"
+    }
+  },
+  {
+    "id": "pathway-ampk",
+    "name": "AMPK 能量感知",
+    "summary": "低能量负荷时 AMPK 对 TSC–mTORC1 与 ULK1 的两条调节分支。",
+    "memberIds": [],
+    "taxonomyIds": [
+      "hallmark-05",
+      "hallmark-06"
+    ],
+    "backgroundSourceIds": [],
+    "relationIds": [],
+    "mappingBasis": "按 Reactome 人类通路索引，展示本站已收录的衰老相关实验。",
+    "reference": {
+      "database": "Reactome",
+      "id": "R-HSA-380972",
+      "url": "https://reactome.org/content/detail/R-HSA-380972"
+    }
+  },
+  {
+    "id": "pathway-hippo-yap",
+    "name": "Hippo–YAP/TAZ 与真皮力学应答",
+    "summary": "LATS 对 YAP/TAZ 的磷酸化，以及真皮成纤维细胞铺展、YAP/TAZ 与 CCN2 表达。",
+    "memberIds": [],
+    "taxonomyIds": [
+      "hallmark-08",
+      "hallmark-10",
+      "mechanism-ecm"
+    ],
+    "backgroundSourceIds": [
+      "source-pub-35480397"
+    ],
+    "relationIds": [],
+    "mappingBasis": "按 Reactome 人类通路索引，展示本站已收录的衰老相关实验。",
+    "reference": {
+      "database": "Reactome",
+      "id": "R-HSA-2028269",
+      "url": "https://reactome.org/content/detail/R-HSA-2028269"
+    }
   }
 ]

@@ -353,6 +353,204 @@
         "additionalProperties": false
       }
     },
+    "pathwayMaps": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "pathwayId": {
+            "type": "string"
+          },
+          "tracks": {
+            "minItems": 1,
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "title": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "scope": {
+                  "type": "string",
+                  "enum": [
+                    "standard",
+                    "experiment",
+                    "observation"
+                  ]
+                },
+                "context": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "nodes": {
+                  "minItems": 2,
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "label": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "kind": {
+                        "type": "string",
+                        "enum": [
+                          "target",
+                          "input",
+                          "process",
+                          "outcome"
+                        ]
+                      },
+                      "col": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 6
+                      },
+                      "row": {
+                        "default": 0,
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 3
+                      },
+                      "note": {
+                        "type": "string"
+                      },
+                      "targetId": {
+                        "type": "string"
+                      },
+                      "gene": {
+                        "type": "object",
+                        "properties": {
+                          "symbol": {
+                            "type": "string"
+                          },
+                          "name": {
+                            "type": "string"
+                          },
+                          "url": {
+                            "type": "string",
+                            "format": "uri"
+                          }
+                        },
+                        "required": [
+                          "symbol",
+                          "name",
+                          "url"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "required": [
+                      "id",
+                      "label",
+                      "kind",
+                      "col",
+                      "row"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "edges": {
+                  "minItems": 1,
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "from": {
+                        "type": "string"
+                      },
+                      "to": {
+                        "type": "string"
+                      },
+                      "label": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "kind": {
+                        "type": "string",
+                        "enum": [
+                          "activation",
+                          "inhibition",
+                          "process",
+                          "association"
+                        ]
+                      },
+                      "detail": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "refs": {
+                        "minItems": 1,
+                        "type": "array",
+                        "items": {
+                          "anyOf": [
+                            {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "title": {
+                                  "type": "string",
+                                  "minLength": 1
+                                },
+                                "url": {
+                                  "type": "string",
+                                  "format": "uri"
+                                }
+                              },
+                              "required": [
+                                "title",
+                                "url"
+                              ],
+                              "additionalProperties": false
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "required": [
+                      "from",
+                      "to",
+                      "label",
+                      "kind",
+                      "detail",
+                      "refs"
+                    ],
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "scope",
+                "context",
+                "nodes",
+                "edges"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "pathwayId",
+          "tracks"
+        ],
+        "additionalProperties": false
+      }
+    },
     "phenotypes": {
       "type": "array",
       "items": {
@@ -936,6 +1134,7 @@
     "targets",
     "complexes",
     "pathways",
+    "pathwayMaps",
     "phenotypes",
     "interventions",
     "publications",

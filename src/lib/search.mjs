@@ -39,7 +39,10 @@ export function searchAtlas(a, input) {
     }, (x, y) => x.symbol.localeCompare(y.symbol)),
     pathways: sorted(a.pathways, (p) => {
       if (p.reference?.id && key(p.reference.id) === key(q)) return 120;
-      return textScore(q, [p.name], [p.summary, ...taxonomy(p.taxonomyIds)]);
+      const tracks = a.pathwayMaps?.find((m) => m.pathwayId === p.id)?.tracks || [];
+      const components = tracks.flatMap((t) => t.nodes.flatMap((n) => [n.gene?.symbol, a.targets.find((g) => g.id === n.targetId)?.symbol].filter(Boolean)));
+      if (key(q) && components.some((symbol) => key(symbol) === key(q))) return 80;
+      return textScore(q, [p.name], [p.summary, ...taxonomy(p.taxonomyIds), ...tracks.flatMap((t) => [t.title, ...t.nodes.map((n) => n.label)])]);
     }, (x, y) => x.name.localeCompare(y.name, "zh")),
     publications: sorted(a.publications, (p) => {
       if ((p.pmid && pmidKey(q) === p.pmid) || (p.doi && doiKey(q) === doiKey(p.doi))) return 120;

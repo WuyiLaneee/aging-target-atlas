@@ -1531,6 +1531,54 @@
     "type": "original"
   },
   {
+    "id": "pub-34890367",
+    "title": "Protective effects of galangin against H2O2/UVB-induced dermal fibroblast collagen degradation via hsa-microRNA-4535-mediated TGFβ/Smad signaling.",
+    "authors": [
+      "Lee JJ",
+      "Ng SC",
+      "Ni YT",
+      "Liu JS",
+      "Chen CJ",
+      "Padma VV",
+      "Huang CY",
+      "Kuo WW"
+    ],
+    "year": 2021,
+    "journal": "Aging",
+    "doi": "10.18632/aging.203750",
+    "pmid": "34890367",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34890367/",
+    "fullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8714160/",
+    "accessScope": "开放全文，Figs. 5–8 与 Methods。",
+    "metadataVerified": true,
+    "claimVerified": true,
+    "checkedDate": "2026-11-09",
+    "correctionStatus": "PubMed 书目及期刊正文。",
+    "type": "original"
+  },
+  {
+    "id": "pub-35480397",
+    "title": "Age-Related Downregulation of CCN2 Is Regulated by Cell Size in a YAP/TAZ-Dependent Manner in Human Dermal Fibroblasts: Impact on Dermal Aging.",
+    "authors": [
+      "Qin Z",
+      "He T",
+      "Guo C",
+      "Quan T"
+    ],
+    "year": 2022,
+    "journal": "JID Innovations",
+    "doi": "10.1016/j.xjidi.2022.100111",
+    "pmid": "35480397",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35480397/",
+    "fullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9035808/",
+    "accessScope": "PubMed 摘要：细胞大小、YAP/TAZ 操作和 CCN2 表达结果。",
+    "metadataVerified": true,
+    "claimVerified": true,
+    "checkedDate": "2026-11-09",
+    "correctionStatus": "PubMed / Europe PMC 书目。",
+    "type": "original"
+  },
+  {
     "id": "pub-36599349",
     "title": "Hallmarks of aging: An expanding universe",
     "authors": [

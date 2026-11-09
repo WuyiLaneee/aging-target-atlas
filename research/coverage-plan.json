@@ -132,7 +132,8 @@
       {
         "name": "mTOR 与能量感知",
         "pathwayIds": [
-          "pathway-mtor"
+          "pathway-mtor",
+          "pathway-ampk"
         ],
         "candidateSymbols": [
           "MTOR",
@@ -150,7 +151,8 @@
         "pathwayIds": [
           "pathway-mito",
           "pathway-nad",
-          "pathway-mitophagy"
+          "pathway-mitophagy",
+          "pathway-nrf2"
         ],
         "candidateSymbols": [
           "SIRT3",
@@ -287,7 +289,7 @@
       },
       {
         "name": "菌株、代谢物与宿主受体",
-        "pathwayIds": [],
+        "pathwayIds": ["pathway-wnt"],
         "candidateSymbols": [
           "FFAR2",
           "FFAR3",
@@ -299,6 +301,11 @@
   {
     "taxonomyId": "mechanism-ecm",
     "topics": [
+      {
+        "name": "胶原转录与细胞力学应答",
+        "pathwayIds": ["pathway-tgfb-smad", "pathway-hippo-yap"],
+        "candidateSymbols": ["TGFB1", "SMAD4", "YAP1", "WWTR1"]
+      },
       {
         "name": "胶原周转与基质重塑",
         "pathwayIds": [

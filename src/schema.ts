@@ -102,6 +102,28 @@ export const relationSchema = z.object({
   label: z.string(),
   direction: z.enum(["directed", "undirected"]),
 });
+export const pathwayMapSchema = z.object({
+  pathwayId: z.string(),
+  tracks: z.array(z.object({
+    id: z.string().min(1),
+    title: z.string().min(1),
+    scope: z.enum(["standard", "experiment", "observation"]),
+    context: z.string().min(1),
+    nodes: z.array(z.object({
+      id: z.string().min(1), label: z.string().min(1),
+      kind: z.enum(["target", "input", "process", "outcome"]),
+      col: z.number().int().min(0).max(6), row: z.number().int().min(0).max(3).default(0),
+      note: z.string().optional(), targetId: z.string().optional(),
+      gene: z.object({ symbol: z.string(), name: z.string(), url: z.url({protocol: /^https$/}) }).optional(),
+    })).min(2),
+    edges: z.array(z.object({
+      from: z.string(), to: z.string(), label: z.string().min(1),
+      kind: z.enum(["activation", "inhibition", "process", "association"]),
+      detail: z.string().min(1),
+      refs: z.array(z.union([z.string().min(1), z.object({title: z.string().min(1), url: z.url({protocol: /^https$/})})])).min(1),
+    })).min(1),
+  })).min(1),
+});
 export const atlasSchema = z.object({
   taxonomy: z.array(
     named.extend({
@@ -148,6 +170,7 @@ export const atlasSchema = z.object({
       reference: z.object({ database: z.string(), id: z.string(), url: z.url() }).optional(),
     }),
   ),
+  pathwayMaps: z.array(pathwayMapSchema).default([]),
   phenotypes: z.array(
     named.extend({
       level: z.string(),
@@ -198,3 +221,5 @@ export type Target = Atlas["targets"][number];
 export type Evidence = Atlas["evidence"][number];
 export type Publication = Atlas["publications"][number];
 export type Relation = Atlas["relations"][number];
+export type PathwayMap = Atlas["pathwayMaps"][number];
+export type MapTrack = PathwayMap["tracks"][number];

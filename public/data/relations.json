@@ -2792,6 +2792,22 @@
     "direction": "undirected"
   },
   {
+    "id": "rel-member-target-sirt1-pathway-nrf2",
+    "sourceId": "target-sirt1",
+    "targetId": "pathway-nrf2",
+    "relationType": "member_of",
+    "polarity": "not_applicable",
+    "directness": "研究主题归属",
+    "evidenceIds": [],
+    "backgroundSourceIds": [
+      "source-pub-35163314"
+    ],
+    "context": "基于本条原始研究的主题归属；通路机制背景，不计入衰老实验因果边。",
+    "scope": "pathway_background",
+    "label": "研究主题归属",
+    "direction": "undirected"
+  },
+  {
     "id": "rel-cgas-sting-functional",
     "sourceId": "target-cgas",
     "targetId": "target-sting1",

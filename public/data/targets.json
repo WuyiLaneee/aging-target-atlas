@@ -220,7 +220,8 @@
     ],
     "pathwayIds": [
       "pathway-nad",
-      "pathway-mito"
+      "pathway-mito",
+      "pathway-nrf2"
     ],
     "skinClassification": "skin_aging",
     "skinSummary": "HS68人真皮成纤维细胞应激衰老；同篇UVB小鼠结果属原料补充，不能替代小鼠Sirt1依赖验证。",

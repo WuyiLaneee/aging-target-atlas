@@ -24,7 +24,8 @@
     "pathway-ecm-remodeling"
   ],
   "ev-sirt1-dependency": [
-    "pathway-nad"
+    "pathway-nad",
+    "pathway-nrf2"
   ],
   "ev-atm-knockdown": [
     "pathway-dna"

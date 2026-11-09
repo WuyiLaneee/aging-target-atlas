@@ -297,7 +297,8 @@
     "id": "ev-sirt1-dependency",
     "targetId": "target-sirt1",
     "pathwayIds": [
-      "pathway-nad"
+      "pathway-nad",
+      "pathway-nrf2"
     ],
     "publicationId": "pub-35163314",
     "claim": "SIRT1敲低削弱高良姜素对H2O2诱导HS68衰老标志的改善。",

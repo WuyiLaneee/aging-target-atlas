@@ -11,12 +11,28 @@ test("search separates exact gene, pathway, and publication matches", () => {
   assert.equal(searchAtlas(a, "ＭＭＰ１").targets[0]?.id, "target-mmp1");
   assert.equal(searchAtlas(a, "R-HSA-1632852").pathways[0]?.id, "pathway-autophagy");
   assert.equal(searchAtlas(a, "FOXO3A").targets[0]?.id, "target-foxo3");
+  assert.equal(searchAtlas(a, "CDKN1A").pathways[0]?.id, "pathway-dna");
   assert.ok(searchAtlas(a, "Garcia-Prat").publications.some((p) => p.pmid === "26738589"));
   const pub = a.publications.find((p) => p.pmid === "36914001");
   assert.equal(searchAtlas(a, pub.title).publications[0]?.id, pub.id);
   assert.deepEqual(searchAtlas(a, "PMID: 36914001").publications.map((p) => p.id), [pub.id]);
   assert.deepEqual(searchAtlas(a, "https://doi.org/10.1016/j.jid.2023.02.028").publications.map((p) => p.id), [pub.id]);
   assert.match(pub.fullTextUrl, /PMC11577279/);
+});
+
+test("diagrams reject unsourced edges and causal arrows from observation or theme membership", () => {
+  const a = load();
+  const dna = a.pathwayMaps.find((m) => m.pathwayId === "pathway-dna");
+  const observation = a.pathwayMaps.flatMap((m) => m.tracks).find((t) => t.scope === "observation");
+  assert.ok(dna.tracks[0].edges.some((e) => e.kind === "inhibition"));
+  const refs = dna.tracks[0].edges[0].refs;
+  dna.tracks[0].edges[0].refs = ["absent-evidence"];
+  assert.throws(() => validateIntegrity(a), /通路箭头出处悬空/);
+  dna.tracks[0].edges[0].refs = [a.relations.find((r) => r.relationType === "member_of").id];
+  assert.throws(() => validateIntegrity(a), /主题归属不得作为图中反应/);
+  dna.tracks[0].edges[0].refs = refs;
+  observation.edges[0].kind = "activation";
+  assert.throws(() => validateIntegrity(a), /观察图禁止因果箭头/);
 });
 
 test("theme studies do not inflate gene count and each added study has an explicit pathway", () => {

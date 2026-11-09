@@ -1,0 +1,1119 @@
+[
+  {
+    "pathwayId": "pathway-dna",
+    "tracks": [
+      {
+        "id": "atm-p53-p21",
+        "title": "ATM–p53–p21 检查点",
+        "scope": "standard",
+        "context": "人细胞的 DNA 双链断裂应答：ATM 磷酸化 p53，随后通过 p21 影响 G1/S 检查点。",
+        "nodes": [
+          {
+            "id": "dsb",
+            "label": "DNA 双链断裂",
+            "kind": "input",
+            "col": 0
+          },
+          {
+            "id": "atm",
+            "label": "ATM",
+            "kind": "target",
+            "col": 1,
+            "targetId": "target-atm",
+            "note": "丝氨酸/苏氨酸激酶；可在 DNA 双链断裂应答中磷酸化 p53。"
+          },
+          {
+            "id": "p53",
+            "label": "TP53（p53）",
+            "kind": "target",
+            "col": 2,
+            "targetId": "target-tp53",
+            "note": "p53 四聚体可调控 CDKN1A 等基因转录。"
+          },
+          {
+            "id": "p21",
+            "label": "CDKN1A（p21）",
+            "kind": "target",
+            "col": 3,
+            "gene": {
+              "symbol": "CDKN1A",
+              "name": "Cyclin dependent kinase inhibitor 1A",
+              "url": "https://www.ncbi.nlm.nih.gov/gene/1026"
+            },
+            "note": "p21 是受 p53 调控的周期蛋白依赖性激酶抑制因子。"
+          },
+          {
+            "id": "cdk2",
+            "label": "Cyclin E–CDK2",
+            "kind": "target",
+            "col": 4,
+            "gene": {
+              "symbol": "CDK2",
+              "name": "Cyclin dependent kinase 2",
+              "url": "https://www.ncbi.nlm.nih.gov/gene/1017"
+            },
+            "note": "图中表示 Cyclin E 与 CDK2 组成的激酶复合物。"
+          },
+          {
+            "id": "g1s",
+            "label": "G1/S 推进",
+            "kind": "outcome",
+            "col": 5,
+            "note": "Cyclin E–CDK2 活性促进 G1/S 转换；该活性受 p21 抑制。"
+          }
+        ],
+        "edges": [
+          {
+            "from": "dsb",
+            "to": "atm",
+            "label": "招募并激活",
+            "kind": "activation",
+            "detail": "双链断裂处的损伤应答复合物促进 ATM 招募和活化。",
+            "refs": [
+              {
+                "title": "Reactome · DNA 双链断裂处招募 ATM 并磷酸化修复和信号蛋白",
+                "url": "https://reactome.org/content/detail/R-HSA-5693565"
+              }
+            ]
+          },
+          {
+            "from": "atm",
+            "to": "p53",
+            "label": "磷酸化 Ser15",
+            "kind": "process",
+            "detail": "ATM 催化 p53 Ser15 磷酸化；这是人 DNA 双链断裂应答中的标准反应。",
+            "refs": [
+              {
+                "title": "Reactome · ATM 磷酸化 TP53 Ser15",
+                "url": "https://reactome.org/content/detail/R-HSA-5693609"
+              }
+            ]
+          },
+          {
+            "from": "p53",
+            "to": "p21",
+            "label": "促进转录",
+            "kind": "activation",
+            "detail": "p53 与 CDKN1A 启动子中的响应元件结合，促进 CDKN1A 转录。",
+            "refs": [
+              {
+                "title": "Reactome · TP53 促进 CDKN1A 转录",
+                "url": "https://reactome.org/content/detail/R-HSA-6803388"
+              }
+            ]
+          },
+          {
+            "from": "p21",
+            "to": "cdk2",
+            "label": "抑制激酶",
+            "kind": "inhibition",
+            "detail": "p21 结合并抑制 G1 期 Cyclin–CDK 复合物，包括 Cyclin E–CDK2。",
+            "refs": [
+              {
+                "title": "Harper 等 · p21 与 G1 期 Cyclin–CDK 的抑制实验",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/8242751/"
+              },
+              {
+                "title": "Reactome · p27/p21 抑制 Cyclin E–CDK2 复合物",
+                "url": "https://reactome.org/content/detail/R-HSA-69562"
+              }
+            ]
+          },
+          {
+            "from": "cdk2",
+            "to": "g1s",
+            "label": "推动转换",
+            "kind": "activation",
+            "detail": "活化的 Cyclin E–CDK2 促进细胞由 G1 进入 S 期；DNA 损伤应答中 p21 限制这一过程。",
+            "refs": [
+              {
+                "title": "Reactome · Cyclin E 相关 G1/S 转换事件",
+                "url": "https://reactome.org/content/detail/R-HSA-69202"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "p16-rb",
+        "title": "p16–CDK4/6–RB1",
+        "scope": "standard",
+        "context": "人细胞 G1 调控。p16 抑制 Cyclin D–CDK4/6 的形成；保留的 RB1–E2F 结合限制 S 期基因转录。",
+        "nodes": [
+          {
+            "id": "p16",
+            "label": "CDKN2A（p16）",
+            "kind": "target",
+            "col": 0,
+            "gene": {
+              "symbol": "CDKN2A",
+              "name": "Cyclin dependent kinase inhibitor 2A",
+              "url": "https://www.ncbi.nlm.nih.gov/gene/1029"
+            },
+            "note": "CDKN2A 基因编码 p16INK4A 与 p14ARF；此处显示 p16INK4A。"
+          },
+          {
+            "id": "cdk4",
+            "label": "Cyclin D–CDK4/6",
+            "kind": "target",
+            "col": 1,
+            "gene": {
+              "symbol": "CDK4",
+              "name": "Cyclin dependent kinase 4",
+              "url": "https://www.ncbi.nlm.nih.gov/gene/1019"
+            },
+            "note": "此处表示 D 型周期蛋白与 CDK4 或 CDK6 形成的复合物。基因入口指向 CDK4。"
+          },
+          {
+            "id": "rb1",
+            "label": "RB1 磷酸化",
+            "kind": "target",
+            "col": 2,
+            "gene": {
+              "symbol": "RB1",
+              "name": "RB transcriptional corepressor 1",
+              "url": "https://www.ncbi.nlm.nih.gov/gene/5925"
+            },
+            "note": "RB1 磷酸化可削弱其与 E2F–DP 复合物的结合。"
+          },
+          {
+            "id": "e2f",
+            "label": "E2F 转录活性",
+            "kind": "target",
+            "col": 3,
+            "gene": {
+              "symbol": "E2F1",
+              "name": "E2F transcription factor 1",
+              "url": "https://www.ncbi.nlm.nih.gov/gene/1869"
+            },
+            "note": "E2F1/2/3 与 DP 蛋白构成可受 RB1 调控的复合物。基因入口指向 E2F1。"
+          },
+          {
+            "id": "s-phase",
+            "label": "S 期基因表达",
+            "kind": "outcome",
+            "col": 4
+          }
+        ],
+        "edges": [
+          {
+            "from": "p16",
+            "to": "cdk4",
+            "label": "抑制复合物形成",
+            "kind": "inhibition",
+            "detail": "p16INK4A 结合游离的 CDK4 或 CDK6，阻止其与 D 型周期蛋白结合。",
+            "refs": [
+              {
+                "title": "Reactome · INK4 蛋白结合 CDK4/6",
+                "url": "https://reactome.org/content/detail/R-HSA-182594"
+              }
+            ]
+          },
+          {
+            "from": "cdk4",
+            "to": "rb1",
+            "label": "磷酸化 RB1",
+            "kind": "process",
+            "detail": "活化的 Cyclin D–CDK4/6 可磷酸化 RB1。",
+            "refs": [
+              {
+                "title": "Reactome · Cyclin D–CDK4/6 磷酸化 RB1 并解除其与 E2F 复合物结合",
+                "url": "https://reactome.org/content/detail/R-HSA-69227"
+              }
+            ]
+          },
+          {
+            "from": "rb1",
+            "to": "e2f",
+            "label": "解除转录抑制",
+            "kind": "activation",
+            "detail": "RB1 磷酸化降低其对 E2F–DP 复合物的结合，解除对 E2F 的抑制。",
+            "refs": [
+              {
+                "title": "Reactome · Cyclin D–CDK4/6 磷酸化 RB1 并解除其与 E2F 复合物结合",
+                "url": "https://reactome.org/content/detail/R-HSA-69227"
+              }
+            ]
+          },
+          {
+            "from": "e2f",
+            "to": "s-phase",
+            "label": "促进转录",
+            "kind": "activation",
+            "detail": "E2F 启动一组与 G1/S 转换和 DNA 复制相关的转录程序。",
+            "refs": [
+              {
+                "title": "Reactome · G1/S 特异性转录",
+                "url": "https://reactome.org/content/detail/R-HSA-69205"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "atm-sirt6",
+        "title": "ATM 磷酸化 SIRT6",
+        "scope": "experiment",
+        "context": "Qian 等：体外激酶反应与细胞稳定性实验。",
+        "nodes": [
+          {
+            "id": "atm",
+            "label": "ATM",
+            "kind": "target",
+            "col": 0,
+            "targetId": "target-atm"
+          },
+          {
+            "id": "sirt6",
+            "label": "SIRT6 Ser112",
+            "kind": "target",
+            "col": 1,
+            "targetId": "target-sirt6",
+            "note": "Ser112 是论文用重组蛋白和突变体检验的磷酸化位点。"
+          },
+          {
+            "id": "stability",
+            "label": "SIRT6 蛋白稳定",
+            "kind": "outcome",
+            "col": 2,
+            "note": "ATM 缺失加快 SIRT6 降解；磷酸化模拟突变体 S112D 相对稳定。"
+          }
+        ],
+        "edges": [
+          {
+            "from": "atm",
+            "to": "sirt6",
+            "label": "直接磷酸化",
+            "kind": "process",
+            "detail": "免疫纯化 ATM 磷酸化重组 SIRT6；S112A 突变体未出现同样的磷酸化反应。",
+            "refs": [
+              "ev-atm-sirt6-mechanism"
+            ]
+          },
+          {
+            "from": "sirt6",
+            "to": "stability",
+            "label": "维持稳定",
+            "kind": "activation",
+            "detail": "ATM 缺失时 SIRT6 降解加快；SIRT6 S112D 磷酸化模拟变体相对稳定。",
+            "refs": [
+              "ev-atm-sirt6-mechanism"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "atm-fibroblasts",
+        "title": "ATM 与成纤维细胞衰老",
+        "scope": "experiment",
+        "context": "两项实验采用不同细胞和处理：正常人成纤维细胞 ATM 敲低；已衰老的早老症成纤维细胞接受 ATM 抑制剂。",
+        "nodes": [
+          {
+            "id": "atm-kd",
+            "label": "ATM 敲低",
+            "kind": "target",
+            "col": 0,
+            "targetId": "target-atm",
+            "note": "正常人皮肤成纤维细胞，shRNA。"
+          },
+          {
+            "id": "senescence-up",
+            "label": "衰老相关指标升高",
+            "kind": "outcome",
+            "col": 1,
+            "note": "SA-β-gal、γH2AX 与细胞体积升高，增殖降低。"
+          },
+          {
+            "id": "atm-ku",
+            "label": "ATM 药理抑制",
+            "kind": "target",
+            "col": 0,
+            "targetId": "target-atm",
+            "note": "已衰老的 HGPS 或 Werner 综合征患者皮肤成纤维细胞，使用 KU-60019。",
+            "row": 1
+          },
+          {
+            "id": "senescence-down",
+            "label": "部分衰老指标下降",
+            "kind": "outcome",
+            "col": 1,
+            "note": "SA-β-gal、脂褐素及溶酶体质量下降，群体倍增增加。",
+            "row": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": "atm-kd",
+            "to": "senescence-up",
+            "label": "敲低后升高",
+            "kind": "process",
+            "detail": "正常人成纤维细胞 ATM 敲低后 SA-β-gal、γH2AX 和细胞体积增加，增殖降低。",
+            "refs": [
+              "ev-atm-knockdown"
+            ]
+          },
+          {
+            "from": "atm-ku",
+            "to": "senescence-down",
+            "label": "处理后降低",
+            "kind": "process",
+            "detail": "已衰老的早老症成纤维细胞经 KU-60019 处理后，SA-β-gal 和脂褐素降低。",
+            "refs": [
+              "ev-atm-inhib-progeria"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pathwayId": "pathway-mitosis",
+    "tracks": [
+      {
+        "id": "spindle-checkpoint",
+        "title": "BubR1 与纺锤体检查点",
+        "scope": "standard",
+        "context": "有丝分裂检查点复合物可结合并抑制后期促进复合物 APC/C。",
+        "nodes": [
+          {
+            "id": "bubr1",
+            "label": "BUB1B（BubR1）",
+            "kind": "target",
+            "col": 0,
+            "targetId": "target-bub1b",
+            "note": "BubR1 是有丝分裂检查点复合物的组分。"
+          },
+          {
+            "id": "mcc",
+            "label": "检查点复合物",
+            "kind": "process",
+            "col": 1,
+            "note": "复合物含 BubR1、Bub3、CDC20 和 MAD2。"
+          },
+          {
+            "id": "apc",
+            "label": "APC/C 活性",
+            "kind": "process",
+            "col": 2,
+            "note": "APC/C 是参与有丝分裂后期转换的泛素连接酶。"
+          }
+        ],
+        "edges": [
+          {
+            "from": "bubr1",
+            "to": "mcc",
+            "label": "组成复合物",
+            "kind": "process",
+            "detail": "BubR1 与 Bub3、CDC20 和 MAD2 组成有丝分裂检查点复合物。",
+            "refs": [
+              {
+                "title": "Reactome · 有丝分裂检查点复合物直接抑制 APC/C",
+                "url": "https://reactome.org/content/detail/R-HSA-141430"
+              },
+              {
+                "title": "Sudakin 等 · HeLa 细胞中检查点复合物对 APC/C 的抑制",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/11535616/"
+              }
+            ]
+          },
+          {
+            "from": "mcc",
+            "to": "apc",
+            "label": "结合并抑制",
+            "kind": "inhibition",
+            "detail": "HeLa 细胞分离得到的检查点复合物可结合并抑制 APC/C。",
+            "refs": [
+              {
+                "title": "Reactome · 有丝分裂检查点复合物直接抑制 APC/C",
+                "url": "https://reactome.org/content/detail/R-HSA-141430"
+              },
+              {
+                "title": "Sudakin 等 · HeLa 细胞中检查点复合物对 APC/C 的抑制",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/11535616/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "foxm1-division",
+        "title": "FOXM1 与染色体分离",
+        "scope": "experiment",
+        "context": "老年与早老症供者人皮肤成纤维细胞中的 FOXM1 恢复表达实验。",
+        "nodes": [
+          {
+            "id": "foxm1",
+            "label": "恢复 FOXM1 表达",
+            "kind": "target",
+            "col": 0,
+            "targetId": "target-foxm1",
+            "note": "以组成型活性 FOXM1 构建体提高转录活性。"
+          },
+          {
+            "id": "division",
+            "label": "分裂错误减少",
+            "kind": "outcome",
+            "col": 1
+          },
+          {
+            "id": "cellular",
+            "label": "衰老相关指标降低",
+            "kind": "outcome",
+            "col": 1,
+            "row": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": "foxm1",
+            "to": "division",
+            "label": "恢复后减少",
+            "kind": "process",
+            "detail": "老年和 HGPS 细胞恢复 FOXM1 后，有丝分裂缺陷和非整倍体减少。",
+            "refs": [
+              "ev-foxm1-gene"
+            ]
+          },
+          {
+            "from": "foxm1",
+            "to": "cellular",
+            "label": "恢复后降低",
+            "kind": "process",
+            "detail": "恢复 FOXM1 后，老年和 HGPS 细胞的衰老相关表型减轻。",
+            "refs": [
+              "ev-foxm1-gene"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bubr1-mouse",
+        "title": "BubR1 高表达小鼠",
+        "scope": "experiment",
+        "context": "转基因 T23 小鼠持续高表达 BubR1；测量寿命及多种组织的年龄相关变化。",
+        "nodes": [
+          {
+            "id": "bubr1",
+            "label": "BubR1 持续高表达",
+            "kind": "target",
+            "col": 0,
+            "targetId": "target-bub1b"
+          },
+          {
+            "id": "aneuploidy",
+            "label": "部分组织非整倍体减少",
+            "kind": "outcome",
+            "col": 1,
+            "note": "老年小鼠心脏等组织的非整倍体减少，骨髓和小肠结果因组织而异。"
+          },
+          {
+            "id": "lifespan",
+            "label": "寿命延长",
+            "kind": "outcome",
+            "col": 1,
+            "note": "T23 队列寿命延长；中等表达 T7 品系的寿命结果与 T23 不同。",
+            "row": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": "bubr1",
+            "to": "aneuploidy",
+            "label": "组织读出",
+            "kind": "process",
+            "detail": "T23 老年心脏等组织的非整倍体减少；骨髓和小肠未见一致变化。",
+            "refs": [
+              "ev-bub1b-1"
+            ]
+          },
+          {
+            "from": "bubr1",
+            "to": "lifespan",
+            "label": "队列读出",
+            "kind": "process",
+            "detail": "T23 高表达小鼠寿命延长；雄性获益更明显。",
+            "refs": [
+              "ev-bub1b-1"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pathwayId": "pathway-chromatin",
+    "tracks": [
+      {
+        "id": "foxm1-accessibility",
+        "title": "FOXM1 与染色质可及性",
+        "scope": "experiment",
+        "context": "供者来源的人真皮成纤维细胞。两行分别展示老年供者细胞恢复 FOXM1 和新生儿细胞敲低 FOXM1 的结果。",
+        "nodes": [
+          {
+            "id": "foxm1-add",
+            "label": "恢复 FOXM1 表达",
+            "kind": "target",
+            "col": 0,
+            "targetId": "target-foxm1",
+            "note": "在老年供者成纤维细胞中表达 FOXM1-dNdKEN。"
+          },
+          {
+            "id": "accessibility",
+            "label": "部分可及区域重置",
+            "kind": "outcome",
+            "col": 1,
+            "note": "部分老年特异区域关闭，新生儿特异区域重新开放。"
+          },
+          {
+            "id": "foxm1-kd",
+            "label": "FOXM1 敲低",
+            "kind": "target",
+            "col": 0,
+            "targetId": "target-foxm1",
+            "note": "在新生儿成纤维细胞中降低 FOXM1，并测启动子报告活性。",
+            "row": 1
+          },
+          {
+            "id": "ap1",
+            "label": "AP-1 成员启动子活性升高",
+            "kind": "outcome",
+            "col": 1,
+            "note": "实验检测了 JUN、ATF3 和 FOS 启动子报告。",
+            "row": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": "foxm1-add",
+            "to": "accessibility",
+            "label": "表达后改变",
+            "kind": "process",
+            "detail": "老年细胞外源表达 FOXM1 后，部分年龄相关染色质可及性变化向新生儿细胞模式移动。",
+            "refs": [
+              "ev-foxm1-chromatin"
+            ]
+          },
+          {
+            "from": "foxm1-kd",
+            "to": "ap1",
+            "label": "敲低后升高",
+            "kind": "process",
+            "detail": "新生儿细胞 FOXM1 敲低后，部分 AP-1 成员启动子报告活性升高。",
+            "refs": [
+              "ev-foxm1-chromatin"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cgas-nuclear",
+        "title": "核内 cGAS 与 LINE1",
+        "scope": "experiment",
+        "context": "研究比较 cGAS 敲低、回补和催化抑制条件下的 LINE1 表达及染色质读出。",
+        "nodes": [
+          {
+            "id": "cgas",
+            "label": "cGAS 敲低",
+            "kind": "target",
+            "col": 0,
+            "targetId": "target-cgas"
+          },
+          {
+            "id": "line1",
+            "label": "LINE1 去抑制",
+            "kind": "outcome",
+            "col": 1,
+            "note": "以 LINE1 表达等读出评估去抑制。"
+          },
+          {
+            "id": "cgas-ko",
+            "label": "cGAS 缺失",
+            "kind": "target",
+            "col": 0,
+            "targetId": "target-cgas",
+            "row": 1
+          },
+          {
+            "id": "heterochromatin",
+            "label": "H3K9me3 分布改变",
+            "kind": "outcome",
+            "col": 1,
+            "row": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": "cgas",
+            "to": "line1",
+            "label": "敲低后升高",
+            "kind": "process",
+            "detail": "细胞 cGAS 敲低使 LINE1 表达升高；使用 RU.521 抑制 cGAS 催化活性时，LINE1 读出与敲低组不同。",
+            "refs": [
+              "ev-CGAS-42642519"
+            ]
+          },
+          {
+            "from": "cgas-ko",
+            "to": "heterochromatin",
+            "label": "缺失后改变",
+            "kind": "process",
+            "detail": "cGAS 敲除细胞中，部分异染色质区域的 H3K9me3 占位下降。见 Fig. 7d–e。",
+            "refs": [
+              "ev-CGAS-42642519",
+              {
+                "title": "Martinez 等 · Fig. 7，cGAS 缺失细胞的异染色质标记",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13577900/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pathwayId": "pathway-telomere",
+    "tracks": [
+      {
+        "id": "telomere-maintenance",
+        "title": "端粒末端保护与延伸",
+        "scope": "standard",
+        "context": "两行分别画出 TRF2 相关的端粒 t 环和 TERT 所在的端粒酶反应。",
+        "nodes": [
+          {
+            "id": "trf2",
+            "label": "TERF2（TRF2）",
+            "kind": "target",
+            "col": 0,
+            "targetId": "target-terf2",
+            "note": "TRF2 是端粒保护复合物 shelterin 的组分。"
+          },
+          {
+            "id": "t-loop",
+            "label": "端粒 t 环",
+            "kind": "process",
+            "col": 1,
+            "note": "端粒 3′ 单链末端折返进入同一端粒双链区域形成环状结构。"
+          },
+          {
+            "id": "tert",
+            "label": "TERT（端粒酶催化亚基）",
+            "kind": "target",
+            "col": 0,
+            "targetId": "target-tert",
+            "note": "TERT 提供逆转录酶活性，TERC 提供模板。",
+            "row": 1
+          },
+          {
+            "id": "extension",
+            "label": "端粒 DNA 延伸",
+            "kind": "process",
+            "col": 1,
+            "note": "端粒酶在末端合成端粒重复序列。",
+            "row": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": "trf2",
+            "to": "t-loop",
+            "label": "促进环形成",
+            "kind": "process",
+            "detail": "体外实验显示 TRF2 能重塑模型端粒 DNA，形成 t 环结构。",
+            "refs": [
+              {
+                "title": "Griffith 等 · 哺乳动物端粒的 t 环结构",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/10338214/"
+              }
+            ]
+          },
+          {
+            "from": "tert",
+            "to": "extension",
+            "label": "催化延伸",
+            "kind": "process",
+            "detail": "含 TERT 和 TERC 的端粒酶利用 RNA 模板延伸端粒 DNA 的 3′ 末端。",
+            "refs": [
+              {
+                "title": "Reactome · 端粒酶延伸端粒",
+                "url": "https://reactome.org/content/detail/R-HSA-171319"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tert-gene-delivery",
+        "title": "AAV9–TERT 小鼠实验",
+        "scope": "experiment",
+        "context": "约 1 岁和 2 岁小鼠接受 AAV9 介导的活性小鼠 TERT 递送，与 AAV9–GFP 对照比较。",
+        "nodes": [
+          {
+            "id": "aav-tert",
+            "label": "AAV9–mTERT",
+            "kind": "target",
+            "col": 0,
+            "targetId": "target-tert",
+            "note": "向成年或老年小鼠递送有催化活性的 TERT。"
+          },
+          {
+            "id": "longevity",
+            "label": "中位寿命延长",
+            "kind": "outcome",
+            "col": 1,
+            "note": "论文报告 1 岁和 2 岁处理队列分别延长 24% 和 13%。"
+          },
+          {
+            "id": "short-telomeres",
+            "label": "短端粒比例下降",
+            "kind": "outcome",
+            "col": 1,
+            "note": "递送后 1 个月，通过定量端粒原位杂交评估组织短端粒比例。",
+            "row": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": "aav-tert",
+            "to": "longevity",
+            "label": "队列读出",
+            "kind": "process",
+            "detail": "活性 TERT 处理组中位寿命延长；成年组的催化失活构建未产生同样结果。",
+            "refs": [
+              "ev-tert-1"
+            ]
+          },
+          {
+            "from": "aav-tert",
+            "to": "short-telomeres",
+            "label": "组织端粒读出",
+            "kind": "process",
+            "detail": "两年龄组在递送后 1 个月的短端粒比例均低于同龄载体对照。见 Fig. 4A。",
+            "refs": [
+              "ev-tert-1",
+              {
+                "title": "Bernardes de Jesus 等 · Fig. 4A，短端粒比例",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3494070/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trf2-dominant-negative",
+        "title": "TRF2 功能受损与增殖停滞",
+        "scope": "experiment",
+        "context": "增殖期原代人成纤维细胞表达显性负性 TRF2ΔBΔM。",
+        "nodes": [
+          {
+            "id": "trf2-dn",
+            "label": "TRF2ΔBΔM",
+            "kind": "target",
+            "col": 0,
+            "targetId": "target-terf2",
+            "note": "TRF2 显性负性突变体，用于扰动正常 TRF2 介导的端粒保护。"
+          },
+          {
+            "id": "uncapping",
+            "label": "端粒去保护",
+            "kind": "process",
+            "col": 1
+          },
+          {
+            "id": "arrest",
+            "label": "增殖停滞与 SA-β-gal 升高",
+            "kind": "outcome",
+            "col": 2
+          }
+        ],
+        "edges": [
+          {
+            "from": "trf2-dn",
+            "to": "uncapping",
+            "label": "破坏端粒保护",
+            "kind": "process",
+            "detail": "显性负性 TRF2 干扰正常 TRF2 介导的端粒末端保护。",
+            "refs": [
+              "ev-terf2-smogorzewska-2002"
+            ]
+          },
+          {
+            "from": "uncapping",
+            "to": "arrest",
+            "label": "诱导衰老样停滞",
+            "kind": "process",
+            "detail": "人原代成纤维细胞出现 S 期比例下降、增殖停滞、细胞变大变扁及 SA-β-gal 升高。",
+            "refs": [
+              "ev-terf2-smogorzewska-2002"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trf2-tert-promoter",
+        "title": "非端粒 TRF2 调控 TERT 转录",
+        "scope": "experiment",
+        "context": "人肿瘤细胞中的启动子占位与基因扰动实验。",
+        "nodes": [
+          {
+            "id": "trf2",
+            "label": "TERF2（TRF2）",
+            "kind": "target",
+            "col": 0,
+            "targetId": "target-terf2"
+          },
+          {
+            "id": "tert",
+            "label": "TERT 转录",
+            "kind": "target",
+            "col": 1,
+            "targetId": "target-tert"
+          }
+        ],
+        "edges": [
+          {
+            "from": "trf2",
+            "to": "tert",
+            "label": "抑制转录",
+            "kind": "inhibition",
+            "detail": "在人肿瘤细胞中，TRF2 占据 TERT 启动子；在 HT1080 中沉默 TRF2 后 TERT 转录升高，回补野生型 TRF2 后降低。",
+            "refs": [
+              "ev-terf2-sengupta-2025-tert"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pathwayId": "pathway-dna-methylation",
+    "tracks": [
+      {
+        "id": "tet-oxidation",
+        "title": "TET2 与 5mC 氧化",
+        "scope": "standard",
+        "context": "TET2 是可催化连续氧化反应的 TET 家族酶之一。",
+        "nodes": [
+          {
+            "id": "five-mc",
+            "label": "DNA 中的 5mC",
+            "kind": "process",
+            "col": 0,
+            "note": "5-甲基胞嘧啶。"
+          },
+          {
+            "id": "tet2",
+            "label": "TET2 催化",
+            "kind": "target",
+            "col": 1,
+            "targetId": "target-tet2",
+            "note": "依赖 Fe²⁺ 和 2-氧戊二酸的双加氧酶；TET1 和 TET3 亦可催化这些反应。"
+          },
+          {
+            "id": "five-hmc",
+            "label": "DNA 中的 5hmC",
+            "kind": "process",
+            "col": 2,
+            "note": "5-羟甲基胞嘧啶。"
+          },
+          {
+            "id": "five-fc",
+            "label": "DNA 中的 5fC",
+            "kind": "process",
+            "col": 3,
+            "note": "5-甲酰胞嘧啶。"
+          }
+        ],
+        "edges": [
+          {
+            "from": "five-mc",
+            "to": "tet2",
+            "label": "作为底物",
+            "kind": "process",
+            "detail": "DNA 中的 5mC 是 TET 家族酶的底物。",
+            "refs": [
+              {
+                "title": "Reactome · TET1/2/3 将 5mC 氧化为 5hmC",
+                "url": "https://reactome.org/content/detail/R-HSA-5221014"
+              }
+            ]
+          },
+          {
+            "from": "tet2",
+            "to": "five-hmc",
+            "label": "氧化生成",
+            "kind": "process",
+            "detail": "TET 家族酶催化 5mC 氧化生成 5hmC。",
+            "refs": [
+              {
+                "title": "Reactome · TET1/2/3 将 5mC 氧化为 5hmC",
+                "url": "https://reactome.org/content/detail/R-HSA-5221014"
+              }
+            ]
+          },
+          {
+            "from": "five-hmc",
+            "to": "five-fc",
+            "label": "TET 继续氧化",
+            "kind": "process",
+            "detail": "5hmC 可由 TET 家族酶进一步氧化生成 5fC。",
+            "refs": [
+              {
+                "title": "Reactome · TET1/2/3 将 5hmC 氧化为 5fC",
+                "url": "https://reactome.org/content/detail/R-HSA-5220990"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tet2-heterochromatin",
+        "title": "TET2 与异染色质定位",
+        "scope": "experiment",
+        "context": "比较年轻和老年野生型及 Tet2 敲除小鼠的造血干祖细胞，并以免疫荧光观察 H3K9me3。",
+        "nodes": [
+          {
+            "id": "aged-wt",
+            "label": "老年野生型",
+            "kind": "input",
+            "col": 0
+          },
+          {
+            "id": "nucleoplasm",
+            "label": "异染色质偏向核质",
+            "kind": "outcome",
+            "col": 1,
+            "note": "与年轻野生型组比较，H3K9me3 标记偏向核质。"
+          },
+          {
+            "id": "aged-ko",
+            "label": "老年 Tet2 敲除",
+            "kind": "target",
+            "col": 0,
+            "targetId": "target-tet2",
+            "row": 1
+          },
+          {
+            "id": "periphery",
+            "label": "保留异染色质核周定位",
+            "kind": "outcome",
+            "col": 1,
+            "note": "在老年 Tet2 敲除细胞中，H3K9me3 保持较明显的核周分布。",
+            "row": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": "aged-wt",
+            "to": "nucleoplasm",
+            "label": "年龄组比较",
+            "kind": "association",
+            "detail": "老年野生型细胞的 H3K9me3 标记更偏向核质，且标记区域的 5hmC 富集增强。",
+            "refs": [
+              "ev-tet2-37884767-heterochromatin"
+            ]
+          },
+          {
+            "from": "aged-ko",
+            "to": "periphery",
+            "label": "敲除后保留",
+            "kind": "process",
+            "detail": "老年 Tet2 敲除组保留 H3K9me3 标记异染色质的核周定位。",
+            "refs": [
+              "ev-tet2-37884767-heterochromatin"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tet2-clonal-hematopoiesis",
+        "title": "Tet2 杂合缺失与克隆扩张",
+        "scope": "experiment",
+        "context": "在 1–2 月龄嵌合小鼠中诱导造血细胞 Tet2 杂合缺失，追踪至诱导后 12 个月。",
+        "nodes": [
+          {
+            "id": "tet2-het",
+            "label": "Tet2 杂合缺失",
+            "kind": "target",
+            "col": 0,
+            "targetId": "target-tet2",
+            "note": "他莫昔芬诱导，使用 ZsGreen 标记缺失细胞及其后代。"
+          },
+          {
+            "id": "clonal",
+            "label": "标记造血克隆扩张",
+            "kind": "outcome",
+            "col": 1,
+            "note": "扩张涉及 T、B、髓系和红细胞谱系；老年终点的总血细胞计数无显著组间差异。"
+          }
+        ],
+        "edges": [
+          {
+            "from": "tet2-het",
+            "to": "clonal",
+            "label": "随龄扩张",
+            "kind": "process",
+            "detail": "标记的 Tet2 杂合缺失细胞在外周血中的比例随龄增加，增幅大于标记野生型细胞。",
+            "refs": [
+              "ev-tet2-36379023-mosaic-aging"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dnmt1-inhibitor-hspc",
+        "title": "DNMT1 抑制剂处理",
+        "scope": "experiment",
+        "context": "年轻野生型小鼠造血干祖细胞离体处理 10 天，溶剂对照。",
+        "nodes": [
+          {
+            "id": "dnmt1i",
+            "label": "DNMT1 抑制剂",
+            "kind": "target",
+            "col": 0,
+            "gene": {
+              "symbol": "DNMT1",
+              "name": "DNA methyltransferase 1",
+              "url": "https://www.ncbi.nlm.nih.gov/gene/1786"
+            },
+            "note": "处理药物为 GSK-3484862，DMSO 为溶剂对照。"
+          },
+          {
+            "id": "nucleoplasm",
+            "label": "H3K9me3 核质染色增强",
+            "kind": "outcome",
+            "col": 1
+          },
+          {
+            "id": "colonies",
+            "label": "集落形成减少",
+            "kind": "outcome",
+            "col": 1,
+            "row": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": "dnmt1i",
+            "to": "nucleoplasm",
+            "label": "处理后增强",
+            "kind": "process",
+            "detail": "年轻野生型小鼠的 LSK 细胞经 GSK-3484862 处理后，H3K9me3 核质染色增强。",
+            "refs": [
+              "study-dna-methylation-dnmt1-inhibitor-young-hspcs"
+            ]
+          },
+          {
+            "from": "dnmt1i",
+            "to": "colonies",
+            "label": "处理后减少",
+            "kind": "process",
+            "detail": "GSK-3484862 处理后，年轻野生型 LSK 细胞形成的集落减少。",
+            "refs": [
+              "study-dna-methylation-dnmt1-inhibitor-young-hspcs"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

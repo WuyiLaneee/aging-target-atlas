@@ -69,6 +69,7 @@ import {
   PaperLinks,
 } from "./components";
 import { AtlasSearchForm, SearchPage, CoveragePage, PathwayEvidenceTable, pathwayStudies } from "./ResearchViews";
+import { PathwayDiagram } from "./PathwayDiagram";
 const Graph = lazy(() => import("./Graph"));
 const icons = [
   Dna,
@@ -87,7 +88,7 @@ const icons = [
 const nav = [
   ["/", "研究总览", LayoutDashboard],
   ["/targets", "靶点目录", TargetIcon],
-  ["/pathways", "通路目录", Workflow],
+  ["/pathways", "通路图册", Workflow],
   ["/search?type=publications", "文献索引", FileText],
   ["/coverage", "覆盖清单", List],
   ["/mechanisms/mechanism-ecm", "ECM 机制", Layers],
@@ -271,7 +272,7 @@ function Home() {
         <AtlasSearchForm />
         <div className="home-quick-links">
           <Link to="/targets">全部靶点 <ArrowRight size={14} /></Link>
-          <Link to="/pathways">通路目录 <ArrowRight size={14} /></Link>
+          <Link to="/pathways">通路图册 <ArrowRight size={14} /></Link>
           <Link to="/search?type=publications">文献索引 <ArrowRight size={14} /></Link>
           <Link to="/targets?skin=skin_aging">皮肤衰老 <ArrowRight size={14} /></Link>
         </div>
@@ -945,21 +946,25 @@ function TargetDetail() {
 function Pathways() {
   const { atlas: a, personal, toggleFavorite } = useAtlas();
   const [q, setQ] = useState("");
-  const entries = a.pathways.filter((p) =>
-    normalize(
+  const [category, setCategory] = useState("");
+  const maps = new Map(a.pathwayMaps.map((m) => [m.pathwayId, m]));
+  const first = ["pathway-dna", "pathway-igf", "pathway-mtor", "pathway-ecm-remodeling"];
+  const entries = a.pathways.filter((p) => (!category || p.taxonomyIds.includes(category)) &&
+    normalize([
       p.name +
         " " +
         p.summary +
         " " +
         p.memberIds.map((id) => entity(a, id)?.name).join(" "),
-    ).includes(normalize(q)),
-  );
+      ...maps.get(p.id)?.tracks.flatMap((t) => [t.title, ...t.nodes.flatMap((n) => [n.label, n.gene?.symbol, a.targets.find((target) => target.id === n.targetId)?.symbol])]) || [],
+    ].join(" ")).includes(normalize(q)),
+  ).sort((l, r) => (first.includes(l.id) ? first.indexOf(l.id) : first.length) - (first.includes(r.id) ? first.indexOf(r.id) : first.length));
   return (
     <>
       <PageHeader
-        eyebrow="PATHWAY DIRECTORY"
-        title="通路目录"
-        description="在研究主题中查看共享靶点。归属关系与实验调控关系分别表达。"
+        eyebrow="PATHWAY ATLAS"
+        title="通路图册"
+        description={`${a.pathwayMaps.length} 个通路与研究主题 · 按机制筛选，点击图中的靶点或连线查看详情。`}
       >
         <button className="outline-btn" onClick={() => exportPathways(a)}>
           <Download size={15} />
@@ -973,6 +978,7 @@ function Pathways() {
                 {
                   metadata: exportMeta(a, "全部通路"),
                   pathways: a.pathways,
+                  pathwayMaps: a.pathwayMaps,
                   relations: a.relations.filter((r) =>
                     a.pathways.some(
                       (p) => p.id === r.targetId || p.id === r.sourceId,
@@ -989,15 +995,18 @@ function Pathways() {
           JSON
         </button>
       </PageHeader>
-      <div className="simple-search">
+      <div className="map-catalog-filters"><div className="simple-search">
         <Search size={18} />
         <input
           aria-label="通路搜索"
-          placeholder="查找通路名称、功能或成员"
+          placeholder="查找通路、靶点或机制步骤"
           value={q}
           onChange={(e) => setQ(e.target.value)}
         />
-      </div>
+      </div><select aria-label="按衰老机制筛选通路" value={category} onChange={(e) => setCategory(e.target.value)}>
+        <option value="">全部衰老机制</option>
+        {a.taxonomy.map((t) => <option key={t.id} value={t.id}>{t.name}</option>)}
+      </select></div>
       <div className="pathway-grid">
         {entries.map((p) => (
           <article className="pathway-card" key={p.id}>
@@ -1036,7 +1045,7 @@ function Pathways() {
               ))}
             </div>
             <div className="pathway-card-foot">
-              {p.memberIds.length > 0 && <>{p.memberIds.length} 个靶点 · </>}{pathwayStudies(a, p.id).length} 条关联研究
+              <Link to={`/pathways/${p.id}`} className="text-link">查看通路图 <ArrowRight size={14} /></Link> · {maps.get(p.id)?.tracks.length || 0} 个分支
             </div>
           </article>
         ))}
@@ -1053,6 +1062,7 @@ function PathwayDetail() {
   const [showGraph, setShowGraph] = useState(false);
   useEffect(() => setNote(id ? personal.notes[id] || "" : ""), [id]);
   if (!p) return <Empty title="通路尚未整理" />;
+  const diagram = a.pathwayMaps.find((m) => m.pathwayId === p.id);
   const targets = a.targets.filter((t) => p.memberIds.includes(t.id));
   const studies = pathwayStudies(a, p.id);
   const pubs = a.publications.filter((pub) => studies.some((e) => e.publicationId === pub.id));
@@ -1065,7 +1075,7 @@ function PathwayDetail() {
     <>
       <Link className="back-link" to="/pathways">
         <ChevronLeft size={15} />
-        返回通路目录
+        返回通路图册
       </Link>
       <PageHeader
         eyebrow={p.reference ? `标准通路 · ${p.reference.database}` : "研究主题"}
@@ -1090,15 +1100,16 @@ function PathwayDetail() {
           <Tag key={id}>{a.taxonomy.find((h) => h.id === id)?.name}</Tag>
         ))}
       </div>
-      <section className="detail-section">
+      {diagram && <PathwayDiagram key={p.id} map={diagram} />}
+      {studies.length > 0 && <section className="detail-section">
         <div className="section-heading">
           <div><h2>研究证据</h2><p>{studies.length} 条记录 · {pubs.length} 篇原始论文</p></div>
           {pubs.length > 0 && <button className="outline-btn" onClick={() => ris(pubs, a, p.name)}>导出 RIS</button>}
         </div>
         <PathwayEvidenceTable pathwayId={p.id} />
-      </section>
+      </section>}
       <details className="research-disclosure" onToggle={(e) => setShowGraph(e.currentTarget.open)}>
-        <summary>查看关系图谱</summary>
+        <summary>查看关系网络</summary>
         {showGraph && <Suspense fallback={<p>正在载入图谱…</p>}><Graph targetId={p.id} /></Suspense>}
       </details>
       {targets.length > 0 && <section className="detail-section">
@@ -1802,7 +1813,7 @@ function Methods() {
         <h2>收录范围</h2>
         <p>网站以 <a href="https://doi.org/10.1016/j.cell.2022.11.001" target="_blank" rel="noreferrer">Cell 2023 的 12 类衰老标志</a> 为分类框架，并单列 <Link to="/mechanisms/mechanism-ecm">细胞外基质（ECM）</Link>。<Link to="/coverage">覆盖清单</Link>列出各类研究主题、已收录的靶点和后续候选。</p>
         <p>核心靶点收录人和其他哺乳动物的原始功能实验。研究主题可同时收录靶点干预、整体干预和观察关联。证据记录按模型、处理、终点和论文定位整理。</p>
-        <p>通路目录并列展示 Reactome 标准通路和文献研究主题。关系图用实线表示实验关系、虚线表示机制背景或主题归属；各实验关系附原始证据。</p>
+        <p>通路图按标准机制、实验机制和观察研究组织。点击连线查看具体反应、模型、读出和来源。独立的关系网络同时保留主题分类和实验关系。</p>
       </section>
       <section className="paper-section prose">
         <h2>数据下载</h2>

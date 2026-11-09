@@ -2,9 +2,11 @@ import fs from "node:fs";
 import crypto from "node:crypto";
 import { z } from "zod";
 import { atlasSchema } from "../src/schema.ts";
+import { homeostasisMaps } from "../research/maps-homeostasis.mjs";
+import { diagramExpansion, extensionMaps } from "../research/maps-extensions.mjs";
 const date = "2026-11-09";
 const baseDate = "2026-10-19";
-const version = "1.2.0";
+const version = "1.3.0";
 const read = (p) =>
   JSON.parse(fs.readFileSync(p, "utf8").replace(/^\uFEFF/, ""));
 const batches = [
@@ -15,7 +17,7 @@ const batches = [
   "ecm-col17",
   "ecm-mmp1",
 ].map((x) => read(`research/${x}-research.json`));
-const expansion = ["microbiome", "maintenance", "skin", "cellular", "proteasome", "methylation", "mitophagy"].map((x) => read(`research/coverage-${x}.json`));
+const expansion = [...["microbiome", "maintenance", "skin", "cellular", "proteasome", "methylation", "mitophagy"].map((x) => read(`research/coverage-${x}.json`)), diagramExpansion];
 const originalPathLinks = read("research/pathway-evidence-map.json");
 const fullTextLinks = read("research/full-text-links.json");
 const unique = (arr) => [...new Set(arr)];
@@ -32,6 +34,7 @@ const a = {
   taxonomy: [],
   targets: [],
   pathways: [],
+  pathwayMaps: [...["genome", "ecm-inflammation", "metabolic"].flatMap((x) => read(`research/maps-${x}.json`)), ...homeostasisMaps, ...extensionMaps],
   phenotypes: [],
   interventions: [],
   publications: [],
@@ -442,7 +445,7 @@ for (const p of pathways) {
     [...a.evidence.filter((e) => e.pathwayIds.includes(p.id)), ...a.themeStudies.filter((e) => e.pathwayId === p.id)]
       .map((e) => "source-" + e.publicationId),
   );
-  const refId = reactomeReferences[p.id];
+  const refId = p.referenceId || reactomeReferences[p.id];
   a.pathways.push({
     id: p.id,
     name: p.name,
@@ -601,6 +604,9 @@ a.manifest = {
       .length,
     complexes: a.complexes.length,
     pathways: a.pathways.length,
+    pathwayMaps: a.pathwayMaps.length,
+    diagramTracks: a.pathwayMaps.reduce((n, m) => n + m.tracks.length, 0),
+    diagramEdges: a.pathwayMaps.reduce((n, m) => n + m.tracks.reduce((k, t) => k + t.edges.length, 0), 0),
     evidence: a.evidence.length,
     themeStudies: a.themeStudies.length,
     agingFunctionEvidence: a.evidence.filter(
@@ -631,7 +637,7 @@ a.manifest = {
   coverage:
     "按 Cell 2023 的 12 类衰老标志组织研究，并单列细胞外基质（ECM）。覆盖清单列出各类研究主题、已收录靶点与补录候选。",
   gaps: [
-    "微生物群失衡：本版收录哺乳动物菌群干预与宿主表型研究；菌株、代谢物与宿主受体为后续主题。",
+    "微生物群失衡包含哺乳动物菌群干预及 Amuc_1409–CDH1 研究；菌群代谢物与 FFAR2、FFAR3 等受体为补录候选。",
     "尚缺系统性的人体干预证据、皮肤原位研究、剂量时程完整比较与多种族队列。",
     "部分论文仅依据摘要或图注；未获取的剂量、时长和样本量保持明确缺失。",
     "未完成全部条目的外部同源 ID 映射与逐出版商 Crossmark 审计；更正状态按实际访问范围记录。",
@@ -646,7 +652,7 @@ a.manifest = {
 // Use counts rather than a fixed prose number when curated edges are expanded.
 a.manifest.gaps = a.manifest.gaps.map((g) =>
   g.startsWith("调控边")
-    ? "调控边采用保守收录，首版以干预–表型关系、少量原文核对过的跨靶点功能关系和主题映射为主，不能作为完整上下游网络。"
+    ? "通路图按已整理的标准反应与原始实验分支绘制；研究主题的归类连线另见关系网络。"
     : g,
 );
 const parsed = atlasSchema.parse(a);
@@ -679,6 +685,7 @@ for (const key of [
   "taxonomy",
   "targets",
   "pathways",
+  "pathwayMaps",
   "phenotypes",
   "interventions",
   "publications",

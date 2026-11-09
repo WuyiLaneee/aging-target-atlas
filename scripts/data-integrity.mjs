@@ -190,12 +190,55 @@ export function validateIntegrity(input) {
         `不确定关联不能画确定性箭头 ${r.id}`,
       );
   }
+  if (a.manifest.counts.pathwayMaps !== undefined || a.pathwayMaps.length) {
+    const studyIds = ids("themeStudies");
+    const relationIds = ids("relations");
+    const diagramIds = new Set(a.pathwayMaps.map((m) => m.pathwayId));
+    assert(diagramIds.size === a.pathwayMaps.length && a.pathways.every((p) => diagramIds.has(p.id)), "每个通路须有唯一通路图");
+    for (const m of a.pathwayMaps) {
+      const pathId = m.pathwayId;
+      refs([pathId], pathIds, "通路图通路");
+      assert(new Set(m.tracks.map((t) => t.id)).size === m.tracks.length, `通路图分支重复 ${pathId}`);
+      for (const t of m.tracks) {
+        const key = `${pathId}/${t.id}`;
+        const nodes = new Map(t.nodes.map((n) => [n.id, n]));
+        assert(nodes.size === t.nodes.length, `通路图节点重复 ${key}`);
+        assert(new Set(t.nodes.map((n) => `${n.col}/${n.row}`)).size === nodes.size, `通路图节点重叠 ${key}`);
+        for (const n of t.nodes) {
+          if (n.kind === "target") assert(Boolean(n.targetId || n.gene), `图中靶点无详情 ${key}/${n.id}`);
+          if (n.targetId) refs([n.targetId], targetIds, "图中靶点");
+          if (n.gene) {
+            const u = new URL(n.gene.url);
+            assert(/^(?:www\.)?(?:ncbi\.nlm\.nih\.gov|genenames\.org|uniprot\.org)$/.test(u.hostname), `基因档案来源 ${key}/${n.id}`);
+          }
+          assert(t.edges.some((e) => e.from === n.id || e.to === n.id), `图中孤立节点 ${key}/${n.id}`);
+        }
+        for (const e of t.edges) {
+          const left = nodes.get(e.from), right = nodes.get(e.to);
+          assert(left && right && left.col < right.col, `通路箭头须连接上下游列 ${key}/${e.from}/${e.to}`);
+          if (t.scope === "observation") assert(e.kind === "association", `观察图禁止因果箭头 ${key}`);
+          for (const id of e.refs.filter((x) => typeof x === "string")) {
+            assert(evIds.has(id) || studyIds.has(id) || relationIds.has(id), `通路箭头出处悬空 ${key}/${id}`);
+            const rel = a.relations.find((r) => r.id === id);
+            if (rel) assert(rel.relationType !== "member_of", `主题归属不得作为图中反应 ${key}/${id}`);
+            const source = a.evidence.find((s) => s.id === id) || a.themeStudies.find((s) => s.id === id);
+            if (source && e.kind !== "association") assert(source.studyContext !== "observational", `观察证据不得作为有向反应 ${key}/${id}`);
+          }
+        }
+      }
+    }
+  }
   const counts = {
     targets: a.targets.length,
     coreGeneProteins: a.targets.filter((t) => t.entityType === "gene_protein")
       .length,
     complexes: a.complexes.length,
     pathways: a.pathways.length,
+    ...(a.manifest.counts.pathwayMaps !== undefined ? {
+      pathwayMaps: a.pathwayMaps.length,
+      diagramTracks: a.pathwayMaps.reduce((n, m) => n + m.tracks.length, 0),
+      diagramEdges: a.pathwayMaps.reduce((n, m) => n + m.tracks.reduce((k, t) => k + t.edges.length, 0), 0),
+    } : {}),
     evidence: a.evidence.length,
     ...(a.manifest.counts.themeStudies !== undefined ? { themeStudies: a.themeStudies.length } : {}),
     agingFunctionEvidence: a.evidence.filter(

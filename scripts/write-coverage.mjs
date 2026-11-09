@@ -11,7 +11,9 @@ const out = [
   "",
   `现已收录 **${c.targets} 个核心靶点、${c.pathways} 个通路与研究主题、${c.originalPublications} 篇原始研究**；含 ${c.evidence} 条靶点证据和 ${c.themeStudies} 条主题证据。共有 ${c.coveredCategories}/${c.hallmarks} 类衰老标志具备研究记录。`,
   "",
-  "每个主题的通路页以实验记录为单位列出模型、干预、结果和对应原始论文。补录候选按主题列出，同一靶点可已收录在其他主题下。",
+  `${c.pathwayMaps} 个通路与研究主题均可打开通路图，共 ${c.diagramTracks} 个分支。点击靶点查看档案，点击连线查看标准反应或实验出处。`,
+  "",
+  "有实验记录的通路页列出模型、干预、结果和对应原始论文。核心靶点补录候选按主题列出。",
   "",
   "| 分类 | 覆盖主题 | 已收录的通路或主题（论文数） | 核心靶点 / 补录候选 |",
   "|---|---|---|---|",
@@ -25,7 +27,7 @@ for (const section of a.coveragePlan) {
         ...a.evidence.filter((e) => e.pathwayIds.includes(p.id)),
         ...a.themeStudies.filter((e) => e.pathwayId === p.id),
       ].map((e) => e.publicationId));
-      return `[${p.name}](${url}/pathways/${p.id})（${ids.size}）`;
+      return `[${p.name}](${url}/pathways/${p.id})（${ids.size || "标准机制图"}）`;
     });
     const targets = topic.candidateSymbols.map((s) => {
       const t = a.targets.find((t) => t.symbol === s && t.taxonomyIds.includes(h.id) && paths.some((p) => a.evidence.some((e) => e.targetId === t.id && e.pathwayIds.includes(p.id))));

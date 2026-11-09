@@ -146,7 +146,7 @@ export function CoveragePage() {
                 <div className="coverage-links">{related.map((p) => <Link key={p.id} to={`/pathways/${p.id}`}>{p.name} ↗</Link>)}</div>
                 {listed.length > 0 && <div className="coverage-links"><b>已收录</b>{listed.map((t) => <Link key={t.id} to={`/targets/${t.id}`}>{t.symbol}</Link>)}</div>}
                 {pubs.length > 0 && <p>{pubs.length} 篇关联原始研究 · <Link to={`/pathways/${related[0].id}`}>查阅证据</Link></p>}
-                {pending.length > 0 && <p><b>该主题补录候选：</b>{pending.join("、")}</p>}
+                {pending.length > 0 && <p><b>核心靶点补录候选：</b>{pending.join("、")}</p>}
                 {related.length === 0 && <p className="muted">主题待整理</p>}
               </section>;
             })}

@@ -1,0 +1,1164 @@
+[
+  {
+    "pathwayId": "pathway-ecm-remodeling",
+    "tracks": [
+      {
+        "id": "mmp1-collagen",
+        "title": "MMP1 与真皮胶原碎裂",
+        "scope": "experiment",
+        "context": "人真皮成纤维细胞三维 I 型胶原培养。MMP-1 V94G 表达组与空载体组比较。",
+        "nodes": [
+          {
+            "id": "viral",
+            "label": "MMP-1 V94G 表达",
+            "kind": "input",
+            "col": 0
+          },
+          {
+            "id": "mmp1",
+            "label": "MMP1",
+            "kind": "target",
+            "col": 1,
+            "targetId": "target-mmp1",
+            "note": "V94G 为实验使用的持续活性型 MMP-1。",
+            "row": 0
+          },
+          {
+            "id": "fragment",
+            "label": "I 型胶原碎裂",
+            "kind": "process",
+            "col": 2
+          },
+          {
+            "id": "spread",
+            "label": "细胞铺展减少",
+            "kind": "outcome",
+            "col": 3
+          },
+          {
+            "id": "silencing",
+            "label": "MMP1 siRNA",
+            "kind": "input",
+            "col": 0,
+            "row": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": "viral",
+            "to": "mmp1",
+            "label": "外源表达",
+            "kind": "process",
+            "detail": "通过腺病毒表达持续活性的 MMP-1 V94G。",
+            "refs": [
+              "ev-mmp1-23601157-fibroblast-lattice"
+            ]
+          },
+          {
+            "from": "mmp1",
+            "to": "fragment",
+            "label": "裂解胶原",
+            "kind": "process",
+            "detail": "V94G 增加培养液羟脯氨酸，胶原基质变薄。MMP1 siRNA 和 MMP 抑制剂均降低羟脯氨酸。",
+            "refs": [
+              "ev-mmp1-23601157-fibroblast-lattice"
+            ]
+          },
+          {
+            "from": "fragment",
+            "to": "spread",
+            "label": "铺展减少",
+            "kind": "process",
+            "detail": "V94G 组铺展和 F-actin 减少。MMP 抑制剂 MMI270 改善铺展。",
+            "refs": [
+              "ev-mmp1-23601157-fibroblast-lattice"
+            ]
+          },
+          {
+            "from": "silencing",
+            "to": "mmp1",
+            "label": "敲低",
+            "kind": "inhibition",
+            "detail": "在表达 V94G 的三维培养中使用 MMP1 siRNA，胶原降解指标降低。",
+            "refs": [
+              "ev-mmp1-23601157-fibroblast-lattice"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ccn1-integrin",
+        "title": "CCN1、受体黏附与细胞衰老",
+        "scope": "experiment",
+        "context": "重组 CCN1 处理人 BJ 成纤维细胞。受体阻断、蛋白突变和基因敲低分别检验各步依赖。",
+        "nodes": [
+          {
+            "id": "ccn1",
+            "label": "CCN1",
+            "kind": "target",
+            "col": 0,
+            "targetId": "target-ccn1",
+            "note": "研究加入重组基质调节蛋白 CCN1。",
+            "row": 0
+          },
+          {
+            "id": "receptor",
+            "label": "α6β1 / HSPG 受体",
+            "kind": "process",
+            "col": 1
+          },
+          {
+            "id": "oxidase",
+            "label": "RAC1–NOX1 氧化酶",
+            "kind": "process",
+            "col": 2
+          },
+          {
+            "id": "arrest",
+            "label": "持续增殖停滞",
+            "kind": "outcome",
+            "col": 3
+          },
+          {
+            "id": "sasp",
+            "label": "IL-6、IL-8 等升高",
+            "kind": "outcome",
+            "col": 2,
+            "row": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": "ccn1",
+            "to": "receptor",
+            "label": "受体结合",
+            "kind": "process",
+            "detail": "结合位点突变、α6 阻断和肝素竞争均削弱 CCN1 诱导的衰老表型。",
+            "refs": [
+              "ev-ccn1-bj-senescence"
+            ]
+          },
+          {
+            "from": "receptor",
+            "to": "oxidase",
+            "label": "氧化信号",
+            "kind": "process",
+            "detail": "CCN1 黏附信号涉及 RAC1。研究在 CCN1 处理后测得 NOX1 表达和活性氧相关读出。",
+            "refs": [
+              "ev-ccn1-bj-senescence"
+            ]
+          },
+          {
+            "from": "oxidase",
+            "to": "arrest",
+            "label": "促进停滞",
+            "kind": "activation",
+            "detail": "分别敲低 RAC1 或 NOX1 可缓解 CCN1 处理后的增殖停滞。独立的重铺实验显示，去除 CCN1 后处理细胞在随后的六天仍呈增殖停滞。",
+            "refs": [
+              "ev-ccn1-bj-senescence"
+            ]
+          },
+          {
+            "from": "ccn1",
+            "to": "sasp",
+            "label": "分泌表型",
+            "kind": "process",
+            "detail": "CCN1 处理组 IL6、IL8、IL11 以及 MMP1、MMP3 表达升高。",
+            "refs": [
+              "ev-ccn1-bj-senescence"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mfap4-uvb",
+        "title": "MFAP4 与 UVB 后的纤维保留",
+        "scope": "experiment",
+        "context": "SCID 小鼠承载的人皮肤移植物。MFAP4 慢病毒组和报告基因慢病毒组接受相同 UVB 照射。",
+        "nodes": [
+          {
+            "id": "mfap4",
+            "label": "MFAP4 过表达",
+            "kind": "target",
+            "col": 0,
+            "targetId": "target-mfap4",
+            "note": "在移植物中表达全长人 MFAP4。",
+            "row": 0
+          },
+          {
+            "id": "elastin",
+            "label": "弹性纤维保留",
+            "kind": "outcome",
+            "col": 1
+          },
+          {
+            "id": "collagen",
+            "label": "I 型胶原保留",
+            "kind": "outcome",
+            "col": 1,
+            "row": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": "mfap4",
+            "to": "elastin",
+            "label": "保留增加",
+            "kind": "process",
+            "detail": "重复 UVB 八周后，MFAP4 组保留较多 Luna 染色弹性纤维。",
+            "refs": [
+              "ev-mfap4-22355679-skin-xenograft"
+            ]
+          },
+          {
+            "from": "mfap4",
+            "to": "collagen",
+            "label": "丰度较高",
+            "kind": "process",
+            "detail": "四周终点免疫印迹和八周终点免疫染色均显示 MFAP4 组 I 型胶原较多。",
+            "refs": [
+              "ev-mfap4-22355679-skin-xenograft"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mmp1-mouse",
+        "title": "真皮 MMP1 表达与组织表型",
+        "scope": "experiment",
+        "context": "成纤维细胞表达 hMMP1 的双转基因小鼠。六个月龄时比较同窝对照。",
+        "nodes": [
+          {
+            "id": "mmp1",
+            "label": "hMMP1 表达",
+            "kind": "target",
+            "col": 0,
+            "targetId": "target-mmp1",
+            "note": "用他莫昔芬诱导皮肤成纤维细胞表达催化活性的人 MMP1。",
+            "row": 0
+          },
+          {
+            "id": "damage",
+            "label": "真皮胶原降解增强",
+            "kind": "outcome",
+            "col": 1
+          },
+          {
+            "id": "thickness",
+            "label": "真皮厚度降低",
+            "kind": "outcome",
+            "col": 1,
+            "row": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": "mmp1",
+            "to": "damage",
+            "label": "降解增强",
+            "kind": "process",
+            "detail": "原位酶谱显示胶原降解活性增强，原子力显微镜显示胶原纤维碎裂和排列紊乱。",
+            "refs": [
+              "ev-mmp1-mouse-ecm"
+            ]
+          },
+          {
+            "from": "mmp1",
+            "to": "thickness",
+            "label": "厚度降低",
+            "kind": "process",
+            "detail": "组织学比较显示真皮厚度比对照低 39%，Masson 染色胶原纤维密度低 60%。",
+            "refs": [
+              "ev-mmp1-mouse-ecm"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "human-age-mmp1",
+        "title": "人皮肤的年龄组比较",
+        "scope": "observation",
+        "context": "比较 21–30 岁和 80 岁以上供者的皮肤活检。",
+        "nodes": [
+          {
+            "id": "age",
+            "label": "80 岁以上供者",
+            "kind": "input",
+            "col": 0
+          },
+          {
+            "id": "mmp1",
+            "label": "真皮 MMP1 较高",
+            "kind": "target",
+            "col": 1,
+            "targetId": "target-mmp1",
+            "note": "MMP1 mRNA 取自真皮成纤维细胞，MMP-1 蛋白通过真皮免疫染色比较。",
+            "row": 0
+          },
+          {
+            "id": "zymography",
+            "label": "胶原底物降解较强",
+            "kind": "outcome",
+            "col": 1,
+            "row": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": "age",
+            "to": "mmp1",
+            "label": "年龄组差异",
+            "kind": "association",
+            "detail": "老年组 MMP1 mRNA 约为年轻组 8 倍，MMP-1 免疫染色约为 2 倍。",
+            "refs": [
+              "ev-mmp1-19116368-aged-dermis"
+            ]
+          },
+          {
+            "from": "age",
+            "to": "zymography",
+            "label": "年龄组差异",
+            "kind": "association",
+            "detail": "原位酶谱显示老年组上层真皮的 I 型胶原底物降解较强。",
+            "refs": [
+              "ev-mmp1-19116368-aged-dermis"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rapamycin-hand",
+        "title": "外用雷帕霉素与 VII 型胶原",
+        "scope": "experiment",
+        "context": "手背皮肤光老化研究。同一受试者一侧外用雷帕霉素乳膏，另一侧使用载体。",
+        "nodes": [
+          {
+            "id": "rapamycin",
+            "label": "外用雷帕霉素",
+            "kind": "input",
+            "col": 0
+          },
+          {
+            "id": "collagen7",
+            "label": "VII 型胶原增加",
+            "kind": "outcome",
+            "col": 1
+          },
+          {
+            "id": "p16",
+            "label": "p16INK4A 降低",
+            "kind": "target",
+            "col": 1,
+            "row": 1,
+            "gene": {
+              "symbol": "CDKN2A",
+              "name": "细胞周期蛋白依赖性激酶抑制蛋白 2A",
+              "url": "https://www.ncbi.nlm.nih.gov/gene/1029"
+            },
+            "note": "该研究用免疫染色读取 CDKN2A 的 p16INK4A 蛋白产物。"
+          }
+        ],
+        "edges": [
+          {
+            "from": "rapamycin",
+            "to": "collagen7",
+            "label": "蛋白增加",
+            "kind": "process",
+            "detail": "可分析活检中，VII 型胶原蛋白染色增加。",
+            "refs": [
+              "ev-mtor-human-skin"
+            ]
+          },
+          {
+            "from": "rapamycin",
+            "to": "p16",
+            "label": "标志物降低",
+            "kind": "process",
+            "detail": "与同一受试者的载体部位比较，可分析活检中 p16INK4A 阳性细胞减少。",
+            "refs": [
+              "ev-mtor-human-skin"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pathwayId": "pathway-basement-adhesion",
+    "tracks": [
+      {
+        "id": "col17a1-mouse",
+        "title": "维持 COL17A1 与基底膜黏附",
+        "scope": "experiment",
+        "context": "自然老龄小鼠。维持人 COL17A1 表达的转基因小鼠与老龄野生型小鼠比较。",
+        "nodes": [
+          {
+            "id": "col17",
+            "label": "COL17A1 持续表达",
+            "kind": "target",
+            "col": 0,
+            "targetId": "target-col17a1",
+            "note": "COL17A1 编码 XVII 型胶原 α1 链，为表皮半桥粒成分。",
+            "row": 0
+          },
+          {
+            "id": "delam",
+            "label": "基底膜处微脱层",
+            "kind": "outcome",
+            "col": 1
+          },
+          {
+            "id": "morphology",
+            "label": "基底细胞形态维持",
+            "kind": "outcome",
+            "col": 1,
+            "row": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": "col17",
+            "to": "delam",
+            "label": "减少脱层",
+            "kind": "inhibition",
+            "detail": "转基因组在表皮基底膜处观察到更少微脱层。",
+            "refs": [
+              "ev-col17a1-aged-maintenance"
+            ]
+          },
+          {
+            "from": "col17",
+            "to": "morphology",
+            "label": "形态维持",
+            "kind": "process",
+            "detail": "老龄转基因组的基底细胞形态和年龄相关色素分布得到维持。",
+            "refs": [
+              "ev-col17a1-aged-maintenance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "col17a1-competition",
+        "title": "COL17A1 与角质形成细胞竞争",
+        "scope": "experiment",
+        "context": "标记的人 HaCaT 细胞与亲本细胞混合培养。敲低和打乱对照分别按 1∶3 或 1∶10 混合。",
+        "nodes": [
+          {
+            "id": "shr",
+            "label": "shCOL17A1",
+            "kind": "input",
+            "col": 0
+          },
+          {
+            "id": "col17",
+            "label": "COL17A1",
+            "kind": "target",
+            "col": 1,
+            "targetId": "target-col17a1",
+            "note": "在人角质形成细胞中用 shRNA 降低 COL17A1。",
+            "row": 0
+          },
+          {
+            "id": "basal",
+            "label": "更易离开基底层",
+            "kind": "outcome",
+            "col": 2
+          }
+        ],
+        "edges": [
+          {
+            "from": "shr",
+            "to": "col17",
+            "label": "敲低",
+            "kind": "inhibition",
+            "detail": "标记 shCOL17A1 细胞与打乱序列对照细胞分别进入竞争培养。",
+            "refs": [
+              "ev-col17a1-human-3d"
+            ]
+          },
+          {
+            "from": "col17",
+            "to": "basal",
+            "label": "敲低组脱离增加",
+            "kind": "process",
+            "detail": "混合培养中，敲低细胞更易离开基底层。单独培养时，两组增殖与凋亡频率无显著差异。",
+            "refs": [
+              "ev-col17a1-human-3d"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "col17a1-human-age",
+        "title": "人表皮的年龄组比较",
+        "scope": "observation",
+        "context": "比较年轻人与老年人的皮肤组织切片。",
+        "nodes": [
+          {
+            "id": "age",
+            "label": "老年组皮肤",
+            "kind": "input",
+            "col": 0
+          },
+          {
+            "id": "col17",
+            "label": "COL17A1 染色较弱",
+            "kind": "target",
+            "col": 1,
+            "targetId": "target-col17a1",
+            "note": "在组织切片上比较 COL17A1 免疫染色。",
+            "row": 0
+          },
+          {
+            "id": "thickness",
+            "label": "表皮较薄",
+            "kind": "outcome",
+            "col": 1,
+            "row": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": "age",
+            "to": "col17",
+            "label": "年龄组差异",
+            "kind": "association",
+            "detail": "老年组 COL17A1 染色低于年轻组。",
+            "refs": [
+              "ev-col17a1-human-age-association"
+            ]
+          },
+          {
+            "from": "age",
+            "to": "thickness",
+            "label": "年龄组差异",
+            "kind": "association",
+            "detail": "相同年龄分组图中另报告老年组表皮较薄。",
+            "refs": [
+              "ev-col17a1-human-age-association"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pathwayId": "pathway-cgas",
+    "tracks": [
+      {
+        "id": "cgas-cgamp-sting",
+        "title": "胞质 DNA → cGAS → STING",
+        "scope": "standard",
+        "context": "Reactome 人类先天免疫通路的核心反应。",
+        "nodes": [
+          {
+            "id": "dna",
+            "label": "胞质双链 DNA",
+            "kind": "input",
+            "col": 0
+          },
+          {
+            "id": "cgas",
+            "label": "cGAS",
+            "kind": "target",
+            "col": 1,
+            "targetId": "target-cgas",
+            "note": "由 CGAS 编码的胞质 DNA 感受器。",
+            "row": 0
+          },
+          {
+            "id": "cgamp",
+            "label": "2′3′-cGAMP",
+            "kind": "process",
+            "col": 2
+          },
+          {
+            "id": "sting",
+            "label": "STING",
+            "kind": "target",
+            "col": 3,
+            "targetId": "target-sting1",
+            "note": "由 STING1 编码的 cGAMP 受体。",
+            "row": 0
+          },
+          {
+            "id": "ifn",
+            "label": "I 型干扰素转录",
+            "kind": "outcome",
+            "col": 4
+          }
+        ],
+        "edges": [
+          {
+            "from": "dna",
+            "to": "cgas",
+            "label": "结合并激活",
+            "kind": "activation",
+            "detail": "胞质双链 DNA 结合 cGAS，促进其催化活性。",
+            "refs": [
+              {
+                "title": "Reactome · cGAS 结合胞质 DNA",
+                "url": "https://reactome.org/content/detail/R-HSA-3244647"
+              }
+            ]
+          },
+          {
+            "from": "cgas",
+            "to": "cgamp",
+            "label": "催化合成",
+            "kind": "process",
+            "detail": "活化 cGAS 用 ATP 和 GTP 合成 2′3′-cGAMP。",
+            "refs": [
+              {
+                "title": "Reactome · cGAS 生成 cGAMP",
+                "url": "https://reactome.org/content/detail/R-HSA-3244614"
+              }
+            ]
+          },
+          {
+            "from": "cgamp",
+            "to": "sting",
+            "label": "结合并激活",
+            "kind": "activation",
+            "detail": "2′3′-cGAMP 结合 STING 并激活其下游信号。",
+            "refs": [
+              {
+                "title": "Reactome · STING 结合 cGAMP",
+                "url": "https://reactome.org/content/detail/R-HSA-3244643"
+              }
+            ]
+          },
+          {
+            "from": "sting",
+            "to": "ifn",
+            "label": "经 TBK1–IRF3",
+            "kind": "activation",
+            "detail": "STING 招募 TBK1 和 IRF3，启动 IRF3 依赖的 I 型干扰素转录。",
+            "refs": [
+              {
+                "title": "Reactome · STING 招募 TBK1 和 IRF3",
+                "url": "https://reactome.org/content/detail/R-HSA-1834939"
+              },
+              {
+                "title": "Reactome · IRF3 介导 I 型干扰素诱导",
+                "url": "https://reactome.org/content/detail/R-HSA-3270619"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "crat-cgas-sasp",
+        "title": "CRAT 敲低与胞质线粒体 DNA",
+        "scope": "experiment",
+        "context": "原代人真皮成纤维细胞。CRAT 敲低后分别共敲低 cGAS 或 STING。",
+        "nodes": [
+          {
+            "id": "crat",
+            "label": "CRAT 敲低",
+            "kind": "target",
+            "col": 0,
+            "targetId": "target-crat",
+            "note": "使用 siRNA 降低 CRAT 表达。",
+            "row": 0
+          },
+          {
+            "id": "mtdna",
+            "label": "胞质 mtDNA 增加",
+            "kind": "outcome",
+            "col": 1
+          },
+          {
+            "id": "cgas",
+            "label": "cGAS 共敲低",
+            "kind": "target",
+            "col": 0,
+            "targetId": "target-cgas",
+            "note": "在 CRAT 敲低背景下降低 cGAS。",
+            "row": 1
+          },
+          {
+            "id": "sting",
+            "label": "STING 共敲低",
+            "kind": "target",
+            "col": 0,
+            "targetId": "target-sting1",
+            "note": "在 CRAT 敲低背景下降低 STING。",
+            "row": 2
+          },
+          {
+            "id": "sasp",
+            "label": "SASP 转录升高",
+            "kind": "outcome",
+            "col": 1,
+            "row": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": "crat",
+            "to": "mtdna",
+            "label": "胞质 mtDNA 升高",
+            "kind": "process",
+            "detail": "CRAT siRNA 组的胞质分级样本中线粒体 DNA 增加。",
+            "refs": [
+              "ev-crat-hdf"
+            ]
+          },
+          {
+            "from": "crat",
+            "to": "sasp",
+            "label": "表达升高",
+            "kind": "process",
+            "detail": "CRAT siRNA 使 IL1A、IL1B、IL6、IL8、CXCL2 和 MMP1 等 SASP 转录读出升高。",
+            "refs": [
+              "ev-crat-hdf"
+            ]
+          },
+          {
+            "from": "cgas",
+            "to": "sasp",
+            "label": "削弱升高",
+            "kind": "inhibition",
+            "detail": "分别共敲低 cGAS 可抑制 CRAT siRNA 诱导的 SASP 转录升高。",
+            "refs": [
+              "ev-crat-hdf"
+            ]
+          },
+          {
+            "from": "sting",
+            "to": "sasp",
+            "label": "削弱升高",
+            "kind": "inhibition",
+            "detail": "分别共敲低 STING 可抑制 CRAT siRNA 诱导的 SASP 转录升高。",
+            "refs": [
+              "ev-crat-hdf"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aged-sting-h151",
+        "title": "抑制 STING 与老龄小鼠表型",
+        "scope": "experiment",
+        "context": "自然老龄 C57BL/6J 小鼠接受 H-151。研究另比较老龄 Sting1 缺失小鼠与对照。",
+        "nodes": [
+          {
+            "id": "h151",
+            "label": "H-151",
+            "kind": "input",
+            "col": 0
+          },
+          {
+            "id": "sting",
+            "label": "STING 活性",
+            "kind": "target",
+            "col": 1,
+            "targetId": "target-sting1",
+            "note": "H-151 是实验用 STING 抑制剂。",
+            "row": 0
+          },
+          {
+            "id": "inflammation",
+            "label": "炎症转录读出下降",
+            "kind": "outcome",
+            "col": 2
+          },
+          {
+            "id": "functional",
+            "label": "握力、跑台及认知改善",
+            "kind": "outcome",
+            "col": 2,
+            "row": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": "h151",
+            "to": "sting",
+            "label": "抑制",
+            "kind": "inhibition",
+            "detail": "H-151 抑制 STING 激活。靶点作用来自化合物原始研究。",
+            "refs": [
+              {
+                "title": "Haag 等 · STING 共价小分子抑制剂",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/29973723/"
+              }
+            ]
+          },
+          {
+            "from": "sting",
+            "to": "inflammation",
+            "label": "抑制后下降",
+            "kind": "process",
+            "detail": "H-151 组炎症读出下降。部分结果在老龄 Sting1 缺失小鼠中得到支持。",
+            "refs": [
+              "ev-STING1-37532932-aged"
+            ]
+          },
+          {
+            "from": "sting",
+            "to": "functional",
+            "label": "给药组改善",
+            "kind": "process",
+            "detail": "老龄小鼠接受 H-151 后，握力、跑台表现及认知测试结果改善。",
+            "refs": [
+              "ev-STING1-37532932-aged"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pathwayId": "pathway-sasp",
+    "tracks": [
+      {
+        "id": "p38-il6",
+        "title": "辐射后 p38α 与 IL-6 分泌",
+        "scope": "experiment",
+        "context": "X 射线诱导 HCA2 人成纤维细胞衰老。使用两条独立的 p38α shRNA，并以 shGFP 为对照。",
+        "nodes": [
+          {
+            "id": "shrna",
+            "label": "p38α shRNA",
+            "kind": "input",
+            "col": 0
+          },
+          {
+            "id": "p38",
+            "label": "p38α / MAPK14",
+            "kind": "target",
+            "col": 1,
+            "targetId": "target-mapk14",
+            "note": "MAPK14 编码 p38α。",
+            "row": 0
+          },
+          {
+            "id": "il6",
+            "label": "培养液 IL-6 减少",
+            "kind": "outcome",
+            "col": 2
+          }
+        ],
+        "edges": [
+          {
+            "from": "shrna",
+            "to": "p38",
+            "label": "敲低",
+            "kind": "inhibition",
+            "detail": "两条 p38α 特异 shRNA 分别降低 p38α。",
+            "refs": [
+              "ev-mapk14-alpha"
+            ]
+          },
+          {
+            "from": "p38",
+            "to": "il6",
+            "label": "敲低后下降",
+            "kind": "process",
+            "detail": "两条 p38α shRNA 均降低衰老细胞培养液 IL-6。作为亚型比较，p38β shRNA 未见同样变化。",
+            "refs": [
+              "ev-mapk14-alpha"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "crat-rela-sasp",
+        "title": "CRAT 敲低、RELA 与 SASP",
+        "scope": "experiment",
+        "context": "原代人真皮成纤维细胞。NF-κB 报告、p65 核积累和 p65 共敲低来自同一研究的独立读出。",
+        "nodes": [
+          {
+            "id": "crat",
+            "label": "CRAT 敲低",
+            "kind": "target",
+            "col": 0,
+            "targetId": "target-crat",
+            "note": "使用 siRNA 降低 CRAT 表达。",
+            "row": 0
+          },
+          {
+            "id": "rela",
+            "label": "RELA / p65 核积累",
+            "kind": "target",
+            "col": 1,
+            "targetId": "target-rela",
+            "note": "RELA 编码 NF-κB 的 p65 亚基。",
+            "row": 0
+          },
+          {
+            "id": "sasp",
+            "label": "SASP 转录升高",
+            "kind": "outcome",
+            "col": 2
+          },
+          {
+            "id": "sir",
+            "label": "p65 siRNA",
+            "kind": "input",
+            "col": 0,
+            "row": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": "crat",
+            "to": "rela",
+            "label": "核积累增加",
+            "kind": "process",
+            "detail": "CRAT 敲低组 NF-κB 报告活性增强，同时 p65 核蛋白增加。",
+            "refs": [
+              "ev-crat-hdf"
+            ]
+          },
+          {
+            "from": "rela",
+            "to": "sasp",
+            "label": "促进转录",
+            "kind": "activation",
+            "detail": "共敲低 p65 削弱 CRAT 敲低诱导的 IL1A、IL1B、IL6、IL8、CXCL2 和 MMP1 等转录变化。",
+            "refs": [
+              "ev-crat-hdf"
+            ]
+          },
+          {
+            "from": "sir",
+            "to": "rela",
+            "label": "共敲低",
+            "kind": "inhibition",
+            "detail": "在 CRAT siRNA 背景下加入 p65 siRNA。",
+            "refs": [
+              "ev-crat-hdf"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sting-bj",
+        "title": "辐射衰老细胞的 STING 依赖",
+        "scope": "experiment",
+        "context": "BJ 成纤维细胞经 12 Gy 照射。第十天给予 STING siRNA，72 小时后读取。",
+        "nodes": [
+          {
+            "id": "sir",
+            "label": "STING siRNA",
+            "kind": "input",
+            "col": 0
+          },
+          {
+            "id": "sting",
+            "label": "STING",
+            "kind": "target",
+            "col": 1,
+            "targetId": "target-sting1",
+            "note": "以 STING siRNA 干预辐射后的人 BJ 成纤维细胞。",
+            "row": 0
+          },
+          {
+            "id": "isg",
+            "label": "炎症与干扰素基因转录下降",
+            "kind": "outcome",
+            "col": 2
+          }
+        ],
+        "edges": [
+          {
+            "from": "sir",
+            "to": "sting",
+            "label": "敲低",
+            "kind": "inhibition",
+            "detail": "STING siRNA 与非靶向 siRNA 比较。",
+            "refs": [
+              "ev-STING1-37532932-BJ"
+            ]
+          },
+          {
+            "from": "sting",
+            "to": "isg",
+            "label": "敲低后下降",
+            "kind": "process",
+            "detail": "促炎基因和干扰素刺激基因的转录读出下降。",
+            "refs": [
+              "ev-STING1-37532932-BJ"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pathwayId": "pathway-nlrp3",
+    "tracks": [
+      {
+        "id": "nlrp3-assembly",
+        "title": "NLRP3 炎性小体组装",
+        "scope": "standard",
+        "context": "Reactome 人类先天免疫反应。图示 NLRP3、ASC 和 caspase-1 的组装与成熟 IL-1β 的产生。",
+        "nodes": [
+          {
+            "id": "nlrp3",
+            "label": "NLRP3 寡聚体",
+            "kind": "target",
+            "col": 0,
+            "targetId": "target-nlrp3",
+            "note": "活化的 NLRP3 是该炎性小体的感受蛋白。",
+            "row": 0
+          },
+          {
+            "id": "pycard",
+            "label": "ASC / PYCARD",
+            "kind": "target",
+            "col": 1,
+            "gene": {
+              "symbol": "PYCARD",
+              "name": "含 PYD 与 CARD 结构域的接头蛋白",
+              "url": "https://www.ncbi.nlm.nih.gov/gene/29108"
+            },
+            "note": "通过 PYD 与 NLRP3 结合，通过 CARD 招募前体 caspase-1。"
+          },
+          {
+            "id": "casp1",
+            "label": "caspase-1",
+            "kind": "target",
+            "col": 2,
+            "gene": {
+              "symbol": "CASP1",
+              "name": "半胱天冬酶 1",
+              "url": "https://www.ncbi.nlm.nih.gov/gene/834"
+            },
+            "note": "前体在炎性小体组装后活化。"
+          },
+          {
+            "id": "il1",
+            "label": "成熟 IL-1β",
+            "kind": "target",
+            "col": 3,
+            "gene": {
+              "symbol": "IL1B",
+              "name": "白细胞介素 1β",
+              "url": "https://www.ncbi.nlm.nih.gov/gene/3553"
+            },
+            "note": "图中节点表示经活化 caspase-1 剪切后的成熟蛋白。"
+          }
+        ],
+        "edges": [
+          {
+            "from": "nlrp3",
+            "to": "pycard",
+            "label": "招募",
+            "kind": "process",
+            "detail": "NLRP3 寡聚体通过 PYD–PYD 相互作用招募接头蛋白 ASC。",
+            "refs": [
+              {
+                "title": "Reactome · NLRP3 招募 PYCARD",
+                "url": "https://reactome.org/content/detail/R-HSA-844610"
+              }
+            ]
+          },
+          {
+            "from": "pycard",
+            "to": "casp1",
+            "label": "招募并促活化",
+            "kind": "activation",
+            "detail": "ASC 的 CARD 结构域招募前体 caspase-1。组装使前体相互接近并活化。",
+            "refs": [
+              {
+                "title": "Reactome · PYCARD 招募前体 caspase-1",
+                "url": "https://reactome.org/content/detail/R-HSA-844612"
+              },
+              {
+                "title": "Reactome · 炎性小体反应",
+                "url": "https://reactome.org/content/detail/R-HSA-622312"
+              }
+            ]
+          },
+          {
+            "from": "casp1",
+            "to": "il1",
+            "label": "剪切前体",
+            "kind": "process",
+            "detail": "活化 caspase-1 剪切 pro-IL-1β 产生有活性的 IL-1β。",
+            "refs": [
+              {
+                "title": "Reactome · 炎性小体反应",
+                "url": "https://reactome.org/content/detail/R-HSA-622312"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "nlrp3-aged-ko",
+        "title": "Nlrp3 缺失与老龄小鼠功能",
+        "scope": "experiment",
+        "context": "正常饲料下自然老化的小鼠。不同终点使用相应月龄的 Nlrp3 缺失组与同龄野生型组。",
+        "nodes": [
+          {
+            "id": "nlrp3",
+            "label": "Nlrp3 敲除",
+            "kind": "target",
+            "col": 0,
+            "targetId": "target-nlrp3",
+            "note": "全身 Nlrp3 遗传消融。",
+            "row": 0
+          },
+          {
+            "id": "caspase",
+            "label": "年龄相关 caspase-1 活化",
+            "kind": "outcome",
+            "col": 1
+          },
+          {
+            "id": "glucose",
+            "label": "糖耐量改善",
+            "kind": "outcome",
+            "col": 1,
+            "row": 1
+          },
+          {
+            "id": "function",
+            "label": "认知和运动改善",
+            "kind": "outcome",
+            "col": 1,
+            "row": 2
+          }
+        ],
+        "edges": [
+          {
+            "from": "nlrp3",
+            "to": "caspase",
+            "label": "活化减少",
+            "kind": "inhibition",
+            "detail": "Nlrp3 缺失组的年龄相关 caspase-1 活化较低。",
+            "refs": [
+              "ev-NLRP3-24093676"
+            ]
+          },
+          {
+            "from": "nlrp3",
+            "to": "glucose",
+            "label": "缺失组改善",
+            "kind": "process",
+            "detail": "自然老化的 Nlrp3 缺失小鼠在糖耐量试验中表现改善。",
+            "refs": [
+              "ev-NLRP3-24093676"
+            ]
+          },
+          {
+            "from": "nlrp3",
+            "to": "function",
+            "label": "缺失组改善",
+            "kind": "process",
+            "detail": "老龄 Nlrp3 缺失组的认知和运动表现改善。研究另用 Il1r 缺失比较这些功能终点。",
+            "refs": [
+              "ev-NLRP3-24093676"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

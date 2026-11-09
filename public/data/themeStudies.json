@@ -78,5 +78,53 @@
     "locator": "Results: DNA methylation loss is tied to heterochromatin dysfunction；Fig. 4H–J。",
     "evidenceType": "年轻细胞离体药理干预",
     "studyContext": "nonaging_support"
+  },
+  {
+    "id": "study-smad4-hs68-galangin",
+    "pathwayId": "pathway-tgfb-smad",
+    "publicationId": "pub-34890367",
+    "subject": "高良姜素、miR-4535 与 SMAD4",
+    "claim": "在 H₂O₂ 处理的 HS68 细胞中，SMAD4 敲低削弱高良姜素引起的胶原蛋白升高。",
+    "species": [
+      "人（Homo sapiens）"
+    ],
+    "model": "H₂O₂ 处理的人 HS68 真皮成纤维细胞",
+    "intervention": "200 μM H₂O₂ 处理 1 h 后用 30 μM 高良姜素处理 23 h；平行实验加入 miR-4535 模拟物或 SMAD4 siRNA，并进行 SMAD4 3′-UTR 报告实验。",
+    "result": "高良姜素降低 miR-4535，SMAD4 和 COL1A1、COL3A1 蛋白读出升高。SMAD4 敲低或 miR-4535 模拟物削弱胶原蛋白升高；野生型 SMAD4 3′-UTR 报告信号低于突变型。",
+    "locator": "Figs. 5C、6C–D、7、8A–E",
+    "evidenceType": "报告基因与 siRNA",
+    "studyContext": "aging_function"
+  },
+  {
+    "id": "study-amuc1409-cdh1-organoid",
+    "pathwayId": "pathway-wnt",
+    "publicationId": "pub-38582860",
+    "subject": "肠干细胞特异性 Cdh1 缺失",
+    "claim": "肠干细胞特异性 Cdh1 缺失后，Amuc_1409 对肠类器官生长及 WNT 靶基因的作用减弱。",
+    "species": [
+      "小鼠（Mus musculus）"
+    ],
+    "model": "Lgr5-CreERT2;Cdh1 flox/flox 小鼠的肠隐窝类器官",
+    "intervention": "1 μM 4-羟基他莫昔芬诱导 Cdh1 缺失，与载体比较；用 16 nM 重组 Amuc_1409 处理类器官。",
+    "result": "Cdh1 缺失类器官中，Amuc_1409 的促分叶及靶基因表达效应消失。",
+    "locator": "Fig. 8a–h，Supplementary Fig. 6",
+    "evidenceType": "诱导性缺失及类器官读出",
+    "studyContext": "nonaging_support"
+  },
+  {
+    "id": "study-yap-ccn2-hdf",
+    "pathwayId": "pathway-hippo-yap",
+    "publicationId": "pub-35480397",
+    "subject": "人真皮成纤维细胞的铺展与 YAP/TAZ",
+    "claim": "人真皮成纤维细胞的 CCN2 表达随细胞铺展和大小改变，依赖 YAP/TAZ。",
+    "species": [
+      "人（Homo sapiens）"
+    ],
+    "model": "人真皮成纤维细胞的铺展和大小干预",
+    "intervention": "改变细胞铺展与大小，进行 YAP/TAZ 增益及缺失比较。",
+    "result": "细胞铺展和大小减少时 CCN2 表达降低；恢复大小后 CCN2 表达恢复，且依赖 YAP/TAZ。",
+    "locator": "PubMed 摘要：mechanistic investigation、gain-of-function / loss-of-function 段落。",
+    "evidenceType": "细胞形态干预与功能增益/缺失",
+    "studyContext": "aging_function"
   }
 ]

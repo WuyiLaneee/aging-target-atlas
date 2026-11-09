@@ -2,7 +2,7 @@
 
 Aging Target and Pathway Atlas：按原始功能研究查阅哺乳动物衰老靶点、实验模型、表型与条件依赖关系。静态网站，无需登录、数据库或运行时 AI 接口。
 
-当前数据版本 **1.2.0，整理日期 2026-11-09**。覆盖 Cell 2023 的 12 类衰老标志和细胞外基质（ECM）扩展机制，已收录 33 个核心靶点、21 个通路与研究主题、53 篇原始研究。详见 [覆盖清单](docs/DATA_COVERAGE.md)。
+当前数据版本 **1.3.0，整理日期 2026-11-09**。按 Cell 2023 的 12 类衰老标志和细胞外基质（ECM）组织内容，已收录 33 个核心靶点、26 个通路与研究主题、55 篇原始研究。详见 [覆盖清单](docs/DATA_COVERAGE.md)。
 
 ## 本地启动（Windows 初学者）
 
@@ -31,7 +31,7 @@ npm run preview
 - 首页统一搜索靶点名称、基因符号、通路、论文题名、作者、PMID 或 DOI。结果分为靶点、通路和论文；输入精确基因符号时对应靶点优先。可从侧栏打开文献索引与覆盖清单。
 - 总览保留 12 类衰老标志导航，另设 ECM 扩展入口。ECM 下可查胶原周转、基底膜黏附、细胞与基质相互作用及对应研究。
 - 靶点目录支持按机制、物种、模型等条件筛选。靶点首屏展示代表研究的模型、结果和文献；论文可打开 PubMed、DOI 和已收录的开放全文。
-- 通路目录区分 Reactome 标准通路与研究主题。通路页逐条列出关联实验、模型、处理、结果和对应论文。菌群移植等整体干预单列为主题证据。
+- [通路图册](https://wuyilaneee.github.io/aging-target-atlas/#/pathways)支持按衰老机制筛选。每个通路页先显示从左向右的机制图，标准反应、实验分支和观察关联分别呈现。点击靶点查看档案，点击连线查看反应、实验条件和论文。可用图下方列表逐条阅读，也可复制当前分支的地址。
 - 交互图谱默认一层、最多 40 条边；可拖动、缩放、复位、定位、展开第二层及切换背景。桌面分筛选、图谱和详情三栏；窄屏改为上下排列，并提供可读关系列表。
 - 点击连线看原始实验条件；“机制背景”与“衰老功能实验”分开。无箭头的遗传依赖不能理解成直接分子抑制或激活。
 - 补充的人组织观察关联、非衰老模型和年轻动物创面用药结果单独标记，不自动生成衰老功能连线；COL17A1 不与泛指的可溶胶原或真皮 I 型胶原混同。
@@ -76,6 +76,7 @@ src/schema.ts                 运行时 Zod schema 与 TypeScript 类型
 src/data.ts                   base 安全的数据加载与检索层
 src/App.tsx                   总览、目录、详情、对比、个人记录、说明
 src/ResearchViews.tsx         全站检索、覆盖清单与通路证据
+src/PathwayDiagram.tsx        可点击的通路图和来源面板
 src/Graph.tsx                 Cytoscape 局部图、连线详情及 PNG
 src/lib/                      公共导出、CSV、防护与备份逻辑
 research/*-research.json      已提取的研究中间数据与检索记录
@@ -83,11 +84,13 @@ research/*-relations.json     经原文核验的跨靶点关系
 research/pathway-curation.json 研究主题映射（非完整通路数据库）
 research/pathway-evidence-map.json  既有证据与通路的逐条映射
 research/coverage-*.json      覆盖清单与新增原始研究批次
+research/maps-*               通路图分支、节点和逐箭头出处
 public/data/                  正式发布的独立结构化数据与 JSON Schema
 scripts/assemble-data.mjs     明确执行时才重新组装数据
 scripts/validate-data.mjs     引用、实体、统计与语义约束校验
 scripts/browser-smoke.js      在独立浏览器配置下运行的交互验收脚本
 scripts/research-smoke.js     全站搜索、清单和逐条通路证据的浏览器验收
+scripts/pathway-diagram-smoke.js  通路图册与分支交互验收
 tests/                        必要完整性、导出与备份测试
 docs/                         科研规则、来源、覆盖、核验与验收记录
 .github/workflows/pages.yml   GitHub Pages 自动检查与发布

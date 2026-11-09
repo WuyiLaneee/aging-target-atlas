@@ -1,0 +1,261 @@
+[
+  {
+    "pathwayId": "pathway-igf",
+    "tracks": [
+      {
+        "id": "igf-irs-pi3k-akt",
+        "title": "IGF-1 → IGF1R → PI3K–AKT",
+        "scope": "standard",
+        "context": "人类 IGF-1 受体信号。以 IRS1、PI3K 的 p110α 亚基和 AKT2 展示营养感知的代表性支路。",
+        "nodes": [
+          {"id":"igf1","label":"IGF-1","kind":"target","col":0,"gene":{"symbol":"IGF1","name":"胰岛素样生长因子 1","url":"https://www.ncbi.nlm.nih.gov/gene/3479"}},
+          {"id":"igf1r","label":"IGF1R","kind":"target","col":1,"targetId":"target-igf1r"},
+          {"id":"irs1","label":"IRS1","kind":"target","col":2,"gene":{"symbol":"IRS1","name":"胰岛素受体底物 1","url":"https://www.ncbi.nlm.nih.gov/gene/3667"}},
+          {"id":"pi3k","label":"PI3K","kind":"target","col":3,"note":"此处展示含 p110α 催化亚基的 I 类 PI3K。","gene":{"symbol":"PIK3CA","name":"磷脂酰肌醇 3 激酶 p110α 催化亚基","url":"https://www.ncbi.nlm.nih.gov/gene/5290"}},
+          {"id":"akt2","label":"AKT2","kind":"target","col":4,"gene":{"symbol":"AKT2","name":"AKT 丝氨酸/苏氨酸激酶 2","url":"https://www.ncbi.nlm.nih.gov/gene/208"}}
+        ],
+        "edges": [
+          {"from":"igf1","to":"igf1r","label":"结合并激活","kind":"activation","detail":"IGF-1 结合 IGF1R，引发受体酪氨酸自磷酸化。","refs":[{"title":"Reactome · IGF1R 信号","url":"https://reactome.org/content/detail/R-HSA-2404192"}]},
+          {"from":"igf1r","to":"irs1","label":"磷酸化","kind":"process","detail":"活化的 IGF1R 对 IRS1 等受体底物进行酪氨酸磷酸化。","refs":[{"title":"Reactome · IGF1R 磷酸化 IRS","url":"https://reactome.org/content/detail/R-HSA-2428926"}]},
+          {"from":"irs1","to":"pi3k","label":"招募","kind":"process","detail":"磷酸化的 IRS1 通过 PI3K 的调节亚基结合 PI3K 复合物。","refs":[{"title":"Reactome · 磷酸化 IRS 结合 PI3K","url":"https://reactome.org/content/detail/R-HSA-74737"}]},
+          {"from":"pi3k","to":"akt2","label":"经 PIP₃ 激活","kind":"activation","detail":"PI3K 生成 PIP₃，招募 AKT2 至膜并促成其磷酸化激活。","refs":[{"title":"Reactome · PI3K 级联","url":"https://reactome.org/content/detail/R-HSA-109704"},{"title":"Reactome · AKT2 激活","url":"https://reactome.org/content/detail/R-HSA-165158"}]}
+        ]
+      },
+      {
+        "id": "igf1r-lifespan",
+        "title": "Igf1r 杂合缺失与两项寿命实验",
+        "scope": "experiment",
+        "context": "两项独立小鼠寿命研究，分别与各自的野生型对照比较。",
+        "nodes": [
+          {"id":"igf1r-ko","label":"Igf1r 杂合缺失","kind":"target","col":0,"targetId":"target-igf1r"},
+          {"id":"holzenberger","label":"2003 队列","kind":"process","col":1},
+          {"id":"bokov","label":"2011 队列","kind":"process","col":1,"row":1},
+          {"id":"holzenberger-result","label":"雌鼠平均寿命 +33%","kind":"outcome","col":2},
+          {"id":"bokov-result","label":"雌鼠平均寿命差异不显著","kind":"outcome","col":2,"row":1}
+        ],
+        "edges": [
+          {"from":"igf1r-ko","to":"holzenberger","label":"小鼠队列","kind":"process","detail":"Holzenberger 等比较 Igf1r 杂合缺失小鼠与同窝野生型的生存。","refs":["ev-igf1r-1"]},
+          {"from":"igf1r-ko","to":"bokov","label":"小鼠队列","kind":"process","detail":"Bokov 等在 C57BL/6 背景和优化饲养条件下比较生存及病理终点。","refs":["ev-igf1r-2"]},
+          {"from":"holzenberger","to":"holzenberger-result","label":"寿命比较","kind":"process","detail":"雌性杂合缺失小鼠的平均寿命增加约 33%。雄鼠寿命变化未达到统计显著。","refs":["ev-igf1r-1"]},
+          {"from":"bokov","to":"bokov-result","label":"寿命比较","kind":"process","detail":"雌鼠平均寿命较对照高 4.7%（P = 0.22）。雄鼠寿命和终末病理病变亦未见显著差异。","refs":["ev-igf1r-2",{"title":"Bokov 等 · 2011 · 表 1","url":"https://doi.org/10.1371/journal.pone.0026891.t001"}]}
+        ]
+      }
+    ]
+  },
+  {
+    "pathwayId": "pathway-mtor",
+    "tracks": [
+      {
+        "id": "mtorc1-effector-branches",
+        "title": "mTORC1 的翻译与自噬分支",
+        "scope": "standard",
+        "context": "营养充足条件下，人类 mTORC1 可促进翻译相关反应，并通过 ULK1 限制自噬启动。",
+        "nodes": [
+          {"id":"rheb","label":"RHEB–GTP","kind":"target","col":0,"row":1,"gene":{"symbol":"RHEB","name":"RAS 同源蛋白 RHEB","url":"https://www.ncbi.nlm.nih.gov/gene/6009"}},
+          {"id":"mtorc1","label":"mTORC1","kind":"target","col":1,"row":1,"targetId":"target-mtor","note":"mTORC1 是含 MTOR、RPTOR 和 MLST8 的蛋白复合物。靶点详情对应其催化亚基 MTOR。"},
+          {"id":"s6k1","label":"S6K1","kind":"target","col":2,"targetId":"target-rps6kb1"},
+          {"id":"bp1","label":"磷酸化 4E-BP1","kind":"target","col":2,"row":1,"gene":{"symbol":"EIF4EBP1","name":"真核翻译起始因子 4E 结合蛋白 1","url":"https://www.ncbi.nlm.nih.gov/gene/1978"}},
+          {"id":"ulk1","label":"ULK1 自噬启动","kind":"target","col":2,"row":2,"gene":{"symbol":"ULK1","name":"自噬起始激酶 ULK1","url":"https://www.ncbi.nlm.nih.gov/gene/8408"}},
+          {"id":"rps6","label":"核糖体蛋白 S6","kind":"target","col":3,"gene":{"symbol":"RPS6","name":"核糖体蛋白 S6","url":"https://www.ncbi.nlm.nih.gov/gene/6194"}},
+          {"id":"eif4e","label":"游离 eIF4E","kind":"target","col":3,"row":1,"gene":{"symbol":"EIF4E","name":"真核翻译起始因子 4E","url":"https://www.ncbi.nlm.nih.gov/gene/1977"}}
+        ],
+        "edges": [
+          {"from":"rheb","to":"mtorc1","label":"激活","kind":"activation","detail":"GTP 结合型 RHEB 促进溶酶体膜上的 mTORC1 激酶活化。","refs":[{"title":"Reactome · 活性 mTORC1 形成","url":"https://reactome.org/content/detail/R-HSA-165680"}]},
+          {"from":"mtorc1","to":"s6k1","label":"磷酸化激活","kind":"activation","detail":"mTORC1 磷酸化 S6K1 的 T389 位点。较长的 S6K1 异构体对应 T412。","refs":[{"title":"Reactome · mTORC1 磷酸化 S6K1","url":"https://reactome.org/content/detail/R-HSA-165718"}]},
+          {"from":"s6k1","to":"rps6","label":"磷酸化","kind":"process","detail":"活化 S6K1 磷酸化核糖体蛋白 S6 的多个丝氨酸位点。","refs":[{"title":"Reactome · S6K1 磷酸化 RPS6","url":"https://reactome.org/content/detail/R-HSA-165726"}]},
+          {"from":"mtorc1","to":"bp1","label":"磷酸化","kind":"process","detail":"RPTOR 招募与 eIF4E 结合的 4E-BP1，供 mTORC1 磷酸化。","refs":[{"title":"Reactome · mTORC1 磷酸化 4E-BP1","url":"https://reactome.org/content/detail/R-HSA-165692"}]},
+          {"from":"bp1","to":"eif4e","label":"释放","kind":"process","detail":"磷酸化 4E-BP1 从 eIF4E 解离，使 eIF4E 可参与帽依赖的翻译起始。","refs":[{"title":"Reactome · 磷酸化 4E-BP1 从 eIF4E 解离","url":"https://reactome.org/content/detail/R-HSA-165708"}]},
+          {"from":"mtorc1","to":"ulk1","label":"抑制启动","kind":"inhibition","detail":"营养充足时，mTORC1 磷酸化人 ULK1 的 S758，限制 ULK1 介导的自噬启动。","refs":[{"title":"Reactome · mTORC1 磷酸化 ULK1","url":"https://reactome.org/content/detail/R-HSA-5672010"},{"title":"Kim 等 · AMPK 与 mTOR 磷酸化 ULK1","url":"https://pubmed.ncbi.nlm.nih.gov/21258367/"}]}
+        ]
+      },
+      {
+        "id": "s6k1-lifespan",
+        "title": "S6K1 缺失与雌鼠寿命",
+        "scope": "experiment",
+        "context": "全身 Rps6kb1 敲除小鼠与同窝野生型小鼠比较，分别分析雌性和雄性。",
+        "nodes": [
+          {"id":"s6k1-ko","label":"Rps6kb1 敲除","kind":"target","col":0,"targetId":"target-rps6kb1"},
+          {"id":"female","label":"雌鼠中位寿命 +19%","kind":"outcome","col":1},
+          {"id":"male","label":"雄鼠寿命无显著差异","kind":"outcome","col":1,"row":1}
+        ],
+        "edges": [
+          {"from":"s6k1-ko","to":"female","label":"雌性","kind":"process","detail":"敲除组雌鼠中位寿命从 829 日增加到 982 日。","refs":["ev-rps6kb1-1"]},
+          {"from":"s6k1-ko","to":"male","label":"雄性","kind":"process","detail":"在同一研究中，敲除组雄鼠的中位及最大寿命与野生型无显著差异。","refs":["ev-rps6kb1-1"]}
+        ]
+      }
+    ]
+  },
+  {
+    "pathwayId": "pathway-autophagy",
+    "tracks": [
+      {
+        "id": "autophagy-initiation",
+        "title": "ULK1 与 BECN1 复合物启动自噬",
+        "scope": "standard",
+        "context": "氨基酸饥饿或 mTOR 受抑时，ULK1 与 BECN1 复合物参与早期自噬膜的形成。",
+        "nodes": [
+          {"id":"ulk1","label":"活化 ULK1","kind":"target","col":0,"gene":{"symbol":"ULK1","name":"自噬起始激酶 ULK1","url":"https://www.ncbi.nlm.nih.gov/gene/8408"}},
+          {"id":"becn1","label":"BECN1 复合物","kind":"target","col":1,"targetId":"target-becn1"},
+          {"id":"pi3p","label":"膜上 PI3P 生成","kind":"process","col":2},
+          {"id":"phagophore","label":"自噬隔离膜形成","kind":"outcome","col":3}
+        ],
+        "edges": [
+          {"from":"ulk1","to":"becn1","label":"磷酸化","kind":"activation","detail":"ULK1 磷酸化人 BECN1 的 S15，增强复合物内 VPS34 的脂质激酶活性。","refs":[{"title":"Reactome · ULK1 磷酸化 BECN1","url":"https://reactome.org/content/detail/R-HSA-5679205"},{"title":"Russell 等 · ULK1–BECN1–VPS34","url":"https://pubmed.ncbi.nlm.nih.gov/23685627/"}]},
+          {"from":"becn1","to":"pi3p","label":"催化生成","kind":"process","detail":"含 BECN1 的复合物通过催化亚基 VPS34 将磷脂酰肌醇转化为 PI3P。","refs":[{"title":"Reactome · BECN1 复合物生成 PI3P","url":"https://reactome.org/content/detail/R-HSA-5672012"}]},
+          {"from":"pi3p","to":"phagophore","label":"促进组装","kind":"process","detail":"PI3P 富集膜招募 WIPI 蛋白等组分，参与早期自噬膜的形成和扩展。","refs":[{"title":"Reactome · 宏自噬","url":"https://reactome.org/content/detail/R-HSA-1632852"}]}
+        ]
+      },
+      {
+        "id": "autophagy-lc3-lipidation",
+        "title": "ATG7 和 ATG5 参与 LC3 脂化",
+        "scope": "standard",
+        "context": "人类宏自噬中，两套类泛素缀合反应协同将 LC3 蛋白连接到自噬膜脂质。",
+        "nodes": [
+          {"id":"atg7","label":"ATG7","kind":"target","col":0,"targetId":"target-atg7"},
+          {"id":"atg3","label":"ATG3–LC3","kind":"target","col":1,"gene":{"symbol":"ATG3","name":"自噬相关蛋白 3","url":"https://www.ncbi.nlm.nih.gov/gene/64422"}},
+          {"id":"atg5","label":"含 ATG5 的复合物","kind":"target","col":1,"row":1,"targetId":"target-atg5","note":"由 ATG12、ATG5 和 ATG16L1 构成。"},
+          {"id":"lc3ii","label":"膜结合 LC3–PE","kind":"process","col":2,"note":"LC3 与磷脂酰乙醇胺（PE）共价连接。"}
+        ],
+        "edges": [
+          {"from":"atg7","to":"atg3","label":"转移 LC3","kind":"process","detail":"ATG7 作为 E1 样酶接收加工后的 LC3，随后转移给 E2 样酶 ATG3。","refs":[{"title":"Reactome · LC3 从 ATG7 转移至 ATG3","url":"https://reactome.org/content/detail/R-HSA-5681981"}]},
+          {"from":"atg3","to":"lc3ii","label":"连接至 PE","kind":"process","detail":"ATG3 上的 LC3 在 ATG12–ATG5–ATG16L1 复合物参与下转移至 PE。","refs":[{"title":"Reactome · LC3 转移至 PE","url":"https://reactome.org/content/detail/R-HSA-5678490"}]},
+          {"from":"atg5","to":"lc3ii","label":"促进脂化","kind":"process","detail":"ATG12–ATG5–ATG16L1 作为 E3 样复合物促进 LC3 家族蛋白与 PE 缀合。","refs":[{"title":"Reactome · LC3 转移至 PE","url":"https://reactome.org/content/detail/R-HSA-5678490"}]}
+        ]
+      },
+      {
+        "id": "atg5-lifespan",
+        "title": "Atg5 过表达与小鼠寿命",
+        "scope": "experiment",
+        "context": "全身持续表达 Atg5 的转基因小鼠与同窝野生型比较，分别观察组织自噬指标和生存。",
+        "nodes": [
+          {"id":"atg5-oe","label":"Atg5 过表达","kind":"target","col":0,"targetId":"target-atg5"},
+          {"id":"autophagy","label":"组织自噬增强","kind":"outcome","col":1},
+          {"id":"survival","label":"中位寿命 +17.2%","kind":"outcome","col":1,"row":1}
+        ],
+        "edges": [
+          {"from":"atg5-oe","to":"autophagy","label":"组织检测","kind":"process","detail":"作者在转基因鼠的组织中比较 LC3 脂化等指标，观察到自噬增强。","refs":["ev-ATG5-23939249"]},
+          {"from":"atg5-oe","to":"survival","label":"生存随访","kind":"process","detail":"主要转基因系的中位寿命较同窝野生型增加 17.2%。","refs":["ev-ATG5-23939249"]}
+        ]
+      },
+      {
+        "id": "becn1-f121a",
+        "title": "Becn1 F121A 敲入与小鼠寿命",
+        "scope": "experiment",
+        "context": "比较 C57BL/6 背景 Becn1 F121A 敲入小鼠与对照，分别观察蛋白结合、自噬和生存。",
+        "nodes": [
+          {"id":"becn1-ki","label":"Becn1 F121A 敲入","kind":"target","col":0,"targetId":"target-becn1"},
+          {"id":"binding","label":"BECN1–BCL2 结合减弱","kind":"process","col":1},
+          {"id":"autophagy","label":"基础自噬增强","kind":"outcome","col":2},
+          {"id":"lifespan","label":"中位寿命 26 → 29 月","kind":"outcome","col":1,"row":1}
+        ],
+        "edges": [
+          {"from":"becn1-ki","to":"binding","label":"结合减少","kind":"process","detail":"F121A 位于小鼠 BECN1 的 BCL2 结合区，突变减少 BECN1 与 BCL2 的相互作用。","refs":["ev-BECN1-29849149"]},
+          {"from":"binding","to":"autophagy","label":"解除抑制","kind":"process","detail":"突变削弱 BCL2 对 BECN1 的抑制，敲入鼠多组织的基础自噬增强。","refs":["ev-BECN1-29849149"]},
+          {"from":"becn1-ki","to":"lifespan","label":"生存随访","kind":"process","detail":"敲入组两性合并的中位寿命由约 26 个月增至 29 个月。","refs":["ev-BECN1-29849149"]}
+        ]
+      }
+    ]
+  },
+  {
+    "pathwayId": "pathway-mitophagy",
+    "tracks": [
+      {
+        "id": "pink1-parkin-mitophagy",
+        "title": "PINK1–Parkin 标记受损线粒体",
+        "scope": "standard",
+        "context": "人类 PINK1–Parkin 依赖的线粒体自噬。泛素磷酸化、Parkin 激活和外膜蛋白泛素化共同标记受损线粒体。",
+        "nodes": [
+          {"id":"depolarization","label":"线粒体膜电位降低","kind":"input","col":0},
+          {"id":"pink1","label":"外膜 PINK1","kind":"target","col":1,"targetId":"target-pink1"},
+          {"id":"parkin","label":"PRKN（Parkin）","kind":"target","col":2,"targetId":"target-prkn"},
+          {"id":"ub","label":"外膜蛋白泛素化","kind":"process","col":3},
+          {"id":"mitophagy","label":"线粒体自噬清除","kind":"outcome","col":4}
+        ],
+        "edges": [
+          {"from":"depolarization","to":"pink1","label":"积聚并活化","kind":"activation","detail":"膜电位丧失妨碍 PINK1 向内膜转运，PINK1 在受损线粒体外膜积聚并活化。","refs":[{"title":"Reactome · PINK1–PRKN 介导的线粒体自噬","url":"https://reactome.org/content/detail/R-HSA-5205685"}]},
+          {"from":"pink1","to":"parkin","label":"招募并激活","kind":"activation","detail":"PINK1 磷酸化外膜底物上的泛素 S65，促进 PRKN 招募。PINK1 也磷酸化 PRKN 的 S65，增强其 E3 活性。","refs":[{"title":"Reactome · PINK1 磷酸化泛素","url":"https://reactome.org/content/detail/R-HSA-9834945"},{"title":"Reactome · PINK1 磷酸化 PRKN","url":"https://reactome.org/content/detail/R-HSA-9835011"}]},
+          {"from":"parkin","to":"ub","label":"催化泛素化","kind":"process","detail":"活化的 PRKN 与泛素结合酶配合，在 MFN1/2 等线粒体外膜底物上形成泛素链。","refs":[{"title":"Reactome · PRKN 泛素化外膜底物","url":"https://reactome.org/content/detail/R-HSA-9834070"}]},
+          {"from":"ub","to":"mitophagy","label":"招募清除系统","kind":"process","detail":"泛素标记促进 OPTN 等自噬受体和自噬组分招募，参与受损线粒体的选择性清除。","refs":[{"title":"Reactome · PINK1–PRKN 介导的线粒体自噬","url":"https://reactome.org/content/detail/R-HSA-5205685"}]}
+        ]
+      },
+      {
+        "id": "pink1-oxidative-stress",
+        "title": "PINK1 敲低与线粒体共定位指标",
+        "scope": "experiment",
+        "context": "人肾近端小管上皮 HKC-8 细胞经 200 μM 过氧化氢处理 2 小时后换液，48 小时取样。",
+        "nodes": [
+          {"id":"pink1-kd","label":"PINK1 敲低","kind":"target","col":0,"targetId":"target-pink1"},
+          {"id":"colocalization","label":"LC3B 与 TOM20 共定位减少","kind":"outcome","col":1}
+        ],
+        "edges": [
+          {"from":"pink1-kd","to":"colocalization","label":"共定位检测","kind":"process","detail":"同样接受过氧化氢处理后，siPINK1 组的 LC3B 与 TOM20 相对共定位面积低于对照 siRNA 组。","refs":["ev-pink1-hkc8-lc3-tom20"]}
+        ]
+      },
+      {
+        "id": "pink1-aged-kidney",
+        "title": "Pink1 缺失与老龄小鼠肾损伤",
+        "scope": "experiment",
+        "context": "24 月龄雄性 C57BL/6 小鼠，比较 Pink1 全身敲除与同龄野生型。",
+        "nodes": [
+          {"id":"pink1-ko","label":"Pink1 缺失","kind":"target","col":0,"targetId":"target-pink1"},
+          {"id":"mito","label":"线粒体嵴结构受损","kind":"outcome","col":1},
+          {"id":"kidney","label":"肾小管损伤与间质胶原增加","kind":"outcome","col":1,"row":1}
+        ],
+        "edges": [
+          {"from":"pink1-ko","to":"mito","label":"超微结构","kind":"process","detail":"24 月龄敲除组肾皮质线粒体体积增大，嵴结构受损。","refs":["ev-pink1-aged-kidney"]},
+          {"from":"pink1-ko","to":"kidney","label":"病理比较","kind":"process","detail":"同龄比较中，敲除组肾小管损伤评分和肾间质胶原染色面积增加。","refs":["ev-pink1-aged-kidney"]}
+        ]
+      },
+      {
+        "id": "parkin-exercise-muscle",
+        "title": "单次运动后肌肉自噬读数",
+        "scope": "experiment",
+        "context": "分年龄、基因型及静息或单次耐力运动状态比较。以秋水仙碱与载体组差异估计线粒体相关自噬指标的通量。",
+        "nodes": [
+          {"id":"prkn","label":"Parkin 基因型 × 单次运动","kind":"target","col":0,"targetId":"target-prkn"},
+          {"id":"young","label":"年轻组 LC3-II 通量","kind":"outcome","col":1},
+          {"id":"aged","label":"老龄组 LC3-II 通量","kind":"outcome","col":1,"row":1}
+        ],
+        "edges": [
+          {"from":"prkn","to":"young","label":"年轻组","kind":"process","detail":"单次耐力运动提高年轻野生型组线粒体相关 LC3-II 通量，年轻敲除组未出现相同增幅。","refs":["ev-prkn-aged-muscle-exercise-flux"]},
+          {"from":"prkn","to":"aged","label":"老龄组","kind":"process","detail":"老龄野生型的基础线粒体相关 LC3-II 通量较高，运动后未进一步升高。","refs":["ev-prkn-aged-muscle-exercise-flux"]}
+        ]
+      }
+    ]
+  },
+  {
+    "pathwayId": "pathway-muscle-stem-cells",
+    "tracks": [
+      {
+        "id": "atg7-adult-satellite-cells",
+        "title": "成年卫星细胞缺失 Atg7",
+        "scope": "experiment",
+        "context": "在 3 月龄小鼠的 Pax7 谱系中诱导 Atg7 缺失。第 7 天和第 30 天分别测量不同终点。",
+        "nodes": [
+          {"id":"atg7-ko","label":"卫星细胞 Atg7 缺失","kind":"target","col":0,"targetId":"target-atg7"},
+          {"id":"transcription","label":"p16、p21、p15 转录升高","kind":"outcome","col":1},
+          {"id":"cell-count","label":"Pax7⁺ 卫星细胞减少","kind":"outcome","col":1,"row":1}
+        ],
+        "edges": [
+          {"from":"atg7-ko","to":"transcription","label":"第 7 天","kind":"process","detail":"诱导后第 7 天的卫星细胞中，p16、p21 和 p15 的 mRNA 水平高于对照。","refs":["ev-atg7-satellite-ko"]},
+          {"from":"atg7-ko","to":"cell-count","label":"第 30 天","kind":"process","detail":"诱导后第 30 天，Pax7⁺ 卫星细胞数量少于对照组。","refs":["ev-atg7-satellite-ko"]}
+        ]
+      },
+      {
+        "id": "atg7-geriatric-satellite-rescue",
+        "title": "高龄小鼠卫星细胞过表达 Atg7",
+        "scope": "experiment",
+        "context": "从 28 月龄以上小鼠分离的肌肉卫星细胞经 Atg7 过表达后，分别进行体外功能测定和移植实验。",
+        "nodes": [
+          {"id":"atg7-oe","label":"Atg7 过表达","kind":"target","col":0,"targetId":"target-atg7"},
+          {"id":"cell","label":"增殖恢复、衰老指标降低","kind":"outcome","col":1},
+          {"id":"graft","label":"移植后新肌纤维形成增加","kind":"outcome","col":1,"row":1}
+        ],
+        "edges": [
+          {"from":"atg7-oe","to":"cell","label":"体外检测","kind":"process","detail":"高龄来源卫星细胞过表达 Atg7 后，增殖缺陷减轻，SA-β-gal 阳性细胞比例下降。","refs":[{"title":"García-Prat 等 · 2016 · 扩展数据图 2e","url":"https://doi.org/10.1038/nature16187"}]},
+          {"from":"atg7-oe","to":"graft","label":"移植检测","kind":"process","detail":"卫星细胞移植和全肌移植中，导入 Atg7 后高龄来源卫星细胞的新肌纤维形成能力提高。","refs":[{"title":"García-Prat 等 · 2016 · 图 2c、扩展数据图 2i–j","url":"https://doi.org/10.1038/nature16187"}]}
+        ]
+      }
+    ]
+  }
+]

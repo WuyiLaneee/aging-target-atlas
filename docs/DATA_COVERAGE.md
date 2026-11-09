@@ -1,12 +1,14 @@
 # 抗衰靶点与通路覆盖清单
 
-数据版本 1.2.0 · 2026-11-09
+数据版本 1.3.0 · 2026-11-09
 
 范围：人和其他哺乳动物的衰老研究。采用 Cell 2023 的 12 类衰老标志，并单列 ECM。核心分子靶点按原始功能实验收录；整体干预、观察关联和补充实验按研究主题分别列出。
 
-现已收录 **33 个核心靶点、21 个通路与研究主题、53 篇原始研究**；含 65 条靶点证据和 5 条主题证据。共有 12/12 类衰老标志具备研究记录。
+现已收录 **33 个核心靶点、26 个通路与研究主题、55 篇原始研究**；含 65 条靶点证据和 8 条主题证据。共有 12/12 类衰老标志具备研究记录。
 
-每个主题的通路页以实验记录为单位列出模型、干预、结果和对应原始论文。补录候选按主题列出，同一靶点可已收录在其他主题下。
+26 个通路与研究主题均可打开通路图，共 77 个分支。点击靶点查看档案，点击连线查看标准反应或实验出处。
+
+有实验记录的通路页列出模型、干预、结果和对应原始论文。核心靶点补录候选按主题列出。
 
 | 分类 | 覆盖主题 | 已收录的通路或主题（论文数） | 核心靶点 / 补录候选 |
 |---|---|---|---|
@@ -20,8 +22,8 @@
 | 宏自噬受损 | 宏自噬启动与通量 | [宏自噬与自噬调控](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-autophagy)（3） | 已收录：[ATG5](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-atg5)、[BECN1](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-becn1)、[ATG7](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-atg7)；候选：ULK1 |
 | 宏自噬受损 | 选择性线粒体自噬 | [选择性线粒体自噬](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-mitophagy)（2） | 已收录：[PINK1](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-pink1)、[PRKN](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-prkn) |
 | 营养感知失调 | 胰岛素 / IGF–AKT–FOXO | [胰岛素 / IGF-1 营养感知](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-igf)（4） | 已收录：[IGF1R](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-igf1r)；候选：FOXO3、AKT1 |
-| 营养感知失调 | mTOR 与能量感知 | [mTOR 营养感知与蛋白翻译](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-mtor)（1） | 已收录：[RPS6KB1](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-rps6kb1)；候选：MTOR、PRKAA1 |
-| 线粒体功能障碍 | 线粒体代谢与氧化应激 | [线粒体代谢与细胞功能维护](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-mito)（3）；[NAD⁺ 代谢与 Sirtuin 调控](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-nad)（4）；[选择性线粒体自噬](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-mitophagy)（2） | 已收录：[SIRT3](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-sirt3)、[CD38](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-cd38)、[CRAT](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-crat)、[PINK1](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-pink1)、[PRKN](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-prkn)；候选：PPARGC1A |
+| 营养感知失调 | mTOR 与能量感知 | [mTOR 营养感知与蛋白翻译](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-mtor)（1）；[AMPK 能量感知](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-ampk)（标准机制图） | 已收录：[RPS6KB1](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-rps6kb1)；候选：MTOR、PRKAA1 |
+| 线粒体功能障碍 | 线粒体代谢与氧化应激 | [线粒体代谢与细胞功能维护](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-mito)（3）；[NAD⁺ 代谢与 Sirtuin 调控](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-nad)（4）；[选择性线粒体自噬](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-mitophagy)（2）；[KEAP1–NRF2 抗氧化应答](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-nrf2)（1） | 已收录：[SIRT3](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-sirt3)、[CD38](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-cd38)、[CRAT](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-crat)、[PINK1](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-pink1)、[PRKN](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-prkn)；候选：PPARGC1A |
 | 细胞衰老 | 细胞周期停滞 | [DNA 损伤应答与 p53 调控](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-dna)（6） | 已收录：[TP53](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-tp53)；候选：CDKN1A、CDKN2A |
 | 细胞衰老 | SASP 与衰老细胞信号 | [应激信号与衰老相关分泌表型](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-sasp)（5）；[cGAS–STING 胞质 DNA 感知](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-cgas)（2） | 已收录：[MAPK14](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-mapk14)、[RELA](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-rela)、[CGAS](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-cgas)、[STING1](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-sting1) |
 | 干细胞耗竭 | 造血干细胞维持 | [造血干细胞的年龄相关功能](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-hsc)（4） | 已收录：[SIRT3](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-sirt3)、[FOXO3](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-foxo3)；候选：HSF1 |
@@ -31,6 +33,7 @@
 | 慢性炎症 | 炎性小体 | [NLRP3 炎性小体与慢性炎症](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-nlrp3)（1） | 已收录：[NLRP3](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-nlrp3)；候选：CASP1、IL1B |
 | 慢性炎症 | 胞质 DNA 感知与炎症转录 | [cGAS–STING 胞质 DNA 感知](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-cgas)（2）；[应激信号与衰老相关分泌表型](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-sasp)（5） | 已收录：[CGAS](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-cgas)、[STING1](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-sting1)、[RELA](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-rela) |
 | 微生物群失衡 | 肠道菌群移植与宿主反应 | [肠道微生物群与宿主衰老](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-microbiota-host)（4） | 主题证据 |
-| 微生物群失衡 | 菌株、代谢物与宿主受体 | 主题待整理 | 候选：FFAR2、FFAR3、TLR4 |
+| 微生物群失衡 | 菌株、代谢物与宿主受体 | [WNT–β-catenin 信号与肠干细胞](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-wnt)（1） | 候选：FFAR2、FFAR3、TLR4 |
+| 细胞外基质（ECM） | 胶原转录与细胞力学应答 | [TGF-β–SMAD 信号与胶原](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-tgfb-smad)（1）；[Hippo–YAP/TAZ 与真皮力学应答](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-hippo-yap)（1） | 候选：TGFB1、SMAD4、YAP1、WWTR1 |
 | 细胞外基质（ECM） | 胶原周转与基质重塑 | [ECM 胶原稳态与重塑](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-ecm-remodeling)（9） | 已收录：[MMP1](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-mmp1)、[MFAP4](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-mfap4)、[CCN1](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-ccn1)、[CRAT](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-crat)、[MTOR](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-mtor)；候选：COL1A1、PTK2 |
 | 细胞外基质（ECM） | 基底膜黏附与表皮干细胞 | [基底膜黏附与表皮干细胞维护](https://wuyilaneee.github.io/aging-target-atlas/#/pathways/pathway-basement-adhesion)（1） | 已收录：[COL17A1](https://wuyilaneee.github.io/aging-target-atlas/#/targets/target-col17a1)；候选：ITGB4 |
